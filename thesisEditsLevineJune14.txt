@@ -1,0 +1,36 @@
+Ch1: Added intro paragraph, added more detail about W+jets and LFV Higgs throughout chapter.
+
+The Standard Model:
+Changed to extension
+
+Elementary particles:
+Added figure reference
+Added antired information
+
+Elementary forces:
+fixed "electromagnetic for"
+small distances scales -> small distance scales.
+
+Chapter 4 Introduction:
+Linked to chapter 1 for pQCD and lambdaQCD
+Removed commentary on difficulty
+
+Monte Carlo Event Generation:
+added "location of"
+fixed label of chapter.
+
+Parton showering:
+Parton showers have been explained in chapter 2.1
+Changed "After the collision" to "after the proton proton collisions"
+
+Hadronization:
+Defined hard and soft products
+Added citation for the Lund string model
+defined terms in the potential and rephrased the rest of the paragraph
+
+Monte Carlo Generator Software:
+Added pros and cons
+
+Detector simulation: 
+Added what happens to geant output
+

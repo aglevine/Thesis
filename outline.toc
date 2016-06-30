@@ -1,0 +1,48 @@
+\contentsline {section}{\numberline {1}Introduction}{4}
+\contentsline {subsection}{\numberline {1.1}Overview of LHC}{4}
+\contentsline {subsection}{\numberline {1.2}Motivations for Analyses}{4}
+\contentsline {section}{\numberline {2}Theoretical Background}{4}
+\contentsline {subsection}{\numberline {2.1}Standard Model (Mention W+Jets)}{4}
+\contentsline {subsection}{\numberline {2.2}BSM motivations (Mention LFV Higgs)}{4}
+\contentsline {section}{\numberline {3}Experimental Design}{4}
+\contentsline {subsection}{\numberline {3.1}LHC}{4}
+\contentsline {subsection}{\numberline {3.2}CMS}{4}
+\contentsline {subsubsection}{\numberline {3.2.1}Overview}{4}
+\contentsline {subsubsection}{\numberline {3.2.2}Tracker}{4}
+\contentsline {subsubsection}{\numberline {3.2.3}ECAL}{4}
+\contentsline {subsubsection}{\numberline {3.2.4}HCAL}{4}
+\contentsline {subsubsection}{\numberline {3.2.5}Muon System}{4}
+\contentsline {subsubsection}{\numberline {3.2.6}Trigger}{4}
+\contentsline {section}{\numberline {4}Event Simulation}{4}
+\contentsline {subsection}{\numberline {4.1}Monte Carlo Generation}{4}
+\contentsline {subsection}{\numberline {4.2}Detector Simulation}{4}
+\contentsline {section}{\numberline {5}Event Reconstruction}{4}
+\contentsline {subsection}{\numberline {5.1}Particle Flow}{4}
+\contentsline {subsection}{\numberline {5.2}Electrons}{4}
+\contentsline {subsection}{\numberline {5.3}Muons}{4}
+\contentsline {subsection}{\numberline {5.4}Hadrons}{4}
+\contentsline {subsection}{\numberline {5.5}Jets}{4}
+\contentsline {subsection}{\numberline {5.6}MET}{4}
+\contentsline {section}{\numberline {6}Analysis Strategy (Summarize LFV,W+Jets ANs)}{4}
+\contentsline {subsection}{\numberline {6.1}Background Estimation}{4}
+\contentsline {subsubsection}{\numberline {6.1.1}Monte Carlo Samples}{4}
+\contentsline {subsubsection}{\numberline {6.1.2}Tau Embedding}{4}
+\contentsline {subsubsection}{\numberline {6.1.3}Fake Rate Method}{4}
+\contentsline {subsubsection}{\numberline {6.1.4}QCD Estimation}{4}
+\contentsline {subsection}{\numberline {6.2}Selection Optimization}{4}
+\contentsline {subsubsection}{\numberline {6.2.1}LFV Higgs}{4}
+\contentsline {subsubsection}{\numberline {6.2.2}W+Jets}{4}
+\contentsline {subsection}{\numberline {6.3}Systematics}{4}
+\contentsline {subsubsection}{\numberline {6.3.1}LFV Higgs}{4}
+\contentsline {subsubsection}{\numberline {6.3.2}W+Jets}{4}
+\contentsline {section}{\numberline {7}Results}{4}
+\contentsline {subsection}{\numberline {7.1}LFV Higgs}{4}
+\contentsline {subsubsection}{\numberline {7.1.1}Limit Procedure}{4}
+\contentsline {subsubsection}{\numberline {7.1.2}8 TeV Results}{4}
+\contentsline {subsubsection}{\numberline {7.1.3}13 TeV Results}{4}
+\contentsline {subsection}{\numberline {7.2}W+Jets}{4}
+\contentsline {subsubsection}{\numberline {7.2.1}Unfolding Procedure}{4}
+\contentsline {subsubsection}{\numberline {7.2.2}13 TeV Results}{4}
+\contentsline {section}{\numberline {8}Conclusions}{4}
+\contentsline {subsection}{\numberline {8.1}Summary}{4}
+\contentsline {subsection}{\numberline {8.2}Future Outlook}{4}

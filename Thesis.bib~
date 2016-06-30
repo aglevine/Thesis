@@ -1,0 +1,193 @@
+
+@article{Agashe:2014kda,
+      author         = "Olive, K. A. and others",
+      title          = "{Review of Particle Physics}",
+      collaboration  = "Particle Data Group",
+      journal        = "Chin. Phys.",
+      volume         = "C38",
+      year           = "2014",
+      pages          = "090001",
+      doi            = "10.1088/1674-1137/38/9/090001",
+      SLACcitation   = "%%CITATION = CHPHD,C38,090001;%%"
+}
+@article{Alwall:2014hca,
+      author         = "Alwall, J. and Frederix, R. and Frixione, S. and Hirschi,
+                        V. and Maltoni, F. and Mattelaer, O. and Shao, H. -S. and
+                        Stelzer, T. and Torrielli, P. and Zaro, M.",
+      title          = "{The automated computation of tree-level and
+                        next-to-leading order differential cross sections, and
+                        their matching to parton shower simulations}",
+      journal        = "JHEP",
+      volume         = "07",
+      year           = "2014",
+      pages          = "079",
+      doi            = "10.1007/JHEP07(2014)079",
+      eprint         = "1405.0301",
+      archivePrefix  = "arXiv",
+      primaryClass   = "hep-ph",
+      reportNumber   = "CERN-PH-TH-2014-064, CP3-14-18, LPN14-066, MCNET-14-09,
+                        ZU-TH-14-14",
+      SLACcitation   = "%%CITATION = ARXIV:1405.0301;%%"
+}
+@article{Nason:2004rx,
+      author         = "Nason, Paolo",
+      title          = "{A New method for combining NLO QCD with shower Monte
+                        Carlo algorithms}",
+      journal        = "JHEP",
+      volume         = "11",
+      year           = "2004",
+      pages          = "040",
+      doi            = "10.1088/1126-6708/2004/11/040",
+      eprint         = "hep-ph/0409146",
+      archivePrefix  = "arXiv",
+      primaryClass   = "hep-ph",
+      reportNumber   = "BICOCCA-FT-04-11",
+      SLACcitation   = "%%CITATION = HEP-PH/0409146;%%"
+}
+@article{Frixione:2007vw,
+      author         = "Frixione, Stefano and Nason, Paolo and Oleari, Carlo",
+      title          = "{Matching NLO QCD computations with Parton Shower
+                        simulations: the POWHEG method}",
+      journal        = "JHEP",
+      volume         = "11",
+      year           = "2007",
+      pages          = "070",
+      doi            = "10.1088/1126-6708/2007/11/070",
+      eprint         = "0709.2092",
+      archivePrefix  = "arXiv",
+      primaryClass   = "hep-ph",
+      reportNumber   = "BICOCCA-FT-07-9, GEF-TH-21-2007",
+      SLACcitation   = "%%CITATION = ARXIV:0709.2092;%%"
+}
+@article{Alioli:2010xd,
+      author         = "Alioli, Simone and Nason, Paolo and Oleari, Carlo and Re,
+                        Emanuele",
+      title          = "{A general framework for implementing NLO calculations in
+                        shower Monte Carlo programs: the POWHEG BOX}",
+      journal        = "JHEP",
+      volume         = "06",
+      year           = "2010",
+      pages          = "043",
+      doi            = "10.1007/JHEP06(2010)043",
+      eprint         = "1002.2581",
+      archivePrefix  = "arXiv",
+      primaryClass   = "hep-ph",
+      reportNumber   = "DESY-10-018, SFB-CPP-10-22, IPPP-10-11, DCPT-10-22",
+      SLACcitation   = "%%CITATION = ARXIV:1002.2581;%%"
+}
+@article{Sjostrand:2014zea,
+      author         = "Sjöstrand, Torbjörn and Ask, Stefan and Christiansen,
+                        Jesper R. and Corke, Richard and Desai, Nishita and Ilten,
+                        Philip and Mrenna, Stephen and Prestel, Stefan and
+                        Rasmussen, Christine O. and Skands, Peter Z.",
+      title          = "{An Introduction to PYTHIA 8.2}",
+      journal        = "Comput. Phys. Commun.",
+      volume         = "191",
+      year           = "2015",
+      pages          = "159-177",
+      doi            = "10.1016/j.cpc.2015.01.024",
+      eprint         = "1410.3012",
+      archivePrefix  = "arXiv",
+      primaryClass   = "hep-ph",
+      reportNumber   = "LU-TP-14-36, MCNET-14-22, CERN-PH-TH-2014-190,
+                        FERMILAB-PUB-14-316-CD, DESY-14-178, SLAC-PUB-16122",
+      SLACcitation   = "%%CITATION = ARXIV:1410.3012;%%"
+}
+@article{Was:2011tv,
+      author         = "Was, Zbigniew",
+      title          = "{TAUOLA for simulation of tau decay and production:
+                        perspectives for precision low energy and LHC
+                        applications}",
+      booktitle      = "{Tau lepton physics. Proceedings, 11th International
+                        Workshop, TAU 2010, Manchester, UK, September 13-17,
+                        2010}",
+      journal        = "Nucl. Phys. Proc. Suppl.",
+      volume         = "218",
+      year           = "2011",
+      pages          = "249-255",
+      doi            = "10.1016/j.nuclphysbps.2011.06.040",
+      eprint         = "1101.1652",
+      archivePrefix  = "arXiv",
+      primaryClass   = "hep-ph",
+      reportNumber   = "IFJPAN-IV-2011-1",
+      SLACcitation   = "%%CITATION = ARXIV:1101.1652;%%"
+}
+@article{Allison:2006ve,
+      author         = "Allison, John and others",
+      title          = "{Geant4 developments and applications}",
+      journal        = "IEEE Trans. Nucl. Sci.",
+      volume         = "53",
+      year           = "2006",
+      pages          = "270",
+      doi            = "10.1109/TNS.2006.869826",
+      reportNumber   = "SLAC-PUB-11870",
+      SLACcitation   = "%%CITATION = IETNA,53,270;%%"
+}
+
+@article{Randall:1999ee,
+      author         = "Randall, Lisa and Sundrum, Raman",
+      title          = "{A Large mass hierarchy from a small extra dimension}",
+      journal        = "Phys. Rev. Lett.",
+      volume         = "83",
+      year           = "1999",
+      pages          = "3370-3373",
+      doi            = "10.1103/PhysRevLett.83.3370",
+      eprint         = "hep-ph/9905221",
+      archivePrefix  = "arXiv",
+      primaryClass   = "hep-ph",
+      reportNumber   = "MIT-CTP-2860, PUPT-1860, BUHEP-99-9",
+      SLACcitation   = "%%CITATION = HEP-PH/9905221;%%"
+}
+
+@article{Fukuda:1998mi,
+      author         = "Fukuda, Y. and others",
+      title          = "{Evidence for oscillation of atmospheric neutrinos}",
+      collaboration  = "Super-Kamiokande",
+      journal        = "Phys. Rev. Lett.",
+      volume         = "81",
+      year           = "1998",
+      pages          = "1562-1567",
+      doi            = "10.1103/PhysRevLett.81.1562",
+      eprint         = "hep-ex/9807003",
+      archivePrefix  = "arXiv",
+      primaryClass   = "hep-ex",
+      reportNumber   = "BU-98-17, ICRR-REPORT-422-98-18, UCI-98-8,
+                        KEK-PREPRINT-98-95, LSU-HEPA-5-98, UMD-98-003, SBHEP-98-5,
+                        TKU-PAP-98-06, TIT-HPE-98-09",
+      SLACcitation   = "%%CITATION = HEP-EX/9807003;%%"
+}
+
+@article{Ahmad:2001an,
+      author         = "Ahmad, Q. R. and others",
+      title          = "{Measurement of the rate of $\nu_e+d \to p+p+e^-$
+                        interactions produced by $^8B$ solar neutrinos at the
+                        Sudbury Neutrino Observatory}",
+      collaboration  = "SNO",
+      journal        = "Phys. Rev. Lett.",
+      volume         = "87",
+      year           = "2001",
+      pages          = "071301",
+      doi            = "10.1103/PhysRevLett.87.071301",
+      eprint         = "nucl-ex/0106015",
+      archivePrefix  = "arXiv",
+      primaryClass   = "nucl-ex",
+      reportNumber   = "UPR-0240E",
+      SLACcitation   = "%%CITATION = NUCL-EX/0106015;%%"
+}
+
+@article{Ahmad:2002jz,
+      author         = "Ahmad, Q. R. and others",
+      title          = "{Direct evidence for neutrino flavor transformation from
+                        neutral current interactions in the Sudbury Neutrino
+                        Observatory}",
+      collaboration  = "SNO",
+      journal        = "Phys. Rev. Lett.",
+      volume         = "89",
+      year           = "2002",
+      pages          = "011301",
+      doi            = "10.1103/PhysRevLett.89.011301",
+      eprint         = "nucl-ex/0204008",
+      archivePrefix  = "arXiv",
+      primaryClass   = "nucl-ex",
+      SLACcitation   = "%%CITATION = NUCL-EX/0204008;%%"
+}

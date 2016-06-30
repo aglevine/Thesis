@@ -1,0 +1,440 @@
+\def\bbbar{\ensuremath{\mathrm{b\bar{b}}}}
+\def\ccbar{\ensuremath{\mathrm{c\bar{c}}}}
+\newcommand{\PZ}{Z}
+\newcommand{\ZZ}{ZZ}
+\newcommand{\WW}{WW}
+\newcommand{\WZ}{WZ}
+\newcommand{\pp}{\Pp\Pp\xspace}
+\newcommand{\Wjets}{\ensuremath{\PW+\text{jets}}\xspace}
+\def\Wmnbb{\ensuremath{\mathrm{W}(\Pgm\cPgn)+\bbbar}}
+\def\WmnH{\ensuremath{\mathrm{W}(\Pgm\cPgn)\mathrm{H}}}
+\def\Wbb{\ensuremath{\mathrm{W+\bbbar}}}
+\def\hbb{\ensuremath{\mathrm{W+h\rightarrow\bbbar}}}
+\def\Wc{\ensuremath{\mathrm{W+c}}}
+\def\Wmn{\ensuremath{\mathrm{W}\rightarrow \mu\nu}}
+\def\Wln{\ensuremath{\mathrm{W}\rightarrow \ell\nu}}
+\def\Wcc{\ensuremath{\mathrm{W+\ccbar}}}
+\def\Zll{\ensuremath{\mathrm{Z\rightarrow\ell\ell}}}
+\def\MT{M_\mathrm{T}}
+\def\ET{$E_\mathrm{T}$}
+\def\pt{p_\mathrm{T}}
+\def\GeV{\mathrm{GeV}}
+\def\TeV{$\mathrm{TeV}$}
+\def\tev{$\mathrm{TeV}$}
+\def\PYTHIA{$\mathtt{PYTHIA}$}
+\def\POWHEG{$\mathtt{POWHEG}$}
+\def\MADGRAPH{$\mathtt{MADGRAPH}$}
+\def\GEANTfour{$\mathtt{GEANT4}$}
+\def\TAUOLA{$\mathtt{TAUOLA}$}
+\def\La{\mathscr{L}}
+\def\fbinv{fb^\mathrm{-1}}
+\def\Pg{\mathrm{g}}
+\def\Pp{\mathrm{p}}
+\def\Pgt{\mathrm{\tau}}
+\def\Pgm{\mathrm{\mu}}
+\def\Pe{\mathrm{e}}
+\def\cPZ{\mathrm{Z}}
+\def\PW{\mathrm{W}}
+\def\pt{\mathrm{p_{T}}}
+\def\cPqt{\mathrm{q}}
+\def\cPaqt{\mathrm{\bar{q}}}%%%%%CHECK THIS
+\def\Pg{$\mathrm{g}$}
+\def\vecEtm{\overline{\slash{E_{T}}}}
+\def\vecPtmu{\overline{p_{T}(\mu)}}
+\def\MET{\slash{E_{T}}}
+\def\ttbar{\ensuremath{t\bar{t}}}
+\def\vecEtm{\ensuremath{\vec{E}_\mathrm{T}^{\mathrm{miss}}}\;}
+\def\MET{\ensuremath{E_\mathrm{T}^{\mathrm{miss}}}\;}
+\def\vecPtmu{\ensuremath{\vec{P}_\mathrm{T}^{\mu}}\;}
+
+\newcommand{\Lint}{\ensuremath{{\cal L}_{\mathrm{int}}}}
+\newcommand{\dytt}{\ensuremath{\cPZ/\Pgg^*\to\tau^+\tau^-}}
+\newcommand{\dyll}{\ensuremath{\cPZ/\Pgg^*\to \ell^+\ell^-}}
+\newcommand{\stat}{\ensuremath{\,\mathrm{(stat.)\;}}}
+\newcommand{\syst}{\ensuremath{\,\mathrm{(syst.)\;}}}
+\newcommand{\lumi}{\ensuremath{\,\mathrm{(lum.)\;}}}
+\newcommand{\theo}{\ensuremath{\,\mathrm{(theo.)}}\;}
+
+
+
+\RequirePackage{lineno}
+\documentclass[oneside, letterpaper, oldfontcommands]{memoir}
+%\documentclass[oneside, letterpaper, 12pt, oldfontcommands]{article}
+
+
+%%%% Import uwthesis.sty to get official formatting, then set your variables.
+%\usepackage{uwthesis}
+%% Set the upper and lower margins (automatically adjust the textblock)
+%% Upper margin needs to be larger than 1in to allow room for the page number
+\setulmarginsandblock{1.5in}{1in}{*}
+%% Left margin is a little larger to allow room for binding
+%% Set the left and right margins (automatically adjust the textblock)
+\setlrmarginsandblock{1.5in}{1in}{*}
+%% Set the distance between the top of the page and the top of the header
+%% The first argument is headdrop (distance from top of page to top of header)
+\setheaderspaces{1in}{*}{*}
+%% Implement the above changes
+\checkandfixthelayout
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%% INTERFACE (variables for the user to set)
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%% For the title/committee page
+\newcommand{\settitle}[1]{\def\uwtitle{#1}}  % your title
+\newcommand{\setauthor}[1]{\def\uwauthor{#1}} % you
+\newcommand{\setdepartment}[1]{\def\uwdepartment{#1}}  % your title
+\newcommand{\masters}{\def\uwdegree{Master of Arts}}
+\newcommand{\doctors}{\def\uwdegree{Doctor of Philosophy}}
+\newcommand{\setgraddate}[1]{\def\uwgraddate{#1}} % graduation date
+\newcommand{\setdefensedate}[1]{\def\uwdefensedate{#1}} % defense date
+\newcommand{\setabstract}[1]{\def\uwabstract{#1}} % abstract
+
+%% Members of the Final Oral Committee
+\newcommand{\setfoca}[3]{\def\uwfoca{#1}\def\uwranka{#2}\def\uwdepa{#3}}
+\newcommand{\setfocb}[3]{\def\uwfocb{#1}\def\uwrankb{#2}\def\uwdepb{#3}}
+\newcommand{\setfocc}[3]{\def\uwfocc{#1}\def\uwrankc{#2}\def\uwdepc{#3}}
+\newcommand{\setfocd}[3]{\def\uwfocd{#1}\def\uwrankd{#2}\def\uwdepd{#3}}
+\newcommand{\setfoce}[3]{\def\uwfoce{#1}\def\uwranke{#2}\def\uwdepe{#3}}
+\newcommand{\setfocf}[3]{\def\uwfocf{#1}\def\uwrankf{#2}\def\uwdepf{#3}}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%% REFERENCES
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Make the reference section single-spaced
+\let\oldbib\bibliography
+\renewcommand*{\bibliography}{\SingleSpace\oldbib}
+\setlength{\bibitemsep}{\onelineskip}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%% TITLE/COMMITTEE page
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%% Command to determine how the members of the committee are formatted
+\newcommand{\boxfoc}[3]{\makebox[0.4\textwidth][r]{#1} $\cdot$ \makebox[0.4\textwidth][l]{#2 of #3}}
+
+%% Command to create the title page
+\newcommand{\thetitlepage}{%
+  \thispagestyle{empty}
+  \begin{center}
+    \vfill
+    {\Large\sc\uwtitle\par}
+    \vfill
+    \emph{by} \\ 
+    \uwauthor \\
+    \vfill
+    A dissertation submitted in partial fulfillment of \\
+    the requirements for the degree of \\
+    \vfill
+    \uwdegree \\
+    (\uwdepartment) \\
+    \vfill
+    \emph{at the} \\
+    \textsc{University of Wisconsin -- Madison}\\
+    \uwgraddate \\
+    \vfill
+    \noindent Defended on \uwdefensedate{}\\ Dissertation approved by the following members of the Final Oral Committee: \\
+    \ifx\uwfoca\undefined {} 
+      \else \boxfoc{\uwfoca}{\uwranka}{\uwdepa} \\
+    \fi
+    \ifx\uwfocb\undefined {} 
+      \else \boxfoc{\uwfocb}{\uwrankb}{\uwdepb} \\
+    \fi
+    \ifx\uwfocc\undefined {} 
+      \else \boxfoc{\uwfocc}{\uwrankc}{\uwdepc} \\
+    \fi
+    \ifx\uwfocd\undefined {} 
+      \else \boxfoc{\uwfocd}{\uwrankd}{\uwdepd} \\
+    \fi
+    \ifx\uwfoce\undefined {} 
+      \else \boxfoc{\uwfoce}{\uwranke}{\uwdepe} \\
+    \fi
+    \ifx\uwfocf\undefined {} 
+      \else \boxfoc{\uwfocf}{\uwrankf}{\uwdepf} \\
+    \fi
+    \vfill
+  \end{center}
+  \clearpage
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%% COPYRIGHT Page
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% If you're registering copyright
+\newcommand{\thecopyrightpage}{%
+  \thispagestyle{empty}
+  \begin{center}
+    \null
+    \vfill
+    \copyright{} Copyright \uwauthor{} \uwgraddate{}\\
+    All Rights Reserved
+    \vspace{1in}
+  \end{center}
+}
+
+% If you don't want to pay the copyright fee
+\newcommand{\theblankcopyrightpage}{%
+  \thispagestyle{empty}
+  \null
+  \vfill
+}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%% UMI ABSTRACT
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newcommand{\theumiabstract}{%
+  \clearpage
+
+  %% The UMI abstract is not part of the document, so we skip pagination
+  \savepagenumber
+  \thispagestyle{empty}
+
+  \begin{center}
+    {\Large \textsc{\uwtitle}} \\
+    \uwauthor \\
+    Under the supervision of  \uwranka \uwfoca \\
+    At the University of Wisconsin--Madison \\
+  \end{center}
+
+  \vspace{\baselineskip}
+
+  \uwabstract
+
+  \clearpage
+  \restorepagenumber
+}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%% Other STYLE stuff
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% myheadings is used to define custom content for the headings
+% We set headings on both odd and even pages blank, as required by UW
+\pagestyle{myheadings}
+\markboth{}{}
+
+% By default, the first page of a chapter has a special style, 
+% so we need to explicitly set the chapter style to myheadings as well
+\aliaspagestyle{chapter}{myheadings}
+
+% Set memoir's DoubleSpacing
+\DoubleSpacing
+\usepackage{graphicx}
+\usepackage{mathtools}
+\usepackage{subcaption}
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{amsfonts}
+\usepackage{mathrsfs}
+\usepackage{amsmath}
+\usepackage{adjustbox}
+\usepackage{xr}
+%\usepackage[sorting=none]{biblatex}
+
+%Search for an MSSM Higgs Boson and Measurement of W+b b
+%with the CMS Detector at the LHC.
+\settitle{A Search for Lepton Flavor Violating Decays of the Higgs Boson and a Measurement of W Boson Production using the CMS Detector at the LHC}
+%\settitle{Measurement of W+ $b\bar{b}$ and a search for MSSM Higgs Bosons with the CMS Detector at the LHC}
+\setauthor{Aaron Levine}
+\setdepartment{Physics}
+\doctors % or \masters
+\setgraddate{2016}
+\setdefensedate{} % or whatever format you want
+
+%%%% Members of the Final Oral Committee (FOC)
+%%%% Give name, rank, and department
+%%%% 
+\setfoca{ Sridhara Dasu}{Professor}{Physics} % <- Your advisor
+\setfocb{Wesley Smith}{Professor}{Physics}
+\setfocc{Other Member}{Professor}{Physics}
+\setfocd{Other Member}{Professor}{Physics}
+\setfoce{Other Member}{Professor}{Other Department}
+
+%The places you're going to are never on the map.
+%-Jim Hensen
+
+%%%% Your abstract, used for the UMI abstract and in your front matter
+\setabstract{%
+%This thesis describes a standard model cross section measurement of $\Wbb$ 
+%as well as a search for neutral Higgs bosons in the minimal supersymmetric 
+%extension of the standard model (MSSM) decaying to tau pairs.
+
+%The measurement of $\Wbb$ was performed
+%using proton-proton
+%collisions at $\sqrt{s} = 7~\mathrm{TeV}$ in a data sample collected
+%with the CMS experiment at the LHC corresponding to
+%an integrated luminosity of  $5.0~\mathrm{fb}^{-1}.$
+%The $\mathrm{W+b\bar{b}}$
+%events are selected in the $\mathrm{W}\rightarrow\mu\nu$ decay mode by requiring a
+%muon with transverse momentum $p_{\mathrm{T}}>25~\mathrm{GeV}$ and pseudorapidity
+%$|\eta|<2.1$, and exactly two b-tagged jets with $p_{\mathrm{T}}>25~\mathrm{GeV}$ and $|%\eta|<2.4$.
+%The measured $\mathrm{W+b\bar{b}}$ production cross section in the fiducial region, %calculated at the level of final-state particles, is
+%$0.53\pm 0.05~(\textrm{stat.}) \pm 0.09~(\textrm{syst.}) \pm 0.06~(\textrm{th.}) \pm %0.01~(\textrm{lum.}) ~\textrm{pb}$,
+%in agreement with the standard model prediction. This measurement is a sensitive
+%test of heavy quark production calculated with perturbative QCD. It also 
+%serves as an important
+%benchmark in new physics searches which include a 
+%single isolated lepton and one or more b jets in the final state,
+%as $\Wbb$ becomes an irreducible background.
+
+%The search for neutral Higgs bosons in their decay to tau pairs is performed 
+%using events recorded by the CMS experiment at the LHC
+%in 2011 and 2012 at a center-of-mass energy of 7 TeV and 8 TeV respectively. 
+%The dataset corresponds to an integrated luminosity of 24.6~fb$^{-1}$, 
+%with 4.9~fb$^{-1}$ at 7 TeV and 19.7 fb$^{-1}$ at 8 TeV. To enhance 
+%the sensitivity to neutral MSSM Higgs bosons, the search
+% includes the case where the Higgs boson is produced in association 
+% with a b-quark jet. No excess is observed in the tau-pair invariant-mass 
+% spectrum. 
+ %Exclusion limits in the MSSM parameter space of $M_A$ 
+ %and tan$\beta$ in the $m_h^{\rm max}$ scenario are presented. 
+ Abstract Goes Here
+
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%% Document
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+%%%%%%SETLINE NUMBERS
+%%\setpagewiselinenumbers
+%\modulolinenumbers[1]
+%\linenumbers
+%%%%%%%END SETLINE NUMBERS
+%% Tell the memoir class to set up lowercase roman for pagination, etc.
+\frontmatter
+
+%%%% Uncomment this to create a UMI abstract page.
+%%%% If you are submitting electronically, however, this page is unnecessary.
+ %\theumiabstract
+
+% The title page
+\thetitlepage
+
+\title{A Search for Lepton Flavor Violating Decays of the Higgs Boson and a Measurement of W Boson Production using the CMS Detector at the LHC}
+\author{Aaron Levine\\ Department of Physics\\University of Wisconsin-Madison}
+\date{}
+%\maketitle
+% The copyright page, if you want to pay the fee and register copyright.
+\thecopyrightpage
+\cleardoublepage
+
+% These above pages should not be counted, so we reset the counter to 1.
+\setcounter{page}{1}
+
+% An abstract may be required by your department.
+\section{Abstract}
+\uwabstract
+\cleardoublepage
+
+% Acknowledgements go here if you want to include them.
+\section{Acknowledgements}
+This is where any acknowledgements would go.
+\clearpage
+
+% Table of contents
+\maxtocdepth{subsection}
+\tableofcontents* % the * means that there isn't an entry for the TOC itself
+ \clearpage
+
+
+\makeatletter
+     \renewcommand*\l@figure{\@dottedtocline{1}{1em}{3.2em}}
+\makeatother
+ \listoffigures*  % if you have any figures
+ \clearpage
+ \listoftables   % if you have any tables
+
+% Tell the memoir class to set up normal pagination, etc. for the main doc
+\mainmatter
+\chapter{Theoretical Motivation}
+\section{The Standard Model}
+\subsection{Elementary Particles}
+\subsection{Elementary Forces: This will include a description of the W Boson}
+\subsection{The Higgs Boson}
+\section{Beyond the Standard Model: Mention BSM theories that predict an LFV Higgs, mention why we know that there must be new physics beyond the Standard Model, motivate LFV Higgs}
+
+
+\chapter{LHC Phenomenology}
+\section{Proton-Proton Collisions}
+\section{W Boson Production}
+\section{Higgs Boson Production}
+
+
+\chapter{Experimental Design: The Headings below are self explanatory}
+
+\section{LHC}
+\section{CMS}
+\subsection{Overview}
+\subsection{Tracker}
+\subsection{ECAL}
+\subsection{HCAL}
+\subsection{Muon System}
+\subsection{Trigger}
+
+\chapter{Event Simulation}
+\section{Monte Carlo Event Generation}
+\subsection{Matrix Elements}
+\subsection{Parton Showering and Hadronization}
+\subsection{Monte Carlo Generators: Overview of different monte carlo generators}
+\section{Detector Simulation}
+
+
+\chapter{Event Reconstruction: Discuss how physics objects are reconstructed from detector deposits or lack thereof}
+\section{Particle Flow}
+\section{Electrons}
+\section{Muons}
+\section{Hadrons}
+\section{Jets}
+\section{MET}
+
+\chapter{Analysis Methods: Summarize W+Jets and LFV Higgs ANs}
+\section{Background Estimation}
+\subsection{Monte Carlo Samples Used: This section will simply list the Monte Carlo samples used, in contrast with the Monte Carlo Generation section which will list the different Monte Carlo generator techniques.}
+\subsection{QCD Estimation}
+\subsection{Tau Embedding}
+\subsection{Fake Rate Method}
+\section{Selection Optimization}
+\subsection{W+Jets}
+\subsection{LFV Higgs}
+\section{Systematic Uncertainties}
+\subsection{W+Jets}
+\subsection{LFV Higgs}
+
+
+\chapter{Results}
+\section{LFV Higgs}
+\subsection{Statistical Methods: Explain statistics behind calculations of limits, branching ratios}
+\subsection{8 TeV Results}
+\subsection{13 TeV Results}
+\section{W+Jets}
+\subsection{Detector Unfolding}
+\subsection{13 TeV Results}
+
+\chapter{Conclusions}
+\section{Summary}
+\section{Future Outlook}
+
+
+
+%\bibliographystyle{plain}
+
+%\bibliographystyle{unsrt}
+%\bibliographystyle{ieeetr}
+
+%\bibliography{Wbb/Wbb,MSSM/MSSM,Thesis}
+
+\end{document}

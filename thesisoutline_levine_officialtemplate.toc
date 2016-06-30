@@ -1,0 +1,58 @@
+\contentsline {section}{Abstract}{i}
+\contentsline {section}{Acknowledgements}{ii}
+\contentsline {chapter}{List of Tables}{vii}
+\contentsline {chapter}{\chapternumberline {1}Theoretical Motivation}{1}
+\contentsline {section}{\numberline {1.1}The Standard Model}{1}
+\contentsline {subsection}{Elementary Particles}{1}
+\contentsline {subsection}{Elementary Forces: This will include a description of the W Boson}{1}
+\contentsline {subsection}{The Higgs Boson}{1}
+\contentsline {section}{\numberline {1.2}Beyond the Standard Model: Mention BSM theories that predict an LFV Higgs, mention why we know that there must be new physics beyond the Standard Model, motivate LFV Higgs}{1}
+\contentsline {chapter}{\chapternumberline {2}LHC Phenomenology}{2}
+\contentsline {section}{\numberline {2.1}Proton-Proton Collisions}{2}
+\contentsline {section}{\numberline {2.2}W Boson Production}{2}
+\contentsline {section}{\numberline {2.3}Higgs Boson Production}{2}
+\contentsline {chapter}{\chapternumberline {3}Experimental Design: The Headings below are self explanatory}{3}
+\contentsline {section}{\numberline {3.1}LHC}{3}
+\contentsline {section}{\numberline {3.2}CMS}{3}
+\contentsline {subsection}{Overview}{3}
+\contentsline {subsection}{Tracker}{3}
+\contentsline {subsection}{ECAL}{3}
+\contentsline {subsection}{HCAL}{3}
+\contentsline {subsection}{Muon System}{3}
+\contentsline {subsection}{Trigger}{3}
+\contentsline {chapter}{\chapternumberline {4}Event Simulation}{4}
+\contentsline {section}{\numberline {4.1}Monte Carlo Event Generation}{4}
+\contentsline {subsection}{Matrix Elements}{4}
+\contentsline {subsection}{Parton Showering and Hadronization}{4}
+\contentsline {subsection}{Monte Carlo Generators: Overview of different monte carlo generators}{4}
+\contentsline {section}{\numberline {4.2}Detector Simulation}{4}
+\contentsline {chapter}{\chapternumberline {5}Event Reconstruction: Discuss how physics objects are reconstructed from detector deposits or lack thereof}{5}
+\contentsline {section}{\numberline {5.1}Particle Flow}{5}
+\contentsline {section}{\numberline {5.2}Electrons}{5}
+\contentsline {section}{\numberline {5.3}Muons}{5}
+\contentsline {section}{\numberline {5.4}Hadrons}{5}
+\contentsline {section}{\numberline {5.5}Jets}{5}
+\contentsline {section}{\numberline {5.6}MET}{5}
+\contentsline {chapter}{\chapternumberline {6}Analysis Methods: Summarize W+Jets and LFV Higgs ANs}{7}
+\contentsline {section}{\numberline {6.1}Background Estimation}{7}
+\contentsline {subsection}{Monte Carlo Samples Used: This section will simply list the Monte Carlo samples used, in contrast with the Monte Carlo Generation section which will list the different Monte Carlo generator techniques.}{7}
+\contentsline {subsection}{QCD Estimation}{7}
+\contentsline {subsection}{Tau Embedding}{7}
+\contentsline {subsection}{Fake Rate Method}{7}
+\contentsline {section}{\numberline {6.2}Selection Optimization}{7}
+\contentsline {subsection}{W+Jets}{7}
+\contentsline {subsection}{LFV Higgs}{7}
+\contentsline {section}{\numberline {6.3}Systematic Uncertainties}{7}
+\contentsline {subsection}{W+Jets}{7}
+\contentsline {subsection}{LFV Higgs}{7}
+\contentsline {chapter}{\chapternumberline {7}Results}{8}
+\contentsline {section}{\numberline {7.1}LFV Higgs}{8}
+\contentsline {subsection}{Statistical Methods: Explain statistics behind calculations of limits, branching ratios}{8}
+\contentsline {subsection}{8 TeV Results}{8}
+\contentsline {subsection}{13 TeV Results}{8}
+\contentsline {section}{\numberline {7.2}W+Jets}{8}
+\contentsline {subsection}{Detector Unfolding}{8}
+\contentsline {subsection}{13 TeV Results}{8}
+\contentsline {chapter}{\chapternumberline {8}Conclusions}{9}
+\contentsline {section}{\numberline {8.1}Summary}{9}
+\contentsline {section}{\numberline {8.2}Future Outlook}{9}

@@ -1,0 +1,63 @@
+This is BibTeX, Version 0.99d (TeX Live 2013/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: thesisoutline_levine.aux
+The style file: plain.bst
+Database file #1: thesisoutline_levine.bib
+Warning--I didn't find a database entry for "Barger:020105876"
+Warning--I didn't find a database entry for "Chatrchyan:2012xi"
+Warning--I didn't find a database entry for "Ellis:1987xu"
+Warning--I didn't find a database entry for "Khachatryan:2015dfa"
+Warning--I didn't find a database entry for "CMS-PAS-JME-13-005"
+Warning--I didn't find a database entry for "Khachatryan:2015kon"
+Warning--I didn't find a database entry for "Chatrchyan:2012jua"
+Warning--I didn't find a database entry for "Junk"
+Warning--I didn't find a database entry for "Read2"
+Warning--I didn't find a database entry for "Denner:2011mq"
+Warning--I didn't find a database entry for "D'Agostini199548"
+Warning--empty journal in Heinemeyer:2013tqa
+Warning--empty journal in Dittmaier:2011ti
+Warning--empty journal in Halzen:1984mc
+Warning--empty journal in Read:451614
+Warning--there's a number but no volume in Read:451614
+You've used 38 entries,
+            2118 wiz_defined-function locations,
+            764 strings with 10694 characters,
+and the built_in function-call counts, 11317 in all, are:
+= -- 1076
+> -- 570
+< -- 2
++ -- 224
+- -- 186
+* -- 771
+:= -- 2018
+add.period$ -- 116
+call.type$ -- 38
+change.case$ -- 189
+chr.to.int$ -- 0
+cite$ -- 43
+duplicate$ -- 417
+empty$ -- 872
+format.name$ -- 186
+if$ -- 2306
+int.to.chr$ -- 0
+int.to.str$ -- 38
+missing$ -- 40
+newline$ -- 195
+num.names$ -- 76
+pop$ -- 158
+preamble$ -- 1
+purify$ -- 154
+quote$ -- 0
+skip$ -- 290
+stack$ -- 0
+substring$ -- 607
+swap$ -- 35
+text.length$ -- 2
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 144
+warning$ -- 5
+while$ -- 103
+width$ -- 40
+write$ -- 415
+(There were 16 warnings)
