@@ -1,5 +1,18 @@
 \begin{thebibliography}{10}
 
+\bibitem{CMS-PAS-PFT-10-002}
+{Commissioning of the Particle-Flow reconstruction in Minimum-Bias and Jet
+  Events from pp Collisions at 7 TeV}.
+\newblock Technical Report CMS-PAS-PFT-10-002, CERN, Geneva, 2010.
+
+\bibitem{CMS-PAS-JME-13-005}
+{Pileup Jet Identification}.
+\newblock Technical Report CMS-PAS-JME-13-005, CERN, Geneva, 2013.
+
+\bibitem{CMS-DP-2014-015}
+{Tau ID Performance Plots}.
+\newblock Apr 2014.
+
 \bibitem{Adam:815410}
 Wolfgang Adam, R~Frühwirth, Are Strandlie, and T~Todor.
 \newblock {Reconstruction of Electrons with the Gaussian-Sum Filter in the CMS
@@ -17,6 +30,11 @@ Q.~R. Ahmad et~al.
 \newblock {Direct evidence for neutrino flavor transformation from neutral
   current interactions in the Sudbury Neutrino Observatory}.
 \newblock {\em Phys. Rev. Lett.}, 89:011301, 2002.
+
+\bibitem{Alekhin:2011sk}
+Sergey Alekhin et~al.
+\newblock {The PDF4LHC Working Group Interim Report}.
+\newblock 2011.
 
 \bibitem{Alioli:2010xd}
 Simone Alioli, Paolo Nason, Carlo Oleari, and Emanuele Re.
@@ -37,6 +55,18 @@ J.~Alwall, R.~Frederix, S.~Frixione, V.~Hirschi, F.~Maltoni, O.~Mattelaer,
   simulations}.
 \newblock {\em JHEP}, 07:079, 2014.
 
+\bibitem{Alwall:2008qv}
+Johan Alwall, Simon de~Visscher, and Fabio Maltoni.
+\newblock {QCD radiation in the production of heavy colored particles at the
+  LHC}.
+\newblock {\em JHEP}, 02:017, 2009.
+
+\bibitem{Alwall:2007fs}
+Johan Alwall et~al.
+\newblock {Comparative study of various algorithms for the merging of parton
+  showers and matrix elements in hadronic collisions}.
+\newblock {\em Eur. Phys. J.}, C53:473--500, 2008.
+
 \bibitem{Heinemeyer:2013tqa}
 J~R Andersen et~al.
 \newblock {Handbook of LHC Higgs Cross Sections: 3. Higgs Properties}.
@@ -46,6 +76,25 @@ J~R Andersen et~al.
 Nima Arkani-Hamed, Savas Dimopoulos, and G.~R. Dvali.
 \newblock {The Hierarchy problem and new dimensions at a millimeter}.
 \newblock {\em Phys. Lett.}, B429:263--272, 1998.
+
+\bibitem{Ball:2011mu}
+Richard~D. Ball, Valerio Bertone, Francesco Cerutti, Luigi Del~Debbio, Stefano
+  Forte, Alberto Guffanti, Jose~I. Latorre, Juan Rojo, and Maria Ubiali.
+\newblock {Impact of Heavy Quark Masses on Parton Distributions and LHC
+  Phenomenology}.
+\newblock {\em Nucl. Phys.}, B849:296--363, 2011.
+
+\bibitem{Ball:2010de}
+Richard~D. Ball, Luigi Del~Debbio, Stefano Forte, Alberto Guffanti, Jose~I.
+  Latorre, Juan Rojo, and Maria Ubiali.
+\newblock {A first unbiased global NLO determination of parton distributions
+  and their uncertainties}.
+\newblock {\em Nucl. Phys.}, B838:136--206, 2010.
+
+\bibitem{Ball:2014uwa}
+Richard~D. Ball et~al.
+\newblock {Parton distributions for the LHC Run II}.
+\newblock {\em JHEP}, 04:040, 2015.
 
 \bibitem{Barger:0201058766}
 Vernon~D. Barger and Roger J.~N. Phillips.
@@ -74,11 +123,36 @@ Matteo Cacciari, Gavin~P. Salam, and Gregory Soyez.
 \newblock {The Anti-k(t) jet clustering algorithm}.
 \newblock {\em JHEP}, 04:063, 2008.
 
+\bibitem{Cacciari:2011ma}
+Matteo Cacciari, Gavin~P. Salam, and Gregory Soyez.
+\newblock {FastJet User Manual}.
+\newblock {\em Eur. Phys. J.}, C72:1896, 2012.
+
+\bibitem{Campbell:1999ah}
+John~M. Campbell and R.~Keith Ellis.
+\newblock {An Update on vector boson pair production at hadron colliders}.
+\newblock {\em Phys. Rev.}, D60:113006, 1999.
+
+\bibitem{Campbell:2015qma}
+John~M. Campbell, R.~Keith Ellis, and Walter~T. Giele.
+\newblock {A Multi-Threaded Version of MCFM}.
+\newblock {\em Eur. Phys. J.}, C75(6):246, 2015.
+
+\bibitem{Campbell:2011bn}
+John~M. Campbell, R.~Keith Ellis, and Ciaran Williams.
+\newblock {Vector boson pair production at the LHC}.
+\newblock {\em JHEP}, 07:018, 2011.
+
 \bibitem{Chatrchyan:2012xdj}
 Serguei Chatrchyan et~al.
 \newblock {Observation of a new boson at a mass of 125 GeV with the CMS
   experiment at the LHC}.
 \newblock {\em Phys. Lett.}, B716:30--61, 2012.
+
+\bibitem{Chatrchyan:2012jua}
+Serguei Chatrchyan et~al.
+\newblock {Identification of b-quark jets with the CMS experiment}.
+\newblock {\em JINST}, 8:P04013, 2013.
 
 \bibitem{Chatrchyan:2013sba}
 Serguei Chatrchyan et~al.
@@ -91,6 +165,12 @@ Serguei Chatrchyan et~al.
 \newblock {Description and performance of track and primary-vertex
   reconstruction with the CMS tracker}.
 \newblock {\em JINST}, 9(10):P10009, 2014.
+
+\bibitem{Chatrchyan:2014mua}
+Serguei Chatrchyan et~al.
+\newblock {Measurement of inclusive W and Z boson production cross sections in
+  pp collisions at $\sqrt{s}$ = 8 TeV}.
+\newblock {\em Phys. Rev. Lett.}, 112:191802, 2014.
 
 \bibitem{1748-0221-7-01-P01001}
 CMS Collaboration.
@@ -111,10 +191,33 @@ Glen Cowan, Kyle Cranmer, Eilam Gross, and Ofer Vitells.
 \newblock {\em Eur. Phys. J.}, C71:1554, 2011.
 \newblock [Erratum: Eur. Phys. J.C73,2501(2013)].
 
+\bibitem{D'Agostini:1995487}
+G.~D'Agostini.
+\newblock A multidimensional unfolding method based on bayes' theorem.
+\newblock {\em Nuclear Instruments and Methods in Physics Research Section A:
+  Accelerators, Spectrometers, Detectors and Associated Equipment},
+  362(2–3):487 -- 498, 1995.
+
+\bibitem{Denner:2011mq}
+A.~Denner, S.~Heinemeyer, I.~Puljak, D.~Rebuzzi, and M.~Spira.
+\newblock {Standard Model Higgs-Boson Branching Ratios with Uncertainties}.
+\newblock {\em Eur. Phys. J.}, C71:1753, 2011.
+
 \bibitem{Dittmaier:2011ti}
 S.~Dittmaier et~al.
 \newblock {Handbook of LHC Higgs Cross Sections: 1. Inclusive Observables}.
 \newblock 2011.
+
+\bibitem{Ellis:1987xu}
+R.~Keith Ellis, I.~Hinchliffe, M.~Soldate, and J.~J. van~der Bij.
+\newblock {Higgs Decay to tau+ tau-: A Possible Signature of Intermediate Mass
+  Higgs Bosons at the SSC}.
+\newblock {\em Nucl. Phys.}, B297:221--243, 1988.
+
+\bibitem{Frederix:2012ps}
+Rikkert Frederix and Stefano Frixione.
+\newblock {Merging meets matching in MC@NLO}.
+\newblock {\em JHEP}, 12:061, 2012.
 
 \bibitem{Frixione:2007vw}
 Stefano Frixione, Paolo Nason, and Carlo Oleari.
@@ -131,6 +234,12 @@ R.~Fruhwirth.
 Y.~Fukuda et~al.
 \newblock {Evidence for oscillation of atmospheric neutrinos}.
 \newblock {\em Phys. Rev. Lett.}, 81:1562--1567, 1998.
+
+\bibitem{Gangal:2013nxa}
+Shireen Gangal and Frank~J. Tackmann.
+\newblock {Next-to-leading-order uncertainties in Higgs+2 jets from gluon
+  fusion}.
+\newblock {\em Phys. Rev.}, D87(9):093008, 2013.
 
 \bibitem{griffiths1999introduction}
 D.J. Griffiths.
@@ -173,10 +282,37 @@ Vardan Khachatryan et~al.
   pp data at $\sqrt{s}$ = 8 TeV}.
 \newblock {\em JINST}, 10(02):P02006, 2015.
 
+\bibitem{Khachatryan:2015kon}
+Vardan Khachatryan et~al.
+\newblock {Search for Lepton-Flavour-Violating Decays of the Higgs Boson}.
+\newblock {\em Phys. Lett.}, B749:337--362, 2015.
+
+\bibitem{Khachatryan:2015pea}
+Vardan Khachatryan et~al.
+\newblock {Event generator tunes obtained from underlying event and multiparton
+  scattering measurements}.
+\newblock {\em Eur. Phys. J.}, C76(3):155, 2016.
+
 \bibitem{Kirschenmann:1627818}
 Henning Kirschenmann.
 \newblock {Jet performance in CMS}.
 \newblock Technical Report CMS-CR-2013-325, CERN, Geneva, Oct 2013.
+
+\bibitem{Manohar:2012pe}
+Aneesh~V. Manohar and Wouter~J. Waalewijn.
+\newblock {What is Double Parton Scattering?}
+\newblock {\em Phys. Lett.}, B713:196--201, 2012.
+
+\bibitem{Martin:2009iq}
+A.~D. Martin, W.~J. Stirling, R.~S. Thorne, and G.~Watt.
+\newblock {Parton distributions for the LHC}.
+\newblock {\em Eur. Phys. J.}, C63:189--285, 2009.
+
+\bibitem{Nadolsky:2008zw}
+Pavel~M. Nadolsky, Hung-Liang Lai, Qing-Hong Cao, Joey Huston, Jon Pumplin,
+  Daniel Stump, Wu-Ki Tung, and C.~P. Yuan.
+\newblock {Implications of CTEQ global analysis for collider observables}.
+\newblock {\em Phys. Rev.}, D78:013004, 2008.
 
 \bibitem{Nason:2004rx}
 Paolo Nason.
@@ -206,6 +342,18 @@ A~L Read.
 \newblock {Modified frequentist analysis of search results (the $CL_{s}$
   method)}.
 \newblock (CERN-OPEN-2000-205), 2000.
+
+\bibitem{Sjostrand:2014zea}
+Torbjörn Sjöstrand, Stefan Ask, Jesper~R. Christiansen, Richard Corke,
+  Nishita Desai, Philip Ilten, Stephen Mrenna, Stefan Prestel, Christine~O.
+  Rasmussen, and Peter~Z. Skands.
+\newblock {An Introduction to PYTHIA 8.2}.
+\newblock {\em Comput. Phys. Commun.}, 191:159--177, 2015.
+
+\bibitem{Stewart:2011cf}
+Iain~W. Stewart and Frank~J. Tackmann.
+\newblock {Theory Uncertainties for Higgs and Other Searches Using Jet Bins}.
+\newblock {\em Phys. Rev.}, D85:034011, 2012.
 
 \bibitem{wald1943tests}
 A.~Wald.
