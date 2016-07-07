@@ -1,0 +1,50 @@
+Chapter 2:
+**********
+2.1 
+Meant to say that sea quarks dominated valence quarks. Rewrote sentences about gluon/sea quark/valence quark contributions in the collisions
+Rewrote paragraph about pileup.
+"detailed simulations" -> "detailed simulations of this process"
+
+2.2
+Removed "Mention Prior results" from title
+fixed figure reference
+"ultimatly" -> "ultimately"
+added "detect and reconstruct muons with high efficiency"
+"show" -> "shown"
+"G_F is a fundamental constant of the Standard Model"
+
+
+2.3
+"mu" -> μ 
+"This will force" -> "This forces"
+
+Chapter 5: 
+**********
+
+5.1
+changed "are due to neutral particles" to "assumed to be due to neutral particles"
+added more info about b-jets in 5.4, explained how their secondary vertices are distinguished from nuclear interaction secondary vertices.
+added "type"
+added and cited more professional figure
+
+5.2
+added "found in the ECAL"
+detector -> tracker
+referred to section 5.1 for standard iterative tracking procedure
+changed "detector" to "tracker"
+added "in the tracker"
+removed incomplete sentence "Tracks linked to cluster if..." The sentence was part of a draft that wasn't removed
+"ECAL" -> ECAL energy
+removed "then"
+
+5.3
+"KF" -> "Kalman Filter", added section reference
+global muons defined
+Should have said "tracker muon" not "standalone muon". Moved statement about muon resolution to the next paragraph and rephrased.
+
+5.4
+added chapter and section.
+reworded to avoid CMS jargon (L2L3), added information about residual corrections
+
+5.5
+energy -> momentum
