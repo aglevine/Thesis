@@ -605,6 +605,22 @@ Booster to PS to LINAC2 to SPS to LHC
 
 
 \subsection{Tracker}\label{tracker}
+
+\qquad The tracking system was built to provide accurate measurements of the trajectories of charged particles.  A charged particle in a magnetic field will move in a circle of radius ***. Therefore, by reconstructing the trajectories of charged particles, we can determine their radius of curvature and hence their momentum. The tracker also enables us to determine if particles originated from primary or secondary vertices.
+
+\qquad The tracker has two major components: an inner pixel detector and an outer silicon strip tracker. The pixel detector has three layers, at 4.4, 7.3, and 10.2 cm from the beamline. The silicon strip tracker has 10 layers extending to a radius of 1.1 m. Endcaps in each system extend the range in $\eta$ out to 2.5. There are 1440 pixel modules and 15148 silicon strip modules. The radiation length of the tracker varies as a function of $\eta$, as shown in figure ***
+
+\qquad A high resolution pixel detector is necessary to deal with the high particle flux close to the beamline.  At the design luminosity of **$1.4 \times 10^{34} cm^{-2} s^{-1}$, the pixel detector must withstand a hit rate density of 1 MHz/$mm^{2}$ at its inner radius of 4.4 cm. The high rate requires the use of pixelated detectors close to the beamline. The pixel sensors are rectangles of size $100 \times 150 \mu m^{2}$. The pixel detector is divided into two components: the barrel layers (BPix) and the endcap disks (FBix). The BPix contains 48 million pixel sensors while the FPix contains 18 million.
+
+\qquad The pixel sensors are n+ doped and are bonded to an n doped substrate, with a pn junction on the backplane of the substrate. This means that both the pixel sensors and the substrate have more electrons that holes, but the electron to hole ratio is higher in the pixel sensor that in the substrate. When a charge particle passes through the substrate, it causes a cascade of electrons to move towards the pixels, creating an electrical impulse. Readout chips, which amplify the signal, are bump bonded ***cite the cms pixel detector from production to comissioning*** to the pixel sensors. The Token Bit Manager (TBM) chip controls the readout of groups of pixel sensors. It is connected via optical fibers to the data acquisition system (DAQ) and requires the pixel output to be synchronized with the trigger.
+
+\qquad 
+
+\qquad Further from the beamline, the lower particles flux permits the use of silicon micro-strips of size $10 cm \times 80 \mu m$ between 20 cm $< r < $ 55 cm and size $25 cm \times 180 \mu m$ in the region 55 cm $ < r < $ 110 cm. The microstrips are n-p silicon sensors, and there are 9.3 million in total. The inner barrel of the silicon strip tracker contains four cylinders which are 25.5 cm, 33.9 cm, 41.85 cm, and 49.8 cm away from the beam axis. The barrel extends in the z direction from +70 cm to -70 cm. To extend the range in $\eta$, inner disks of the tracker are placed in groups of three in between $\pm$80 cm and $\pm$90 cm in the z direction. This setup gives coverage throughout the $\eta$ < 2.5 region.
+
+\qquad The outer barrel of the tracker consists of a wheel with 688 rods, which support the silicon strips. The rods with the silicon detectors are inserted into the wheel at radii of 60.8 cm, 69.2 cm, 78.0 cm, 86.8 cm, 96.5 cm and 108.0 cm. The rods are angled such that they overlap in $\phi$ and provide full coverage in each layer.
+
+\qquad The tracker endcaps extend the range of the tracker in the $z$ direction, from $\pm$ 124.0 cm to $\pm$ 280.0 cm. They also cover the radial range of 22.0 cm to 113.5 cm. Each endcap consists of nine circular discs, and each disc holds 16 petals. The petals are structures that hold modules of silicon sensors. The modules are angled to overlap and give full coverage in $\phi$. T
 silicon sensors (strips and pixels), measure momenta, identify vertex
 pixel: n+ in n bulk, 100x150 mum^2
 at r = 4.4, 60 MHz/cm2 at peak lhc lumi 1e34
@@ -638,7 +654,6 @@ barrel pixels can move over time
 movements checked on runs > 20k events
 significant movement-> alignment recomputed on 100k event run
 
-phase II upgrade (from 2014 slides) more radiation tolerant, finer granularity, lower mass, forward to eta4, l1 trigger capability
 \subsection{ECAL}\label{ecal}
 barrle, endcap, preshower
 
