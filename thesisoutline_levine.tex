@@ -473,7 +473,7 @@ Now that the underlying physics has been described in section \ref{sm}, the ques
 
 \qquad When the two proton beams in the LHC intersect, the partons from one beam will interact with the partons from the other beam. In each collision there will be multiple high momentum transfer, "hard" scattering interactions between different pairs of protons. As discussed in section \ref{trigger}, the probability of producing an interesting physics event with high energy leptons or hadrons is low. Therefore, each time a physics event is stored for detailed analysis, in addition to the high energy, hard scattering process of interest, there will be additional hard scattering processes in the event. These additional hard scattering interactions are referred to as "pileup". The additional particles produced threaten to cloud our knowledge of the hard scattering process at the primary vertex. Methods of vetoing and subtracting pileup contributions to the event are discussed in sections \ref{electrons}, \ref{muons}, and \ref{hadrons}. The "underlying event" includes any particles in the event not due to the hard scattering process of interest. In addition to pileup, this includes intial and final state radiation from the beam, as well as lower energy "soft" scattering interactions between protons. 
 
-\qquad As quarks and gluons move apart after the collision, the increase in potential energy from the strong interaction produces a stream of collimated hadrons, known as a jet. Jet formation is shown in Figure \ref{fig:JetFormation}. First, energetic quarks radiate gluons, which split into quarks. These quarks may still be energetic enough to radiate gluons, and the process continues. This is known as parton showering. Detailed simulations of this process are described in section \ref{partonshower}. After the conclusion of parton showering, hadronization occurs. QCD confinement requires that the quarks and gluons are naturally grouped into colorless clusters. These clusters then separate into groups of hadrons, which is known as hadronization. The identification of jets is discussed in section \ref{jets}.
+\qquad As quarks and gluons move apart after the collision, the increase in potential energy from the strong interaction produces a stream of collimated hadrons, known as a jet. Jet formation is shown in Figure \ref{fig:JetFormation}. First, energetic quarks radiate gluons, which split into quarks. These quarks may still be energetic enough to radiate gluons, and the process continues. This is known as parton showering. Detailed simulations of this process are described in section \ref{partonshower}. After the conclusion of parton showering, hadronization occurs. QCD confinement requires that the quarks and gluons are naturally grouped into colorless clusters. These clusters then separate into groups of hadrons, which is known as hadronization. The identification of jets is discussed in section \ref{jets}. 
 
 \begin{figure}[here]
 \includegraphics[width=0.9\textwidth]{jetformation.jpg}
@@ -560,111 +560,110 @@ Previous results from CMS measured at 7 TeV center of mass collisions\cite{Khach
 
 \qquad The rapidity $y$ of a particle is defined as: $y = \frac{1}{2}ln(\frac{E+p_{z}}{E-p_{z}}$, where $p_{z}$ is the component of the momentum parallel to the beam axis. The rapidity gap between two particles, $\Delta y_{12}$, is Lorentz invariant. The pseudorapidity $\eta$ is defined as : $\eta = \frac{1}{2}ln(\frac{p+p_{z}}{p-p_{z}}$. This can be expressed in terms of polar angle (section \ref{cms}) as $\eta = ln(cot(\theta /2))$. The pseudorapidity is equal to the rapidity if the rest mass is 0. At high energy collisions at the LHC, $E \gg m$ and $y \approx \eta$.
 
-\chapter{Experimental Design: The Headings below are self explanatory}\label{experiment}
+\chapter{Experimental Design}\label{experiment}
 
 \section{LHC}\label{lhc}
 
-\qquad The Large Hadron Collider (LHC) is a proton-proton collider located at CERN in Geneva, Switzerland. The collider was designed to collide protons at a center of mass energy of 14 TeV. It has operated at a center of mass energy of 7 TeV in 2011, 8 TeV in 2012, and 13 TeV in 2015. The following paragraphs will explain how the LHC creates and collides its proton beams.
+\qquad The Large Hadron Collider (LHC) is a proton-proton collider located at CERN in Geneva, Switzerland \cite{1748-0221-3-08-S08001}. The LHC was designed to collide protons at a center of mass energy of 14 TeV. It has operated at a center of mass energy of 7 TeV in 2011, 8 TeV in 2012, and 13 TeV in 2015. The following paragraphs will explain how the LHC creates and collides its proton beams.
 
-\qquad The protons used in LHC collisions begin the process as the nuclei of hydrogen atoms in a bottle of hydrogen gas. An electric field is applied, separating the protons and electrons in hydrogen. The protons are then accelerated through Linac 2 (figure ***) up to an energy of 50 MeV. Linac 2 uses radiofrequency (RF) cavities that create alternating electrical fields in conductors. These alternating fields continuously accelerate the protons along the beamline.
+\qquad The protons used in LHC collisions begin the process as the nuclei of hydrogen atoms in a bottle of hydrogen gas. An electric field is applied, separating the protons and electrons in hydrogen. The protons are then accelerated through Linac 2 (figure \ref{fig:cernacc}) up to an energy of 50 MeV. Linac 2 uses radiofrequency (RF) cavities that create alternating electrical fields in conductors. These alternating fields continuously accelerate the protons along the beamline.
 
-\qquad The protons then enter the Proton Synchotron Booster (PSB), which accelerates them up to 1.4 GeV. The PSB accelerates the protons in a circle, using dipole magnets to guide the circular path of the beam and quadropole magnets to focus the beam. The Proton Synchotron (PS) accelerates the protons up to 25 GeV, and finally the Super Proton Synchotron (SPS) accelerates the protons up to 450 GeV, preparing them for their arrival in the LHC.
+\begin{figure}[here]
+\includegraphics[width=0.9\textwidth]{CERN's-accelerator-complex2013.jpg}
+\caption{The series of accelerators and experiments that make up CERN \cite{Marcastel:1621583}}
+\label{fig:cernacc}
+\end{figure}
 
-\qquad After entering the LHC, the protons are further accelerated up to their intended collision energy. The first run, in 2011, accelerated the protons up to 3.5 TeV. This was increased to 4 TeV in 2012, and to 6.5 TeV in 2015. The two proton beams travel in opposite directions around the LHC ring, which is 27 km in circumference. Therefore, the center of mass energy of collisions is twice as much as the energy of the individual beams. The beams are crossed, producing proton-proton collisions at points within each of the major LHC experiments.
+\qquad The protons then enter the Proton Synchotron Booster (PSB), which accelerates them up to 1.4 GeV. The PSB accelerates the protons in a circle, using RF cavities in conjunction with dipole magnets to guide the circular path of the beam and quadropole magnets to focus the beam. The Proton Synchotron (PS) accelerates the protons up to 25 GeV, and finally the Super Proton Synchotron (SPS) accelerates the protons up to 450 GeV, preparing them for their arrival in the LHC.
 
-\qquad The beams in the LHC are controlled using superconducting NbTi magnets, which are cooled down to below 2K using liquid helium. The magents are designed to produce a magnetic field of 8.3 T, which requires a current of 11850 A. Superconducting magnets are required so that the magnets don't act as resistors against the high current. There are 1232 dipole magnets, which bend the beams in their circular paths, and 392 quadropole magnets, which keep the beams focused.
+\qquad After entering the LHC, the protons are further accelerated up to their intended collision energy. The first run, in 2011, accelerated the protons up to 3.5 TeV. This was increased to 4 TeV in 2012, and to 6.5 TeV in 2015. The two proton beams travel in opposite directions around the LHC ring, which is 27 km in circumference. Therefore, the center of mass energy of collisions is twice as much as the energy of the individual beams. The beams are crossed at points within each of the major LHC experiments, producing proton-proton collisions.
 
-\qquad The protons in the beam are divided up into "bunches". Each bunch contains $10^{11}$ protons. In 2012, the LHC ran with 1380 bunches per beam, with 50 ns spacing in between bunches. In 2015, the number of bunches per beam was gradually increased up to 2244 bunches per beam, with 25 ns spacing in between bunches. However, the intensity of the beam is lower in 2015 than in 2012. The distance from the focal point where the beam is twice as wide as it is at the focal point ($\beta *$) has increased from 0.6m in 2012 to 0.8m in 2015.
+\qquad The beams in the LHC travel in opposite directions around the LHC in vacuum sealed beam pipes and are controlled using superconducting NbTi magnets, which are cooled down to below 2K using liquid helium. The magents are designed to produce a magnetic field of 8.3 T, which requires a current of 11850 A. Superconducting magnets are required so that the magnets don't act as resistors against the high current. There are 1232 dipole magnets, which bend the beams in their circular paths, and 392 quadropole magnets, which keep the beams focused. The magnetic field is controlled by RF cavities operating at a frequency of 400 MHz.
 
-\qquad The performance of the LHC can be measured by how many collisions it creates. The number of events generated per second at the LHC ($N$) is given by: $N = L\sigma$, where $\sigma$ is the cross section (section **) and $L$ is the luminosity. The luminosity is defined as: *** (need to find easier definition). The peak luminosity delivered at the LHC in 2012 was $7 \times 10^{33} s^{-1} cm^{-2}$, and at 2015 it was $5.33 \times 10^{33} s^{-1} cm^{-2}$ 
+\qquad The protons in the beam are divided up into "bunches". Each bunch contained about $1.7 \times 10^{11}$ protons in 2012 and about $1.1 \times 10^{11}$ protons in 2015. In 2012, the LHC ran with 1374 bunches per beam, with 50 ns spacing in between bunches. In 2015, the number of bunches per beam was gradually increased up to 2244 bunches per beam, with 25 ns bunch spacing. The emittance  However, the intensity of the beam is lower in 2015 than in 2012. The transverse emittance ($\epsilon$) is a measure of the beam's cross sectional area in its phase space. It was 1.8 $\mu$m in 2012 and about 3 $\mu$m in 2015. The $\beta$ function in accelerator physics relates the transverse emittance to the cross section area of the beam ($\sigma_{x}\sigma_{y}$) via: $ \beta	= \sigma_{x}\sigma_{y} / \epsilon$. The value of the $\beta$ function at the interaction point is referred to as $\beta^{*}$, which has increased from 0.6m in 2012 to 0.8m in 2015.
 
+\qquad The performance of the LHC can be measured by how many collisions it creates. The number of events generated per second at the LHC ($N$) is given by: $N = L\sigma$, where $\sigma$ is the proton-proton cross section (section \ref{ppcoll}) and $L$ is the luminosity. The luminosity is proportional to the square of the number of particles per bunch, the number of bunches, and the revolution frequency of 11.2 kHz, and inversely proportional to $\epsilon$ and $\beta^{*}$. The peak luminosity delivered to CMS by the LHC in 2012 was $7 \times 10^{33} s^{-1} cm^{-2}$, and at 2015 it was $5.33 \times 10^{33} s^{-1} cm^{-2}$. 
 
-1e11 protons per bunch, 2835 bunches/beam, 1e34 lumi (at 7 tev, check numbers!!)
-check numbers: 4e7 hz bx, 1e9 Hz collisions
-1e-13 event selection
-
-transverse emittance ($\epsilon$): smallest opening you can squeeze the beam through
-									measurement of the parallelism of a beam
-amplitude function $\beta$, $\beta = \pi\sigma^{2}/\epsilon$
-where $\sigma$ is cross sectional size of bunch
-
-$\beta^{*}$ is distance from focus point that beam is twice as wide as the focus point
-
-8 TeV (7e33 lumi, f=20e6 Hz, N < 1.7e11 p/bunch, $\epsilon$ < 1.75 um, $\beta^{*} = 0.60m$
-
-13 TeV ($\beta^{*} 0 0.8m$, lumi (peak 5.1e33), 1.1e11 p/bunch, 2244 bunches per beam, 36 bunches/gap/36 bunches
-
-Booster to PS to LINAC2 to SPS to LHC
 
 \section{CMS}\label{cms}
 \subsection{Overview}
 
-\qquad The Compact Muon Solenoid (CMS) detector is a hermetic detector at the LHC that is responsible for measuring the energy deposits in an event after the LHC collisions. The LHC beampipes intersect in CMS, allowing for collisions. CMS contains a superconducting magnet which produces a 3.8T magnetic field. This field causes charged particles to bend, and their momentum transverse to the beamline ($p_{T}$) can be identified by using the standard equations for a particle in a magnetic field. The innermost component, the tracker, measures the trajectory of all charged particles in the event. Next, the electromagnetic and hadronic calorimeters measure energy deposits. Muons are highly penetrating particles, so the muon system must reside outside the magnet. The iron yoke in the muon system creates a 2 T magnetic field, in conjunction with CMS's magnet, enabling muon tracks to be measured. 
+\qquad The Compact Muon Solenoid (CMS) detector is a hermetic detector at the LHC that is responsible for detecting the hadrons, photons, and charged leptons in an event after the proton-proton collisions \cite{1748-0221-3-08-S0800}. CMS contains a superconducting magnet which produces a 3.8T magnetic field along the beamline. The innermost component, the tracker, measures the trajectory of all charged particles in the event. The electromagnetic and hadronic calorimeters measure the energy deposits of electrons, photons, and hadrons in the event. Muons are highly penetrating particles, so the muon system must reside furthest from the interaction point, outside the magnet. The iron yoke in the muon system responds to the magnetic flux of the 3.8 T magnet and creates a 2 T magnetic field, allowing the $p_{T}$ of the muons to be measured. A cross section of CMS is shown in figure \ref{fig:cmsxsec}. 
 
-\qquad A diagram of CMS's geometry is in figure ****. The $z$ direction points along the beamline and the $x-y$ coordinate system is perpendicular to the beamline. The azimuthal angle in the $x-y$ plane is $\phi$ and the polar angle is $\theta$. Instead of the polar angle, the lorentz invariant quantity $\eta$ (pseudorapidity) is used, where $\eta = ln(tan(\theta/2))$.
+\begin{figure}[here]
+\includegraphics[width=0.9\textwidth]{CMS_SLICE.gif}
+\caption{An illustration of the passage of particles through the CMS detector. \cite{CMS_SLICE}}
+\label{fig:cmsxsec}
+\end{figure}
 
+\qquad A diagram of CMS's geometry is in figure \ref{fig:cmscoord}. The $z$ direction points along the beamline and the $x-y$ coordinate system is perpendicular to the beamline, with the $x$ axis pointing towards the center of the LHC. The azimuthal angle in the $x-y$ plane is $\phi$ and the polar angle with respect to the $z$ axis is $\theta$. The lorentz invariant quantity $\eta$ (pseudorapidity) is commonly used in place of $\theta$, where $\eta = ln(tan(\theta/2))$.
+
+\begin{figure}[here]
+\includegraphics[width=0.9\textwidth]{CMSview.png}
+\caption{A cross section of CMS, showing the trajectory of a muon. The coordinate system is in the lower right hand corner. \cite{Chatrchyan:2009hg}}
+\label{fig:cmscoord}
+\end{figure}
 
 \subsection{Tracker}\label{tracker}
 
-\qquad The tracking system was built to provide accurate measurements of the trajectories of charged particles.  A charged particle in a magnetic field will move in a circle of radius ***. Therefore, by reconstructing the trajectories of charged particles, we can determine their radius of curvature and hence their momentum. The tracker also enables us to determine if particles originated from primary or secondary vertices.
+\qquad The tracking system was built to provide accurate measurements of the trajectories of charged particles.  A charged particle in a magnetic field will move in a circle of radius $R = qBp_{T}$, where $q$ is the charge, $B$ is the magnetic field, and $p_{T}$ is the momentum transverse to the magnetic field. Therefore, by reconstructing the trajectories of charged particles, we can determine their radius of curvature and hence their momentum. The tracker also enables us to determine if particles originated from primary or secondary vertices.
 
-\qquad The tracker has two major components: an inner pixel detector and an outer silicon strip tracker. The pixel detector has three layers, at 4.4, 7.3, and 10.2 cm from the beamline. The silicon strip tracker has 10 layers extending to a radius of 1.1 m. Endcaps in each system extend the range in $\eta$ out to 2.5. There are 1440 pixel modules and 15148 silicon strip modules. The radiation length of the tracker varies as a function of $\eta$, as shown in figure ***. A laser alignment system with a wavelength of 1075 nm is regularly used during data taking to check the position of the tracker. The system can monitor movements down to 10$\mu m$. 
+\qquad The tracker has two major components: an inner pixel detector and an outer silicon strip tracker. The pixel detector has three layers, at 4.4, 7.3, and 10.2 cm from the beamline. The silicon strip tracker has 10 layers extending to a radius of 1.1 m. Endcaps in each system extend the range in $\eta$ out to 2.5. There are 1440 pixel modules and 15148 silicon strip modules. The radiation length of the tracker varies as a function of $\eta$, as shown in figure \ref{fig:trackerlength}. A laser alignment system with a wavelength of 1075 nm is regularly used during data taking to check the position of the tracker. The system can monitor movements down to 10$\mu m$. 
 
-\qquad A high resolution pixel detector is necessary to deal with the high particle flux close to the beamline.  At the design luminosity of **$1.4 \times 10^{34} cm^{-2} s^{-1}$, the pixel detector must withstand a hit rate density of 1 MHz/$mm^{2}$ at its inner radius of 4.4 cm. The high rate requires the use of pixelated detectors close to the beamline. The pixel sensors are rectangles of size $100 \times 150 \mu m^{2}$. The pixel detector is divided into two components: the barrel layers (BPix) and the endcap disks (FBix). The BPix contains 48 million pixel sensors while the FPix contains 18 million.
+\begin{figure}[here]
+\includegraphics[width=0.9\textwidth]{trackerlength.jpg}
+\caption{Width of the tracker in unites of radiation length (left) and nuclear interaction length (right) \cite{Chatrchyan:2014fea}}
+\label{fig:trackerlength}
+\end{figure}
 
-\qquad The pixel sensors are n+ doped and are bonded to an n doped substrate, with a pn junction on the backplane of the substrate. This means that both the pixel sensors and the substrate have more electrons that holes, but the electron to hole ratio is higher in the pixel sensor that in the substrate. When a charge particle passes through the substrate, it causes a cascade of electrons to move towards the pixels, creating an electrical impulse. Readout chips, which amplify the signal, are bump bonded ***cite the cms pixel detector from production to comissioning*** to the pixel sensors. The Token Bit Manager (TBM) chip controls the readout of groups of pixel sensors. It is connected via optical fibers to the data acquisition system (DAQ) and requires the pixel output to be synchronized with the trigger.
 
-\qquad 
+\qquad A high resolution pixel detector is necessary to deal with the high particle flux close to the beamline.  At the design luminosity of $10^{34} cm^{-2} s^{-1}$, the pixel detector must withstand a hit rate density of 1 MHz/$mm^{2}$ at its inner radius of 4.4 cm. The high rate requires the use of pixelated detectors close to the beamline. The pixel sensors are rectangles of size $100 \times 150 \mu m^{2}$. The pixel detector is divided into two components: the barrel layers (BPix) and the endcap disks (FBix). The BPix contains 48 million pixel sensors while the FPix contains 18 million.
 
-\qquad Further from the beamline, the lower particles flux permits the use of silicon micro-strips of size $10 cm \times 80 \mu m$ between 20 cm $< r < $ 55 cm and size $25 cm \times 180 \mu m$ in the region 55 cm $ < r < $ 110 cm. The microstrips are n-p silicon sensors, and there are 9.3 million in total. The inner barrel of the silicon strip tracker contains four cylinders which are 25.5 cm, 33.9 cm, 41.85 cm, and 49.8 cm away from the beam axis. The barrel extends in the z direction from +70 cm to -70 cm. To extend the range in $\eta$, inner disks of the tracker are placed in groups of three in between $\pm$80 cm and $\pm$90 cm in the z direction. This setup gives coverage throughout the $\eta$ < 2.5 region.
+\qquad The pixel sensors are n+ doped and are bonded to an n doped substrate, with a pn junction on the backplane of the substrate. This means that both the pixel sensors and the substrate have more electrons that holes, but the electron to hole ratio is higher in the pixel sensor that in the substrate. When a charge particle passes through the substrate, it causes a cascade of electrons to move towards the pixels, creating an electrical impulse. Readout chips, which amplify the signal, are bump bonded \cite{Chiochia:2007pu} to the pixel sensors. The Token Bit Manager (TBM) chip controls the readout of groups of pixel sensors. It is connected via optical fibers to the data acquisition system (DAQ) and requires the pixel output to be synchronized with the trigger.
+
+\qquad Further from the beamline, the lower flux of particles permits the use of silicon micro-strips of size $10 cm \times 80 \mu m$ between 20 cm $< r < $ 55 cm and size $25 cm \times 180 \mu m$ in the region 55 cm $ < r < $ 110 cm. The microstrips are n-p silicon sensors, and there are 9.3 million in total. The inner barrel of the silicon strip tracker contains four cylinders which are 25.5 cm, 33.9 cm, 41.85 cm, and 49.8 cm away from the beam axis. The barrel extends in the z direction from +70 cm to -70 cm. To extend the range in $\eta$, inner disks of the tracker are placed in groups of three in between $\pm$80 cm and $\pm$90 cm in the z direction. This setup gives coverage throughout the $\eta$ < 2.5 region.
 
 \qquad The outer barrel of the tracker consists of a wheel with 688 rods, which support the silicon strips. The rods with the silicon detectors are inserted into the wheel at radii of 60.8 cm, 69.2 cm, 78.0 cm, 86.8 cm, 96.5 cm and 108.0 cm. The rods are angled such that they overlap in $\phi$ and provide full coverage in each layer.
 
-\qquad The tracker endcaps extend the range of the tracker in the $z$ direction, from $\pm$ 124.0 cm to $\pm$ 280.0 cm. They also cover the radial range of 22.0 cm to 113.5 cm. Each endcap consists of nine circular discs, and each disc holds 16 petals. The petals are structures that hold modules of silicon sensors. The modules are angled to overlap and give full coverage in $\phi$. T
-silicon sensors (strips and pixels), measure momenta, identify vertex
-pixel: n+ in n bulk, 100x150 mum^2
-at r = 4.4, 60 MHz/cm2 at peak lhc lumi 1e34
-3e14 n/cm2/yr
-10-4 occupancy
+\qquad The tracker endcaps extend the range of the tracker in the $z$ direction, from $\pm$ 124.0 cm to $\pm$ 280.0 cm. They also cover the radial range of 22.0 cm to 113.5 cm. Each endcap consists of nine circular discs, and each disc holds 16 petals, which are structures that hold modules of silicon sensors. The modules are angled to overlap and give full coverage in $\phi$. A full schematic of the tracker is show in figure \ref{fig:cmstracker}.
 
-18m and 48m barrel pixels
-66 million pixels
-10 million strips
-pixels seed tracking, vertexing, 95\% efficiency
-strip tracker: design occupancy 1-2\%
-outer cell size 20x100-200 um
-inner cell sizer 10X80 um
-
-petals: intermediate structure
-400 pieces makes one petal, needed 288 total
-
-readout via optical fibers
-
-electron hole pair pairs generated by particles are separated by e field and drift to electrodes
-
-strips: wire bonds, multiplxer
-pixels:SiN strips, readout chips, pixel sensor, bump bonding, highdensity interconnect, token bit manager
-strips: synchronous, pixel: asynchronous
-
-pixel detector occupancy at least one order of magnitude smaller than strips
-
-talk about distribution of material with respect to eta
-
-barrel pixels can move over time
-movements checked on runs > 20k events
-significant movement-> alignment recomputed on 100k event run
+\begin{figure}[here]
+\includegraphics[width=0.9\textwidth]{cmstracker.png}
+\caption{Layout in $r$, $\eta$, and $z$ of the CMS tracker and its components.  \cite{Chatrchyan:2014wfa}}
+\label{fig:trackerlength}
+\end{figure}
 
 \subsection{ECAL}\label{ecal}
 
-\qquad The electromagnetic calorimeter (ECAL) is a homogenous hermetic calorimeter that measures the energy deposits from electrons and photons. The calorimeter is composed of apprximately 68000 crystals in the barrel and endcaps. 
+\qquad The electromagnetic calorimeter (ECAL) is a homogenous hermetic calorimeter that measures the energy deposits from electrons and photons. The calorimeter is composed of apprximately 68000 crystals in the barrel and endcaps. A drawing of the ECAL is shown in figure \ref{fig:cmsecal}.
 
-\qquad The lead tungstate crystals are well suited for the ECAL. The crystals are have a high density of 8.28 $g/cm^{3}$, a short radiation length of 0.89 cm, and small Moliere radius of 2.2 cm. The radiation length is defined as the distance for the particle's energy to decrease by $1/e$. The moliere radius is defined as the radius of a cylinder that contains 90\% of the shower's radiation. The density, radiation length, and Moliere radius of the lead tungstate crystals allows the ECAL to be compact and have high granularity. The crystals respond to the passage of electrons and photons by emitting blue/green scintillation light, at about 420-430 nm***. The crystals emit 80\% of their scintillation light in 25 ns, which corresponds well to the design 25 ns bunch spacing of the LHC, as discussed in section \ref{lhc}. The crystals are radiation resistant, but do have a limited tendency to develop defects when exposed to radiation. These defects will absorb the scintillated light. Corrections for these defects are applied by applying laser pulses with a known intensity to the crystals and measuring the response.
+\begin{figure}[here]
+\includegraphics[width=0.9\textwidth]{cmsecal.png}
+\caption{Diagram of the ECAL\cite{1748-0221-3-08-S0800}.}
+\label{fig:cmsecal}
+\end{figure}
 
-\qquad The barrel of the ECAL (EB) contains 61,200 crystals and covers the range $|\eta| < 1.479$. The crystals are angled slightly to avoid creating cracks in the ECAL. The crystals cover an area in the $\eta - \phi$ plane of $0.0174 \times 0.0174$. The barrel has a radial depth of 25.8 radiation lengths, which corresponds to 23.0 cm. The crystals are grouped into modules, which have an $\eta$ dependant geometry and each contain 400-500 crystals. A supermodule is made up of four modules and contains 1700 crystals. There are 36 supermodules in EB. The scintillation light from each crystal is detected with avalanche photodiodes (APD), which are mounted to the backs of crystals in pairs. The APDs are operated at a gain of 50. ***cite avalanche photodiodes and vacuum phototriodes***. 
+\qquad The lead tungstate crystals are well suited for the ECAL. The crystals are have a high density of 8.28 $g/cm^{3}$, a short radiation length of 0.89 cm, and small Moliere radius of 2.2 cm. The radiation length is defined as the distance for the particle's energy to decrease by $1/e$. The moliere radius is defined as the radius of a cylinder that contains 90\% of the shower's radiation. The density, radiation length, and Moliere radius of the lead tungstate crystals allows the ECAL to be compact and have high granularity. The crystals respond to the passage of electrons and photons by emitting blue/green scintillation light at a wavelength of 420-430 nm. The crystals emit 80\% of their scintillation light in 25 ns, which corresponds well to the design 25 ns bunch spacing of the LHC, as discussed in section \ref{lhc}. The crystals are radiation resistant, but do have a limited tendency to develop defects when exposed to radiation. These defects will absorb the scintillated light. Corrections for these defects are applied by applying laser pulses with a known intensity to the crystals and measuring the response.
 
-\qquad The endcaps of the ECAL (EE) cover the range $1.479 < |\eta| < 2.5$. The crystals in the endcaps are supported in units of 5x5 crystals which are called supercrystals. The supercrystals are arranged rectangularly on the endcaps in an x-y grid. The crystals have a length of 22.0 cm, corresponding to a radiation length of 24.7. There are about 14500 crystals total in the EE. The scintillation light is amplified by vacuum phototriodes (VPT). VPTs are used in the endcap due to their ability to withstand the large hadron flux in the forward region. 
+\qquad The barrel of the ECAL (EB) contains 61,200 crystals and covers the range $|\eta| < 1.4442$. The crystals are angled slightly to avoid creating cracks in the ECAL. The crystals cover an area in the $\eta - \phi$ plane of $0.0174 \times 0.0174$. The barrel has a radial depth of 25.8 radiation lengths, which corresponds to 23.0 cm. The crystals are grouped into modules which have an $\eta$ dependant geometry and each contain 400-500 crystals. A supermodule is made up of four modules and contains 1700 crystals. There are 36 supermodules in EB. The scintillation light from each crystal is detected with avalanche photodiodes (APD), which are mounted to the backs of crystals in pairs. A diagram of an APD is shown in figure \ref{fig:APD}. 
 
-\qquad The detector electronics reads the output of a trigger tower (5 x 5 crystals ***) and generates digital sums that are sent to the L1 trigger (section \ref{trigger}) every bunch crossing.
+\begin{figure}[here]
+\includegraphics[width=0.9\textwidth]{apd.jpg}
+\caption{Operation of an APD in the EB  \cite{Brown:2007cg}}
+\label{fig:APD}
+\end{figure}
+
+%The APDs are operated at a gain of 50.
+
+\qquad The endcaps of the ECAL (EE) cover the range $1.566 < |\eta| < 2.5$. Each endcap has two disc shaped mounts (Dee's) for the crystals. The crystals in each Dee are supported in units of 5x5 crystals which are called supercrystals. The supercrystals are arranged rectangularly on each Dee in an x-y grid. Each crystal has a length of 22.0 cm, corresponding to a radiation length of 24.7. There are about 14500 crystals total in the EE. The scintillation light is amplified by vacuum phototriodes (VPT). VPTs are used in the endcap due to their ability to withstand the large hadron flux in the forward region. A schematic of a VPT is show in figure \ref{fig:VPT}.
+
+\begin{figure}[here]
+\includegraphics[width=0.9\textwidth]{vpt.jpg}
+\caption{Schematic of a VPT in the EE  \cite{Brown:2007cg}}
+\label{fig:VPT}
+\end{figure}
+
+\qquad The detector electronics reads the output of a trigger tower (5 x 5 crystals) and generates digital $E_{T}$ sums that are sent to the L1 trigger (section \ref{trigger}) every bunch crossing.
 
 \qquad The energy resolution of the ECAL is given by 
 
@@ -676,187 +675,46 @@ significant movement-> alignment recomputed on 100k event run
 
 In equation \ref{eq:ecal}, there are three experimentally determined terms. $A$ is a stochastic term that takes energy fluctuations into account. It is determined to be 2.8\%. $B$ is a noise term representing noise from the electronics and pileup. It is 0.12. $C$ is a constant term that represents the uniformity and stability of the ECAL. It is measured to be 0.3\%. 
 
-\qquad There is an additional component of the ECAL called the Preshower. It is located in $1.653 < |\eta| < 2.6$. the preshower consists of silicon strip detectors located behind 2 radiation lengths, plus an additional radiation length, of lead absorber. ***cite The CMS Electromagnetic Calorimeter at the LHC***. The preshower is used to discriminate against boosted $\pi^{0}$'s, which decay into photon pairs. If the $\pi^{0}$ is sufficiently boosted the photon pairs may not be resolved properly in the ECAL and the $\pi^{0}$ will be reconstructed as one photon. The preshower is able to detect these events, thus reducing a significant background to the $H \rightarrow \gamma \gamma$ analysis.
+\qquad There is an additional component of the ECAL called the Preshower. It is located in $1.653 < |\eta| < 2.6$. the preshower consists of silicon strip detectors located behind 2 radiation lengths, plus an additional radiation length of lead absorber \cite{Cockerill:2008td}. The preshower is used to discriminate against boosted $\pi^{0}$'s, which decay into photon pairs. If the $\pi^{0}$ is sufficiently boosted the photon pairs may not be resolved properly in the ECAL and the $\pi^{0}$ will be reconstructed as one photon. The preshower is able to resolve these events, thus reducing a significant background to diphoton analyses.
 
-barrle, endcap, preshower
-
-lead tungstate crystals
-A = stochastic term (energy fluctuations)
-B = noise term (quantum electronic/ pu noise)
-C = constant term (contruction, stability, uniformity)
-
-A = 2.8\%
-B = 0.128
-C = 0.3
-
-8.28 g/cm^3, 0.85 radiation length, 2.19 moliere radius, 440 nm wavelength peak, <10 fast decay constant, 100 light yield per MeV
-
-em shower generated by electron/photon, charged particles produce scintialltion light isotropically, 
-proportional to particle energy, detected by photodetectors with internal amplification (EB- avalanche photodiodes), (EE- Vacuum PhotoTriodes)
-
-PbWO4 crystals transparent to entire scintillation spectrum before irradiation
-
-barrel: eta < 1.48
-	36 supermodules: 1700 crystals (1 supermodule = 4 modules)
-	61200 crystals total, 17 shapes
-	2.2x2.2x23 ~26 radiation lengths
-endcaps: 1.48 < eta < 3.0
-		 4 disc (2 per endcap) 3662 crystals (mostly in 5x5 supercrystals)
-		 14648 crystals total of 1 shape
-		 3.0 x 3.0 x 22 ~25 Xo
-preshower 1.65 < eta < 2.65
-		 4 planes (2 per endcap) 1072 silicon sensors
-		 1 sensor = 6.3 x 6.3 x 0.032 cm^3, 32 strips, 137216 strips total
-		 2Xo + 1Xo of Pb with Si strips
-		 1.90 x 61 mm2 x-y view
-		 
-front end electronic: mgpa with 3 separate gains
-- 1 mgpa + 1 adc per crystal
-fenix chip stores digital signal from multiple crystals until level 1 trigger signal received
-another fenix chip sums energy in group of crystals (5x5 in EB, 5 in EE, tpg sent to trigger electronics)
-sum energy for trigger at 40 MHz, crystal data sent at 100 kHz
-multi gain pre amplifier 
-
-energy resolution 
-$\left(\frac{\sigma_{E}}{E}\right)^{2} = \left(\frac{A}{\sqrt{E}}\right)^{2} \oplus \left(\frac{B}{E}\right)^{2} \oplus \left( C \right)^{2}$
-A = stochastic term (energy fluctuations)
-B = noise term (quantum electronic/ pu noise)
-C = constant term (contruction, stability, uniformity)
-
-A = 2.8\%
-B = 0.128
-C = 0.3
-
-energy resolution based on 3x3 arrarys of barrel crystals
-
-L1: 2012, 5x5 towers for egamma
-
-l1 eg trigger 2012: 
-5x5 crystals in barrel
-4 l1 eg candidates per region (4x4 towers)
-keep 4 candidates with highest et in ECAL
-fine grain veto: 90\% tower Et within 2 adjacent strips
-H/E < 5\%
-isolated stream: sum of 5 adjacent towers < 3.5 GeV,8 neighbor towers pass FG and H/E selections
-non isolated stream
-
-laser calibrations: 447 nm, averaged over 40 minutes for each crystal
-
-preshower: 6.3 x 6.3 cm, 1.9 mm strips Si sensors
-vetoes pi0 faking single photons by resolving closely spaced incident photons
 
 \subsection{HCAL}\label{hcal}
 
-\qquad The hadronic calorimeter (HCAL) is designed to detect hadronic energy deposits, such as jets. It consists of three components: the barrel (HB), endcap (HE), and the forward region (HF). 
+\qquad The hadronic calorimeter (HCAL) is designed to detect hadronic energy deposits, such as jets. It consists of three components: the barrel (HB), endcap (HE), plus a forward region that covers high $|\eta|$ (HF). 
 
-\qquad HB covers the region $|\eta| < 1.3$. It 14 layers of brass absorber mounted between steel front and back plates. Brass was chosen due to its short interaction length and lack of magnetic behavior.  The thickness of the HCAL is measured in interaction lenghts, which are the hadronic equivalent of the electromagnetic radiation length.  HB ranges from 5.82 interaction lengths at $\eta = 0$ to 10.6 interaction length at $|\eta| < $1.3. The interaction length is the hadronic equivalent of the electromagnetic radiation length. Trays of plastic scintillator are inserted between layers of the brass absorber. Hadrons interact with the brass, losing energy and producing electromagnetic showers. These showers produce light in the plastic scintillator, which is read out via wavelength shifting fibers connected to hybrid photodiodes. 
+\qquad HB covers the region $|\eta| < 1.3$. It has 14 layers of brass absorber mounted between steel front and back plates. Brass was chosen due to its short interaction length and lack of magnetic behavior. The thickness of the HCAL is measured in interaction lengths, which are the hadronic equivalent of the electromagnetic radiation length. HB ranges from 5.82 interaction lengths at $\eta = 0$ to 10.6 interaction length at $|\eta| < $1.3.  Trays of plastic scintillator are inserted between layers of the brass absorber. Hadrons interact with the brass, losing energy and producing electromagnetic showers. These showers produce light in the plastic scintillator, which is read out via wavelength shifting fibers connected to hybrid photodiodes. HE covers the region $1.3 < |\eta| < 3.0$ and also extends for a length of 10 interaction lengths.
 
-\qquad HE covers the region $1.3 < |\eta| < 3.0$ and also extends for a length of 10 interaction lengths.
+\qquad The HF covers the region $3.0 > |\eta| < 5.0$. This is a high radiation region, and HF must be particularly radiation hard. Instead of brass absorber and plastic scintillator, HF uses steel absorber and quartz fibers. The steel plates are 0.5 cm thick and 165 cm (10 interaction lengths) long. Quartz fibers are inserted into the grooves 0.5 cm apart. There are two sets of fibers: one for identifying $e/\gamma$ showers and one for identifying hadronic showers. The $e/\gamma$ fiber set runs over the full length of the detector while the hadronic set starts 22 cm from the front of the detector, because the $e/\gamma$ showers deposit most of their energy in the first 22 cm. As the charged particles pass through the quartz fibers Cherenkov radiation is emitted, which is detected by photomultplier tubes (PMT). This extension of HCAL into the forward region significantly reduces the number of jets that leave CMS undetected. HF is necessary to detect jets with large $\eta$ separation, such as in Higgs boson production via vector boson fusion, as discussed in section \ref{higgspheno}. HF is also important for reconstructing the missing transverse energy. As discussed in section \ref{met}, the missing energy is reconstructed by examining momentum imbalances in CMS. If the visible decay products escape CMS, valuable information about the missing energy is lost. HF significantly improves the coverage of the detector, which in turn significantly improves the reconstruction of missing energy.
 
-\qquad The HF covers the region $3.0 > |\eta| < 5.0$. This is a high radiation region, and HF must be particularly radiation hard. Instead of brass absorber and plastic scintillator, HF uses steel absorber and quartz fibers. The steel plates are 0.5 cm thick and 165 cm (10 interaction lengths) long. Quartz fibers are inserted into the grooves 0.5 cm apart. There are two sets of fibers: one for identifying $e/\gamma$ showers and one for identifying hadronic showers. The $e/\gamma$ fiber set runs over the full length of the detector while the hadronic set starts 22 cm from the front of the detector, because the $e/\gamma$ showers deposit most of their energy in the first 22 cm. As the charged particles pass through the quartz fibers Cherenkov radiation is emitted, which is detected by photomultplier tubes (PMT). This extension of HCAL into the forward region significantly reduces the number of jets that leave CMS undetected. HF is necessary to detect jets with large $\eta$ separation, such as in Higgs boson production via vector boson  fusion, as discussed in section \ref{higgspheno}. HF is also important for reconstructing the missing transverse energy. As discussed in section \ref{met}, the missing energy is reconstructed by examining momentum imbalances in CMS. If the visible decay products escape CMS, valuable information about the missing energy is lost. HF significantly improves the coverage of the detector, which in turn significantly improves the reconstruction of missing energy.
-
-
-\qquad 
-
-\qquad 
-outer, barrel, endcap, forward, castor, zdc
-
-incident hadron generates em shower in brass absorber, scintillation light produced in plastic,
-transported to heavy brass absorber
-
-copper plates (70\% copper, 30\% zinc)
-copper plates "interleaved" with plastic scintillators with wavelength shifting fibers
-light channeled using clear fibers to photodetectors located at end of barrel
-HF: radiation hardness important, stell plates with cherenkov producing quartz fibers
-
-barrel: eta < 1.3, 36 wedges ( 18 +/-)
-14 layers of brass: 10 interaction lengths
-16 megatildes, 16 eta and 4 phi division per wedge
-
-endcaps: 1.3 < eta < 3.0, 36 wedges per endcap
-17 layers of brass: 10 interaction lengths
-17 megatile layers: 12 eta and 1-2 phi division per wedge
-2-3 high eta longitudinal segments
-
-forward: 3.0 < eta < 5.0, 18 wedges per end
-steel plates 5mm thick, 165 cm 10 interaction lengths
-grid of holes 5mm apart
-1mm diameter fibers (600 um quartz core + cladding + buffer)
-half are 165 cm long
-other half start after a depth of 22 cm
-
-castor:
-5.2 < eta < 6.6 on - side of cms 
-14.38 from interaction point, layers of tungsten plates interleaved with fused silican quartz plates
-light readout via pmts
-em (20.1 x0, .77lambda), hadronic (9.24)
-
-zdc:
-heavy ion physics , eta > 8.3
-tungsten plates and quartz fibers
-
-readout: hybrid photo-detectors, designed to operate in high magnetic field
-proximity focusing with 3.5 mm gap, with e field || to B field
-gain of 2k, linear response over large dynamic range from mips up t o3 TeV hadron showers
-
-charge integrator and encoder (QIE) ADC chips digitze HPD/PMT signals
-QIE has 4 capacitors, connected to input by 25 ns time intervals
-ever 25 ns integrated charge from capacitors is sent to HCAL trigger boards
-
-about 90\% energy response above 20 GeV track momentum
-
-
-
-HF lumi measurement
 \subsection{Muon System}\label{muonsys}
-\qquad The muon systems is located outside of CMS's magnet. It is located inside an iron yoke that returns the flux of the magnetic, resulting in a magnetic field of 2T. The yoke also absorbs hadrons, thus increasing the efficiency of the muon system. The muon detectors are gas based detectors in order to cover a large surface area. Muons are detected when they ionize the gas, resulting in showers of charge particles that induce an electrical current. The muon system is located beyond 10 nuclear interaction lengths to greatly reduce hadronic punchthrough. Muon hits and track segments are reconstructed at an efficiency of 95-98\% ***cite muon performance paper***
+\qquad The muon systems is located outside of CMS's magnet. It is located inside an iron yoke that returns the flux of the magnetic, resulting in a magnetic field of 2T. The yoke also absorbs hadrons, thus increasing the efficiency of the muon system. The muon detectors are gas based in order to cover a large surface area. Muons are detected when they ionize the gas, resulting in showers of charge particles that induce an electrical current. The muon system is located beyond 10 nuclear interaction lengths to greatly reduce hadronic punchthrough. Muon hits and track segments are reconstructed at an efficiency of 95-98\% \cite{Chatrchyan:2013sba}.
 
-\qquad In the barrel ($|\eta| < 1.2$), drift tubes (DT) are used to identify muons. The drift tubes are located in four stations, which are cylinders surrounding the beam line. The three inner chambers have 60 drift tubes and the outer chamber has 70 drift tubes. Muons passing through the drift tubes will ionize the gas mixture of 85\% Ar, 15\% CO$^{2}$. The maximum path of drift in the chamber is 2.1 cm, corresponding to a maximum drift time of 380 ns. The spatial resolution in the DTs is approximately 1 mm ***cite muon performance paper*** Anode wires are kept at a positive potential of 3600V while the cathode strips are kept at a negative potential of -1200V. Electrons will naturally flow to the higher potential, due to their negative charge. Any ionized electrons will flow from the cathode to the anode, inducing a measurable current. A schematic of a drift tube is show in Figure **** 7.5 in blue book**** The DTs enable the tracking of muons in the barrel
+\qquad In the barrel ($|\eta| < 1.2$), drift tubes (DT) are used to track muons. The drift tubes are located in four stations, which are cylinders surrounding the beam line. The three inner chambers have 60 drift tubes and the outer chamber has 70 drift tubes. Muons passing through the drift tubes will ionize the gas mixture of 85\% Ar, 15\% CO$^{2}$. The maximum path of drift in the chamber is 2.1 cm, corresponding to a maximum drift time of 380 ns. The spatial resolution in the DTs is approximately 1 mm\cite{Chatrchyan:2013sba}. Anode wires are kept at a positive potential of 3600V while the cathode strips are kept at a negative potential of -1200V. Electrons will naturally flow to the higher potential, due to their negative charge. Any ionized electrons will flow from the cathode to the anode, inducing a measurable current. A schematic of a drift tube is show in figure \ref{fig:drift_tube}
 
-\qquad In the endcap ($ 0.9 < |\eta| < 2.4$) muons are detected using cathode strip chambers (CSC). In 2012, there were 468 CSC's in CMS. This allowed for an endcap/barrel overlap region in $0.9 < |\eta| < 1.2$ where the muons are detected with DTs and CSCs. From $1.2 < |\eta| < 2.4$, each muon will cross 3-4 CSCs. As show in ***figure 7.49 from blue book*** each CSC has 7 layers of cathode strip panels, each separated by a gas gap filled with anode wires. There are about 400 wires per CSC. The gas mixture used is 40\% Ar, 50\% CO$_{2}$ and 10\% CF$_{4}$. Each wire is separated by .312 cm. The cathode strips allow the $\phi$ position to be determined up to an uncertainty of 0.2 mm **cite muon phase 1 upgrade***. In preparation for 2015 running, a new muon chamber was added to extend the redundant DT/CSC coverage up to $|\eta| < 1.8$, thus increasing the number of CSC's from 468 to 540. 
+\begin{figure}[here]
+\includegraphics[width=0.9\textwidth]{drif_tube.png}
+\caption{Schematic of a DT\cite{1748-0221-3-08-S0800}.}
+\label{fig:drift_tube}
+\end{figure}
 
-\qquad In both the endcap and the barrel, resistive plate chambers (RPC) are used as a redundant trigger system. RPCs are gaseous parallel plate detectors that can identify the time of a muon track within 1 ns,  significantly faster than the 25 ns in between bunch crossings. The muon system identifies the correct bunch crossing in 99.5\% of events **cite muon performance paper*** RPCs consist of two resistive plates 2mm apart with a gas gap in between. Muons will ionize the gas, which will cause a current to flow in detecting strips on the resistive plates. The spatial resolution of the RPCs is 1.2 cm **cite muon performance paper** In total, 480 RPCs are in CMS, extending 245.5 cm along the beamline. In 2012 the RPCs extended up to $|\eta| < 1.6$. By 2015, additional RPCs were built, extending the system in the endcaps up to $|\eta| < 2.1$.
-dt's and csc's: positions measurement
-rpc's: redundant triggering
-0< eta < 1.2: 5 wheels, 4 stations, instrumented with DT's and RPC's
-endcap: 0.9 < eta < 2.4: 3 discs, 4 stations, instrumented with csc's and rpc's
+\qquad In the endcap ($ 0.9 < |\eta| < 2.4$) muons are detected using cathode strip chambers (CSC). In 2012, there were 468 CSC's in CMS. This allowed for an endcap/barrel overlap region in $0.9 < |\eta| < 1.2$ where the muons are detected with DTs and CSCs. From $1.2 < |\eta| < 2.4$, each muon will cross 3-4 CSCs. As show in \ref{fig:muoncsc} each CSC has 7 layers of cathode strip panels, each separated by a gas gap filled with anode wires. There are about 400 wires per CSC. The gas mixture used is 40\% Ar, 50\% CO$_{2}$ and 10\% CF$_{4}$. Each wire is separated by .312 cm. The cathode strips allow the $\phi$ position to be determined up to an uncertainty of 0.2 mm\cite{Collaboration:1355706}. In preparation for 2015 running, a new muon chamber was added to extend the redundant DT/CSC coverage up to $|\eta| < 1.8$, thus increasing the number of CSC's from 468 to 540. 
 
-gas detectors to cover a large surface area
-amplify signal within gas volume
+\begin{figure}[here]
+\includegraphics[width=0.9\textwidth]{muoncsc.png}
+\caption{Schematic of a CSC (left) and an example of a CSC detecting and precisely determining the position of a muon (right).\cite{1748-0221-3-08-S0800}.}
+\label{fig:muoncsc}
+\end{figure}
 
-drift tubes
-250 (or 240?) chambers in barrel
-drift time measurement to few ns gives 250 mum accuracy
+\qquad In both the endcap and the barrel, resistive plate chambers (RPC) are used as a redundant trigger system. RPCs are gaseous parallel plate detectors that can identify the time of a muon track within 1 ns,  significantly faster than the 25 ns in between bunch crossings. The muon system identifies the correct bunch crossing in 99.5\% of events \cite{Chatrchyan:2013sba}. RPCs consist of two resistive plates 2mm apart with a gas gap in between. Muons will ionize the gas, which will cause a current to flow in detecting strips on the resistive plates. The spatial resolution of the RPCs is 1.2 cm\cite{Chatrchyan:2013sba} In total, 480 RPCs are in CMS, extending 245.5 cm along the beamline. In 2012 the RPCs extended up to $|\eta| < 1.6$. By 2015, additional RPCs were built, extending the system in the endcaps up to $|\eta| < 2.1$.
 
-12 layers per chamber
-
-argon(85) + co2(15)
-
-csc's: 540 in edncaps, cathode strips gives 200 um accuracy
-6 layers
-precision phi from cathode strips, rougher r from anode wires
-
-rpc's: 480 in barrel, 576 in endcap
-double gap, each 2mm 9.6
-
-detectors located beyond 10 interaction lengths, little punchtrough of hadrons
-
-punchthrough rate dominated by particles made in hadronic showers
-
-muons come to rest before 4th muon station if p<5.2 gev (pt < 1.9 at eta=2)
-
-muon trigger efficiency: dips due to crack between dt wheels 0 and pm1 in eta 0.2-0.3
-eta > 1.2 assymmetry due to csc non operational chambesr ***
-
-spatial resolution: 80-120 um in dt's 40-150 um in csc, 0.8-1.2 cm in rpc's
-
-efficiency 95-98\%
 \subsection{Trigger}\label{trigger}
-\qquad The CMS trigger system selects potentially interesting physics events among the vast number of events *** that are generated per second. The Level 1 (L1) trigger takes inputs from the calorimeters and muon system to reduce the event rate to 100 kHz. Events that pass the L1 trigger are selected for further processing in the  High Level Trigger (HLT), which reduces the rate further to 1 kHz.
+\qquad The CMS trigger system selects potentially interesting physics events among the hundreds of millions of events that are generated per second. The Level 1 (L1) trigger takes inputs from the calorimeters and muon system to reduce the event rate to 100 kHz. Events that pass the L1 trigger are selected for further processing in the  High Level Trigger (HLT), which reduces the rate further to 1 kHz.
 
-\qquad The L1 trigger reads events from the detectors at a rate of 40 MHz. The goal of the L1 trigger is to quickly accept or reject events which may contains promising physics by examining basic detector information, such as energy sums in the ECAL and HCAL. The L1 trigger accepts or rejects events within 4mus.  A schematic of the L1 trigger is shown in figure ***. The L1 trigger is divided into two parts: the calorimeter trigger and the muon trigger. 
+\qquad The L1 trigger reads events from the detectors at a rate of 40 MHz. The goal of the L1 trigger is to quickly accept or reject events which may contains promising physics by examining basic detector information, such as energy sums in the ECAL and HCAL. The L1 trigger accepts or rejects events within 4 $\mu$s.  A schematic of the L1 trigger is shown in figure ***. The L1 trigger is divided into two parts: the calorimeter trigger and the muon trigger. 
 
-\qquad The L1 calorimeter trigger consists of the regional calorimeter trigger (RCT) and the global calorimeter trigger (GCT). The regional calorimeter trigger contains 4176 trigger towers. Of these trigger towers, 3456 are mapped to regions in the ECAL that contain 5x5 crystals. Each trigger tower in the central region ($|\eta| < 3.0$) covers a region of 0.087 $\times$ 0.087 in the $\eta - \phi$ plane. Sums are computed in 4x4 regions of trigger towers. For $3.0 < |\eta| < 5.0$, only HF contributes sums. The trigger regions in this regime have the same granularity in $\phi$ (0.348), but a rougher granularity in $\eta$ (0.500). The $E_{T}$ sums from HF are simply passed on to the GCT. ECAL and HCAL each send 8 bit compressed $E_{T}$ sums along with a fine grain bit for $e/\gamma$ isolation from the ECAL and a minimum ionizing particle (MIP) bit from the HCAL. The RCT performs regional sums of the ECAL and HCAL energies. The RCT then identifies one isolated electron candidate and one non-isolated electron candidate per region. The jet/summary card sorts the four highest energy isolated and nonisolated candidates and passes them on to the GCT. The RCT also calculates a tau veto bit for each region, which requires the tau candidate to deposit its energy in a compact configuration of trigger towers. The tau veto bit, the MIP bit, and the HCAL and HF $E_{T}$ sums are also passed on to the GCT. The RCT is detailed in figure *** figure 3 in TRG-12-001*** The GCT uses this information to compute the four highest energy central jets, forward jets, taus, and MET. This information is sent to the global trigger, where it is combined with information from the global muon trigger, and the event is the accepted if it passes a L1 trigger cut, or vetoed and thrown away if it does not. This information is used to select physics events. The efficiencies of the tau triggers in 2012 and 2015 are compared in ****.
+\subsubsection{Level 1 Calorimeter Trigger}\label{calotrig}
+
+\qquad The L1 calorimeter trigger consists of the regional calorimeter trigger (RCT) and the global calorimeter trigger (GCT). The regional calorimeter trigger contains 4176 trigger towers. Of these trigger towers, 3456 are mapped to regions of 5x5 crystals in the ECAL. Each trigger tower in the central region ($|\eta| < 3.0$) covers a region of 0.087 $\times$ 0.087 in the $\eta - \phi$ plane. Sums are computed in 4x4 regions of trigger towers. For $3.0 < |\eta| < 5.0$, only HF contributes sums. The trigger regions in this regime have the same granularity in $\phi$ (0.348), but a rougher granularity in $\eta$ (0.500). The $E_{T}$ sums from HF are simply passed on to the GCT. ECAL and HCAL each send 8 bit compressed $E_{T}$ sums along with a fine grain bit for $e/\gamma$ isolation from the ECAL and a minimum ionizing particle (MIP) bit from the HCAL. The RCT performs regional sums of the ECAL and HCAL energies. The RCT then identifies one isolated electron candidate and one non-isolated electron candidate per region. The jet/summary card sorts the four highest energy isolated and nonisolated candidates and passes them on to the GCT. The RCT also calculates a tau veto bit for each region, which requires the tau candidate to deposit its energy in a compact configuration of trigger towers. The tau veto bit, the MIP bit, and the HCAL and HF $E_{T}$ sums are also passed on to the GCT. The RCT is detailed in figure *** figure 3 in TRG-12-001*** The GCT uses this information to compute the four highest energy central jets, forward jets, taus, and MET. This information is sent to the global trigger, where it is combined with information from the global muon trigger, and the event is the accepted if it passes a L1 trigger cut, or vetoed and thrown away if it does not. This information is used to select physics events. The efficiencies of the tau triggers in 2012 and 2015 are compared in ****.
 
 \qquad Events that pass the L1 trigger are sent to the HLT for further analysis. The events are reconstructed in a much more sophistaicated way that at L1. Now that L1 vetoed the obvious non interesting events, more time can be spent to carefully examine the remaining events. HLT calculations take place on a large server farm at CERN with over 13,000 CPUs. The full detector data, not just energy sums in the calorimeters or track in the muon system, is used to analyze events that reach the HLT step. Each HLT trigger has an associated path, which is a detailed series of instructions that reconstructs objects using the full detector information before applying the trigger. Both LFV Higgs (section ***) and W+jets have a final state muon. Because muons are reconstructed with high efficiency at CMS, as mentioned in section ***, we choose events passing the muon HLT triggers.
 
