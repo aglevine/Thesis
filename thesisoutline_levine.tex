@@ -588,10 +588,10 @@ Previous results from CMS measured at 7 TeV center of mass collisions\cite{Khach
 \section{CMS}\label{cms}
 \subsection{Overview}
 
-\qquad The Compact Muon Solenoid (CMS) detector is a hermetic detector at the LHC that is responsible for detecting the hadrons, photons, and charged leptons in an event after the proton-proton collisions \cite{1748-0221-3-08-S0800}. CMS contains a superconducting magnet which produces a 3.8T magnetic field along the beamline. The innermost component, the tracker, measures the trajectory of all charged particles in the event. The electromagnetic and hadronic calorimeters measure the energy deposits of electrons, photons, and hadrons in the event. Muons are highly penetrating particles, so the muon system must reside furthest from the interaction point, outside the magnet. The iron yoke in the muon system responds to the magnetic flux of the 3.8 T magnet and creates a 2 T magnetic field, allowing the $p_{T}$ of the muons to be measured. A cross section of CMS is shown in figure \ref{fig:cmsxsec}. 
+\qquad The Compact Muon Solenoid (CMS) detector is a hermetic detector at the LHC that is responsible for detecting the hadrons, photons, and charged leptons in an event after the proton-proton collisions \cite{1748-0221-3-08-S08001}. CMS contains a superconducting magnet which produces a 3.8T magnetic field along the beamline. The innermost component, the tracker, measures the trajectory of all charged particles in the event. The electromagnetic and hadronic calorimeters measure the energy deposits of electrons, photons, and hadrons in the event. Muons are highly penetrating particles, so the muon system must reside furthest from the interaction point, outside the magnet. The iron yoke in the muon system responds to the magnetic flux of the 3.8 T magnet and creates a 2 T magnetic field, allowing the $p_{T}$ of the muons to be measured. A cross section of CMS is shown in figure \ref{fig:cmsxsec}. 
 
 \begin{figure}[here]
-\includegraphics[width=0.9\textwidth]{CMS_SLICE.gif}
+\includegraphics[width=0.9\textwidth]{CMS_SLICE.png}
 \caption{An illustration of the passage of particles through the CMS detector. \cite{CMS_SLICE}}
 \label{fig:cmsxsec}
 \end{figure}
@@ -630,7 +630,7 @@ Previous results from CMS measured at 7 TeV center of mass collisions\cite{Khach
 \begin{figure}[here]
 \includegraphics[width=0.9\textwidth]{cmstracker.png}
 \caption{Layout in $r$, $\eta$, and $z$ of the CMS tracker and its components.  \cite{Chatrchyan:2014wfa}}
-\label{fig:trackerlength}
+\label{fig:cmstracker}
 \end{figure}
 
 \subsection{ECAL}\label{ecal}
@@ -639,7 +639,7 @@ Previous results from CMS measured at 7 TeV center of mass collisions\cite{Khach
 
 \begin{figure}[here]
 \includegraphics[width=0.9\textwidth]{cmsecal.png}
-\caption{Diagram of the ECAL\cite{1748-0221-3-08-S0800}.}
+\caption{Diagram of the ECAL\cite{1748-0221-3-08-S08001}.}
 \label{fig:cmsecal}
 \end{figure}
 
@@ -692,8 +692,8 @@ In equation \ref{eq:ecal}, there are three experimentally determined terms. $A$ 
 \qquad In the barrel ($|\eta| < 1.2$), drift tubes (DT) are used to track muons. The drift tubes are located in four stations, which are cylinders surrounding the beam line. The three inner chambers have 60 drift tubes and the outer chamber has 70 drift tubes. Muons passing through the drift tubes will ionize the gas mixture of 85\% Ar, 15\% CO$^{2}$. The maximum path of drift in the chamber is 2.1 cm, corresponding to a maximum drift time of 380 ns. The spatial resolution in the DTs is approximately 1 mm\cite{Chatrchyan:2013sba}. Anode wires are kept at a positive potential of 3600V while the cathode strips are kept at a negative potential of -1200V. Electrons will naturally flow to the higher potential, due to their negative charge. Any ionized electrons will flow from the cathode to the anode, inducing a measurable current. A schematic of a drift tube is show in figure \ref{fig:drift_tube}
 
 \begin{figure}[here]
-\includegraphics[width=0.9\textwidth]{drif_tube.png}
-\caption{Schematic of a DT\cite{1748-0221-3-08-S0800}.}
+\includegraphics[width=0.9\textwidth]{drift_tube.png}
+\caption{Schematic of a DT\cite{1748-0221-3-08-S08001}.}
 \label{fig:drift_tube}
 \end{figure}
 
@@ -701,7 +701,7 @@ In equation \ref{eq:ecal}, there are three experimentally determined terms. $A$ 
 
 \begin{figure}[here]
 \includegraphics[width=0.9\textwidth]{muoncsc.png}
-\caption{Schematic of a CSC (left) and an example of a CSC detecting and precisely determining the position of a muon (right).\cite{1748-0221-3-08-S0800}.}
+\caption{Schematic of a CSC (left) and an example of a CSC detecting and precisely determining the position of a muon (right).\cite{1748-0221-3-08-S08001}.}
 \label{fig:muoncsc}
 \end{figure}
 
@@ -710,91 +710,44 @@ In equation \ref{eq:ecal}, there are three experimentally determined terms. $A$ 
 \subsection{Trigger}\label{trigger}
 \qquad The CMS trigger system selects potentially interesting physics events among the hundreds of millions of events that are generated per second. The Level 1 (L1) trigger takes inputs from the calorimeters and muon system to reduce the event rate to 100 kHz. Events that pass the L1 trigger are selected for further processing in the  High Level Trigger (HLT), which reduces the rate further to 1 kHz.
 
-\qquad The L1 trigger reads events from the detectors at a rate of 40 MHz. The goal of the L1 trigger is to quickly accept or reject events which may contains promising physics by examining basic detector information, such as energy sums in the ECAL and HCAL. The L1 trigger accepts or rejects events within 4 $\mu$s.  A schematic of the L1 trigger is shown in figure ***. The L1 trigger is divided into two parts: the calorimeter trigger and the muon trigger. 
+\qquad The L1 trigger reads events from the detectors at a rate of 40 MHz. The goal of the L1 trigger is to quickly accept or reject events which may contains promising physics by examining basic detector information, such as energy sums in the ECAL and HCAL. The L1 trigger accepts or rejects events within 4 $\mu$s. A flow chart for the L1 trigger is shown in figure \ref{fig:L1Trigger}. The L1 trigger is divided into two parts: the calorimeter trigger and the muon trigger. 
 
-\subsubsection{Level 1 Calorimeter Trigger}\label{calotrig}
+\begin{figure}[here]
+\includegraphics[width=0.9\textwidth]{L1trigger.png}
+\caption{Workflow of the L1 trigger. The Global Muon Trigger returns the leading four muon candidates while the Global Calorimeter Trigger returns electron, jet, and tau canddiates as well as energy sums.\cite{1748-0221-3-08-S08001}}
+\label{fig:L1Trigger}
+\end{figure}
 
-\qquad The L1 calorimeter trigger consists of the regional calorimeter trigger (RCT) and the global calorimeter trigger (GCT). The regional calorimeter trigger contains 4176 trigger towers. Of these trigger towers, 3456 are mapped to regions of 5x5 crystals in the ECAL. Each trigger tower in the central region ($|\eta| < 3.0$) covers a region of 0.087 $\times$ 0.087 in the $\eta - \phi$ plane. Sums are computed in 4x4 regions of trigger towers. For $3.0 < |\eta| < 5.0$, only HF contributes sums. The trigger regions in this regime have the same granularity in $\phi$ (0.348), but a rougher granularity in $\eta$ (0.500). The $E_{T}$ sums from HF are simply passed on to the GCT. ECAL and HCAL each send 8 bit compressed $E_{T}$ sums along with a fine grain bit for $e/\gamma$ isolation from the ECAL and a minimum ionizing particle (MIP) bit from the HCAL. The RCT performs regional sums of the ECAL and HCAL energies. The RCT then identifies one isolated electron candidate and one non-isolated electron candidate per region. The jet/summary card sorts the four highest energy isolated and nonisolated candidates and passes them on to the GCT. The RCT also calculates a tau veto bit for each region, which requires the tau candidate to deposit its energy in a compact configuration of trigger towers. The tau veto bit, the MIP bit, and the HCAL and HF $E_{T}$ sums are also passed on to the GCT. The RCT is detailed in figure *** figure 3 in TRG-12-001*** The GCT uses this information to compute the four highest energy central jets, forward jets, taus, and MET. This information is sent to the global trigger, where it is combined with information from the global muon trigger, and the event is the accepted if it passes a L1 trigger cut, or vetoed and thrown away if it does not. This information is used to select physics events. The efficiencies of the tau triggers in 2012 and 2015 are compared in ****.
+\subsubsection{Level 1 Trigger}\label{L1trig}
 
-\qquad Events that pass the L1 trigger are sent to the HLT for further analysis. The events are reconstructed in a much more sophistaicated way that at L1. Now that L1 vetoed the obvious non interesting events, more time can be spent to carefully examine the remaining events. HLT calculations take place on a large server farm at CERN with over 13,000 CPUs. The full detector data, not just energy sums in the calorimeters or track in the muon system, is used to analyze events that reach the HLT step. Each HLT trigger has an associated path, which is a detailed series of instructions that reconstructs objects using the full detector information before applying the trigger. Both LFV Higgs (section ***) and W+jets have a final state muon. Because muons are reconstructed with high efficiency at CMS, as mentioned in section ***, we choose events passing the muon HLT triggers.
+\qquad The L1 calorimeter trigger consists of the regional calorimeter trigger (RCT) and the global calorimeter trigger (GCT). The regional calorimeter trigger contains 4176 trigger towers. Of these trigger towers, 3456 are mapped to regions of 5x5 crystals in the ECAL. Each trigger tower in the central region ($|\eta| < 3.0$) covers a region of 0.087 $\times$ 0.087 in the $\eta - \phi$ plane. Sums are computed in 4x4 regions of trigger towers. For $3.0 < |\eta| < 5.0$, only HF contributes sums. The RCT is detailed in figure \ref{fig:rct}.The trigger regions in this regime have the same granularity in $\phi$ (0.348), but a rougher granularity in $\eta$ (0.500). The $E_{T}$ sums from HF are simply passed on to the GCT. ECAL and HCAL each send 8 bit compressed $E_{T}$ sums along with a fine grain bit that indicates if 90\% ECAL energy in a trigger tower is restricted to a 2x5 crystal region in $\eta - \phi$. The RCT performs regional sums of the ECAL and HCAL energies and stores an H/E bit for an electron isolation, indicating if the HCAL energy is less than 5\% of the ECAL energy. Electron/photon candidates are constructed from 2x1 trigger towers.The RCT then identifies one isolated $e/\gamma$ candidate and one non-isolated $e/\gamma$ candidate per 4x4 trigger tower region. The jet/summary card sorts the four highest energy isolated and nonisolated candidates and passes them on to the GCT. 
 
-\qquad An important component of the L1 trigger is the Regional Calorimeter Trigger (RCT). 
+\begin{figure}[here]
+\includegraphics[width=0.9\textwidth]{rct.png}
+\caption{Object reconstruction and transfer sequence associated with the RCT.}
+\label{fig:rct}
+\end{figure}
 
+\qquad The RCT also calculates a tau veto bit for each 4x4 region, which requires the tau candidate to deposit its energy in a compact configuration of trigger towers, as shown in figure \ref{fig:tauveto}. The tau veto bit and the HCAL and HF $E_{T}$, $H_{T}$ (hadronic transverse energy) and MET sums are also passed on to the GCT, as shown in figure \ref{fig:rct}. The GCT uses this information to compute the four highest energy central jets, forward jets, taus, and MET. In 2012, taus and jets were identified in 12x12 trigger tower regions. The tau veto bit requirement was applied to each of the 4x4 regions in the 12x12 tau. The object was only identified as a tau and sent to the GCT if each 4x4 region passed the tau veto bit requirement. In   just like jetThis information is sent to the global trigger, where it is combined with information from the global muon trigger, and the event is the accepted if it passes a L1 trigger cut, or vetoed and thrown away if it does not. This information is used to select physics events. 
 
-reduce 40 MHz to 1 kHz
-l1 trigger turns 40 MHz into 100 kHz
-HLT turns 100 kHz into 1 kHz
+\begin{figure}[here]
+\includegraphics[width=0.9\textwidth]{tauveto.jpg}
+\caption{For each 4x4 trigger tower region, the individual trigger towers where the ECAL or HCAL energy is above 3 GeV are examined. If they form one of the seven shapes on the right of the figure, the 4x4 region passes the tau veto. Taus deposit their energy in a smaller region than jets, so all 4x4 regions in the tau candidate are required to pass the tau veto selection\cite{CMS-DP-2015-009}.}
+\label{fig:tauveto}
+\end{figure}
 
-fast readout from detector
-FPGA and ASIC hardware 
+\qquad An upgrade to the calorimeter trigger was introduced for 2015 data taking. The GCT was replaced by Stage 1 Layer 2. This allowed for improved pileup subtraction algorithms that made the jet energies roughly pileup independent, as well as improved algorithms for taus. Taus are built from groups of 4x8 trigger towers and were dynamically constructed, combining a 4x4 trigger tower region with its highest energy non diagonal neighbor. The improvement in tau efficiencies from 2012 to 2015 is shown in figure \ref{fig:2012to2015taus}. The isolated taus are required to have roughly 90\% of the energy in the 12x12 trigger tower region centered on the tau to fall in the 4x8 region.
 
-include diagram of L1 trigger
+\begin{figure}[here]
+\includegraphics[width=0.9\textwidth]{TDR_RlxIsoLegacy_28GeV.pdf}
+\caption{Stage 1 taus (2015) compared with GCT taus (legacy), using 2015 data. The legacy efficiency plateaus at about 60\%. The dynamical 4x8 construction of the Stage 1 taus improves the efficiency plateau to almost 100\%, reaching 80\% at a $p_{T}$ of 60 GeV.}
+\label{fig:2012to2015taus}
+\end{figure}
 
-HF, HCAL, ECAL send tpgs to RCT
-RCT sends e/gamma, region Et to global calo trigger
-4 iso e/gamma, 4 e/gamma, 4+4 jet, 4 tau, Et, Ht
-RPC sends to pattern comparator
-DT to DT local to DT trackfind/ CSC trackfind
-CSC to CSC local, CSC trackfinder
-RPC pattern comparator, DT trackfinder, CSC trackfind to GMT
-GMT sends 4mu to GT
+\qquad The Global Muon Trigger (GMT) takes inputs from the DTs, CSCs, and RPCs. The DTs and CSCs have associated track finders. They both build the four best muon candidates from the event and pass them on to the GMT. The RPC pattern comparator selects four muon candidates from the barrel and four from the endcaps, and sends the information to the GMT. The GMT then combines the information from the DTs, CSCs, and RPCs to build the four leading muon candidates in the event. 
 
-
-DT and CSC: DTTF and CSCTF build muon candidates from tracks
-	each candidate assigned eta, phi, pt, quality
-	select 4 DT and 4 CSC candidates
-
-HCAL primitives
-	ET in each tower
-	
-e/gamma candidates: id based on shower shape, isolation from ECAL and H/E
-	4 isolated and 4 non-isolated e/gamma candidates
-	
-jet candidates:
-	calorimeter regions (4x4 towers)
-	sum et of 3x3 regions
-	4 central jets (eta < 3), 4 forward jets (eta > 3)
-	4 tau jets (eta < 3)
-	
-Et, Ht, MET MHT, computed from all regions above threshold
-
-L1 global trigger reads candidates from muon and calo triggers
-defines up to 128 algorithms
-
-L1 Trigger upgrade
-replace L1 GCT with Stage 1 Layer 2
-dedicated trigger for taus
-*include performance plot*
-discuss tau veto bit, 
-
-DAQ:
-detector readout
-event builder
-HLT farm, cluster filesystem
-
-HLT
-200 ms average time to make a decision
-400 Hz average output rate
-runs on farm of commercial computers
-13,000 cpu cores, 20000 processes
-
-L2 standalone muons
-L3 global and tracker muons
-tracker based isolation
-
-photons: ecal superclusters
-calorimeter based id and isolation: tracker id and isolation
-
-taus: particle flow reconstruction
-
-jets, MET, HT: calorimetric jets and MET, particle flow based jets and MET
-
-bjets: jets, full tracking, secondary vertex reconstruction
-
-collects streams for physics analysis, trigger studies, calibration workflows
-
-	
-
+\subsubsection{High Level Trigger}
+\qquad Events that pass the L1 trigger are sent to the High Level Trigger (HLT) for further analysis. The L1 trigger reduces the event rate by at least a factor of 400, so the remaining events are reconstructed much more carefully than they were in the L1 trigger algorithms. The detector data for each event that passed the L1 trigger is sent to a large computing farm with over 13,000 CPUs for further processing. The computing area is located above ground next to the CMS detector to minimize transfer time. Each HLT trigger has an associated path, which is a detailed series of instructions that reconstructs objects using the full detector information before applying the trigger. Both LFV Higgs and W+jets have a final state muon. Because muons are reconstructed with high efficiency at CMS, as mentioned in section \ref{muons}, we choose events passing the muon HLT triggers, which have almost 100\% efficiency.
 
 
 \chapter{Event Simulation}\label{eventsim}

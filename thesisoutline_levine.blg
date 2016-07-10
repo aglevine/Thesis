@@ -3,7 +3,9 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: thesisoutline_levine.aux
 The style file: plain.bst
 Database file #1: thesisoutline_levine.bib
+Warning--I didn't find a database entry for "1748-0221-3-08-S0800"
 Warning--I didn't find a database entry for "Barger:020105876"
+Warning--to sort, need author or key in CMS-DP-2015-009
 Warning--to sort, need author or key in CMS-PAS-PFT-10-002
 Warning--to sort, need author or key in CMS-PAS-JME-13-005
 Warning--to sort, need author or key in CMS-DP-2014-015
@@ -11,51 +13,54 @@ Warning--empty author in CMS-PAS-PFT-10-002
 Warning--empty author in CMS-PAS-JME-13-005
 Warning--empty author in CMS-DP-2014-015
 Warning--empty journal in CMS-DP-2014-015
+Warning--empty author in CMS-DP-2015-009
+Warning--empty journal in CMS-DP-2015-009
 Warning--empty journal in Alekhin:2011sk
 Warning--empty journal in Heinemeyer:2013tqa
 Warning--empty journal in Dittmaier:2011ti
 Warning--empty journal in Halzen:1984mc
+Warning--empty journal in Marcastel:1621583
 Warning--empty journal in Read:451614
 Warning--there's a number but no volume in Read:451614
-You've used 66 entries,
+You've used 76 entries,
             2118 wiz_defined-function locations,
-            900 strings with 14643 characters,
-and the built_in function-call counts, 20339 in all, are:
-= -- 1930
-> -- 1071
-< -- 5
-+ -- 423
-- -- 356
-* -- 1466
-:= -- 3596
-add.period$ -- 197
-call.type$ -- 66
-change.case$ -- 351
+            952 strings with 16160 characters,
+and the built_in function-call counts, 22808 in all, are:
+= -- 2164
+> -- 1159
+< -- 6
++ -- 459
+- -- 382
+* -- 1608
+:= -- 4018
+add.period$ -- 226
+call.type$ -- 76
+change.case$ -- 392
 chr.to.int$ -- 0
-cite$ -- 79
-duplicate$ -- 717
-empty$ -- 1522
-format.name$ -- 356
-if$ -- 4128
+cite$ -- 93
+duplicate$ -- 825
+empty$ -- 1750
+format.name$ -- 382
+if$ -- 4645
 int.to.chr$ -- 0
-int.to.str$ -- 66
-missing$ -- 65
-newline$ -- 332
-num.names$ -- 126
-pop$ -- 275
+int.to.str$ -- 76
+missing$ -- 73
+newline$ -- 381
+num.names$ -- 144
+pop$ -- 322
 preamble$ -- 1
-purify$ -- 288
+purify$ -- 319
 quote$ -- 0
-skip$ -- 499
+skip$ -- 576
 stack$ -- 0
-substring$ -- 1129
-swap$ -- 61
-text.length$ -- 5
+substring$ -- 1248
+swap$ -- 71
+text.length$ -- 6
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 256
-warning$ -- 13
-while$ -- 176
-width$ -- 68
-write$ -- 716
-(There were 14 warnings)
+type$ -- 296
+warning$ -- 17
+while$ -- 198
+width$ -- 78
+write$ -- 817
+(There were 19 warnings)

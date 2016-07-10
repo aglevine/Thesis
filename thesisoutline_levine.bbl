@@ -13,6 +13,10 @@
 {Tau ID Performance Plots}.
 \newblock Apr 2014.
 
+\bibitem{CMS-DP-2015-009}
+{L1 calorimeter trigger upgrade: tau performance}.
+\newblock May 2015.
+
 \bibitem{Adam:815410}
 Wolfgang Adam, R~Frühwirth, Are Strandlie, and T~Todor.
 \newblock {Reconstruction of Electrons with the Gaussian-Sum Filter in the CMS
@@ -101,6 +105,10 @@ Vernon~D. Barger and Roger J.~N. Phillips.
 \newblock {\em Collider Physics (Frontiers in Physics)}.
 \newblock Addison Wesley Publishing Company, 1987.
 
+\bibitem{CMS_SLICE}
+David Barney and Elizabeth Quigg.
+\newblock Interactive slice of the cms detector.
+
 \bibitem{Bennett:2004pv}
 G.~W. Bennett et~al.
 \newblock {Measurement of the negative muon anomalous magnetic moment to 0.7
@@ -117,6 +125,12 @@ G.~C. Branco, P.~M. Ferreira, L.~Lavoura, M.~N. Rebelo, Marc Sher, and Joao~P.
   Silva.
 \newblock {Theory and phenomenology of two-Higgs-doublet models}.
 \newblock {\em Phys. Rept.}, 516:1--102, 2012.
+
+\bibitem{Brown:2007cg}
+Robert~M. Brown.
+\newblock {Avalanche photodiodes and vacuum phototriodes for the CMS
+  electromagnetic calorimeter}.
+\newblock {\em Nucl. Instrum. Meth.}, A572:26--28, 2007.
 
 \bibitem{Cacciari:2008gp}
 Matteo Cacciari, Gavin~P. Salam, and Gregory Soyez.
@@ -143,6 +157,11 @@ John~M. Campbell, R.~Keith Ellis, and Ciaran Williams.
 \newblock {Vector boson pair production at the LHC}.
 \newblock {\em JHEP}, 07:018, 2011.
 
+\bibitem{Chatrchyan:2009hg}
+S~Chatrchyan et~al.
+\newblock {Performance of the CMS Drift Tube Chambers with Cosmic Rays}.
+\newblock {\em JINST}, 5:T03015, 2010.
+
 \bibitem{Chatrchyan:2012xdj}
 Serguei Chatrchyan et~al.
 \newblock {Observation of a new boson at a mass of 125 GeV with the CMS
@@ -160,6 +179,11 @@ Serguei Chatrchyan et~al.
   at sqrt(s) = 7 TeV at the LHC}.
 \newblock {\em JINST}, 8:P11002, 2013.
 
+\bibitem{Chatrchyan:2014wfa}
+Serguei Chatrchyan et~al.
+\newblock {Alignment of the CMS tracker with LHC and cosmic ray data}.
+\newblock {\em JINST}, 9:P06009, 2014.
+
 \bibitem{Chatrchyan:2014fea}
 Serguei Chatrchyan et~al.
 \newblock {Description and performance of track and primary-vertex
@@ -171,6 +195,26 @@ Serguei Chatrchyan et~al.
 \newblock {Measurement of inclusive W and Z boson production cross sections in
   pp collisions at $\sqrt{s}$ = 8 TeV}.
 \newblock {\em Phys. Rev. Lett.}, 112:191802, 2014.
+
+\bibitem{Chiochia:2007pu}
+Vincenzo Chiochia.
+\newblock {The CMS pixel detector: From production to commissioning}.
+\newblock In {\em {Astroparticle, particle and space physics, detectors and
+  medical physics applications. Proceedings, 10th Conference, ICATPP 2007,
+  Como, Italy, October 8-12, 2007}}, 2007.
+
+\bibitem{Cockerill:2008td}
+D.~J.~A. Cockerill.
+\newblock {The CMS Electromagnetic Calorimeter at the LHC}.
+\newblock In {\em {Proceedings, 34th International Conference on High Energy
+  Physics (ICHEP 2008)}}, 2008.
+
+\bibitem{Collaboration:1355706}
+CMS Collaboration.
+\newblock {Technical proposal for the upgrade of the CMS detector through
+  2020}.
+\newblock Technical Report CERN-LHCC-2011-006. LHCC-P-004, CERN, Geneva, Jun
+  2011.
 
 \bibitem{1748-0221-7-01-P01001}
 CMS Collaboration.
@@ -213,6 +257,11 @@ R.~Keith Ellis, I.~Hinchliffe, M.~Soldate, and J.~J. van~der Bij.
 \newblock {Higgs Decay to tau+ tau-: A Possible Signature of Intermediate Mass
   Higgs Bosons at the SSC}.
 \newblock {\em Nucl. Phys.}, B297:221--243, 1988.
+
+\bibitem{1748-0221-3-08-S08001}
+Lyndon Evans and Philip Bryant.
+\newblock Lhc machine.
+\newblock {\em Journal of Instrumentation}, 3(08):S08001, 2008.
 
 \bibitem{Frederix:2012ps}
 Rikkert Frederix and Stefano Frixione.
@@ -302,6 +351,12 @@ Henning Kirschenmann.
 Aneesh~V. Manohar and Wouter~J. Waalewijn.
 \newblock {What is Double Parton Scattering?}
 \newblock {\em Phys. Lett.}, B713:196--201, 2012.
+
+\bibitem{Marcastel:1621583}
+Fabienne Marcastel.
+\newblock {CERN's Accelerator Complex. La chaîne des accélérateurs du CERN}.
+\newblock Oct 2013.
+\newblock General Photo.
 
 \bibitem{Martin:2009iq}
 A.~D. Martin, W.~J. Stirling, R.~S. Thorne, and G.~Watt.
