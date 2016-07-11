@@ -3,7 +3,6 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: thesisoutline_levine.aux
 The style file: plain.bst
 Database file #1: thesisoutline_levine.bib
-Warning--I didn't find a database entry for "1748-0221-3-08-S0800"
 Warning--I didn't find a database entry for "Barger:020105876"
 Warning--to sort, need author or key in CMS-DP-2015-009
 Warning--to sort, need author or key in CMS-PAS-PFT-10-002
@@ -24,7 +23,7 @@ Warning--empty journal in Read:451614
 Warning--there's a number but no volume in Read:451614
 You've used 76 entries,
             2118 wiz_defined-function locations,
-            952 strings with 16160 characters,
+            950 strings with 16120 characters,
 and the built_in function-call counts, 22808 in all, are:
 = -- 2164
 > -- 1159
@@ -63,4 +62,4 @@ warning$ -- 17
 while$ -- 198
 width$ -- 78
 write$ -- 817
-(There were 19 warnings)
+(There were 18 warnings)

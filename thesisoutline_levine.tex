@@ -273,41 +273,8 @@
 %-Jim Hensen
 
 %%%% Your abstract, used for the UMI abstract and in your front matter
-\setabstract{%
-%This thesis describes a standard model cross section measurement of $\Wbb$ 
-%as well as a search for neutral Higgs bosons in the minimal supersymmetric 
-%extension of the standard model (MSSM) decaying to tau pairs.
-
-%The measurement of $\Wbb$ was performed
-%using proton-proton
-%collisions at $\sqrt{s} = 7~\mathrm{TeV}$ in a data sample collected
-%with the CMS experiment at the LHC corresponding to
-%an integrated luminosity of  $5.0~\mathrm{fb}^{-1}.$
-%The $\mathrm{W+b\bar{b}}$
-%events are selected in the $\mathrm{W}\rightarrow\mu\nu$ decay mode by requiring a
-%muon with transverse momentum $p_{\mathrm{T}}>25~\mathrm{GeV}$ and pseudorapidity
-%$|\eta|<2.1$, and exactly two b-tagged jets with $p_{\mathrm{T}}>25~\mathrm{GeV}$ and $|%\eta|<2.4$.
-%The measured $\mathrm{W+b\bar{b}}$ production cross section in the fiducial region, %calculated at the level of final-state particles, is
-%$0.53\pm 0.05~(\textrm{stat.}) \pm 0.09~(\textrm{syst.}) \pm 0.06~(\textrm{th.}) \pm %0.01~(\textrm{lum.}) ~\textrm{pb}$,
-%in agreement with the standard model prediction. This measurement is a sensitive
-%test of heavy quark production calculated with perturbative QCD. It also 
-%serves as an important
-%benchmark in new physics searches which include a 
-%single isolated lepton and one or more b jets in the final state,
-%as $\Wbb$ becomes an irreducible background.
-
-%The search for neutral Higgs bosons in their decay to tau pairs is performed 
-%using events recorded by the CMS experiment at the LHC
-%in 2011 and 2012 at a center-of-mass energy of 7 TeV and 8 TeV respectively. 
-%The dataset corresponds to an integrated luminosity of 24.6~fb$^{-1}$, 
-%with 4.9~fb$^{-1}$ at 7 TeV and 19.7 fb$^{-1}$ at 8 TeV. To enhance 
-%the sensitivity to neutral MSSM Higgs bosons, the search
-% includes the case where the Higgs boson is produced in association 
-% with a b-quark jet. No excess is observed in the tau-pair invariant-mass 
-% spectrum. 
- %Exclusion limits in the MSSM parameter space of $M_A$ 
- %and tan$\beta$ in the $m_h^{\rm max}$ scenario are presented. 
- Abstract Goes Here
+\setabstract{
+This thesis presents the first direct search for lepton flavor violating decays of the recently discovered Higgs boson. The search is performed in the $H \rightarrow \mu \tau_{e}$ and $H \rightarrow \mu \tau_{h}$ decay channels, where $\tau_{e}$ and $\tau_{h}$ denote the electronic and hadronic tau decay channels respectively. The search is performed using the proton-proton collisions data gathered at the Compact Muon Solenoid detector at the Large Hadron Collider. The search uses 19.7 fb$^{-1}$ of $\sqrt{s}$ = 8 TeV data taken in 2012 as well as 2.3 fb$^{-1}$ of $\sqrt{s}$ = 13 TeV data taken in 2015. The limits on the branching fraction $B(H\rightarrow \mu\tau)$ are measured, and the existing limits from indirect searches are reduced by an order of magnitude. This thesis also presents a measurement of the differential cross section of a W boson produced in associated with jets. This measurement was performed with 2.5 fb$^{-1}$ of $\sqrt{s}$ = 13 TeV proton-proton collision data produced by the Large Hadron Collider in 2015 and recorded at the Compact Muon Solenoid detector. Cross sections are computed as a function of jet multiplicity, and the results are compared to theoretical predictions from leading order and next-to-leading order Monte Carlo generators.
 
 }
 
@@ -347,9 +314,11 @@
 \uwabstract
 \cleardoublepage
 
+
+
 % Acknowledgements go here if you want to include them.
 \section{Acknowledgements}
-This is where any acknowledgements would go.
+Placeholder for better acknowledgements section later. Thank parents, advisors, good teachers, fellow grad students/researchers.
 \clearpage
 
 % Table of contents
@@ -908,10 +877,10 @@ Hadrons are identified after the unique signatures of electrons, photons, and mu
 \section{Missing Energy} \label{met}
 \qquad There are some particles, for example neutrinos or dark matter candidates, that CMS cannot detect. They can be measured by applying the principle of conservation of momentum. The transverse vector sum of all particle flow candidates in the event is computed. If CMS detected every particle, this sum would be zero. Therefore, the energy that CMS did not detect can be quantified by reversing the vector sum of the particles that were detected. If the jet energy corrections are included in the vector sum, the transverse missing energy (MET) is said to be Type 1 corrected ~\cite{Khachatryan:2014gga}
 
-\chapter{Lepton Flavor Violating decays of the Higgs Boson}\label{lfv}
+\chapter{Lepton Flavor Violating Decays of the Higgs Boson}\label{lfv}
 
 \section{Analysis Overview}\label{lfvoverview}
-\qquad A search for a lepton flavor violating (LFV) decay of a Higgs boson is performed in two channels: $H \rightarrow \mu\tau_{e}$ and $H \rightarrow \mu\tau_{h}$, where $\tau_{h}$ and $\tau_{e}$ are taus reconstructed in the hadronic and electronic decay channels respectively. As mentioned in section \ref{higgspheno}, these channels have a similar signature as the Standard Model $H \rightarrow \tau_{\mu} \tau_{had}$ and $H \rightarrow \tau_{\mu}\tau_{e}$ searches, with a significant kinematic difference due to the muon arising directly from the Higgs decay. All the neutrinos in the event will arise from the tau decay. Because the tau is heavily boosted, the neutrinos will be collinear with the visible tau decay products. The term "visible decay products" is used to denote the tau decay products that CMS can detect directly, which are electrons, muons, and hadrons. Neutrinos register as missing energy in the event and are detected indirectly as discussed in section \ref{met}. The missing transverse energy in the event is the sum of the energy of all unidentified particles, so the individual neutrino momenta cannot be measured directly. In order to calculate the invariant mass (section \ref{kindef}) of the final state objects the collinear approximation must be used.
+\qquad A search for a lepton flavor violating (LFV) decay of a Higgs boson is performed in two channels: $H \rightarrow \mu\tau_{e}$ and $H \rightarrow \mu\tau_{h}$, where $\tau_{h}$ and $\tau_{e}$ are taus reconstructed in the hadronic and electronic decay channels respectively. As mentioned in section \ref{higgspheno}, these channels have a similar signature as the Standard Model $H \rightarrow \tau_{\mu} \tau_{h}$ and $H \rightarrow \tau_{\mu}\tau_{e}$ searches, with a significant kinematic difference due to the muon arising directly from the Higgs decay. All the neutrinos in the event will arise from the tau decay. Because the tau is heavily boosted, the neutrinos will be collinear with the visible tau decay products. The term "visible decay products" is used to denote the tau decay products that CMS can detect directly, which are electrons, muons, and hadrons. Neutrinos register as missing transverse energy in the event and are detected indirectly as discussed in section \ref{met}. The missing transverse energy in the event is the sum of the energy of all unidentified particles, so the individual neutrino momenta cannot be measured directly. In order to calculate the invariant mass (section \ref{kindef}) of the final state objects the collinear approximation must be used.
 
 \qquad The collinear approximation\cite{Ellis:1987xu} arises from the observation that since the mass of the Higgs is much greater than the mass of the tau, the tau decay products are highly boosted in the direction of the original tau. Therefore, the neutrino momentum can be approximated to be in the same direction as the other visible decay products of the tau. The component of the missing transverse energy in the direction of the visible tau decay products is used to estimate the transverse component of the neutrino momentum:
 
@@ -935,12 +904,12 @@ The Higgs mass has now been defined in terms of the mass of the visible decay pr
 
 \begin{figure*}[hbtp]\begin{center}
 \includegraphics[height=5.5cm]{masses_muhad_VBF_After_Presel_signal.pdf}
- \caption{$M_{vis}$  and $M_{collinear}$  shape comparisons after the pre-selection for the $H \rightarrow \mu\tau){h}$ channel}
+ \caption{$M_{vis}$  and $M_{collinear}$  shape comparisons after the pre-selection for the $H \rightarrow \mu\tau_{h}$ channel}
  \label{fig:MvisMcol}\end{center}\end{figure*}
 
 \section{8 TeV Backgrounds and Datasets}
 \subsection{Data}
-\qquad The search is performed on the 2012, $\sqrt{s}$ = 8 TeV dataset, comprising 19.7$fb^{-1}$ of data. The $H \rightarrow \mu\tau_{had}$ channel selection requires an isolated single muon trigger with a $p_{T}^{\mu}$ threshold of 24 GeV in the range $|\eta| < 2.1$, while the $H \rightarrow \mu\tau_{e}$ channel requires a muon-electron trigger with $p_{T}$ threshold of 17 GeV ($|\eta| < 2.5$) and 8 GeV ($|\eta| < 2.4$), respectively. 
+\qquad The search is performed on the 2012, $\sqrt{s}$ = 8 TeV dataset, comprising 19.7$fb^{-1}$ of data. The $H \rightarrow \mu\tau_{h}$ channel selection requires an isolated single muon trigger with a $p_{T}^{\mu}$ threshold of 24 GeV in the range $|\eta| < 2.1$, while the $H \rightarrow \mu\tau_{e}$ channel requires a muon-electron trigger with $p_{T}$ threshold of 17 GeV ($|\eta| < 2.5$) and 8 GeV ($|\eta| < 2.4$), respectively. 
 \subsection{LFV Higgs and SM Higgs}
 \qquad The signal decay $H \rightarrow \mu\tau$ is implemented via PYTHIA8. This version of PYTHIA8 contains decay mechanisms that account for tau polarization and spin, and the interface with Tauola is not needed\cite{Sjostrand:2014zea}. The Standard Model $H \rightarrow \tau\tau$ background is modelled using PYTHIA 6 and Tauola. In addition to the generators, the full GEANT detector simulation is used for each Monte Carlo sample.
 
@@ -1610,7 +1579,7 @@ It is therefore justified to quantify the theoretical uncertainty of an exclusiv
  \label{fig:acceptances}\end{figure}
  
 \section{Results}
-\qquad The cross sections of jet multiplicities are measured up to 5 jets. The measured W+jets differential cross section distributions are compared with the predictions of the {\sc MadGraph5$\_$aMC@NLO} FXFX and MADGRAPH5 LO MLM event generators. As shown in figure \ref{fig:xsec_Njets_nlo}, the measured data and predictions are generally agreement within uncertainties. MADGRAPH5 appears to underestimate the measured cross section up to a multiplicity of 4. Tables \ref{tab:DMuZNGoodJets_Zexc} and \ref{tab:SMuZNGoodJetsFull_Zinc} show the measured cross sections and associated uncertainties.
+\qquad The cross sections of jet multiplicities are measured up to 5 jets. The measured W+jets differential cross section distributions are compared with the predictions of the {\sc MadGraph5$\_$aMC@NLO} FXFX and MADGRAPH5 LO MLM event generators. As shown in figure \ref{fig:xsec_Njets_nlo}, the measured data and predictions are generally agreement within uncertainties. MADGRAPH5 appears to underestimate the measured cross section up to a multiplicity of 4. Tables \ref{tab:DMuZNGoodJets_Zexc} and \ref{tab:SMuZNGoodJetsFull_Zinc} show the measured cross sections and associated uncertainties. 
 
 
 \begin{table}[!Hhtbp]
@@ -1653,16 +1622,27 @@ $\geq 5$ & 2.65 & 42. & 14. & 18. & 26. & 2.3 & 1.5 & 14. & 12. & 15. & 0.0 & 1.
 \begin{figure}[hp]
     \includegraphics[width=0.5\textwidth]{SMu_unfolded_ZNGoodJetsFull_Zexc_Bayes_JetPtMin_30_JetEtaMax_24_MGPYTHIA6_.pdf}
     \includegraphics[width=0.5\textwidth]{SMu_unfolded_ZNGoodJetsFull_Zinc_Bayes_JetPtMin_30_JetEtaMax_24_MGPYTHIA6_.pdf}
-    \caption{The differential cross section measurement for the exclusive and inclusive jet multiplicities, compared to the predictions of {\sc MadGraph5$\_$aMC@NLO} and MADGRAPH5. The black circular markers with the grey hatched band represent the unfolded data measurement and its total experimental uncertainty. The blue shaded band around the {\sc MadGraph5$\_$aMC@NLO} prediction represents its theoretical uncertainty including both statistical and systematical uncertainties. MADGRAPH5 is shown only with its statistical uncertainty. The lower panels show the ratios of the prediction to the unfolded data.}
+    \caption{The differential cross section measurement for the exclusive and inclusive jet multiplicities, compared to the predictions of {\sc MadGraph5$\_$aMC@NLO} and MADGRAPH5. The black circular markers with the grey hatched band represent the unfolded data measurement and its total experimental uncertainty. The blue shaded band around the {\sc MadGraph5$\_$aMC@NLO} prediction represents its theoretical uncertainty including both statistical and systematical uncertainties. {\sc MadGraph5} is shown only with its statistical uncertainty. The lower panels show the ratios of the prediction to the unfolded data.}
     \label{fig:xsec_Njets_nlo}
 \end{figure}
 
 
 \chapter{Conclusions}
 \section{Summary}
+\qquad This thesis has presented a search for lepton flavor violating decays of the Higgs boson in the $H \rightarrow \mu \tau$ channel, using 19.7 fb$^{-1}$ of $\sqrt{s}$ = 8 TeV data recorded in 2012 at CMS. 
+A slight excess of events was observed, with a significance of 2.4$\sigma$ and a corresponding p-value of 0.010. A maximum likelihood fit was applied, 
+resulting in a best fit branching fraction of $B(H \rightarrow \mu \tau) = (0.84^{+0.39}_{-0.37})\%$. 
+A limit of $B(H\rightarrow \mu\tau) < 1.51\%$ is set at 95\% confidence level. The limit is used to constrain the Yukawa couplings: $\sqrt{|Y_{\mu\tau}|^{2} + |Y_{\tau\mu}|^{2}} < 3.6 \times 10^{-3}$. This improves the results from previous indirect searches by an order of magnitude. 
+
+\qquad This search was repeated using 2.3 fb$^{-1}$ of data recorded in 2015 at CMS, after the LHC moved to a higher center of mass collision energy of $\sqrt{s}$ = 13 TeV. No excess is observed. The best fit branching fraction is $B(H \rightarrow \mu\tau) = (-0.76^{+0.81}_{-0.84})\%$. A limit of $B(H \rightarrow \mu\tau) < 1.20\%$ is set at 95\% confidence level, which is tighter than the $1.51\%$ limit at $\sqrt{s}$ = 8 TeV. The corresponding limit on the Yukawa couplings is $\sqrt{|Y_{\mu\tau}|^{2} + |Y_{\tau\mu}|^{2}} < 3.16 \times 10^{-3}$.
+
+\qquad Additionally, a measurement of the Standard Model cross section for W boson production in association with jets was made. This measurement was made using 2.5 fb$^{-1}$ recorded at CMS in 2015 when the LHC was operating at $\sqrt{s}$ = 13 TeV. The measurement was carried out in the $W \rightarrow \mu \nu$ channel because of CMS's ability to reconstruct muons with high efficiency. The differential cross section is presented as a function of inclusive and exclusive jet multiplicity up to five jets, after detector unfolding. The measured cross sections are consistent with the theoretical predictions from Monte Carlo, with NLO Monte Carlo showing slightly better agreement than LO Monte Carlo.
+
 \section{Future Outlook}
+\qquad The recently discovered Higgs boson remains an interesting particle to study in searches for new physics because many of its properties have not been measured. The first measurement of $H \rightarrow \mu\tau$ yielded an excess of 2.4 $\sigma$ that piqued interest in the decay channel. No excess was observed at $\sqrt{s}$ = 13 TeV, but the higher energy analysis was limited by the 2.3 fb$^{-1}$ 2015 dataset, in contrast to the 19.7 fb$^{-1}$ 2012 dataset at $\sqrt{s}$ = 8 TeV. The expected limit (section \ref{statmeth}) on $B(H \rightarrow \mu \tau)$ in 2015 was 1.20\%, meaning that the 2015 analysis was never sensitive enough to fully investigate the best fit branching fraction of 0.84\% observed in 2012. While the analyses contained in this thesis have added substantial information to our knowledge of lepton flavor violating couplings, more data is ultimately needed before any definitive conclusions can be made about the existence of $H \rightarrow \mu\tau$. The LHC is currently operating in 2016 and CMS has recorded about 10 fb$^{-1}$ so far, with more data expected. Lepton flavor violating couplings are theorized to exist in many beyond the Standard Model theories (section \ref{higgspheno}), so their discovery, or lack thereof, would be an important step in our understanding of nature.
 
 
+\qquad The measurement of the W boson cross section in association with jets will also benefit from more data in 2016. The measurement can be carried out to higher jet multiplicities and systematic uncertainties could be reduced in future studies. Additionally, more accurate next-to-next-to-leading-order (NNLO) Monte Carlo simulation is being generated in 2016. As more data is gathered and improved Monte Carlo is generated, our knowledge of any discrepancies between Standard Model calculations and observed data will improve. W bosons associated with jets are a significant background to many searches for beyond the Standard Model physics, including $H \rightarrow \mu\tau$. An improved understanding of this process will allow for more accurate Monte Carlo generation in the future, which will lower systematic uncertainties on this background and improve the accuracy of searches for physics beyond the Standard Model.
 
 \bibliographystyle{plain}
 

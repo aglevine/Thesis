@@ -39,7 +39,7 @@
 \contentsline {subsubsection}{\numberline {5.4.1.1}B-Jets}{45}
 \contentsline {subsection}{\numberline {5.4.2}Taus}{45}
 \contentsline {section}{\numberline {5.5}Missing Energy}{46}
-\contentsline {chapter}{\chapternumberline {6}Lepton Flavor Violating decays of the Higgs Boson}{47}
+\contentsline {chapter}{\chapternumberline {6}Lepton Flavor Violating Decays of the Higgs Boson}{47}
 \contentsline {section}{\numberline {6.1}Analysis Overview}{47}
 \contentsline {section}{\numberline {6.2}8 TeV Backgrounds and Datasets}{48}
 \contentsline {subsection}{\numberline {6.2.1}Data}{48}
@@ -76,5 +76,5 @@
 \contentsline {section}{\numberline {7.6}Results}{78}
 \contentsline {chapter}{\chapternumberline {8}Conclusions}{81}
 \contentsline {section}{\numberline {8.1}Summary}{81}
-\contentsline {section}{\numberline {8.2}Future Outlook}{81}
-\contentsline {chapter}{Bibliography}{82}
+\contentsline {section}{\numberline {8.2}Future Outlook}{82}
+\contentsline {chapter}{Bibliography}{83}
