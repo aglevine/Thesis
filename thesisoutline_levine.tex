@@ -250,10 +250,7 @@
 
 %\usepackage[sorting=none]{biblatex}
 
-%Search for an MSSM Higgs Boson and Measurement of W+b b
-%with the CMS Detector at the LHC.
 \settitle{A Search for Lepton Flavor Violating Decays of the Higgs Boson and a Measurement of W Boson Production using the CMS Detector at the LHC}
-%\settitle{Measurement of W+ $b\bar{b}$ and a search for MSSM Higgs Bosons with the CMS Detector at the LHC}
 \setauthor{Aaron Levine}
 \setdepartment{Physics}
 \doctors % or \masters
@@ -265,9 +262,9 @@
 %%%% 
 \setfoca{ Sridhara Dasu}{Professor}{Physics} % <- Your advisor
 \setfocb{Wesley Smith}{Professor}{Physics}
-\setfocc{Other Member}{Professor}{Physics}
-\setfocd{Other Member}{Professor}{Physics}
-\setfoce{Other Member}{Professor}{Other Department}
+\setfocc{Matt Herndon}{Professor}{Physics}
+\setfocd{Lisa Everett}{Professor}{Physics}
+\setfoce{Jay Gallager}{Professor}{Astronomy}
 
 %The places you're going to are never on the map.
 %-Jim Hensen
@@ -437,6 +434,13 @@ Placeholder for better acknowledgements section later. Thank parents, advisors, 
 \chapter{Collider Phenomenology}\label{pheno}
 Now that the underlying physics has been described in section \ref{sm}, the question remains: how exactly are W+Jets and lepton flavor violating Higgs events produced and studied? Before proceeding further, it is necessary to define some basic terms of collider physics. The cross section of a particle interaction is an effective area that gives a sense of the likelihood of the interaction. In collider physics, cross sections are measured in barns (b), where $1b = 10^{-24}cm^{2}$. The luminosity is defined as the rate of observed events divided by the cross section. The integrated luminosity is computed by integrating the luminosity with respect to time. Integrated luminosity is used to define how much total data a collider has supplied. These terms will be used for describing proton proton collisions, W boson production, and Higgs boson production in the coming sections of this chapter.
 
+\section{Kinematics Definitions}\label{kindef}
+\qquad Before proceeding further it is necessary to define relevant kinematic variables. The protons are accelerated up to almost the speed of light, so a relativistic treatment must be used to study the collisions.   In special relativity, the energy of the system, $E$, is defined as $E^{2} = m^{2}+p^{2}$. Here the speed of light, $c$, is set to 1, in accordance with natural units. The energy momentum 4-vector is defined as $ \hat{P} = (E, \vec{p})$, and the dot product is defined such that $\vec{P} \dot \vec{P} = E^{2}-p^{2}$, which is the Lorentz invariant mass of the particle. The square of the sum of four momentum vectors gives the invariant mass of a system of particles. Lorentz invariant quantities are useful because they are frame of reference independent. 
+
+\qquad For two colliding particles, $p_{1}$ and $p_{2}$ we can define a quantity: $s = (p_{1}^2+p_{2}^2)$, which is the Lorentz invariant square of the total center of mass energy of the event.
+
+\qquad The rapidity $y$ of a particle is defined as: $y = \frac{1}{2}ln(\frac{E+p_{z}}{E-p_{z}}$, where $p_{z}$ is the component of the momentum parallel to the beam axis. The rapidity gap between two particles, $\Delta y_{12}$, is Lorentz invariant. The pseudorapidity $\eta$ is defined as : $\eta = \frac{1}{2}ln(\frac{p+p_{z}}{p-p_{z}}$. This can be expressed in terms of polar angle (section \ref{cms}) as $\eta = ln(cot(\theta /2))$. The pseudorapidity is equal to the rapidity if the rest mass is 0. At high energy collisions at the LHC, $E \gg m$ and $y \approx \eta$.
+
 \section{Proton-Proton Collisions}\label{ppcoll}
 \qquad The Large Hadron Collider (LHC), which will be discussed further in section \ref{lhc}, is a proton-proton collider. The proton, as mentioned in section \ref{elemparticles}, is considered to be the bound state of three quarks: two up quarks and a down quark. However, proton-proton collisions cannot simply be thought of as six up and down quarks interacting. Inside the proton, massive amounts of quark and antiquark pairs, known as "sea quarks", pop in and out of existence, along with the gluons that bind them together. At the high energies and short distance scales probed by the LHC, the valence quarks play essentially no role in the outcome of these collisions. In fact, the gluons carry about 50$\%$ of the proton's momentum\cite{Halzen:1984mc}, and at high momentum transfer they play the dominant role in LHC collisions, as shown in Figure \ref{fig:cteq6PDF} .So when two protons collide at the LHC, it is effectively a collision between two clouds of gluons and quarks.These collisions can be studied via the parton model. This model defines the protons as collections of point particles (partons) carrying a fraction $x$ of the hadron's momentum. The distribution of $x$ depends on the momentum scale $Q^{2}$ that is probed. 
 
@@ -453,7 +457,7 @@ Now that the underlying physics has been described in section \ref{sm}, the ques
 
 
 \section{W Boson Production}\label{wboson}
-\qquad W bosons are produced by deep inelastic scattering between partons, as show in Figure \ref{fig:WFormation}. The cross section of this process depends on the parton distribution functions. Examples of CTEQ6 parton distribution functions are show in Figure \ref{fig:cteq6PDF}\cite{Pumplin:2002vw}. These parton distribution functions are used in PYTHIA, as discussed in section \ref{partonshower}.
+\qquad W bosons are produced by deep inelastic scattering between partons, as show in Figure \ref{fig:WFormation}. The cross section of this process depends on the parton distribution functions. Examples of CTEQ6 parton distribution functions are show in Figure \ref{fig:cteq6PDF}\cite{Pumplin:2002vw}. These parton distribution functions are used in {\sc Pythia}, as discussed in section \ref{partonshower}.
 
 \begin{figure}[here]
 \includegraphics[width=0.9\textwidth]{WFormation.jpg}
@@ -491,7 +495,7 @@ Previous results from CMS measured at 7 TeV center of mass collisions\cite{Khach
 
 
 \section{Higgs Boson Production}\label{higgspheno}
-\qquad As discussed in section \ref{higgstheory}, Higgs boson couplings are mass dependent. The more massive the particle, the more likely it will couple to the Higgs. Top quarks, with a mass of 172 GeV, are the heaviest standard model particle. As a result, the dominant method of Higgs production is when two energetic gluons fuse together via create a top quark loop, as shown in Figure \ref{fig:ggfHiggs}. This is called gluon-gluon fusion.
+\qquad As discussed in section \ref{higgstheory}, Higgs boson couplings are mass dependent. The more massive the particle, the stronger its coupling is to the Higgs. Top quarks, with a mass of 172 GeV, are the heaviest standard model particle. As a result, the dominant method of Higgs production is when two energetic gluons fuse together via a top quark loop, as shown in Figure \ref{fig:ggfHiggs}. This is called gluon-gluon fusion.
 
 \begin{figure}[here]
 \includegraphics[width=0.9\textwidth]{ggfHiggs.jpg}
@@ -500,7 +504,7 @@ Previous results from CMS measured at 7 TeV center of mass collisions\cite{Khach
 \end{figure}
 
 
-\qquad Vector boson fusion is the dominant mechanism of two jet Higgs boson production. It is shown in Figure \ref{fig:vbfHiggs} Because of conservation of color, the two final state quarks must be the same color as their corresponding initial state quarks. This forces the jets produced by the final state quarks apart at a wide angle. A graphic of all the Higgs production channels is shown in Figure \ref{fig:higgsproduction}\cite{Dittmaier:2011ti}.
+\qquad Vector boson fusion (VBF) is the dominant mechanism of two jet Higgs boson production. It is shown in Figure \ref{fig:vbfHiggs}. The two quarks that seed the jets are thrust apart in $\eta$ after vector boson radiation. This rapidity gap between the two highest $p_{T}$ jets in vector boson fusion allows us to distinguish this signal from events with a top quark and an antitop quark (ttbar events). The vector bosons that connect the final state quarks are colorless, and the final state jets will have no inherent strong force connection (section \ref{elemforces}). However, in ttbar the top and antitop quarks will be connected at a gluon vertex. Because gluons are color doublets (section \ref{elemforces}) the two final state quarks may be color connected, meaning that they share the same color. If this is the case, then the increase in potential energy will cause central jet formation within the rapidity gap, distinguishing this background from the VBF Higgs signal. \ref{fig:higgsproduction}\cite{Dittmaier:2011ti}.
 
 \begin{figure}[here]
 \includegraphics[width=0.9\textwidth]{vbfHiggs.png}
@@ -509,12 +513,18 @@ Previous results from CMS measured at 7 TeV center of mass collisions\cite{Khach
 \end{figure}
 
 \begin{figure}[here]
+\includegraphics[width=0.9\textwidth]{ttbarcolor.jpg}
+\caption{Color connected ttbar production. The bold (red) line indicates a color connection between the final state quarks. Central jets are beginning to form due to the increase in potential energy as the color connected quarks move apart.}
+\label{fig:ttbarcolor}
+\end{figure}
+
+\begin{figure}[here]
 \includegraphics[width=0.9\textwidth]{higgsproduction.jpg}
 \caption{Higgs production cross sections\cite{Dittmaier:2011ti}. At a mass of 125 GeV, the two largest production modes are gluon gluon fusion and vector boson fusion.}
 \label{fig:higgsproduction}
 \end{figure}
 
-\qquad There is no known Higgs branching ratio to guide this search. This is the first direct measurement of $H \rightarrow \mu \tau$. The kinematics of this search are similar to the kinematics $H \rightarrow \tau\tau$ search carried out at CMS \cite{Chatrchyan:2012xdj}. As discussed in section ~\ref{taus}, tau leptons are detected at CMS via their hadronic decay mode ($\tau_{h}$) or their leptonic decay modes ($\tau_{e}, \tau_{\mu}$). Therefore, the final state objects, a muon and a tau, are exactly the same between $H \rightarrow \mu \tau$ and the $H \rightarrow \tau_{\mu} \tau$ channel of $H \rightarrow \tau\tau$, making $H \rightarrow \tau\tau$ a major background of the search. A major difference between $H \rightarrow \tau_{\mu} \tau$ and $H \rightarrow \mu \tau$ is the distribution of missing transverse energy (MET) in the event. MET, which is discussed further in chaper ~\ref{met}, arises from neutrinos that CMS cannot detect. As shown in figure ~\ref{fig:TauDecay}, neutrinos are always associated with tau decays. The $H \rightarrow \tau_{\mu} \tau$ channel will contain a muon neutrino associated with the muonic decay of the tau, but $H \rightarrow \mu \tau$ contains no such neutrino. The only neutrinos will be associated with the tau decay. The MET distribution will be used to define the signal region in section 6. A graphic of Higgs boson decay probabilities is shown in Figure \ref{fig:higgsBR}\cite{Heinemeyer:2013tqa}
+\qquad There is no known Higgs branching ratio to guide this search. This is the first direct measurement of $H \rightarrow \mu \tau$. The kinematics of this search are similar to the kinematics $H \rightarrow \tau\tau$ search carried out at CMS \cite{Chatrchyan:2012xdj}. As discussed in section ~\ref{taus}, tau leptons are detected at CMS via their hadronic decay mode ($\tau_{h}$) or their leptonic decay modes ($\tau_{e}, \tau_{\mu}$). Therefore, the final state objects, a muon and a tau, are exactly the same between $H \rightarrow \mu \tau$ and the $H \rightarrow \tau_{\mu} \tau$ channel of $H \rightarrow \tau\tau$, making $H \rightarrow \tau\tau$ a major background of the search. A major difference between $H \rightarrow \tau_{\mu} \tau$ and $H \rightarrow \mu \tau$ is the distribution of missing transverse energy (MET) in the event. MET, which is discussed further in section ~\ref{met}, arises from neutrinos that CMS cannot detect. As shown in figure ~\ref{fig:TauDecay}, tau decays will always produce neutrinos. The $H \rightarrow \tau_{\mu} \tau$ channel will contain a muon neutrino associated with the muonic decay of the tau, but $H \rightarrow \mu \tau$ contains no such neutrino. The only neutrinos will be associated with the tau decay. The MET distribution will be used to define the signal region in section 6. A graphic of Higgs boson decay probabilities is shown in Figure \ref{fig:higgsBR}\cite{Heinemeyer:2013tqa}
 
 \begin{figure}[here]
 \includegraphics[width=0.9\textwidth]{higgsBR.jpg}
@@ -522,12 +532,7 @@ Previous results from CMS measured at 7 TeV center of mass collisions\cite{Khach
 \label{fig:higgsBR}
 \end{figure}
 
-\section{Kinematics Definitions}\label{kindef}
-\qquad Before proceeding further it is necessary to define relevant kinematic variables. The protons are accelerated up to almost the speed of light, so a relativistic treatment must be used to study the collisions.   In special relativity, the energy of the system, $E$, is defined as $E^{2} = m^{2}+p^{2}$. Here the speed of light, $c$, is set to 1, in accordance with natural units. The energy momentum 4-vector is defined as $ \hat{P} = (E, \vec{p})$, and the dot product is defined such that $\vec{P} \dot \vec{P} = E^{2}-p^{2}$, which is the Lorentz invariant mass of the particle. The square of the sum of four momentum vectors gives the invariant mass of a system of particles. Lorentz invariant quantities are useful because they are frame of reference independent. 
 
-\qquad For two colliding particles, $p_{1}$ and $p_{2}$ we can define a quantity: $s = (p_{1}^2+p_{2}^2)$, which is the Lorentz invariant square of the total center of mass energy of the event.
-
-\qquad The rapidity $y$ of a particle is defined as: $y = \frac{1}{2}ln(\frac{E+p_{z}}{E-p_{z}}$, where $p_{z}$ is the component of the momentum parallel to the beam axis. The rapidity gap between two particles, $\Delta y_{12}$, is Lorentz invariant. The pseudorapidity $\eta$ is defined as : $\eta = \frac{1}{2}ln(\frac{p+p_{z}}{p-p_{z}}$. This can be expressed in terms of polar angle (section \ref{cms}) as $\eta = ln(cot(\theta /2))$. The pseudorapidity is equal to the rapidity if the rest mass is 0. At high energy collisions at the LHC, $E \gg m$ and $y \approx \eta$.
 
 \chapter{Experimental Design}\label{experiment}
 
@@ -590,7 +595,7 @@ Previous results from CMS measured at 7 TeV center of mass collisions\cite{Khach
 
 \qquad The pixel sensors are n+ doped and are bonded to an n doped substrate, with a pn junction on the backplane of the substrate. This means that both the pixel sensors and the substrate have more electrons that holes, but the electron to hole ratio is higher in the pixel sensor that in the substrate. When a charge particle passes through the substrate, it causes a cascade of electrons to move towards the pixels, creating an electrical impulse. Readout chips, which amplify the signal, are bump bonded \cite{Chiochia:2007pu} to the pixel sensors. The Token Bit Manager (TBM) chip controls the readout of groups of pixel sensors. It is connected via optical fibers to the data acquisition system (DAQ) and requires the pixel output to be synchronized with the trigger.
 
-\qquad Further from the beamline, the lower flux of particles permits the use of silicon micro-strips of size $10 cm \times 80 \mu m$ between 20 cm $< r < $ 55 cm and size $25 cm \times 180 \mu m$ in the region 55 cm $ < r < $ 110 cm. The microstrips are n-p silicon sensors, and there are 9.3 million in total. The inner barrel of the silicon strip tracker contains four cylinders which are 25.5 cm, 33.9 cm, 41.85 cm, and 49.8 cm away from the beam axis. The barrel extends in the z direction from +70 cm to -70 cm. To extend the range in $\eta$, inner disks of the tracker are placed in groups of three in between $\pm$80 cm and $\pm$90 cm in the z direction. This setup gives coverage throughout the $\eta$ < 2.5 region.
+\qquad Further from the beamline, the lower flux of particles permits the use of silicon micro-strips of size $10 cm \times 80 \mu m$ between 20 cm $< r < $ 55 cm and size $25 cm \times 180 \mu m$ in the region 55 cm $ < r < $ 110 cm. The microstrips are n-p silicon sensors, and there are 9.3 million in total. The inner barrel of the silicon strip tracker contains four cylinders which are 25.5 cm, 33.9 cm, 41.85 cm, and 49.8 cm away from the beam axis. The barrel extends in the z direction from +70 cm to -70 cm. To extend the range in $\eta$, inner disks of the tracker are placed in groups of three in between $\pm$80 cm and $\pm$90 cm in the z direction. This setup gives coverage throughout the $\eta<$  2.5 region.
 
 \qquad The outer barrel of the tracker consists of a wheel with 688 rods, which support the silicon strips. The rods with the silicon detectors are inserted into the wheel at radii of 60.8 cm, 69.2 cm, 78.0 cm, 86.8 cm, 96.5 cm and 108.0 cm. The rods are angled such that they overlap in $\phi$ and provide full coverage in each layer.
 
@@ -733,7 +738,7 @@ that define interactions between many quarks and gluons. At short distances, on 
 \qquad  Once the initial and final state particles are specified, a series of Feynman diagrams are created. From the matrix elements discussed in section \ref{elemforces}, production amplitudes are computed for the process.
 %By using Feynman rules as discussed in section \ref{theory} and averaging over helicity and color, production amplitudes are computed for the process. 
 However, this calculation provides only a very basic picture of the event and neglects soft radiation at the pQCD scale. 
-%For example, MADGRAPH\cite{Alwall:2014hca} models a proton as a collection of up, down, charm, and strange quarks, along with their antiparticle partners and gluons. In order to accurately compare data with theoretical models, more sophisticated models of the event are needed.
+%For example, {\sc MadGraph}\cite{Alwall:2014hca} models a proton as a collection of up, down, charm, and strange quarks, along with their antiparticle partners and gluons. In order to accurately compare data with theoretical models, more sophisticated models of the event are needed.
 \subsection{Parton Showering}\label{partonshower}
 \qquad As discussed in section \ref{ppcoll}, in high energy collisions protons can be modelled as collections of partons where the partons are point like particles carrying a particular fraction of the proton's momentum. Parton distribution functions, as discussed in section \ref{ppcoll}, provide a model of how the protons will interact in a collision. 
 
@@ -760,8 +765,8 @@ $<p^{2}_{T}> = \kappa / \pi$ and the Lund fragmentation function\cite{Agashe:201
 
 \subsection{Monte Carlo Generator Software}\label{mcsoftware}
 
-\qquad A variety of different Monte Carlo generators are used at CMS. MADGRAPH \cite{Alwall:2014hca} is used to compute matrix elements. Next to leading order (NLO) matrix elements can be computed with the aMC@NLO\cite{Alwall:2014hca} version of MADGRAPH or with POWHEG\cite{Alioli:2010xd, Frixione:2007vw, Nason:2004rx}. NLO calculations are vital for accurately depicting physical processes such as W+Jets or Z+Jets. These calculations include quark and gluon loops that complement the fundamental hard scattering process. However, MADGRAPH and POWHEG do not include parton showering and hadronization, which are necessary for accurate modelling of proton-proton collisions and jet formation, as discussed in section \ref{ppcoll}. The output of the matrix element generators are piped into PYTHIA, which models parton showers and hadronization using the Lund String Model. While PYTHIA is a powerful tool for calculating parton showering and hadronization, it is only a leading order (LO) generator, so it must receive matrix element results MADGRAPH or POWHEG to give results at the desired degree of precision. After hadronization, some heavy states may still need to decay. The $\tau$ lepton is too short lived to be directly observed in the detector, so any Monte Carlo simulation must decay the $\tau$ further. 
-TAUOLA \cite{Was:2011tv} is interfaced with PYTHIA to provide an accurate view of $\tau$ decay by taking into account $\tau$ helicity and polarization. The Monte Carlo for FeMtobarn (MCFM) program \cite{Campbell:1999ah}\cite{Campbell:2011bn}\cite{Campbell:2015qma} is used to calculate the expected cross sections of the Monte Carlo simulation. 
+\qquad A variety of different Monte Carlo generators are used at CMS. {\sc MadGraph} \cite{Alwall:2014hca} is used to compute matrix elements. Next to leading order (NLO) matrix elements can be computed with the aMC@NLO\cite{Alwall:2014hca} version of {\sc MadGraph} or with {\sc Powheg}\cite{Alioli:2010xd, Frixione:2007vw, Nason:2004rx}. NLO calculations are vital for accurately depicting physical processes such as W+Jets or Z+Jets. These calculations include quark and gluon loops that complement the fundamental hard scattering process. However, {\sc MadGraph} and {\sc Powheg} do not include parton showering and hadronization, which are necessary for accurate modelling of proton-proton collisions and jet formation, as discussed in section \ref{ppcoll}. The output of the matrix element generators are piped into {\sc Pythia}, which models parton showers and hadronization using the Lund String Model. While {\sc Pythia} is a powerful tool for calculating parton showering and hadronization, it is only a leading order (LO) generator, so it must receive matrix element results {\sc MadGraph} or {\sc Powheg} to give results at the desired degree of precision. After hadronization, some heavy states may still need to decay. The $\tau$ lepton is too short lived to be directly observed in the detector, so any Monte Carlo simulation must decay the $\tau$ further. 
+{\sc Tauola} \cite{Was:2011tv} is interfaced with {\sc Pythia} to provide an accurate view of $\tau$ decay by taking into account $\tau$ helicity and polarization. The Monte Carlo for FeMtobarn (MCFM) program \cite{Campbell:1999ah}\cite{Campbell:2011bn}\cite{Campbell:2015qma} is used to calculate the expected cross sections of the Monte Carlo simulation. 
 
 %\subsection{Monte Carlo Samples}\label{mcsamples}
 %\subsubsection{LFV Higgs}\label{mclfv}
@@ -825,7 +830,7 @@ TAUOLA \cite{Was:2011tv} is interfaced with PYTHIA to provide an accurate view o
 
 \qquad In the 2015 analyses at $\sqrt{s}$ = 13 TeV, a boosted decision tree is used to optimize the electron selection. MVA discriminators are used to require an electron efficiency of 90\%.
 
-\qquad Electrons are required to be isolated from additional particles in the event. The $p_{T}$ of charged hadrons, neutral hadrons, and photons is summed within a cone of radius $\Delta R < 0.3$ around the electron.  Pileup corrections are applied for additional particles not associated with the primary vertex. The particle flow isolation is defined as $I_{PF}^{e} = \left(\sum\limits^{Ch. had} p_{T} + max(0, \sum\limits^{N. had.} p_{T} + \sum\limits^{\gamma} p_{T} - 0.5 \sum\limits^{PU} p_{T}\right)/p_{T}^{e}$. The factor of 0.5 corresponds to an approximate average ratio of neutral to charged particles, as measured in jets \cite{CMS-PAS-PFT-10-002}. Alternatively, the effective area method can be used to estimate the pileup. The contribution from the pileup, $p_{T}^{PU}$, is defined as $p_{T}^{PU} = \rho A_{eff}$. Here $\rho$ is the average energy density in the event, defined as the median of the energy density distribution for particles within the area of any jet (section \ref{jets}) in the event.\cite{Khachatryan:2015hwa} FASTJET \cite{Cacciari:2011ma} is used to determine $A_{eff}$, the effective area of of the clustered jet.  
+\qquad Electrons are required to be isolated from additional particles in the event. The $p_{T}$ of charged hadrons, neutral hadrons, and photons is summed within a cone of radius $\Delta R < 0.3$ around the electron.  Pileup corrections are applied for additional particles not associated with the primary vertex. The particle flow isolation is defined as $I_{PF}^{e} = \left(\sum\limits^{Ch. had} p_{T} + max(0, \sum\limits^{N. had.} p_{T} + \sum\limits^{\gamma} p_{T} - 0.5 \sum\limits^{PU} p_{T}\right)/p_{T}^{e}$. The factor of 0.5 corresponds to an approximate average ratio of neutral to charged particles, as measured in jets \cite{CMS-PAS-PFT-10-002}. Alternatively, the effective area method can be used to estimate the pileup. The contribution from the pileup, $p_{T}^{PU}$, is defined as $p_{T}^{PU} = \rho A_{eff}$. Here $\rho$ is the average energy density in the event, defined as the median of the energy density distribution for particles within the area of any jet (section \ref{jets}) in the event.\cite{Khachatryan:2015hwa} {\sc Fastjet} \cite{Cacciari:2011ma} is used to determine $A_{eff}$, the effective area of of the clustered jet.  
 
 
 \section{Muons}\label{muons}
@@ -847,7 +852,7 @@ Hadrons are identified after the unique signatures of electrons, photons, and mu
 \subsection{Jets}\label{jets}
 \qquad After hadronic deposits are reconstructed via particle flow, the anti-$k_{t}$ ~\cite{Cacciari:2008gp} algorithm is used to cluster the deposits and define jets. A distance metric between hadronic particles $i$ and $j$ is defined: $d_{ij} = min(\frac{1}{k_{ti}^{2}},\frac{1}{k_{tj}^{2}})\frac{\Delta_{ij}^{2}}{R^{2}}$. Here $k_{t}$ is the transverse momentum and $\Delta_{ij}^{2} = (y_{i}-y_{j})^{2} + (\phi_{i} - \phi_{j})$, where $y$ and $\phi$ are the rapidity and azimuth of the particle, as defined in section \ref{cms}. At CMS, a radius of $R = 0.5 (0.4)$ is used at 8 TeV (13 TeV). The radius is chosen to minimize the effect of pileup on the energy of the clustered jet. The distance between particle $i$ and the beam is defined as $d_{iB} = \frac{1}{k_{ti}^{2}}$.
 
-\qquad Beginning from a particle $j$, neighboring particles $i$ are combined while $d_{ij} < d_{ib}$. Otherwise, $i$ is considered the seed for a different jet. The results of this algorithm are show in Figure ~\ref{fig:antikt}. The anti-$k_{t}$ algorithm is infra-red safe and collinear safe~\cite{Cacciari:2008gp} which means that the jet clustering process is not affected significantly by low energy soft radiation. The anti-$k_{t}$ algorithm is applied to jets at CMS via the FASTJET framework\cite{Cacciari:2011ma}.
+\qquad Beginning from a particle $j$, neighboring particles $i$ are combined while $d_{ij} < d_{ib}$. Otherwise, $i$ is considered the seed for a different jet. The results of this algorithm are show in Figure ~\ref{fig:antikt}. The anti-$k_{t}$ algorithm is infra-red safe and collinear safe~\cite{Cacciari:2008gp} which means that the jet clustering process is not affected significantly by low energy soft radiation. The anti-$k_{t}$ algorithm is applied to jets at CMS via the {\sc Fastjet} framework\cite{Cacciari:2011ma}.
 
 \begin{figure}[here]
 \includegraphics[width=0.9\textwidth]{antikt.jpg}
@@ -859,7 +864,7 @@ Hadrons are identified after the unique signatures of electrons, photons, and mu
 
 \qquad Multiple types of corrections are applied to the jets. First, the average $p_{T}$ density per unit area is used to estimate the soft jet activity, which is associated with a combination of the underlying event, electronic noise, and pileup ~\cite{Kirschenmann:1627818}. This energy is subtracted using $\eta$ and $p_{T}$ dependant scale factors. The next level of corrections use Monte Carlo to calibrate the differences between reconstructed jets and generated jets in bins of $p_{T}$ and $\eta$. This step is designed to account for detector imperfections, such as a non-linear $p_{T}$ response of the calorimeters or variations in response with respect to $\eta$. Finally, data-driven residual scale factors are computed by measuring jet $p_{T}$ imbalances in dijet events and Z/$\gamma$+jets.
 
-\qquad Jets which originate from pileup rather than the hard scattering process of interest are identified and removed. A boosted decision tree is trained using a Z+jets Monte Carlo sample produced with MADGRAPH and PYTHIA. Jet shower shape and vertex related variables are used as inputs to identify reconstructed jets which are not matched to a generator level hard scattering process. \cite{CMS-PAS-JME-13-005} 
+\qquad Jets which originate from pileup rather than the hard scattering process of interest are identified and removed. A boosted decision tree is trained using a Z+jets Monte Carlo sample produced with {\sc MadGraph} and {\sc Pythia}. Jet shower shape and vertex related variables are used as inputs to identify reconstructed jets which are not matched to a generator level hard scattering process. \cite{CMS-PAS-JME-13-005} 
 
 \subsubsection{B-Jets}\label{bjets}
 \qquad Jets which originate from b quark decays are referred to as b-jets. B quarks produced in the hard scattering event can travel a measurable distance before decaying. B-jets are identified by finding jets which originate from a secondary vertex, displaced in $d_{xy}$ from the primary vertex. Secondary vertices are required to share less than 65\% of their associated tracks with the primary vertex and have at least a 3$\sigma$ radial distance significance from the primary vertex. The secondary vertices must be within $d_{xy} <$0.2 cm and $d_{z} <$17 cm of the primary vertex, which accounts for the time it takes the b quark to hadronize. The tracks from the secondary vertices must have $p_{T} >$ 1 GeV and have at least eight associated hits in the tracker. Tracks that pass these requirements are used as inputs in the Combined Secondary Vertex (CSV) algorithm. This algorithm identifies b-jets using vertex and tracker related variables to identify b-jets and is trained with a $t\bar{t}$ sample. The b-tagging efficiency is 85\%. \cite{Chatrchyan:2012jua}
@@ -906,18 +911,14 @@ The Higgs mass has now been defined in terms of the mass of the visible decay pr
 \includegraphics[height=5.5cm]{masses_muhad_VBF_After_Presel_signal.pdf}
  \caption{$M_{vis}$  and $M_{collinear}$  shape comparisons after the pre-selection for the $H \rightarrow \mu\tau_{h}$ channel}
  \label{fig:MvisMcol}\end{center}\end{figure*}
+ 
+\section{Misidentified Leptons}\label{fakes}
+\qquad Jets may be mistakenly identified as leptons. These misidentified leptons are referred to as "fakes." Misidentified leptons are produced by jets in W+Jets and QCD multi-jet events. The W+Jets background is particularly significant as the largest irreducible background in this analysis. If a jet is misidentified as a tau and the W boson decays muonically, then the kinematics of the event may be identical to the LFV signal: a muon, a tau, and missing energy opposite to the muon. 
 
-\section{8 TeV Backgrounds and Datasets}
-\subsection{Data}
-\qquad The search is performed on the 2012, $\sqrt{s}$ = 8 TeV dataset, comprising 19.7$fb^{-1}$ of data. The $H \rightarrow \mu\tau_{h}$ channel selection requires an isolated single muon trigger with a $p_{T}^{\mu}$ threshold of 24 GeV in the range $|\eta| < 2.1$, while the $H \rightarrow \mu\tau_{e}$ channel requires a muon-electron trigger with $p_{T}$ threshold of 17 GeV ($|\eta| < 2.5$) and 8 GeV ($|\eta| < 2.4$), respectively. 
-\subsection{LFV Higgs and SM Higgs}
-\qquad The signal decay $H \rightarrow \mu\tau$ is implemented via PYTHIA8. This version of PYTHIA8 contains decay mechanisms that account for tau polarization and spin, and the interface with Tauola is not needed\cite{Sjostrand:2014zea}. The Standard Model $H \rightarrow \tau\tau$ background is modelled using PYTHIA 6 and Tauola. In addition to the generators, the full GEANT detector simulation is used for each Monte Carlo sample.
+\qquad This background is estimated using a data driven method. The same preselection cuts are used, but the isolation of one of the leptons is inverted, so that is it surrounded by other PF objects in the event. This enriches the contributions from W+jets and QCD multijet events and gives a larger sample of data statistics for estimating the background. 
+The probability for particle flow objects to be misidentified as leptons is measured in an independent collision data set of $Z \rightarrow \mu\mu + X$, where $X$ is the lepton whose misidentification rate is being measured. The $Z \rightarrow \mu\mu + X$ sample is selected by applying the loose preselection cuts described in section \ref{eventsel} to a final state of two muons plus an addition electron, muon, or tau corresponding to the leptonic fake rate that is being measured. The two muons are required to have opposite sign, and the sign of the additional lepton is not specified. The two muons are also required to have an invariant mass between 75 GeV and 105 GeV.
 
-%\qquad The largest Monte Carlo backgrounds, such as $Z \rightarrow \tau\tau$ and W+jets, are estimated using data and the smaller backgrounds are estimated with simulation. 
-\subsection{Z to tau tau}
-\qquad The $Z \rightarrow \tau\tau$ background is estimated using a particle flow embedding technique. A sample of $Z \rightarrow \mu\mu$ events is taken from data using a loose selection. The muons are then replaced with simulated tau decays reconstructed with the particle flow algorithm. The key features of the event topology, such as the jets, missing energy, and underlying event, are taken directly from data. Only the tau decays are simulated. The sample is normalized in accordance with the Monte Carlo expectation, using Drell Yan events generated with MADGRAPH and PYTHIA6.
-\subsection{Misidentified Leptons}\label{fakes}
-\qquad Jets may be mistakenly identified as leptons. These misidentified leptons are referred to as "fakes." Misidentified leptons are produced by jets in W+Jets and QCD multi-jet events. The W+Jets background is particularly significant as the largest irreducible background in this analysis. If a jet is misidentified as a tau and the W boson decays muonically, then the kinematics of the event may be identical to the LFV signal: a muon, a tau, and missing energy opposite to the muon. This background is estimated using a data driven method. The same preselection cuts are used, but the isolation of one of the leptons is inverted, so that is it surrounded by other PF objects in the event. This enriches the contributions from W+jets and QCD multijet events and gives a larger sample of data statistics for estimating the background. The probability for particle flow objects to be misidentified as leptons is measured in an independent collision data set, and this probability is applied to the background enriched sample to compute the misidentified lepton background in the signal sample. This technique is shown schematically in Table 4 in which four regions are defined. Regions I and III are the signal and background enriched regions, respectively, and Regions II and IV are the control regions, with the same selections as Regions I and III but with a same sign lepton requirement. The control regions are designed to maximize the number of fake lepton events while minimizing other backgrounds in order to directly test the accuracy of the fake rate method. This technique is illustrated in Table \ref{tab:fakeratediagram}.
+\qquad The misidentification probability is applied to a data sample rich in misidentified leptons to compute the misidentified lepton background in the signal sample. This technique is shown schematically in Table 4 in which four regions are defined. Region I is defined by the preselection cuts described in section \ref{eventsel}. Region III has the same selections as Region I but with a nonisolated requirement on the lepton whose fake rate is being measured. This requirement varies for each lepton and is described in more detail below. Regions I and III are the signal and background enriched regions, respectively, and Regions II and IV are the control regions, with the same selections as Regions I and III but with a same sign lepton requirement. The control regions are designed to maximize the number of fake lepton events while minimizing other backgrounds in order to directly test the accuracy of the fake rate method. This technique is illustrated in Table \ref{tab:fakeratediagram}. 
 
 \begin{table}[hbt]
  \centering
@@ -944,9 +945,69 @@ $\ell^{\mp}_{2}$(non-isolated )  &  $\ell^{\pm}_{2}$(non-isolated)             \
   \end{tabular}
   
 \end{table}
+\subsection{Misidentified Taus}\label{misidtaus}
+\qquad In the $H \rightarrow \mu\tau_{h}$ channel, the $\tau_{h}$ candidate can arise from a misidentified jet coming predominantly from W+jets and QCD multijet events. The misidentification rate $f_{\tau_{h}}$ is measured in $Z \rightarrow \mu\mu +X$ events selected in data, where $X$ is an object identified as a $\tau_{h}$ candidate that passes the loose isolation requirement of $I_{PF}^{\tau} <$ 2 GeV (see section \ref{taus} for a definition of $I_{PF}^{\tau}$). The factor $f_{\tau_{h}}$ is defined as the fraction of these loosely isolated $\tau_{h}$ candidates that pass the tighter isolation requirement, $I_{PF}^{\tau} <$ 0.8 GeV, used to define the signal region. The misidentification rate measured in $Z\rightarrow \mu\mu+X$ collision data is compared to the measured rate in simulation and is found to be in agreement, as shown in figures \ref{fig:taufakerate8TeV} and \ref{fig:taufakerate13TeV}.
+
+\begin{figure*}[hbtp]\centering
+\includegraphics[width=0.48\textwidth]{tightOldIso_looseOldIso_tPt_fakeRate_8TeV.png}
+\includegraphics[width=0.48\textwidth]{tightOldIso_looseOldIso_tEta_fakeRate_8TeV.png}
+\caption{Distributions of $f_{tau_{h}}$ as a function of $ p_{T}^{\tau}$ (left) and $\eta^{\tau}$ (right) in $\sqrt{s}$ = 8 TeV.
+\label{fig:taufakerate8TeV}\end{figure*}
+
+\begin{figure*}[hbtp]\centering
+\includegraphics[width=0.48\textwidth]{tightOldIso_looseOldIso_tPt_fakeRate_13TeV.png}
+\includegraphics[width=0.48\textwidth]{tightOldIso_looseOldIso_tEta_fakeRate_13TeV.png}
+\caption{Distributions of $f_{tau_{h}}$ as a function of $ p_{T}^{\tau}$ (left) and $\eta^{\tau}$ (right) in $\sqrt{s}$ = 13 TeV.
+\label{fig:taufakerate13TeV}\end{figure*}
 
 
-\qquad In the $H \rightarrow \mu\tau_{e}$ channel, Region I is the signal region in which an isolated muon and an isolated electron are required. In Region III all the analysis selection criteria are applied to the data sample, with the exception that one of the leptons is required to be non-isolated. This creates a region enriched with misidentified leptons. There are two types of events in this region: those with an isolated muon and a non-isolated electron and those with an isolated electron and a non-isolated muon. There are a negligible number of signal events in Region III. Regions II and IV are defined using the same selection criteria as Region I and III, respectively, but same-sign leptons are required instead of opposite sign leptons. The sample in region III is dominated by W+jets and QCD multijets. The misidentified electron background in Region I is estimated by multiplying the event yield in Region III by a factor $f_{e}$, where $f_{e}$ is the ratio of non-isolated to isolated electrons. It is computed in an independent data sample $Z \rightarrow \mu\mu + X$, which $X$ is a particle flow object identified as an electron. Background sources of real leptons, such as diboson events, are subtracted from the $Z \rightarrow \mu\mu +X$ sample using Monte Carlo simulation. The misidentified muon background is computed in the same way. The technique is validated using the same-sign data from regions II and IV. In Figure \ref{fig:samesign_fakes} the observed data yield in Region II is compared to the estimate obtained by scaling the Region IV sample by the measured misidentification rates.
+\qquad The enriched background regions (III and IV) are defined by requiring the presence of $\tau_{h}$ candidates that pass the looser isolation requirement ($I_{PF}^{\tau} <$ 2 GeV), but do not pass the tight isolation requirement ($I_{PF}^{\tau} <$ 0.8 GeV). The misidentified background yield in the signal region (Region I) is estimated by multiplying the event yield in Region III by a factor $\frac{f_{\tau_{h}}}{1-f_{\tau_{h}}}$. The fake rate factors, which are computed as a function of the tau decay mode, are given in tables \ref{tab:taufakerate8TeV} and \ref{tab:taufakerate13TeV}. The procedure is validated with same-sign $\mu\tau_{h}$ events (Region II) using Region IV to model the misidentified background, in the same way as for the $H \rightarrow \mu\tau_{e}$ channel. The control region for the $H \rightarrow \mu\tau_{h}$ channel is shown in Figure \ref{fig:samesign_fakes}.
+
+\begin{table}[htbp]
+  \centering
+  \begin{tabular}{ | l | c |}
+    \hline
+    Decay Mode & $f_{\tau_{h}}$ \\ \hline \hline
+    $\tau \rightarrow \pi^{+}_{ - }$ & 0.53 \\ \hline
+    $\tau \rightarrow \pi^{+}_{ - }\pi^{0}$ & 0.48 \\ \hline
+    $\tau \rightarrow \pi^{+}_{ - }\pi\pi\pi$& 0.46 \\ \hline
+    
+  \end{tabular}
+  \caption{Measured fake rates $f_{\tau_{h}}$ in 8 TeV data.}
+  \label{tab:taufakerate8TeV}
+\end{table}
+
+\begin{table}[htbp]
+  \centering
+  \begin{tabular}{ | l | c | c |}
+    \hline
+    Decay Mode & $f_{\tau_{h}}$ $\left(|\eta^{\tau}|<1.5\right)$ & $f_{\tau_{h}}$ $\left(|\eta^{\tau}|>1.5\right)$ \\ \hline \hline
+    $\tau \rightarrow \pi^{+}_{ - }$ & 0.39 & 0.41 \\ \hline
+    $\tau \rightarrow \pi^{+}_{ - }\pi^{0}$ & 0.43 & 0.45 \\ \hline
+    $\tau \rightarrow \pi^{+}_{ - }\pi\pi\pi$& 0.36 & 0.35 \\ \hline
+  \end{tabular}
+  \caption{Measured fake rates $f_{\tau_{h}}$ in 13 TeV data. At 13 TeV a small $\eta$ dependence in $f_{\tau_{h}}$ with respect to the decay mode was observed and $f_{\tau_{h}}$ was computed as a function of $|\eta|$ in two bins}
+  \label{tab:taufakerate13TeV}
+\end{table}
+
+
+\subsection{Misidentified Muons and Electrons}
+\qquad In the $H \rightarrow \mu\tau_{e}$ channel, Region I is defined by the preselection requirements (section \ref{eventsel}) in in which an isolated muon and an isolated electron are required. At 8 TeV Region III has the same cuts are applied, with the exception that one of the leptons is required to be non-isolated by inverting its isolation selection. This means requiring $I_{PF}^{e} > 0.12$ for the electron fake rate calculation and $I_{PF}^{\mu} > 0.12$ for the muon fake rate calculation. At 13 TeV Region III is constructed in an analogous way as Region III for hadronic taus (section \ref{misidtaus}) by requiring leptons to pass a loose selection but not a tight selection. For the misidentified muon background calculation muons are required to have $0.15 < I_{PF}^{\mu} < 0.25$ and electrons are required to have $I_{PF}^{e}<0.10$. For the misidentified electron background calculation electrons are required to have  $0.10 < I_{PF}^{e} < 0.5$ and muons are required to have $I_{PF}^{\mu} < 0.15$. There are a negligible number of signal events in Region III. Regions II and IV are defined using the same selection criteria as Region I and III, respectively, but same-sign leptons are required instead of opposite sign leptons. The sample in region III is dominated by W+jets and QCD multijet events. The misidentified electron background in Region I is estimated by multiplying the event yield in Region III by a factor $f_{e}$, where $f_{e}$ is the ratio of loosely-isolated to tightly isolated electrons. It is computed in an independent data sample $Z \rightarrow \mu\mu + X$, which $X$ is a particle flow object identified as an electron. At 8 TeV, $f_{e}$ was computed as a continuous function of $p_{T}^{e}$ and $\eta^{e}$. For 13 TeV, a more discrete binning was adopted, and the fake rates $f_{e}$ are shown in table \ref{tab:efakerate13TeV}. Background sources of real leptons, such as diboson events, are subtracted from the $Z \rightarrow \mu\mu +X$ sample, using Monte Carlo simulation to estimate the diboson backgrounds (section \ref{addback}). The misidentified muon background is computed in the same way. In 13 TeV, the muon fake rate has no $p_{T}$ or $\eta$ dependence and is measured to be 0.6. The fake rate method is validated using the same-sign data from regions II and IV. In Figure \ref{fig:samesign_fakes} the observed data yield in Region II is compared to the estimate obtained by scaling the Region IV sample by the measured misidentification rates.
+
+\begin{table}[htbp]
+  \centering
+  \begin{tabular}{ | l | c | c |}
+    \hline
+     & $f_{e}$ $\left(|\eta^{e}|<1.45\right)$ & $f_{e}$ $\left(|\eta^{e}|>1.45\right)$ \\ \hline \hline
+    $p_{T}^{e} < 15$ & 0.44 & 0.44 \\ \hline
+    $15< p_{T}^{e} < 20$& 0.30 & 0.42 \\ \hline
+    $20< p_{T}^{e}$    & 0.28 & 0.42 \\ \hline
+
+  \end{tabular}
+  \caption{Measured fake rates $f_{e}$ in 13 TeV data, computed in bins of $p_{T}$ and $\eta$.}
+  \label{tab:efakerate13TeV}
+\end{table}
+
 
 \begin{figure*}[hbtp]\centering
 \includegraphics[width=0.48\textwidth]{/home/aaron/root/hlfv/fakesEle_log.pdf}
@@ -956,19 +1017,21 @@ from scaling the region IV sample by the measured misidentification rates at $\s
 \label{fig:samesign_fakes}\end{figure*}
 
 
-\qquad In the $H \rightarrow \mu\tau_{h}$ channel, the $\tau_{h}$ candidate can arise from a misidentified jet coming predominantly from W+jets and QCD multijet events. The misidentification rate $f_{\tau_{h}}$ is measured in $Z \rightarrow \mu\mu +X$ events selected in data, where $X$ is an object identified as a $\tau_{h}$ candidate that passes a loose isolation requirement. The factor $f_{\tau_{h}}$ is defined as the fraction of these loosely isolated $\tau_{h}$ candidates that pass the tighter isolation requirement used to define the signal region. The misidentification rate measured in $Z\rightarrow \mu\mu+X$ collision data is compared to the measured rate in simulation and is found to be in agreement.
+\section{8 TeV Backgrounds and Datasets}
+\subsection{Data}
+\qquad The search is performed on the 2012, $\sqrt{s}$ = 8 TeV dataset, comprising 19.7$fb^{-1}$ of data. The $H \rightarrow \mu\tau_{h}$ channel selection requires an isolated single muon trigger with a $p_{T}^{\mu}$ threshold of 24 GeV in the range $|\eta| < 2.1$, while the $H \rightarrow \mu\tau_{e}$ channel requires a muon-electron trigger with $p_{T}$ threshold of 17 GeV ($|\eta| < 2.5$) and 8 GeV ($|\eta| < 2.4$), respectively. 
+\subsection{LFV Higgs and SM Higgs}
+\qquad The signal decay $H \rightarrow \mu\tau$ is implemented via {\sc Pythia}8\cite{Sjostrand:2014zea}. This version of {\sc Pythia}8 contains decay mechanisms that account for tau polarization and spin, and the interface with {\sc Tauola}\cite{Was:2011tv} is not needed\cite{Sjostrand:2014zea}. The Standard Model $H \rightarrow \tau\tau$ background is modelled using {\sc Powheg}1.0\cite{Frixione:2007nu} and {\sc Tauola}. In addition to the generators, the full GEANT detector simulation is used for each Monte Carlo sample.
 
-\qquad The enriched background regions (III and IV) are defined by requiring the presence of $\tau_{h}$ candidates that pass the looser isolation requirement, but do not pass the tight isolation requirement. The misidentified background yield in the signal region (Region I) is estimated by multiplying the event yield in Region III by a factor $\frac{f_{\tau_{h}}}{1-f_{\tau_{h}}}$. The procedure is validated with same-sign $\mu\tau_{h}$ events (Region II) using Region IV to model the misidentified background, in the same way as for the $H \rightarrow \mu\tau_{e}$ channel. The control region for the $H \rightarrow \mu\tau_{h}$ channel is shown in Figure \ref{fig:samesign_fakes}.
-
-\subsection{Additional Backgrounds}
-
-\qquad The remaining backgrounds play a small role in the analysis and are all estimated with simulation. MADGRAPH5, PYTHIA6, and Tauola are used to simulate diboson events and events with one top quark and one antitop quark (ttbar events). POWHEG 1.0, PYTHIA6, and Tauola are used to simulated single top quark events.
+%\qquad The largest Monte Carlo backgrounds, such as $Z \rightarrow \tau\tau$ and W+jets, are estimated using data and the smaller backgrounds are estimated with simulation. 
+\subsection{Z to tau tau}
+\qquad The $Z \rightarrow \tau\tau$ background is estimated using a particle flow embedding technique\cite{CMS-PAS-HIG-12-018}. A sample of $Z \rightarrow \mu\mu$ events is taken from data. The muons are then replaced with simulated tau decays reconstructed with the particle flow algorithm. The key features of the event topology, such as the jets, missing energy, and underlying event, are taken directly from data. Only the tau decays are simulated. The sample is normalized in accordance with the Monte Carlo expectation, using Drell Yan events generated with {\sc MadGraph}\cite{Alwall:2011uj} and {\sc Pythia}6\cite{Sjostrand:2006za}.
 
 \section{13 TeV Backgrounds and Datasets}
 
 \qquad The search is performed on the 2015, $\sqrt{s}$ = 13 TeV dataset, comprising 2.3$fb^{-1}$ of data. The trigger selection requires an isolated single muon with $p_{T} >$ 20 GeV in the range $|\eta| < 2.4$.
 
-\qquad The LFV and SM Higgs boson samples are generated using POWHEG 1.0, with CT10 parton distribution functions, interfaced to PYTHIA 8.212. The MADGRAPH 5.1.3.30 generator is used for Z+jets, $t\bar{t}$, and diboson production. POWHEG is used for single top production. The POWHEG and MADGRAPH generators are interfaced to PYTHIA for parton showering and hadronization. The misidentified lepton background is modelled using the fake rate method, as discussed in section \ref{fakes}. Comparisons between data and Monte Carlo in the Region II control region are show in Figure \ref{fig:samesign_fakes13TeV} 
+\qquad The LFV and SM Higgs boson samples are generated using {\sc Powheg} 1.0, with CT10 parton distribution functions, interfaced to {\sc Pythia} 8.212. The {\sc MadGraph} 5.1.3.30 generator is used for Z+jets, $t\bar{t}$, and diboson production. {\sc Powheg} is used for single top production. The {\sc Powheg} and {\sc MadGraph} generators are interfaced to {\sc Pythia} for parton showering and hadronization. The misidentified lepton background is modelled using the fake rate method, as discussed in section \ref{fakes}. Comparisons between data and Monte Carlo in the Region II control region are show in Figure \ref{fig:samesign_fakes13TeV} 
 
 \begin{figure*}[hbtp]\centering
 \includegraphics[width=0.48\textwidth]{/home/aaron/root/lfv/76X_V2_MuonFix_March30/preselectionSS_collMass_type1_MuTau_AMCATNLO.pdf}
@@ -982,7 +1045,7 @@ from scaling the region IV sample by the measured misidentification rates at $\s
 
 \qquad The preselection for the $H \rightarrow \mu\tau_{e}$ channel requires an isolated tight muon (section \ref{muons}) with $p_{T} > 25 GeV$, $|\eta| < 2.1$, and an isolated tight election (section \ref{electrons}) of opposite charge, with $p_{T} > 10 GeV$, $|\eta| < 2.3$. The isolation requirement for the muon is $I_{PF}^{\mu} < 0.12$ at 8 TeV and $I_{PF}^{\mu} < 0.15$ at 13 TeV. The isolation requirement for the electron is $I_{PF}^{e} < 0.12$ at 8 TeV, and $I_{PF}^{e} < 0.10$ at 13 TeV. The effective area corrections for pileup subtraction are applied at 13 TeV. The $H \rightarrow \mu\tau_{h}$ channel requires an isolated tight muon with $p_{T} > 30 GeV$, $|\eta| < 2.1$, and a tightly isolated hadronic tau (section \ref{taus}) of opposite charge, with $p_{T} >$ 30 GeV, $|\eta| <$ 2.3. Events with additional leptons are vetoed.
 
-\qquad The events are then divided into categories corresponding to the number of jets in the event. Jets are required to pass particle flow identification algorithms (section\ref{jets}), have $p_{T} > 30$ GeV and lie within $|\eta| < 4.7$. The zero jet category contains events primarily produced by gluon-gluon fusion. The one jet category is also dominated by gluon-gluon fusion events. The two jet category contains a significant number of vector boson fusion events. Events in the two jet category are required to have the jets separated by a rapidity gap ($\Delta\eta > 3.5$) and to have an invariant dijet mass greater than 550 GeV. In the $H \rightarrow \mu\tau_{e}$ channel events are vetoed if they contain a b-jet. Agreement between data and Monte Carlo simulation at preselection are show in figure \ref{fig:Mcol_after_presel_WITHDATA} for $\sqrt{s}$ = 8 TeV and in figure \ref{fig:Mcol_after_presel_WITHDATA_13TeV} for $\sqrt{s}$ = 13 TeV.
+\qquad The events are then divided into categories corresponding to the number of jets in the event. Jets are required to pass particle flow identification algorithms (section\ref{jets}), have $p_{T} > 30$ GeV and lie within $|\eta| < 4.7$. The zero jet category contains events primarily produced by gluon-gluon fusion. The one jet category is also dominated by gluon-gluon fusion events. The two jet category contains a significant number of vector boson fusion events. Events in the two jet category are required to have the jets separated by a rapidity gap ($\Delta\eta > 3.5$) and to have an invariant dijet mass greater than 550 GeV. The rapidity requirement allows us to veto ttbar events, as mentioned in section \ref{higgspheno}. In the $H \rightarrow \mu\tau_{e}$ channel events are vetoed if they contain a b-jet. Agreement between data and Monte Carlo simulation at preselection are show in figure \ref{fig:Mcol_after_presel_WITHDATA} for $\sqrt{s}$ = 8 TeV and in figure \ref{fig:Mcol_after_presel_WITHDATA_13TeV} for $\sqrt{s}$ = 13 TeV.
 
 \begin{figure*}[hbtp]\centering
  \includegraphics[width=0.42\textwidth]{/home/aaron/root/hlfv/muele_GG_m_colinear_UNBLIND_PRESEL_BR100.pdf}
@@ -1085,7 +1148,7 @@ underlying event/parton shower  &   $+4$     & $-5$   &  $-10$   & $+10$    &   
 \end{table*}
 
 
-\qquad There are several uncertainties on the H production cross section, which depend on the production mechanism contribution and the analysis category. They are given in Table \ref{tab:theory_systematics}. These affect the LFV H and the SM H background equally, and are treated as 100\% correlated. The parton distribution function (PDF) uncertainty is evaluated b comparing the yields in each category, when spanning the parameter range of a number of different independent PDF sets including CT10 \cite{Nadolsky:2008zw}, MSTW \cite{Martin:2009iq}, NNPDF \cite{Ball:2010de}, as recommended by PDF4LHC \cite{Alekhin:2011sk}. The scale uncertainty is estimated by varying the renormalization and factorization scales, $\mu_{R}$ and $\mu_{F}$, up and down by one half or two times the nominal scale ($\mu_{R} = \mu_{F} = M_{H}/2$) under the constraint $0.5 < \mu_{F}/\mu_{R} < 2$. \cite{Dittmaier:2011ti}. The underlying event and parton shower uncertainty is estimated by using two different PYTHIA tunes, CUET2 and Z2*. Anticorrelations arise due to migration of events between the categories and are expressed as negative numbers
+\qquad There are several uncertainties on the H production cross section, which depend on the production mechanism contribution and the analysis category. They are given in Table \ref{tab:theory_systematics}. These affect the LFV H and the SM H background equally, and are treated as 100\% correlated. The parton distribution function (PDF) uncertainty is evaluated b comparing the yields in each category, when spanning the parameter range of a number of different independent PDF sets including CT10 \cite{Nadolsky:2008zw}, MSTW \cite{Martin:2009iq}, NNPDF \cite{Ball:2010de}, as recommended by PDF4LHC \cite{Alekhin:2011sk}. The scale uncertainty is estimated by varying the renormalization and factorization scales, $\mu_{R}$ and $\mu_{F}$, up and down by one half or two times the nominal scale ($\mu_{R} = \mu_{F} = M_{H}/2$) under the constraint $0.5 < \mu_{F}/\mu_{R} < 2$. \cite{Dittmaier:2011ti}. The underlying event and parton shower uncertainty is estimated by using two different {\sc Pythia} tunes, CUET2 and Z2*. Anticorrelations arise due to migration of events between the categories and are expressed as negative numbers
  
 \subsubsection{Shape Uncertainties}
 
@@ -1363,38 +1426,91 @@ This observed limit on the branching ratio is slightly tighter than the $B(H \ri
 
 
 \chapter{W+Jets Differential Cross Section Measurement}\label{wjets}
+
+\section{Analysis Overview}
+
+\qquad As mentioned in section \ref{wboson}, events with a W boson with associated jets are produced at the LHC via parton-parton scattering. The jet multiplicity and kinematics give an experimental measurement of QCD and are compared to LO and NLO Monte Carlo simulation. The W boson may decay hadronically or leptonically. In this analysis we only select the muonic decay channel because of CMS's efficiency at identifying muons (sections \ref{muonsys}, \ref{muons}). Due to lepton flavor conservation required by the Standard Model, a muon neutrino will be emitted in conjunction with the muon. This neutrino will contribute to the missing transverse energy (section \ref{met}) in the event. To conserve momentum, the muon and its neutrino partiner will tend to be emitted back-to-back in $\phi$. This difference in $\phi$ will result in a large transverse mass $M_{T}^{\mu}$, as given in equation \ref{eq:mtmu}. 
+
+\begin{equation}
+M_{T}^{\mu} = \sqrt{2 p_{T}^{\mu}E_{T}^{miss}(1-cos \Delta\phi_{\vec{p}_{T}^{\mu}-\vec{E}_{T}^{miss}})}
+\label{eq:mumu}
+\end{equation}
+
 \section{Backgrounds and Datasets}
 \subsection{Data}
-\qquad This measurement utilizes data collected at $\sqrt{s}$ = 13 TeV in 2015 at the LHC. The trigger selection requires an isolated single muon with $p_{T} >$ 20 GeV in the range $|\eta| < 2.4$. The integrated luminosity used is 2.5$fb^{-1}$. This is 0.2 $fb^{-1}$ more than the 13 TeV LFV dataset. The reason for this discrepancy is that LFV events must come from a time period in which the forward hadronic calorimeter is certified to be working correctly. The jet pull in VBF Higgs events requires the use of the forward calorimeter system to identify high $|\eta|$ jets, but this requirement is not necessary for a W+jets measurement.
+\qquad This measurement utilizes data collected at $\sqrt{s}$ = 13 TeV in 2015 at the LHC. The trigger selection requires an isolated single muon with $p_{T} >$ 20 GeV in the range $|\eta| < 2.4$. The integrated luminosity used is 2.5$fb^{-1}$. This is 0.2 $fb^{-1}$ more than the 13 TeV LFV dataset. The reason for this discrepancy is that LFV events must come from a time period in which the forward hadronic calorimeter is certified to be working correctly. The rapidity gap (section \ref{eventsel}) in VBF Higgs events requires the use of the forward hadronic calorimeter system to identify high $|\eta|$ jets, but this requirement is not necessary for a W+jets measurement.
 
-\subsection{Monte Carlo}
-\qquad Background processes with similar final state signatures as W+jets are Z+jets, $t\bar{t}$, single top, diboson +jets, and QCD multijets. The QCD multijet background is estimated using a data-driven method, as discussed in section \ref{qcdestimate}. The other backgrounds are all estimated using Monte Carlo. W+jets and Z+jets samples are generated with \textsc{{\sc MadGraph5$\_$aMC@NLO}}. 
-The $t\bar{t}$ background is generated using POWHEG. Single top backgrounds are generated using {\sc MadGraph5$\_$aMC@NLO} or POWHEG, depending on the channel. 
-%The tW single top channel is generated with POWHEG, but the s and t channels are generated with
-The single top simulation is generated with a mixture of POWHEG and {\sc MadGraph5$\_$aMC@NLO}, depending on the decay channel. Dibison simulation is generated using POWHEG for WW and PYTHIA8 for WZ and ZZ. The CUETP8M1\cite{Khachatryan:2015pea} tune scenario is used in PYTHIA8 for parton showering and hadronization. MCFM is used the evaluate the Monte Carlo cross sections at NLO. 
+\subsection{Monte Carlo}\label{wjetsmc}
+\qquad Background processes with similar final state signatures as W+jets are Z+jets, $t\bar{t}$, single top, diboson +jets, and QCD multijets. The QCD multijet background is estimated using a data-driven method, as discussed in section \ref{qcdestimate}. The other backgrounds are all estimated using Monte Carlo. W+jets and Z+jets samples are generated with \textsc{{\sc MadGraph5$\_$aMC@NLO}}\cite{Alwall:2014hca}. 
+The $t\bar{t}$ background is generated using {\sc Powheg}. Single top backgrounds are generated using {\sc MadGraph5$\_$aMC@NLO} or {\sc Powheg}\cite{Frixione:2007nu}, depending on the channel. 
+%The tW single top channel is generated with {\sc Powheg}, but the s and t channels are generated with
+The single top simulation is generated with a mixture of {\sc Powheg} and {\sc MadGraph5$\_$aMC@NLO}, depending on the decay channel. Dibison simulation is generated using {\sc Powheg} for WW and {\sc Pythia}8 for WZ and ZZ. The CUETP8M1\cite{Khachatryan:2015pea} tune scenario is used in {\sc Pythia}8 for parton showering and hadronization. MCFM \cite{Campbell:2015qma}\cite{Campbell:2011bn}\cite{Campbell:1999ah} is used the evaluate the Monte Carlo cross sections at NLO. 
 
-\qquad The experimentally measured W+jets differential cross sections are compared to two matrix element calculations. The leading order calculation is generated by MADGRAPH5 interfaced with PYTHIA8 for parton showering and hadronization. The CTEQ6L1 parton distribution functions are used \cite{Manohar:2012pe}, and the matrix element calculation is matched to the parton showering using the MLM scheme \cite{Alwall:2008qv}\cite{Alwall:2007fs} The MLM matching algorithm is as follows. After parton showering in pythia, as described in section \ref{mcgen}, the anti-$k_{t}$ jet cone algorithm is applied to the showered partons. The jet closest in $(\eta, \phi)$ to the hardest parton is selected. If the distance between the jet and the parton is less than 1.5 times the cone of radius R used in the jet clustering algorithm, then the jet and the parton are matched. Each hard parton must be matched to a jet. If a hard parton in an event is not matched to a jet, then the event is rejected. The NLO calculation is computed with {\sc MadGraph5$\_$aMC@NLO} interfaced with PYTHIA8 in the CUETP8M1 tune. The FXFX merging scheme \cite{Frederix:2012ps} is used with a merging scale parameter of 30 GeV. The NNPDF 3.0 NLO PDF \cite{Ball:2014uwa} is used for the matrix element calculation, while the NNPDF 2.3 LO \cite{Ball:2010de}\cite{Ball:2011mu} is used for the parton showering and hadronization. This gives NLO accuracy for 0,1, and 2 jet events and LO accuracy for 3 and 4 jet events. 
+\qquad The experimentally measured W+jets differential cross sections are compared to two matrix element calculations. The leading order calculation is generated by {\sc MadGraph}5 interfaced with {\sc Pythia}8 for parton showering and hadronization. The CTEQ6L1 parton distribution functions are used \cite{Manohar:2012pe}, and the matrix element calculation is matched to the parton showering using the MLM scheme \cite{Alwall:2008qv}\cite{Alwall:2007fs} The MLM matching algorithm is as follows. After parton showering in {\sc Pythia}, as described in section \ref{mcgen}, the anti-$k_{t}$ jet cone algorithm is applied to the showered partons. The jet closest in $(\eta, \phi)$ to the hardest parton is selected. If the distance between the jet and the parton is less than 1.5 times the cone of radius R used in the jet clustering algorithm, then the jet and the parton are matched. Each hard parton must be matched to a jet. If a hard parton in an event is not matched to a jet, then the event is rejected. The NLO calculation is computed with {\sc MadGraph5$\_$aMC@NLO} interfaced with {\sc Pythia}8 in the CUETP8M1 tune. The FXFX merging scheme \cite{Frederix:2012ps} is used with a merging scale parameter of 30 GeV. The NNPDF 3.0 NLO PDF \cite{Ball:2014uwa} is used for the matrix element calculation, while the NNPDF 2.3 LO \cite{Ball:2010de}\cite{Ball:2011mu} is used for the parton showering and hadronization. This gives NLO accuracy for 0,1, and 2 jet events and LO accuracy for 3 and 4 jet events. 
 
 \subsection{QCD Background}\label{qcdestimate}
 
-\qquad The QCD background is estimated using a data driven method. Four regions are defined. Region A, the signal region, requires an isolated muon and a $M_{T} >$ 50 GeV cut. Region B requires an isolated muon and a $M_{T} <$ 50 GeV, minimizing the W+Jets contribution. Regions C and D are analogous to regions A and B, but with an inverted muon isolation requirement, which maximizes the QCD contribution.
+\qquad The QCD background is estimated using a iterative data driven method. Four regions are defined. Region A, the signal region, requires an isolated muon with $I_{PF}^{\mu}<$  0.15 (section \ref{muons}) and a $M_{T} >$ 50 GeV cut. Region B requires an isolated muon and a $M_{T} <$ 50 GeV, minimizing the W+Jets contribution. Regions C and D are analogous to regions A and B, but with an nonisolated muon isolation requirement,$I_{PF}^{\mu}>$  0.2,  which maximizes the QCD contribution. 
 
 \qquad In region A, the W+jets Monte Carlo is scaled by a factor $f_{W}$ such that the number of W+jets and background Monte Carlo events exactly matches the number of data events in region A. This same scale factor is applied to W+jets in regions B,C, and D as well.
 
 \qquad In region C, a histogram that determines the QCD shape is created by subtracting the Monte Carlo histograms from the data histograms. 
 
-\qquad The muon isolation fake rate $f_{B/D}$ is calculated by dividing the difference between the data and Monte Carlo event counts in region B by the difference between the data and Monte Carlo event counts in region D. This fake rate factor is applied to the QCD histogram in region C to give a QCD estimate in the signal region. 
+\qquad The muon isolation scale factor $f_{B/D}$ is calculated by dividing the difference between the data and Monte Carlo event counts in region B by the difference between the data and Monte Carlo event counts in region D. This scale factor is applied to the QCD histogram in region C to give a QCD estimate in the signal region. 
 
-\qquad However, the scale factor for W+jets computed in region A at the beginning of the procedure did not take the QCD background into account. The calculation is repeated 11 additional times, at which point $f_{W}$ and $f_{B/D}$ will have stabilized.
+\qquad However, the scale factor for W+jets computed in region A at the beginning of the procedure does not take the QCD background into account. The calculation is repeated 11 additional times, at which point $f_{W}$ and $f_{B/D}$ will have stabilized. The results are show in tables \ref{tab:qcdfactorsinc} and \ref{tab:qcdfactorsexc}
+ 
+\begin{table}
+\centering
+\caption{The initial and final (after the iterative procedure) values of $f_{W}$ are shown, as well as the inital and final values of $f_{B/D}$, the muon isolation scale factor. These values are computed in exclusive jet bins.}
+\footnotesize{
+\begin{tabular}{l|cccc}
+  &  Initial $f_{W}$ & Final $f_{W}$ & Initial $f_{B/D}$ & Final $f_{B/D}$ \\ \hline
+   $N_{\text{jets}} = 0$        & 1.08 & 1.05 & 1.41 & 1.49 \\
+   $N_{\text{jets}} = 1$        & 1.04 & 0.99 & 1.03 & 1.08 \\
+   $N_{\text{jets}} = 2$        & 1.05 & 1.00 & 0.76 & 0.82 \\
+   $N_{\text{jets}} = 3$        & 1.06 & 1.06 & 0.50 & 0.56 \\
+   $N_{\text{jets}} = 4$        & 1.33 & 1.30 & 0.26 & 0.31 \\
+   $N_{\text{jets}} = 5$        & 1.22 & 1.13 & 0.97 & 1.06 \\
+ \hline
+ \end{tabular}}
+\label{tab:qcdfactorsexc}
+\end{table} 
+
+\begin{table}
+\centering
+\caption{The initial and final (after the iterative procedure) values of $f_{W}$ are shown, as well as the inital and final values of $f_{B/D}$, the muon isolation scale factor. These values are computed in inclusive jet bins.}
+\footnotesize{
+\begin{tabular}{l|cccc}
+  &  Initial $f_{W}$ & Final $f_{W}$ & Initial $f_{B/D}$ & Final $f_{B/D}$ \\ \hline
+   $N_{\text{jets}} \geq 0$        & 1.07 & 1.04 & 1.12 & 1.17 \\
+   $N_{\text{jets}} \geq 1$        & 1.05 & 1.00 & 0.97 & 1.02 \\
+   $N_{\text{jets}} \geq 2$        & 1.07 & 1.02 & 0.71 & 0.77 \\
+   $N_{\text{jets}} \geq 3$        & 1.15 & 1.10 & 0.47 & 0.54 \\
+   $N_{\text{jets}} \geq 4$        & 1.31 & 1.27 & 0.33 & 0.39 \\
+   $N_{\text{jets}} \geq 5$        & 1.23 & 1.18 & 0.65 & 0.71 \\
+ \hline
+ \end{tabular}}
+\label{tab:qcdfactorsexc}
+\end{table}
  
 \section{Event Selection}
-\qquad As mentioned in section \ref{wboson}, W bosons decay to hadrons or leptons. This analysis focuses on the muonic decay channel, where the W boson decays to a muon and its associated neutrino. The muon system of CMS, as discussed in section \ref{muonsys}, enables particularly high muon efficiency and accurate energy resolution. Complicated scenarios such as hadronic tau decays or superclusters of e/$\gamma$ deposits are avoided by choosing the muonic channel. Muons are required to have $p_{T}$ > 25 GeV, $|\eta| <$ 2.4, and $I_{PF}^{\mu} < 0.15$. Jets are identified using the anti-$k_{T}$ algorithm (section \ref{jets}), with $p_{T} >$ 30 GeV and $|y| <$ 2.4. Jets are required to be separated by $\Delta R >$ 0.4 from muon candidates. Jets that originate from pileup interactions, rather than the hard scattering event that produces the W boson, are referred to as pileup jets. The contamination from pileup jets is reduced by requiring jets to originate from the same vertex as the muon candidate. This is accomplished by passing vertex and jet shower shape variables into a boosted decision tree which returns a discriminator for pileup jets \cite{CMS-PAS-JME-13-005}. An additional cut is placed on the discriminator so that W+jets events exhibit a minimal dependence on the pileup.
+\qquad As mentioned in section \ref{wboson}, W bosons decay to hadrons or leptons. This analysis focuses on the muonic decay channel, in association with jets, in which the W boson decays to a muon and a muon neutrino and jets are produced from energetic hadronic products of deep inelastic scattering. The muon system of CMS, as discussed in section \ref{muonsys}, enables particularly high muon efficiency and accurate energy resolution. Complicated scenarios such as hadronic tau decays or superclusters of e/$\gamma$ deposits are avoided by choosing the muonic channel. Muons are required to have $p_{T} >$ 25 GeV, $|\eta| <$ 2.4, and $I_{PF}^{\mu} < 0.15$. Jets are identified using the anti-$k_{T}$ algorithm (section \ref{jets}), with $p_{T} >$ 30 GeV and $|y| <$ 2.4. Jets are required to be separated by $\Delta R >$ 0.4 from muon candidates. Jets that originate from pileup interactions, rather than the hard scattering event that produces the W boson, are referred to as pileup jets. The contamination from pileup jets is reduced by requiring jets to originate from the same vertex as the muon candidate. This is accomplished by passing vertex and jet shower shape variables into a boosted decision tree which returns a discriminator, puMVA, for pileup jets \cite{CMS-PAS-JME-13-005}. An additional cut of $-0.3 <$ puMVA is placed on the discriminator so that W+jets events exhibit a minimal dependence on the pileup. The effect of this cut is show in figure ***\ref{fig:pumva}. 
+
+\begin{figure}[!Hhtbp]
+%\renewcommand{\figurename}{Figure}
+\begin{center}
+\includegraphics[width=0.9\textwidth]{/home/aaron/root/wjets/June12_WJetsFinal/ZNGoodJets_Zexc.pdf}
+\end{center}
+\caption{A plot of the puMVA discriminator used to reduce dependence on pileup jets. A cut of puMVA $>-0.3$ is applied.}
+\label{mult}
+\end{figure}
 
 \qquad The main background to W+jets production at high jet multiplicities is $t\bar{t}$ production. The top quarks will decay into their lighter partners, bottom quarks, which will produce b jets. The $t\bar{t}$ contamination is reduced by applying a b-jet veto, as discussed in section \ref{jets}. The yield differences between table \ref{tab:btag} and table \ref{tab:events} show the effect of the b-jet veto. At high jet multiplicities the $t\bar{t}$ contribution is reduced by approximately a factor of six while the $W \rightarrow \mu\nu$ signal remains at 80\%-90\% of its pre-veto yield.
 
 \begin{table}\small
 \centering
-\caption{Number of events in data and simulation as a function of the exclusive jet multiplicity before the implementation of b tag veto. The diboson samples (WW, WZ, and ZZ) are represented by VV.}
+\caption{Number of events in data and simulation as a function of the exclusive jet multiplicity before the implementation of the b-tag veto. The diboson samples (WW, WZ, and ZZ) are represented by VV.}
 \footnotesize{
 \begin{tabular}{l|ccccccc}
   &  $N_{\text{jets}} = 0 $ & $N_{\text{jets}} = 1 $ & $N_{\text{jets}} = 2 $ & $N_{\text{jets}} = 3 $ & $N_{\text{jets}} = 4 $ & $N_{\text{jets}} = 5 $ & $N_{\text{jets}} = 6 $ \\ \hline
@@ -1413,6 +1529,24 @@ The single top simulation is generated with a mixture of POWHEG and {\sc MadGrap
 \label{tab:btag}
 \end{table}
 
+\begin{table}\small
+\centering
+\caption{Number of events in data and simulation as a function of the exclusive jet multiplicity after the implementation of b tag veto. The diboson samples (WW, WZ, and ZZ) are represented by VV.}
+\begin{tabular}{l|cccccccc}
+  &  $N_{\text{jets}} = 0 $ & $N_{\text{jets}} = 1 $ & $N_{\text{jets}} = 2 $ & $N_{\text{jets}} = 3 $ & $N_{\text{jets}} = 4 $ & $N_{\text{jets}} = 5 $ & $N_{\text{jets}} = 6 $ \\ \hline
+   VV        & 3945 & 2919 & 1197 & 329 & 78 & 15 & 2 & 0 \\
+   QCD        & 391095 & 96656 & 18689 & 3731 & 573 & 231 & 0 & 506 \\
+   Single top        & 3383 & 6847 & 4764 & 1902 & 566 & 146 & 39 & 10 \\
+   DYJets        & 615199 & 90842 & 20152 & 4375 & 902 & 184 & 46 & 21 \\
+   t#bar{t}        & 1304 & 5132 & 9733 & 10004 & 5889 & 2356 & 837 & 348 \\
+   W #rightarrow #mu#nu        & 14208479 & 1947701 & 407535 & 77767 & 13315 & 3186 & 301 & 243 \\
+ \hline
+ TOTAL & 15223405 & 2150097 & 462070 & 98108 & 21323 & 6118 & 1225 & 1128 \\
+ \hline
+ Data          & 15919072 & 2128830 & 463729 & 103255 & 25341 & 6462 & 1549 & 506 \\
+  %Ratio          & 0.956300 & 1.009990 & 0.996422 & 0.950153 & 0.841443 & 0.946766 & 0.790833 & 2.229249 \\
+ \end{tabular}}
+~                
 \begin{table}\small
 \centering
 \caption{Number of events in data and simulation as a function of the exclusive jet multiplicity after the implementation of b tag veto. The diboson samples (WW, WZ, and ZZ) are represented by VV.}
@@ -1438,7 +1572,7 @@ The single top simulation is generated with a mixture of POWHEG and {\sc MadGrap
 
 \section{Data-Simulation Comparisons}
 \qquad After applying selections, the data and simulation agreement is compared for several kinematic observables. These are show in figures \ref{mult} through \ref{eta34}.
-
+/
 \qquad The event yields for data and simulation processes in each bin of exclusive jet multiplicity are listed in Table \ref{tab:events}.
 
 \qquad At high jet multiplicities, the W+jets signal is less dominant and the accuracy of the largest background, $t\bar{t}$, becomes more important. A $t\bar{t}$ enriched control sample was created by removing the b-jet veto and requiring two or more b-tagged jets. The data-simulation agreement was found to be with 10\% up to the exclusive jet multiplicity of 5 and the inclusive jet multiplicity of 4. 
@@ -1497,25 +1631,25 @@ The single top simulation is generated with a mixture of POWHEG and {\sc MadGrap
 
 
 \section{Detector Unfolding}
-\qquad The CMS detector, like any experimental instrument, is not infallible. The detector response can cause a measurement to deviate from its true value. For example, for a given event with a leading jet $p_{T}$ in the 40-45 GeV bin, there is a probability that the jet could have had a $p_{T}$ in the 35-40 GeV bin or in the 45-50 GeV bin. The detector response can cause the measured value to deviate from its true value. A response matrix is used to transform the measured values to the true values. 
+\qquad The CMS detector response can cause a measurement to deviate from its true value. For example, for a given event with a leading jet $p_{T}$ in the 40-45 GeV bin, there is a probability that the jet could have had a $p_{T}$ in the 35-40 GeV bin or in the 45-50 GeV bin. The detector response can cause the measured value to deviate from its true value. A response matrix is used to transform the measured values to the true values. 
 
 \qquad A Bayesian unfolding method~\cite{D'Agostini:1995487} is used for W+Jets. The $i^{th}$ generated event $Gen_{i}$ results in a measured event $Reco_{i}$. The probability of a generated event to be observed in the $i^{th}$ bin is $P(Gen_{i})$. The probability that a reco event in bin $j$ is due to a generated event in bin $i$ is $P(Reco|Gen_{i})$. From those relations, Bayes' theorem~\cite{BevingtonRobinson200207} is used to obtain $P(Gen_{i}|Reco_{j}) = \frac{P(Reco_{j}|Gen_{i})P(Gen_{i})}{\Sigma_{l=1}^{n_{bins}}P(Reco_{j}|Gen_{l})P(Gen_{l})}$
 
-\qquad The probability to observe a reconstructed event in bin $j$ given an generator level event in bin $i$ is given by $P(Reco_{j}|Gen_{i})$. This probability is represented by a matrix, defined as the response matrix ($R_{ji}$). The response matrix is calculated by using Monte Carlo simulation (section \ref{mcgen}) to compare generator level events to events reconstructed with detector simulation. It can be visualized for a particular variable by plotting the number of generator level events versus the number of reco level events. After calculating the response matrix, Bayes' theorem is used to obtain the probability that a reconstructed event in bin $j$ was due to a generator level event in bin $i$. This probability distribution, $P(Gen_{i}|Reco_{j})$, is referred to as the smearing matrix, $S_{ij}$.
+\qquad The probability to observe a reconstructed event in bin $j$ given a generator level event in bin $i$ is given by $P(Reco_{j}|Gen_{i})$. This probability is represented by a matrix, defined as the response matrix ($R_{ji}$). The response matrix is calculated by using Monte Carlo simulation (section \ref{mcgen}) to compare generator level events to events reconstructed with detector simulation. It can be visualized for a particular variable by plotting the number of generator level events versus the number of reco level events. After calculating the response matrix, Bayes' theorem is used to obtain the probability that a reconstructed event in bin $j$ was due to a generator level event in bin $i$. This probability distribution, $P(Gen_{i}|Reco_{j})$, is referred to as the smearing matrix, $S_{ij}$.
 
 \qquad The number of true events observed in bin $i$ is defined as $\hat{n}(i) = \frac{1}{\epsilon_{i}}\Sigma_{j=1}^{n_{bins}}n_{obs}(j)S_{ij}$, where $\epsilon_{i}$ is the efficiency of observing an event that was generated in bin $i$ and is defined by $\epsilon_{i}=\Sigma_{j=1}^{n_bins}R_{ji}$.
 
-\qquad Given the above formulas, the number of true events in each bin can be calculated. The only unknown quantity is $P(Gen_{i})$, the probability to observe a generator level event in bin $i$. This probability is determined by an iterative $\chi^2$ fit. First, $P(Gen_{i})$ is estimated from the Monte Carlo distribution. This allows a simple estimation of the true number of events: $\hat{n}_{0} = P(Gen_{i})N_{obs}$, where $N_{obs}$ is the total number of observed events. Then use Bayes' Theorem to calculate $\hat{n}(i)$ and $\hat{P}(Gen_{i})$. The third step is to calculate the $\chi^{2}$ distribution between $\hat{n}(i)$ and $\hat{n}_{0}(i)$. The iterative procedure is then repeated, with $\hat{n}(i)$ and $\hat{P}(Gen_{i})$ used in the first step. The iterative procedure is repeated at least four times and is concluded when $\chi^{2}/\nu < \frac{1}{\sqrt{2}}$.
+\qquad Given the above formulas, the number of true events in each bin can be calculated. The only unknown quantity is $P(Gen_{i})$, the probability to observe a generator level event in bin $i$. This probability is determined by an iterative $\chi^2$ fit. First, $P(Gen_{i})$ is estimated from the Monte Carlo distribution. This allows a simple estimation of the true number of events: $\hat{n}_{0} = P(Gen_{i})N_{obs}$, where $N_{obs}$ is the total number of observed events. The second step is to use Bayes' Theorem to calculate $\hat{n}(i)$ and $\hat{P}(Gen_{i})$. The third step is to calculate the $\chi^{2}$ distribution between $\hat{n}(i)$ and $\hat{n}_{0}(i)$. The iterative procedure is then repeated, with $\hat{n}(i)$ and $\hat{P}(Gen_{i})$ used in the first step. The iterative procedure is repeated at least four times and is concluded when $\chi^{2}/\nu < \frac{1}{\sqrt{2}}$.
 
-\qquad In the generator level simulation, the events are required to pass the same event selection used in the reconstruction level, including the requirements on muon $p_{T}$ and $|\eta|$, jet $p_{T}$ and $|y|$, and $M_{T}$. The generator level jets are built in the same way as the reconstructed jets, via the the anti-$k_{T}$ algorithm. The generator level muons are "dressed" by recombining the bare generator level muons with all of the radiated photons within a cone of radius 0.1 to account for final state radiation. The $M_{T}$ of the the W Boson is calculated using the dressed muon and the neutrino. The response object is then constructed from the response matrix, the reconstructed level distribution, and the corresponding generator level distribution. 
+\qquad In the generator level simulation, the events are required to pass the same event selection used in the reconstruction level, including the requirements on muon $p_{T}$ and $|\eta|$, jet $p_{T}$ and $|y|$, and $M_{T}$. The generator level jets are built in the same way as the reconstructed jets, via the the anti-$k_{T}$ algorithm. The generator level muons are "dressed" by recombining the bare generator level muons with all of the radiated photons within a cone of radius $\Delta R <$0.1 to account for final state radiation. The $M_{T}$ of the the W Boson is calculated using the dressed muon and the neutrino. The response object is then constructed from the response matrix, the reconstructed level distribution, and the corresponding generator level distribution. 
 
 \section{Systematic Uncertainties}
 
-\qquad The dominant source of systematic uncertainty is the jet energy scale uncertainty. This uncertainty is equal to 1.4\% for a jet multiplicity of 1 and increases with the number of reconstructed jets. Uncertainties in the jet energy scale are propagated to the calculation of $E_{T}^{miss}$.
+\qquad The dominant source of systematic uncertainty is the jet energy scale uncertainty. This uncertainty is calculated by varying the jet energy corrections (section \ref{jets}) by their uncertainties. This uncertainty is equal to 1.4\% for a jet multiplicity of 1 and increases with the number of reconstructed jets, as shown in table \ref{tab:DMuZNGoodJets_Zexc}. Uncertainties in the jet energy scale are propagated to the calculation of $E_{T}^{miss}$.
 
 \qquad The background cross sections are varied within their theoretical uncertainties. The cross section of $t\bar{t}$, which is the largest background contribution, is varied by 10\%. The additional backgrounds are simultaneously varied up and down by 7\% (ZZ, WZ), 6\% (WW and tW single top), and 4\% (Z+jets, s and t-channel single top). 
 
-\qquad A systematic uncertainty associated with the generator used to build the unfolding response matrix is computed by weighting the simulation to agree with the data in $p_{T}$, $|y|$, and $H_{T}$ distributions, and then building a reweighed response to unfold the data. The difference between the nominal results and the results unfolded using the reweighted response matrix is taken as the systematic uncertainty associated with the unfolding response matrix.
+%\qquad A systematic uncertainty associated with the generator used to build the unfolding response matrix is computed by weighting the simulation to agree with the data in $p_{T}$, $|y|$, and $H_{T}$ distributions, and then building a reweighed response to unfold the data. The difference between the nominal results and the results unfolded using the reweighted response matrix is taken as the systematic uncertainty associated with the unfolding response matrix.
 
 \qquad A systematic uncertainty associated with the jet energy resolution (JER) scale factors is computed by varying the scale factors up and down by 1$\sigma$. The resulting uncertainty is on the order of 1\%.
 
@@ -1525,20 +1659,19 @@ The single top simulation is generated with a mixture of POWHEG and {\sc MadGrap
 
 \qquad The uncertainties of the muon trigger, identification, and isolation efficiencies are summed in quadrature to give an overall systematic uncertainty on the data-to-simulation muon scale factors. The uncertainty is computed to be 1.23\%.
 
-\qquad The uncertainty on the integrated luminosity measurement is estimated as 4.6\%.
+\qquad The uncertainty on the integrated luminosity measurement is estimated as 4.6\% \cite{CMS-PAS-LUM-15-001}.
 
 \subsection{Theoretical Uncertainties}
 \qquad As shown in figure \ref{fig:xsec_Njets_nlo}, the measured W+Jets cross section is compared to the results from the {\sc MadGraph5$\_$aMC@NLO} FXFX event generator. The shaded blue band corresponding to the theoretical uncertainties on the {\sc MadGraph5$\_$aMC@NLO} FXFX event generator is computed as described below.
 
-\qquad The factorization ($\mu_{f}$) and renormalization scales ($\mu_{r}$) in QCD control the cut-offs for infrared divergences and ultraviolet divergences. By varying these scales in Monte Carlo and measuring the shifts in event acceptance, systematic uncertainties for W+Jets production can be obtained.
+\qquad The factorization ($\mu_{f}$) and renormalization scales ($\mu_{r}$) in QCD control the cut-offs for infrared divergences and ultraviolet divergences. By halving or doubling these scales in the Monte Carlo and measuring the shifts in event acceptance, systematic uncertainties for W+Jets production can be obtained.
 
 \qquad These scales affect QCD radiation, which will effect parton showering and jet creation. Therefore, the effects of varying these scales are jet bin dependant. However, we cannot simply vary the scales in exclusive jet bins because the uncertainties will be underestimated~\cite{Gangal:2013nxa}~\cite{Stewart:2011cf} To properly calculate uncertainties in exclusive jet bins, the exclusive uncertainties must be defined in terms of the inclusive uncertainties.
 This is accomplished by defining the exclusive cross section in terms of inclusive cross sections: $\sigma_{N} = \sigma_{\geq N} - \sigma_{\geq N+1}$
 
-\qquad The uncertainty in the exclusive cross section is then calculated by adding the inclusive cross section uncertainties in equation~\eqref{eq:excunc}.
+\qquad The uncertainty in the exclusive cross section is then calculated by adding the inclusive cross section uncertainties in equation\eqref{eq:excunc}.
 
-\begin{equation}
-\label{eq:excunc}
+\begin{equation}\label{eq:excunc}
 \Delta_{N}^2 = \Delta_{\geq N}^2 + \Delta_{\geq N+1}^2
 \end{equation}
 
@@ -1579,40 +1712,41 @@ It is therefore justified to quantify the theoretical uncertainty of an exclusiv
  \label{fig:acceptances}\end{figure}
  
 \section{Results}
-\qquad The cross sections of jet multiplicities are measured up to 5 jets. The measured W+jets differential cross section distributions are compared with the predictions of the {\sc MadGraph5$\_$aMC@NLO} FXFX and MADGRAPH5 LO MLM event generators. As shown in figure \ref{fig:xsec_Njets_nlo}, the measured data and predictions are generally agreement within uncertainties. MADGRAPH5 appears to underestimate the measured cross section up to a multiplicity of 4. Tables \ref{tab:DMuZNGoodJets_Zexc} and \ref{tab:SMuZNGoodJetsFull_Zinc} show the measured cross sections and associated uncertainties. 
+\qquad The cross sections of jet multiplicities are measured for up to 5 jets. The measured W+jets differential cross section distributions are compared with the predictions of the {\sc MadGraph5$\_$aMC@NLO} FXFX and {\sc MadGraph}5 LO MLM event generators. As shown in figure \ref{fig:xsec_Njets_nlo}, the measured data and predictions are generally agreement within uncertainties. {\sc MadGraph}5 appears to underestimate the measured cross section up to a multiplicity of 4. Tables \ref{tab:DMuZNGoodJets_Zexc} and \ref{tab:SMuZNGoodJetsFull_Zinc} show the measured cross sections and associated uncertainties. 
 
 
 \begin{table}[!Hhtbp]
 \begin{center}
-\caption{Differential cross section in exclusive jet multiplicity and break down of the systematic uncertainties for the muon decay channel.}
+\caption{Differential cross section in exclusive jet multiplicity and breakdown of the systematic uncertainties for the muon decay channel.}
 \resizebox{\textwidth}{!}{
 \begin{tabular}{c|cc|ccccccccccc}
 \multicolumn{12}{c}{Exclusive jet multiplicity} \\
 
-$N_{\text{jets}}$ & $\frac{d\sigma}{dN_{\text{jets}}} \tiny{\left[\text{pb}\right]}$ & \tiny{Tot. Unc [\%]} & \tiny{stat [\%]} & \tiny{Simulation stat [\%]} & \tiny{JES [\%]} & \tiny{JER [\%]} & \tiny{PU [\%]} & \tiny{XSEC [\%]} & \tiny{Lumi [\%]} & \tiny{BtagSF [\%]} & \tiny{Unf [\%]} & \tiny{Eff [\%]} \\\hline
-= 0 & 7.43e+03 & 5.3 & 0.064 & 0.15 & 0.15 & 0.092 & 1.7 & 0.17 & 4.9 & 0.40 & 0.0 & 0.53 \\
-= 1 & 867. & 5.6 & 0.28 & 0.69 & 1.4 & 0.43 & 1.3 & 0.25 & 5.2 & 0.82 & 0.0 & 0.56 \\
-= 2 & 197. & 8.8 & 0.76 & 1.8 & 6.4 & 0.31 & 1.5 & 0.58 & 5.3 & 1.7 & 0.0 & 0.57 \\
-= 3 & 44.8 & 13. & 1.9 & 4.2 & 8.7 & 0.74 & 3.3 & 1.9 & 5.9 & 2.8 & 0.0 & 0.64 \\
-= 4 & 12.8 & 18. & 4.3 & 9.4 & 11. & 0.42 & 0.12 & 4.9 & 7.2 & 5.1 & 0.0 & 0.78 \\
-= 5 & 1.76 & 41. & 14. & 27. & 21. & 0.12 & 2.1 & 11. & 11. & 11. & 0.0 & 1.1 \\
+%$N_{\text{jets}}$ & $\frac{d\sigma}{dN_{\text{jets}}} \tiny{\left[\text{pb}\right]}$ & \tiny{Tot. Unc [\%]} & \tiny{stat [\%]} & \tiny{Simulation stat [\%]} & \tiny{JES [\%]} & \tiny{JER [\%]} & \tiny{PU [\%]} & \tiny{XSEC [\%]} & \tiny{Lumi [\%]} & \tiny{BtagSF [\%]} & \tiny{Eff [\%]} \\\hline
+$N_{\text{jets}}$ & $\frac{d\sigma}{dN_{\text{jets}}} \left[\text{pb}\right]$ & Tot. Unc [\%] & stat [\%] & Simulation stat [\%] & JES [\%] & JER [\%] & PU [\%] & XSEC [\%] & Lumi [\%] & BtagSF [\%] & Eff [\%]} \\\hline
+= 0 & 7.43e+03 & 5.3 & 0.064 & 0.15 & 0.15 & 0.092 & 1.7 & 0.17 & 4.9 & 0.40 & 0.53 \\
+= 1 & 867. & 5.6 & 0.28 & 0.69 & 1.4 & 0.43 & 1.3 & 0.25 & 5.2 & 0.82 & 0.56 \\
+= 2 & 197. & 8.8 & 0.76 & 1.8 & 6.4 & 0.31 & 1.5 & 0.58 & 5.3 & 1.7 & 0.57 \\
+= 3 & 44.8 & 13. & 1.9 & 4.2 & 8.7 & 0.74 & 3.3 & 1.9 & 5.9 & 2.8 & 0.64 \\
+= 4 & 12.8 & 18. & 4.3 & 9.4 & 11. & 0.42 & 0.12 & 4.9 & 7.2 & 5.1 & 0.78 \\
+= 5 & 1.76 & 41. & 14. & 27. & 21. & 0.12 & 2.1 & 11. & 11. & 11. & 1.1 \\
 \end{tabular}}
 \label{tab:DMuZNGoodJets_Zexc}
 \end{center}\end{table}
 
 \begin{table}[htb!]
 \begin{center}
-\caption{Differential cross section in inclusive jet multiplicity and break down of the systematic uncertainties for the muon decay channel.}
+\caption{Differential cross section in inclusive jet multiplicity and breakdown of the systematic uncertainties for the muon decay channel.}
 \resizebox{\textwidth}{!}{
 \begin{tabular}{c|cc|ccccccccccc}
 \multicolumn{12}{c}{Inclusive jet multiplicity} \\
-$N_{\text{jets}}$ & $\frac{d\sigma}{dN_{\text{jets}}} \tiny{\left[\text{pb}\right]}$  & \tiny{Tot. Unc [\%]} & \tiny{stat [\%]} & \tiny{MC stat [\%]} & \tiny{JES [\%]} & \tiny{JER [\%]} & \tiny{PU [\%]} & \tiny{XSEC [\%]} & \tiny{Lumi [\%]} & \tiny{BtagSF [\%]} & \tiny{LER [\%]} & \tiny{Unf [\%]} & \tiny{Eff [\%]} \\ \hline
-$\geq 0$ & 8.59e+03 & 5.3 & 0.056 & 0.15 & 0.53 & 0.024 & 1.7 & 0.19 & 4.9 & 0.48 & 0.0 & 0.54 \\
-$\geq 1$ & 1.12e+03 & 7.9 & 0.32 & 0.55 & 5.6 & 0.15 & 1.3 & 0.42 & 5.2 & 1.1 & 0.0 & 0.57 \\
-$\geq 2$ & 253. & 11. & 0.90 & 1.4 & 7.9 & 0.49 & 2.9 & 1.1 & 5.6 & 2.2 & 0.0 & 0.61 \\
-$\geq 3$ & 59.1 & 15. & 2.3 & 3.2 & 11. & 1.1 & 2.5 & 3.1 & 6.5 & 4.0 & 0.0 & 0.71 \\
-$\geq 4$ & 15.2 & 22. & 5.1 & 8.0 & 15. & 1.6 & 0.29 & 6.8 & 8.1 & 7.1 & 0.0 & 0.88 \\
-$\geq 5$ & 2.65 & 42. & 14. & 18. & 26. & 2.3 & 1.5 & 14. & 12. & 15. & 0.0 & 1.3 \\
+$N_{\text{jets}}$ & $\frac{d\sigma}{dN_{\text{jets}}} \tiny{\left[\text{pb}\right]}$  & \tiny{Tot. Unc [\%]} & \tiny{stat [\%]} & \tiny{MC stat [\%]} & \tiny{JES [\%]} & \tiny{JER [\%]} & \tiny{PU [\%]} & \tiny{XSEC [\%]} & \tiny{Lumi [\%]} & \tiny{BtagSF [\%]} & \tiny{Eff [\%]} \\ \hline
+$\geq 0$ & 8.59e+03 & 5.3 & 0.056 & 0.15 & 0.53 & 0.024 & 1.7 & 0.19 & 4.9 & 0.48 & 0.54 \\
+$\geq 1$ & 1.12e+03 & 7.9 & 0.32 & 0.55 & 5.6 & 0.15 & 1.3 & 0.42 & 5.2 & 1.1 & 0.57 \\
+$\geq 2$ & 253. & 11. & 0.90 & 1.4 & 7.9 & 0.49 & 2.9 & 1.1 & 5.6 & 2.2 & 0.61 \\
+$\geq 3$ & 59.1 & 15. & 2.3 & 3.2 & 11. & 1.1 & 2.5 & 3.1 & 6.5 & 4.0 & 0.71 \\
+$\geq 4$ & 15.2 & 22. & 5.1 & 8.0 & 15. & 1.6 & 0.29 & 6.8 & 8.1 & 7.1 & 0.88 \\
+$\geq 5$ & 2.65 & 42. & 14. & 18. & 26. & 2.3 & 1.5 & 14. & 12. & 15. & 1.3 \\
 \end{tabular}
 }
 \label{tab:SMuZNGoodJetsFull_Zinc}
@@ -1622,7 +1756,7 @@ $\geq 5$ & 2.65 & 42. & 14. & 18. & 26. & 2.3 & 1.5 & 14. & 12. & 15. & 0.0 & 1.
 \begin{figure}[hp]
     \includegraphics[width=0.5\textwidth]{SMu_unfolded_ZNGoodJetsFull_Zexc_Bayes_JetPtMin_30_JetEtaMax_24_MGPYTHIA6_.pdf}
     \includegraphics[width=0.5\textwidth]{SMu_unfolded_ZNGoodJetsFull_Zinc_Bayes_JetPtMin_30_JetEtaMax_24_MGPYTHIA6_.pdf}
-    \caption{The differential cross section measurement for the exclusive and inclusive jet multiplicities, compared to the predictions of {\sc MadGraph5$\_$aMC@NLO} and MADGRAPH5. The black circular markers with the grey hatched band represent the unfolded data measurement and its total experimental uncertainty. The blue shaded band around the {\sc MadGraph5$\_$aMC@NLO} prediction represents its theoretical uncertainty including both statistical and systematical uncertainties. {\sc MadGraph5} is shown only with its statistical uncertainty. The lower panels show the ratios of the prediction to the unfolded data.}
+    \caption{The differential cross section measurement for the exclusive and inclusive jet multiplicities, compared to the predictions of {\sc MadGraph5$\_$aMC@NLO} and {\sc MadGraph}5. The black circular markers with the grey hatched band represent the unfolded data measurement and its total experimental uncertainty. The blue shaded band around the {\sc MadGraph5$\_$aMC@NLO} prediction represents its theoretical uncertainty including both statistical and systematical uncertainties. {\sc MadGraph5} is shown only with its statistical uncertainty. The lower panels show the ratios of the prediction to the unfolded data.}
     \label{fig:xsec_Njets_nlo}
 \end{figure}
 

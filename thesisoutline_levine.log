@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.1.8)  11 JUL 2016 17:05
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=latex 2015.1.8)  13 JUL 2016 03:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -34,7 +34,7 @@ ment class
 \c@@memmarkcntra=\count87
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
 Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
-Package ifpdf Info: pdfTeX in PDF mode is detected.
+Package ifpdf Info: pdfTeX in PDF mode is not detected.
 )
 Class memoir Info: An `ifetex' package is being emulated on input line 265.
 
@@ -393,18 +393,10 @@ Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/graphics.cfg
 File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
 )
-Package graphics Info: Driver file: pdftex.def on input line 91.
+Package graphics Info: Driver file: dvips.def on input line 91.
 
-(/usr/share/texlive/texmf-dist/tex/latex/pdftex-def/pdftex.def
-File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
-
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
-Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
-)
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
-Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
-)
-\Gread@gobject=\count145
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/dvips.def
+File: dvips.def 1999/02/16 v3.0i Driver-dependant file (DPC,SPQR)
 ))
 \Gin@req@height=\dimen152
 \Gin@req@width=\dimen153
@@ -414,15 +406,15 @@ Package: mathtools 2013/02/12 v1.13 mathematical typesetting tools
 
 (/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2007/08/22 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count146
-\calc@Bcount=\count147
+\calc@Acount=\count145
+\calc@Bcount=\count146
 \calc@Adimen=\dimen154
 \calc@Bdimen=\dimen155
 \calc@Askip=\skip185
 \calc@Bskip=\skip186
 LaTeX Info: Redefining \setlength on input line 76.
 LaTeX Info: Redefining \addtolength on input line 77.
-\calc@Ccount=\count148
+\calc@Ccount=\count147
 \calc@Cskip=\skip187
 )
 (/usr/share/texlive/texmf-dist/tex/latex/mh/mhsetup.sty
@@ -448,13 +440,13 @@ Package: amsbsy 1999/11/29 v1.2d
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 1999/12/14 v2.01 operator names
 )
-\inf@bad=\count149
+\inf@bad=\count148
 LaTeX Info: Redefining \frac on input line 210.
-\uproot@=\count150
-\leftroot@=\count151
+\uproot@=\count149
+\leftroot@=\count150
 LaTeX Info: Redefining \overline on input line 306.
-\classnum@=\count152
-\DOTSCASE@=\count153
+\classnum@=\count151
+\DOTSCASE@=\count152
 LaTeX Info: Redefining \ldots on input line 378.
 LaTeX Info: Redefining \dots on input line 381.
 LaTeX Info: Redefining \cdots on input line 466.
@@ -463,15 +455,15 @@ LaTeX Info: Redefining \cdots on input line 466.
 \big@size=\dimen158
 LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
-\macc@depth=\count154
-\c@MaxMatrixCols=\count155
+\macc@depth=\count153
+\c@MaxMatrixCols=\count154
 \dotsspace@=\muskip10
-\c@parentequation=\count156
-\dspbrk@lvl=\count157
+\c@parentequation=\count155
+\dspbrk@lvl=\count156
 \tag@help=\toks25
-\row@=\count158
-\column@=\count159
-\maxfields@=\count160
+\row@=\count157
+\column@=\count158
+\maxfields@=\count159
 \andhelp@=\toks26
 \eqnshift@=\dimen159
 \alignsep@=\dimen160
@@ -488,7 +480,7 @@ LaTeX Info: Redefining \] on input line 2666.
 )
 LaTeX Info: Thecontrolsequence`\['isalreadyrobust on input line 129.
 LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 129.
-\g_MT_multlinerow_int=\count161
+\g_MT_multlinerow_int=\count160
 \l_MT_multwidth_dim=\dimen165
 \origjot=\skip191
 \l_MT_shortvdotswithinadjustabove_dim=\dimen166
@@ -521,10 +513,10 @@ Package caption3 Info: TeX engine: e-TeX on input line 57.
 \caption@parindent=\dimen177
 \caption@hangindent=\dimen178
 )
-\c@ContinuedFloat=\count162
+\c@ContinuedFloat=\count161
 )
-\c@subfigure=\count163
-\c@subtable=\count164
+\c@subfigure=\count162
+\c@subtable=\count163
 )
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
@@ -546,7 +538,7 @@ Package: xkeyval 2012/10/14 v2.6b package option processing (HA)
 (/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkeyval.tex
 \XKV@toks=\toks29
 \XKV@tempa@toks=\toks30
-\XKV@depth=\count165
+\XKV@depth=\count164
 File: xkeyval.tex 2012/10/14 v2.6b key=value parser (HA)
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/adjustbox/adjcalc.sty
@@ -564,10 +556,10 @@ Package: collectbox 2012/05/17 v0.4b Collect macro arguments as boxes
 \tc@lly=\dimen180
 \tc@urx=\dimen181
 \tc@ury=\dimen182
-Package trimclip Info: Using driver 'tc-pdftex.def'.
+Package trimclip Info: Using driver 'tc-dvips.def'.
 
-(/usr/share/texlive/texmf-dist/tex/latex/adjustbox/tc-pdftex.def
-File: tc-pdftex.def 2012/05/13 v1.0 Clipping driver for pdftex
+(/usr/share/texlive/texmf-dist/tex/latex/adjustbox/tc-dvips.def
+File: tc-dvips.def 2012/05/13 v1.0 Clipping driver for dvips
 ))
 \adjbox@Width=\dimen183
 \adjbox@Height=\dimen184
@@ -576,13 +568,13 @@ File: tc-pdftex.def 2012/05/13 v1.0 Clipping driver for pdftex
 
 (/usr/share/texlive/texmf-dist/tex/latex/ifoddpage/ifoddpage.sty
 Package: ifoddpage 2011/09/13 v1.0 Conditionals for odd/even page detection
-\c@checkoddpage=\count166
+\c@checkoddpage=\count165
 LaTeX Info: Redefining \checkoddpage on input line 25.
 )
 (/usr/share/texlive/texmf-dist/tex/latex/varwidth/varwidth.sty
 Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
 \@vwid@box=\box33
-\sift@deathcycles=\count167
+\sift@deathcycles=\count166
 \@vwid@loff=\dimen187
 \@vwid@roff=\dimen188
 ))
@@ -593,106 +585,64 @@ Package: xr 1994/05/28 v5.02 eXternal References (DPC)
 \bigstrutjot=\dimen189
 )
 (./thesisoutline_levine.aux)
+Runaway argument?
+{Sjo 
+! File ended while scanning use of \citation.
+<inserted text> 
+                \par 
+l.282 \begin{document}
+                      
+I suspect you have forgotten a `}', causing me
+to read past where you wanted me to stop.
+I'll try to recover; but if the error is serious,
+you'd better type `E' or `X' now and fix your file.
+
 \openout1 = `thesisoutline_levine.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 285.
-LaTeX Font Info:    ... okay on input line 285.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 285.
-LaTeX Font Info:    ... okay on input line 285.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 285.
-LaTeX Font Info:    ... okay on input line 285.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 285.
-LaTeX Font Info:    ... okay on input line 285.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 285.
-LaTeX Font Info:    ... okay on input line 285.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 285.
-LaTeX Font Info:    ... okay on input line 285.
-
-(/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
-[Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count168
-\scratchdimen=\dimen190
-\scratchbox=\box34
-\nofMPsegments=\count169
-\nofMParguments=\count170
-\everyMPshowfont=\toks31
-\MPscratchCnt=\count171
-\MPscratchDim=\dimen191
-\MPnumerator=\count172
-\makeMPintoPDFobject=\count173
-\everyMPtoPDFconversion=\toks32
-) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
-Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
-)
-Package pdftexcmds Info: LuaTeX not detected.
-Package pdftexcmds Info: \pdf@primitive is available.
-Package pdftexcmds Info: \pdf@ifprimitive is available.
-Package pdftexcmds Info: \pdfdraftmode found.
-)
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
-Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
-
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
-Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
-
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
-Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
-))
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
-Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
-
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
-Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
-
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/etexcmds.sty
-Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
-Package etexcmds Info: Could not find \expanded.
-(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
-(etexcmds)             that some package has redefined \expanded.
-(etexcmds)             In the latter case, load this package earlier.
-)))
-Package grfext Info: Graphics extension search list:
-(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
-G,.JBIG2,.JB2,.eps]
-(grfext)             \AppendGraphicsExtensions on input line 452.
-
-(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
-File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
-e
-))
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 282.
+LaTeX Font Info:    ... okay on input line 282.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 282.
+LaTeX Font Info:    ... okay on input line 282.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 282.
+LaTeX Font Info:    ... okay on input line 282.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 282.
+LaTeX Font Info:    ... okay on input line 282.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 282.
+LaTeX Font Info:    ... okay on input line 282.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 282.
+LaTeX Font Info:    ... okay on input line 282.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
 
-
 Class memoir Warning: The \sc font command is deprecated. 
 (memoir)              Use \textsc{...} or {\scshape... } instead on input line 
-299.
+296.
 
-LaTeX Font Info:    Try loading font information for U+msa on input line 299.
+LaTeX Font Info:    Try loading font information for U+msa on input line 296.
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 299.
+LaTeX Font Info:    Try loading font information for U+msb on input line 296.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for U+rsfs on input line 299.
+LaTeX Font Info:    Try loading font information for U+rsfs on input line 296.
 
 (/usr/share/texlive/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 ) [1
 
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 306.
+]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 303.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 306.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 303.
  [2
 
 ] [1
@@ -707,941 +657,2312 @@ Overfull \hbox (0.15265pt too wide) detected at line 3
 
 [3
 
-] [4]) [5] [6] (./thesisoutline_levine.lof [7
+] [4]) [5] [6] (./thesisoutline_levine.lof
 
-] [8] [9] [10]) [11] [12]
-(./thesisoutline_levine.lot [13
+LaTeX Warning: Citation `Agashe:2014kda' on page vii undefined on input line 2.
+
+
+
+LaTeX Warning: Citation `Pumplin:2002vw' on page vii undefined on input line 10
+.
+
+
+LaTeX Warning: Citation `Dittmaier:2011ti' on page vii undefined on input line 
+15.
+
+[7
+
+]
+
+LaTeX Warning: Citation `Heinemeyer:2013tqa' on page viii undefined on input li
+ne 16.
+
+
+LaTeX Warning: Citation `Marcastel:1621583' on page viii undefined on input lin
+e 18.
+
+
+LaTeX Warning: Citation `CMS_SLICE' on page viii undefined on input line 19.
+
+
+LaTeX Warning: Citation `Chatrchyan:2009hg' on page viii undefined on input lin
+e 20.
+
+
+LaTeX Warning: Citation `Chatrchyan:2014fea' on page viii undefined on input li
+ne 21.
+
+
+LaTeX Warning: Citation `Chatrchyan:2014wfa' on page viii undefined on input li
+ne 22.
+
+
+LaTeX Warning: Citation `1748-0221-3-08-S08001' on page viii undefined on input
+ line 23.
+
+
+LaTeX Warning: Citation `Brown:2007cg' on page viii undefined on input line 24.
+
+
+
+LaTeX Warning: Citation `Brown:2007cg' on page viii undefined on input line 25.
+
+
+
+LaTeX Warning: Citation `1748-0221-3-08-S08001' on page viii undefined on input
+ line 26.
+
+
+LaTeX Warning: Citation `1748-0221-3-08-S08001' on page viii undefined on input
+ line 27.
+
+
+LaTeX Warning: Citation `1748-0221-3-08-S08001' on page viii undefined on input
+ line 28.
+
+
+LaTeX Warning: Citation `CMS-DP-2015-009' on page viii undefined on input line 
+30.
+
+
+LaTeX Warning: Citation `Tosi:1956757' on page viii undefined on input line 35.
+
+
+[8]
+
+LaTeX Warning: Citation `Cacciari:2008gp' on page ix undefined on input line 36
+.
+
+[9]
+
+LaTeX Warning: Citation `Khachatryan:2015kon' on page x undefined on input line
+ 45.
+
+
+LaTeX Warning: Citation `Harnik:2012pb' on page x undefined on input line 45.
+
+[10]) [11] [12] (./thesisoutline_levine.lot
+
+LaTeX Warning: Citation `Halzen:1984mc' on page xiii undefined on input line 2.
+
+
+[13
 
 ]) [14] [1
 
 
 ]
-<StandardModel.pdf, id=66, 1151.30125pt x 827.09pt>
-File: StandardModel.pdf Graphic file (type pdf)
- <use StandardModel.pdf>
-Package pdftex.def Info: StandardModel.pdf used on input line 359.
-(pdftex.def)             Requested size: 389.69736pt x 279.95746pt.
+
+! LaTeX Error: Cannot determine size of graphic in StandardModel.pdf (no Boundi
+ngBox).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.356 ...s[width=0.9\textwidth]{StandardModel.pdf}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+File: StandardModel.pdf Graphic file (type eps)
+<StandardModel.pdf>
+
+LaTeX Warning: Citation `Agashe:2014kda' on page 2 undefined on input line 357.
 
 
-LaTeX Warning: `h' float specifier changed to `ht'.
 
-[2] <TauDecay.pdf, id=70, 383.4325pt x 341.275pt>
-File: TauDecay.pdf Graphic file (type pdf)
- <use TauDecay.pdf>
-Package pdftex.def Info: TauDecay.pdf used on input line 370.
-(pdftex.def)             Requested size: 173.19736pt x 154.15555pt.
+LaTeX Warning: Citation `Agashe:2014kda' on page 2 undefined on input line 357.
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[3 <./StandardModel.pdf>] <eeScattering.jpg, id=79, 337.26pt x 291.0875pt>
-File: eeScattering.jpg Graphic file (type jpg)
-
-<use eeScattering.jpg>
-Package pdftex.def Info: eeScattering.jpg used on input line 396.
-(pdftex.def)             Requested size: 173.19736pt x 149.48755pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[4 <./TauDecay.pdf>] [5 <./eeScattering.jpg>]
-<HiggsPotential.png, id=92, 1187.43625pt x 631.35875pt>
-File: HiggsPotential.png Graphic file (type png)
 
-<use HiggsPotential.png>
-Package pdftex.def Info: HiggsPotential.png used on input line 415.
-(pdftex.def)             Requested size: 389.69736pt x 207.2026pt.
- [6 <./HiggsPotential.png>]
-<mutauloop.jpg, id=96, 943.525pt x 483.8075pt>
-File: mutauloop.jpg Graphic file (type jpg)
- <use mutauloop.jpg>
-Package pdftex.def Info: mutauloop.jpg used on input line 432.
-(pdftex.def)             Requested size: 389.69736pt x 199.82405pt.
+LaTeX Warning: Citation `Agashe:2014kda' on page 2 undefined on input line 364.
 
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+[2]
 
-[7] [8 <./mutauloop.jpg>] [9
+! LaTeX Error: Cannot determine size of graphic in TauDecay.pdf (no BoundingBox
+).
 
-]
-<jetformation.jpg, id=107, 1077.02374pt x 466.74374pt>
-File: jetformation.jpg Graphic file (type jpg)
- <use jetformation.jpg>
-Package pdftex.def Info: jetformation.jpg used on input line 448.
-(pdftex.def)             Requested size: 389.69736pt x 168.88225pt.
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.367 ...aphics[width=0.4\textwidth]{TauDecay.pdf}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
 
+File: TauDecay.pdf Graphic file (type eps)
+<TauDecay.pdf>
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<WFormation.jpg, id=108, 734.745pt x 439.6425pt>
-File: WFormation.jpg Graphic file (type jpg)
- <use WFormation.jpg>
-Package pdftex.def Info: WFormation.jpg used on input line 459.
-(pdftex.def)             Requested size: 389.69736pt x 233.18382pt.
+
+LaTeX Warning: Citation `Halzen:1984mc' on page 3 undefined on input line 384.
 
 
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<cteq6PDF.jpg, id=109, 1059.96pt x 492.84125pt>
-File: cteq6PDF.jpg Graphic file (type jpg)
- <use cteq6PDF.jpg>
-Package pdftex.def Info: cteq6PDF.jpg used on input line 465.
-(pdftex.def)             Requested size: 389.69736pt x 181.19781pt.
+LaTeX Warning: Citation `Halzen:1984mc' on page 3 undefined on input line 384.
 
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+LaTeX Warning: Citation `Barger:0201058766' on page 3 undefined on input line 3
+88.
 
-[10] [11 <./jetformation.jpg> <./WFormation.jpg>]
-<WOneJet.jpg, id=116, 664.4825pt x 393.47pt>
-File: WOneJet.jpg Graphic file (type jpg)
- <use WOneJet.jpg>
-Package pdftex.def Info: WOneJet.jpg used on input line 479.
-(pdftex.def)             Requested size: 389.69736pt x 230.75838pt.
+[3]
 
+! LaTeX Error: Cannot determine size of graphic in eeScattering.jpg (no Boundin
+gBox).
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.393 ...cs[width=0.4\textwidth]{eeScattering.jpg}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
 
-<wjets7TeV.jpg, id=117, 939.51pt x 652.4375pt>
-File: wjets7TeV.jpg Graphic file (type jpg)
- <use wjets7TeV.jpg>
-Package pdftex.def Info: wjets7TeV.jpg used on input line 487.
-(pdftex.def)             Requested size: 389.69736pt x 270.61714pt.
-
+File: eeScattering.jpg Graphic file (type eps)
+<eeScattering.jpg>
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[12 <./cteq6PDF.jpg>] <ggfHiggs.jpg, id=121, 852.18375pt x 345.29pt>
-File: ggfHiggs.jpg Graphic file (type jpg)
+[4]
 
-<use ggfHiggs.jpg>
-Package pdftex.def Info: ggfHiggs.jpg used on input line 497.
-(pdftex.def)             Requested size: 389.69736pt x 157.90276pt.
+LaTeX Warning: Citation `Halzen:1984mc' on page 5 undefined on input line 401.
 
 
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<vbfHiggs.png, id=122, 861.2175pt x 559.08875pt>
-File: vbfHiggs.png Graphic file (type png)
- <use vbfHiggs.png>
-Package pdftex.def Info: vbfHiggs.png used on input line 506.
-(pdftex.def)             Requested size: 389.69736pt x 252.9867pt.
+LaTeX Warning: Citation `Agashe:2014kda' on page 5 undefined on input line 402.
 
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+[5]
 
-<higgsproduction.jpg, id=123, 705.63625pt x 522.95375pt>
-File: higgsproduction.jpg Graphic file (type jpg)
-
-<use higgsproduction.jpg>
-Package pdftex.def Info: higgsproduction.jpg used on input line 512.
-(pdftex.def)             Requested size: 389.69736pt x 288.80643pt.
+LaTeX Warning: Citation `Halzen:1984mc' on page 6 undefined on input line 409.
 
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+! LaTeX Error: Cannot determine size of graphic in HiggsPotential.png (no Bound
+ingBox).
 
-[13 <./WOneJet.jpg>] <higgsBR.jpg, id=127, 584.1825pt x 554.07pt>
-File: higgsBR.jpg Graphic file (type jpg)
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.412 ...[width=0.9\textwidth]{HiggsPotential.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
 
-<use higgsBR.jpg>
-Package pdftex.def Info: higgsBR.jpg used on input line 520.
-(pdftex.def)             Requested size: 389.69736pt x 369.61864pt.
-
+File: HiggsPotential.png Graphic file (type eps)
+<HiggsPotential.png>
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[14 <./wjets7TeV.jpg>] [15 <./ggfHiggs.jpg> <./vbfHiggs.png>] [16 <./higgsprodu
-ction.jpg>] [17 <./higgsBR.jpg>]
-<CERN's-accelerator-complex2013.jpg, id=141, 3380.63pt x 2389.92876pt>
-File: CERN's-accelerator-complex2013.jpg Graphic file (type jpg)
 
-<use CERN's-accelerator-complex2013.jpg>
-Package pdftex.def Info: CERN's-accelerator-complex2013.jpg used on input line 
-541.
-(pdftex.def)             Requested size: 389.69736pt x 275.47421pt.
+LaTeX Warning: Citation `Halzen:1984mc' on page 6 undefined on input line 417.
 
 
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[18
-
-] [19 <./CERN's-accelerator-complex2013.jpg>]
-<CMS_SLICE.png, id=148, 1003.75pt x 499.8675pt>
-File: CMS_SLICE.png Graphic file (type png)
- <use CMS_SLICE.png>
-Package pdftex.def Info: CMS_SLICE.png used on input line 563.
-(pdftex.def)             Requested size: 389.69736pt x 194.07039pt.
+LaTeX Warning: Citation `Agashe:2014kda' on page 6 undefined on input line 417.
 
 
-LaTeX Warning: `h' float specifier changed to `ht'.
 
-<CMSview.png, id=149, 845.1575pt x 597.23125pt>
-File: CMSview.png Graphic file (type png)
- <use CMSview.png>
-Package pdftex.def Info: CMSview.png used on input line 571.
-(pdftex.def)             Requested size: 389.69736pt x 275.38583pt.
+LaTeX Warning: Citation `Fukuda:1998mi' on page 6 undefined on input line 422.
 
 
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[20] <trackerlength.jpg, id=153, 982.67125pt x 468.75125pt>
-File: trackerlength.jpg Graphic file (type jpg)
-
-<use trackerlength.jpg>
-Package pdftex.def Info: trackerlength.jpg used on input line 583.
-(pdftex.def)             Requested size: 389.69736pt x 185.88785pt.
+LaTeX Warning: Citation `Ahmad:2001an' on page 6 undefined on input line 422.
 
 
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[21 <./CMS_SLICE.png>] [22 <./CMSview.png (PNG copy)>]
-<cmstracker.png, id=161, 791.95876pt x 356.33125pt>
-File: cmstracker.png Graphic file (type png)
- <use cmstracker.png>
-Package pdftex.def Info: cmstracker.png used on input line 600.
-(pdftex.def)             Requested size: 389.69736pt x 175.34329pt.
-
-[23 <./trackerlength.jpg> <./cmstracker.png>]
-<cmsecal.png, id=165, 1172.38pt x 803.0pt>
-File: cmsecal.png Graphic file (type png)
- <use cmsecal.png>
-Package pdftex.def Info: cmsecal.png used on input line 610.
-(pdftex.def)             Requested size: 389.69736pt x 266.9145pt.
- [24 <./cmsecal.png (PNG copy)>] <apd.jpg, id=169, 76.17258pt x 46.10826pt>
-File: apd.jpg Graphic file (type jpg)
- <use apd.jpg>
-Package pdftex.def Info: apd.jpg used on input line 620.
-(pdftex.def)             Requested size: 389.69736pt x 235.93835pt.
-
-<vpt.jpg, id=170, 55.79243pt x 35.99046pt>
-File: vpt.jpg Graphic file (type jpg)
- <use vpt.jpg>
-Package pdftex.def Info: vpt.jpg used on input line 630.
-(pdftex.def)             Requested size: 389.69736pt x 251.43439pt.
+LaTeX Warning: Citation `Ahmad:2002jz' on page 6 undefined on input line 422.
 
 
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[25 <./apd.jpg>] [26 <./vpt.jpg>] [27]
-<drift_tube.png, id=182, 622.325pt x 368.37625pt>
-File: drift_tube.png Graphic file (type png)
- <use drift_tube.png>
-Package pdftex.def Info: drift_tube.png used on input line 664.
-(pdftex.def)             Requested size: 389.69736pt x 230.67863pt.
- [28 <./drift_tube.png>] <muoncsc.png, id=186, 819.06pt x 416.55624pt>
-File: muoncsc.png Graphic file (type png)
-
-<use muoncsc.png>
-Package pdftex.def Info: muoncsc.png used on input line 672.
-(pdftex.def)             Requested size: 389.69736pt x 198.19678pt.
- [29 <./muoncsc.png>]
-<L1trigger.png, id=190, 973.6375pt x 660.4675pt>
-File: L1trigger.png Graphic file (type png)
- <use L1trigger.png>
-Package pdftex.def Info: L1trigger.png used on input line 685.
-(pdftex.def)             Requested size: 389.69736pt x 264.35364pt.
- [30 <./L1trigger.png>] <rct.png, id=194, 803.0pt x 602.25pt>
-File: rct.png Graphic file (type png)
- <use rct.png>
-Package pdftex.def Info: rct.png used on input line 695.
-(pdftex.def)             Requested size: 389.69736pt x 292.27469pt.
+LaTeX Warning: Citation `ArkaniHamed:1998rs' on page 6 undefined on input line 
+422.
 
 
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<tauveto.jpg, id=196, 1000.73875pt x 520.94624pt>
-File: tauveto.jpg Graphic file (type jpg)
- <use tauveto.jpg>
-Package pdftex.def Info: tauveto.jpg used on input line 703.
-(pdftex.def)             Requested size: 389.69736pt x 202.8582pt.
+LaTeX Warning: Citation `Randall:1999ee' on page 6 undefined on input line 422.
 
 
-LaTeX Warning: `h' float specifier changed to `ht'.
 
-[31] <TDR_RlxIsoLegacy_28GeV.pdf, id=200, 569.12625pt x 552.0625pt>
-File: TDR_RlxIsoLegacy_28GeV.pdf Graphic file (type pdf)
+LaTeX Warning: Citation `Branco:2011iw' on page 6 undefined on input line 422.
 
-<use TDR_RlxIsoLegacy_28GeV.pdf>
-Package pdftex.def Info: TDR_RlxIsoLegacy_28GeV.pdf used on input line 711.
-(pdftex.def)             Requested size: 389.69736pt x 378.02574pt.
+[6]
+
+LaTeX Warning: Citation `Harnik:2012pb' on page 7 undefined on input line 424.
 
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+LaTeX Warning: Citation `Bennett:2004pv' on page 7 undefined on input line 426.
 
-[32 <./rct.png>] [33 <./tauveto.jpg>] [34 <./TDR_RlxIsoLegacy_28GeV.pdf, page i
-s rotated 90 degrees>]
 
-LaTeX Warning: Reference `fundforces' on page 35 undefined on input line 724.
 
-[35
+LaTeX Warning: Citation `Agashe:2014kda' on page 7 undefined on input line 426.
+
+
+
+LaTeX Warning: Citation `Harnik:2012pb' on page 7 undefined on input line 426.
+
+[7]
+
+! LaTeX Error: Cannot determine size of graphic in mutauloop.jpg (no BoundingBo
+x).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.429 ...phics[width=0.9\textwidth]{mutauloop.jpg}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+File: mutauloop.jpg Graphic file (type eps)
+<mutauloop.jpg> [8]
+
+LaTeX Warning: Citation `Halzen:1984mc' on page 9 undefined on input line 438.
+
+[9
 
 ]
 
-LaTeX Warning: Citation `Barger:020105876' on page 36 undefined on input line 7
-46.
+! LaTeX Error: Cannot determine size of graphic in jetformation.jpg (no Boundin
+gBox).
 
-[36] <lundstring.png, id=262, 395.4775pt x 159.59625pt>
-File: lundstring.png Graphic file (type png)
- <use lundstring.png>
-Package pdftex.def Info: lundstring.png used on input line 751.
-(pdftex.def)             Requested size: 389.69736pt x 157.2653pt.
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.445 ...cs[width=0.9\textwidth]{jetformation.jpg}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
 
-[37 <./lundstring.png>] [38]
-<iterative_tracking.jpg, id=269, 1437.37pt x 263.98625pt>
-File: iterative_tracking.jpg Graphic file (type jpg)
+File: jetformation.jpg Graphic file (type eps)
+<jetformation.jpg>
 
-<use iterative_tracking.jpg>
-Package pdftex.def Info: iterative_tracking.jpg used on input line 803.
-(pdftex.def)             Requested size: 476.30264pt x 87.47826pt.
+LaTeX Warning: `h' float specifier changed to `ht'.
 
-Overfull \hbox (43.30264pt too wide) in paragraph at lines 803--804
+
+LaTeX Warning: Citation `Pumplin:2002vw' on page 10 undefined on input line 453
+.
+
+
+! LaTeX Error: Cannot determine size of graphic in WFormation.jpg (no BoundingB
+ox).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.456 ...hics[width=0.9\textwidth]{WFormation.jpg}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+File: WFormation.jpg Graphic file (type eps)
+<WFormation.jpg>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+! LaTeX Error: Cannot determine size of graphic in cteq6PDF.jpg (no BoundingBox
+).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.462 ...aphics[width=0.9\textwidth]{cteq6PDF.jpg}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+File: cteq6PDF.jpg Graphic file (type eps)
+<cteq6PDF.jpg>
+
+LaTeX Warning: Citation `Pumplin:2002vw' on page 10 undefined on input line 463
+.
+
+
+LaTeX Warning: Citation `Pumplin:2002vw' on page 10 undefined on input line 463
+.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[10] [11]
+
+LaTeX Warning: Citation `Barger:0201058766' on page 12 undefined on input line 
+469.
+
+[12]
+
+! LaTeX Error: Cannot determine size of graphic in WOneJet.jpg (no BoundingBox)
+.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.476 ...raphics[width=0.9\textwidth]{WOneJet.jpg}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+File: WOneJet.jpg Graphic file (type eps)
+<WOneJet.jpg>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: Citation `Khachatryan:2014uva' on page 13 undefined on input lin
+e 481.
+
+
+! LaTeX Error: Cannot determine size of graphic in wjets7TeV.jpg (no BoundingBo
+x).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.484 ...phics[width=0.9\textwidth]{wjets7TeV.jpg}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+File: wjets7TeV.jpg Graphic file (type eps)
+<wjets7TeV.jpg>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[13]
+
+! LaTeX Error: Cannot determine size of graphic in ggfHiggs.jpg (no BoundingBox
+).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.494 ...aphics[width=0.9\textwidth]{ggfHiggs.jpg}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+File: ggfHiggs.jpg Graphic file (type eps)
+<ggfHiggs.jpg>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: Citation `Dittmaier:2011ti' on page 14 undefined on input line 5
+00.
+
+
+! LaTeX Error: Cannot determine size of graphic in vbfHiggs.png (no BoundingBox
+).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.503 ...aphics[width=0.9\textwidth]{vbfHiggs.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+File: vbfHiggs.png Graphic file (type eps)
+<vbfHiggs.png>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+! LaTeX Error: Cannot determine size of graphic in higgsproduction.jpg (no Boun
+dingBox).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.509 ...width=0.9\textwidth]{higgsproduction.jpg}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+File: higgsproduction.jpg Graphic file (type eps)
+<higgsproduction.jpg>
+
+LaTeX Warning: Citation `Dittmaier:2011ti' on page 14 undefined on input line 5
+10.
+
+
+LaTeX Warning: Citation `Dittmaier:2011ti' on page 14 undefined on input line 5
+10.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: Citation `Chatrchyan:2012xdj' on page 14 undefined on input line
+ 514.
+
+
+LaTeX Warning: Citation `Heinemeyer:2013tqa' on page 14 undefined on input line
+ 514.
+
+[14] [15]
+
+! LaTeX Error: Cannot determine size of graphic in higgsBR.jpg (no BoundingBox)
+.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.517 ...raphics[width=0.9\textwidth]{higgsBR.jpg}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+File: higgsBR.jpg Graphic file (type eps)
+<higgsBR.jpg>
+
+LaTeX Warning: Citation `Heinemeyer:2013tqa' on page 16 undefined on input line
+ 518.
+
+
+LaTeX Warning: Citation `Heinemeyer:2013tqa' on page 16 undefined on input line
+ 518.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[16] [17] [18] [19]
+
+LaTeX Warning: Citation `1748-0221-3-08-S08001' on page 20 undefined on input l
+ine 533.
+
+
+! LaTeX Error: Cannot determine size of graphic in CERN's-accelerator-complex20
+13.jpg (no BoundingBox).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.538 ...idth]{CERN's-accelerator-complex2013.jpg}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+File: CERN's-accelerator-complex2013.jpg Graphic file (type eps)
+<CERN's-accelerator-complex2013.jpg>
+
+LaTeX Warning: Citation `Marcastel:1621583' on page 20 undefined on input line 
+539.
+
+
+LaTeX Warning: Citation `Marcastel:1621583' on page 20 undefined on input line 
+539.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[20
+
+] [21]
+
+LaTeX Warning: Citation `1748-0221-3-08-S08001' on page 22 undefined on input l
+ine 557.
+
+
+! LaTeX Error: Cannot determine size of graphic in CMS_SLICE.png (no BoundingBo
+x).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.560 ...phics[width=0.9\textwidth]{CMS_SLICE.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+File: CMS_SLICE.png Graphic file (type eps)
+<CMS_SLICE.png>
+
+LaTeX Warning: Citation `CMS_SLICE' on page 22 undefined on input line 561.
+
+
+LaTeX Warning: Citation `CMS_SLICE' on page 22 undefined on input line 561.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[22]
+
+! LaTeX Error: Cannot determine size of graphic in CMSview.png (no BoundingBox)
+.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.568 ...raphics[width=0.9\textwidth]{CMSview.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+File: CMSview.png Graphic file (type eps)
+<CMSview.png>
+
+LaTeX Warning: Citation `Chatrchyan:2009hg' on page 23 undefined on input line 
+569.
+
+
+LaTeX Warning: Citation `Chatrchyan:2009hg' on page 23 undefined on input line 
+569.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[23]
+
+! LaTeX Error: Cannot determine size of graphic in trackerlength.jpg (no Boundi
+ngBox).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.580 ...s[width=0.9\textwidth]{trackerlength.jpg}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+File: trackerlength.jpg Graphic file (type eps)
+<trackerlength.jpg>
+
+LaTeX Warning: Citation `Chatrchyan:2014fea' on page 24 undefined on input line
+ 581.
+
+
+LaTeX Warning: Citation `Chatrchyan:2014fea' on page 24 undefined on input line
+ 581.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[24]
+
+LaTeX Warning: Citation `Chiochia:2007pu' on page 25 undefined on input line 58
+8.
+
+[25]
+
+! LaTeX Error: Cannot determine size of graphic in cmstracker.png (no BoundingB
+ox).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.597 ...hics[width=0.9\textwidth]{cmstracker.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+File: cmstracker.png Graphic file (type eps)
+<cmstracker.png>
+
+LaTeX Warning: Citation `Chatrchyan:2014wfa' on page 26 undefined on input line
+ 598.
+
+
+LaTeX Warning: Citation `Chatrchyan:2014wfa' on page 26 undefined on input line
+ 598.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+! LaTeX Error: Cannot determine size of graphic in cmsecal.png (no BoundingBox)
+.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.607 ...raphics[width=0.9\textwidth]{cmsecal.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+File: cmsecal.png Graphic file (type eps)
+<cmsecal.png>
+
+LaTeX Warning: Citation `1748-0221-3-08-S08001' on page 26 undefined on input l
+ine 608.
+
+
+LaTeX Warning: Citation `1748-0221-3-08-S08001' on page 26 undefined on input l
+ine 608.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[26] [27]
+
+! LaTeX Error: Cannot determine size of graphic in apd.jpg (no BoundingBox).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.617 ...udegraphics[width=0.9\textwidth]{apd.jpg}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+File: apd.jpg Graphic file (type eps)
+<apd.jpg>
+
+LaTeX Warning: Citation `Brown:2007cg' on page 28 undefined on input line 618.
+
+
+LaTeX Warning: Citation `Brown:2007cg' on page 28 undefined on input line 618.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[28]
+
+! LaTeX Error: Cannot determine size of graphic in vpt.jpg (no BoundingBox).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.627 ...udegraphics[width=0.9\textwidth]{vpt.jpg}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+File: vpt.jpg Graphic file (type eps)
+<vpt.jpg>
+
+LaTeX Warning: Citation `Brown:2007cg' on page 29 undefined on input line 628.
+
+
+LaTeX Warning: Citation `Brown:2007cg' on page 29 undefined on input line 628.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[29]
+
+LaTeX Warning: Citation `Cockerill:2008td' on page 30 undefined on input line 6
+44.
+
+[30]
+
+LaTeX Warning: Citation `Chatrchyan:2013sba' on page 31 undefined on input line
+ 656.
+
+[31]
+
+LaTeX Warning: Citation `Chatrchyan:2013sba' on page 32 undefined on input line
+ 658.
+
+
+! LaTeX Error: Cannot determine size of graphic in drift_tube.png (no BoundingB
+ox).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.661 ...hics[width=0.9\textwidth]{drift_tube.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+File: drift_tube.png Graphic file (type eps)
+<drift_tube.png>
+
+LaTeX Warning: Citation `1748-0221-3-08-S08001' on page 32 undefined on input l
+ine 662.
+
+
+LaTeX Warning: Citation `1748-0221-3-08-S08001' on page 32 undefined on input l
+ine 662.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: Citation `Collaboration:1355706' on page 32 undefined on input l
+ine 666.
+
+
+! LaTeX Error: Cannot determine size of graphic in muoncsc.png (no BoundingBox)
+.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.669 ...raphics[width=0.9\textwidth]{muoncsc.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+File: muoncsc.png Graphic file (type eps)
+<muoncsc.png>
+
+LaTeX Warning: Citation `1748-0221-3-08-S08001' on page 32 undefined on input l
+ine 670.
+
+
+LaTeX Warning: Citation `1748-0221-3-08-S08001' on page 32 undefined on input l
+ine 670.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: Citation `Chatrchyan:2013sba' on page 32 undefined on input line
+ 674.
+
+
+LaTeX Warning: Citation `Chatrchyan:2013sba' on page 32 undefined on input line
+ 674.
+
+[32] [33]
+
+! LaTeX Error: Cannot determine size of graphic in L1trigger.png (no BoundingBo
+x).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.682 ...phics[width=0.9\textwidth]{L1trigger.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+File: L1trigger.png Graphic file (type eps)
+<L1trigger.png>
+
+LaTeX Warning: Citation `1748-0221-3-08-S08001' on page 34 undefined on input l
+ine 683.
+
+
+LaTeX Warning: Citation `1748-0221-3-08-S08001' on page 34 undefined on input l
+ine 683.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[34] [35]
+
+! LaTeX Error: Cannot determine size of graphic in rct.png (no BoundingBox).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.692 ...udegraphics[width=0.9\textwidth]{rct.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+File: rct.png Graphic file (type eps)
+<rct.png> [36]
+
+! LaTeX Error: Cannot determine size of graphic in tauveto.jpg (no BoundingBox)
+.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.700 ...raphics[width=0.9\textwidth]{tauveto.jpg}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+File: tauveto.jpg Graphic file (type eps)
+<tauveto.jpg>
+
+LaTeX Warning: Citation `CMS-DP-2015-009' on page 37 undefined on input line 70
+1.
+
+
+LaTeX Warning: Citation `CMS-DP-2015-009' on page 37 undefined on input line 70
+1.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+! LaTeX Error: Cannot determine size of graphic in TDR_RlxIsoLegacy_28GeV.pdf (
+no BoundingBox).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.708 ....9\textwidth]{TDR_RlxIsoLegacy_28GeV.pdf}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+File: TDR_RlxIsoLegacy_28GeV.pdf Graphic file (type eps)
+<TDR_RlxIsoLegacy_28GeV.pdf>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[37] [38] [39]
+
+LaTeX Warning: Reference `fundforces' on page 40 undefined on input line 721.
+
+[40
+
+]
+
+LaTeX Warning: Citation `Agashe:2014kda' on page 41 undefined on input line 737
+.
+
+
+LaTeX Warning: Citation `Agashe:2014kda' on page 41 undefined on input line 739
+.
+
+
+LaTeX Warning: Citation `Barger:020105876' on page 41 undefined on input line 7
+43.
+
+
+LaTeX Warning: Citation `Agashe:2014kda' on page 41 undefined on input line 745
+.
+
+[41]
+
+! LaTeX Error: Cannot determine size of graphic in lundstring.png (no BoundingB
+ox).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.748 ...hics[width=0.9\textwidth]{lundstring.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+File: lundstring.png Graphic file (type eps)
+<lundstring.png>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: Citation `Alwall:2014hca' on page 42 undefined on input line 760
+.
+
+
+LaTeX Warning: Citation `Alwall:2014hca' on page 42 undefined on input line 760
+.
+
+
+LaTeX Warning: Citation `Alioli:2010xd' on page 42 undefined on input line 760.
+
+
+
+LaTeX Warning: Citation `Frixione:2007vw' on page 42 undefined on input line 76
+0.
+
+
+LaTeX Warning: Citation `Nason:2004rx' on page 42 undefined on input line 760.
+
+
+LaTeX Warning: Citation `Was:2011tv' on page 42 undefined on input line 761.
+
+
+LaTeX Warning: Citation `Campbell:1999ah' on page 42 undefined on input line 76
+1.
+
+
+LaTeX Warning: Citation `Campbell:2011bn' on page 42 undefined on input line 76
+1.
+
+
+LaTeX Warning: Citation `Campbell:2015qma' on page 42 undefined on input line 7
+61.
+
+
+LaTeX Warning: Citation `Allison:2006ve' on page 42 undefined on input line 789
+.
+
+[42] [43] [44]
+
+LaTeX Warning: Citation `Chatrchyan:2014fea' on page 45 undefined on input line
+ 797.
+
+
+LaTeX Warning: Citation `Fruhwirth:1987fm' on page 45 undefined on input line 7
+97.
+
+
+! LaTeX Error: Cannot determine size of graphic in iterative_tracking.jpg (no B
+oundingBox).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.800 ...th=1.1\textwidth]{iterative_tracking.jpg}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+File: iterative_tracking.jpg Graphic file (type eps)
+<iterative_tracking.jpg>
+Overfull \hbox (43.30264pt too wide) in paragraph at lines 800--801
 [][] 
  []
 
-[39
 
-] [40 <./iterative_tracking.jpg>]
-Overfull \hbox (24.13037pt too wide) in paragraph at lines 820--821
+LaTeX Warning: Citation `Tosi:1956757' on page 45 undefined on input line 801.
+
+
+LaTeX Warning: Citation `Tosi:1956757' on page 45 undefined on input line 801.
+
+[45
+
+] [46]
+
+LaTeX Warning: Citation `griffiths1999introduction' on page 47 undefined on inp
+ut line 813.
+
+
+LaTeX Warning: Citation `Adam:815410' on page 47 undefined on input line 815.
+
+
+LaTeX Warning: Citation `Hocker:2007ht' on page 47 undefined on input line 815.
+
+
+
+Overfull \hbox (24.13037pt too wide) in paragraph at lines 817--818
 [] \OT1/cmr/m/n/10 Pho-tons are neu-tral par-ti-cles and will there-fore not le
 ave any tracks in the tracker. Bremsstrahlung
  []
 
-[41]
-Overfull \hbox (9.81444pt too wide) in paragraph at lines 828--829
+[47]
+
+LaTeX Warning: Citation `Hocker:2007ht' on page 48 undefined on input line 819.
+
+
+
+LaTeX Warning: Citation `Khachatryan:2015hwa' on page 48 undefined on input lin
+e 819.
+
+
+LaTeX Warning: Citation `Khachatryan:2015hwa' on page 48 undefined on input lin
+e 821.
+
+
+LaTeX Warning: Citation `CMS-PAS-PFT-10-002' on page 48 undefined on input line
+ 825.
+
+
+LaTeX Warning: Citation `Khachatryan:2015hwa' on page 48 undefined on input lin
+e 825.
+
+
+LaTeX Warning: Citation `Cacciari:2011ma' on page 48 undefined on input line 82
+5.
+
+
+Overfull \hbox (9.81444pt too wide) in paragraph at lines 825--826
 \OT1/cmr/m/n/10 The par-ti-cle flow iso-la-tion is de-fined as $\OML/cmm/m/it/1
 0 I[] \OT1/cmr/m/n/10 = [] \OML/cmm/m/it/10 =p[]$\OT1/cmr/m/n/10 .
  []
 
-[42]
-Overfull \hbox (20.2165pt too wide) in paragraph at lines 840--842
+
+LaTeX Warning: Citation `Agashe:2014kda' on page 48 undefined on input line 829
+.
+
+[48]
+
+LaTeX Warning: Citation `Chatrchyan:2013sba' on page 49 undefined on input line
+ 831.
+
+
+LaTeX Warning: Citation `Chatrchyan:2013sba' on page 49 undefined on input line
+ 835.
+
+
+LaTeX Warning: Reference `wjets' on page 49 undefined on input line 837.
+
+
+Overfull \hbox (20.2165pt too wide) in paragraph at lines 837--839
 \OT1/cmr/m/n/10 the def-i-ni-tion for elec-trons in sec-tion 5.2[]. $\OML/cmm/m
 /it/10 I[] \OT1/cmr/m/n/10 = [] \OML/cmm/m/it/10 =p[]$\OT1/cmr/m/n/10 .
  []
 
-<antikt.jpg, id=283, 926.46124pt x 662.475pt>
-File: antikt.jpg Graphic file (type jpg)
- <use antikt.jpg>
-Package pdftex.def Info: antikt.jpg used on input line 853.
-(pdftex.def)             Requested size: 389.69736pt x 278.66216pt.
+[49]
+
+LaTeX Warning: Citation `Cacciari:2008gp' on page 50 undefined on input line 84
+5.
+
+
+LaTeX Warning: Citation `Cacciari:2008gp' on page 50 undefined on input line 84
+7.
+
+
+LaTeX Warning: Citation `Cacciari:2011ma' on page 50 undefined on input line 84
+7.
+
+
+! LaTeX Error: Cannot determine size of graphic in antikt.jpg (no BoundingBox).
+
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.850 ...graphics[width=0.9\textwidth]{antikt.jpg}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+File: antikt.jpg Graphic file (type eps)
+<antikt.jpg>
+
+LaTeX Warning: Citation `Cacciari:2008gp' on page 50 undefined on input line 85
+1.
+
+
+LaTeX Warning: Citation `Cacciari:2008gp' on page 50 undefined on input line 85
+1.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[43] [44 <./antikt.jpg>] [45] [46] [47
+
+LaTeX Warning: Citation `Kirschenmann:1627818' on page 50 undefined on input li
+ne 855.
+
+
+LaTeX Warning: Citation `Kirschenmann:1627818' on page 50 undefined on input li
+ne 857.
+
+[50]
+
+LaTeX Warning: Citation `CMS-PAS-JME-13-005' on page 51 undefined on input line
+ 859.
+
+
+LaTeX Warning: Citation `Chatrchyan:2012jua' on page 51 undefined on input line
+ 862.
+
+[51]
+
+LaTeX Warning: Citation `1748-0221-7-01-P01001' on page 52 undefined on input l
+ine 868.
+
+[52]
+
+LaTeX Warning: Citation `CMS-DP-2014-015' on page 53 undefined on input line 87
+2.
+
+
+LaTeX Warning: Citation `Khachatryan:2014gga' on page 53 undefined on input lin
+e 875.
+
+[53]
+
+LaTeX Warning: Citation `Ellis:1987xu' on page 54 undefined on input line 882.
+
+[54
 
 ]
-<masses_muhad_VBF_After_Presel_signal.pdf, id=300, 569.12625pt x 552.0625pt>
-File: masses_muhad_VBF_After_Presel_signal.pdf Graphic file (type pdf)
 
-<use masses_muhad_VBF_After_Presel_signal.pdf>
-Package pdftex.def Info: masses_muhad_VBF_After_Presel_signal.pdf used on input
- line 906.
-(pdftex.def)             Requested size: 161.32556pt x 156.49014pt.
- [48 <./masses_muhad_VBF_After_Presel_signal.pdf, page is rotated 90 degrees>] 
-[49]
-</home/aaron/root/hlfv/fakesEle_log.pdf, id=350, 569.12625pt x 548.0475pt>
-File: /home/aaron/root/hlfv/fakesEle_log.pdf Graphic file (type pdf)
+! LaTeX Error: Cannot determine size of graphic in masses_muhad_VBF_After_Prese
+l_signal.pdf (no BoundingBox).
 
-<use /home/aaron/root/hlfv/fakesEle_log.pdf>
-Package pdftex.def Info: /home/aaron/root/hlfv/fakesEle_log.pdf used on input l
-ine 952.
-(pdftex.def)             Requested size: 207.83815pt x 200.1402pt.
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.903 ...masses_muhad_VBF_After_Presel_signal.pdf}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
 
-</home/aaron/root/hlfv/fakes_log.pdf, id=351, 569.12625pt x 548.0475pt>
-File: /home/aaron/root/hlfv/fakes_log.pdf Graphic file (type pdf)
+File: masses_muhad_VBF_After_Presel_signal.pdf Graphic file (type eps)
+<masses_muhad_VBF_After_Presel_signal.pdf> [55]
 
-<use /home/aaron/root/hlfv/fakes_log.pdf>
-Package pdftex.def Info: /home/aaron/root/hlfv/fakes_log.pdf used on input line
- 953.
-(pdftex.def)             Requested size: 207.83815pt x 200.1402pt.
- [50] [51 </home/aaron/root/hlfv/fakesEle_log.pdf, page is rotated 90 degrees> 
-</home/aaron/root/hlfv/fakes_log.pdf, page is rotated 90 degrees>]
-</home/aaron/root/lfv/76X_V2_MuonFix_March30/preselectionSS_collMass_type1_MuTa
-u_AMCATNLO.pdf, id=446, 569.12625pt x 552.0625pt>
+LaTeX Warning: Citation `Sjostrand:2014zea' on page 56 undefined on input line 
+911.
+
+
+LaTeX Warning: Citation `Was:2011tv' on page 56 undefined on input line 911.
+
+
+LaTeX Warning: Citation `Sjostrand:2014zea' on page 56 undefined on input line 
+911.
+
+
+LaTeX Warning: Citation `Frixione:2007nu' on page 56 undefined on input line 91
+1.
+
+
+LaTeX Warning: Citation `Alwall:2011uj' on page 56 undefined on input line 915.
+
+
+
+LaTeX Warning: Citation `Sjostrand:2006za' on page 56 undefined on input line 9
+15.
+
+
+LaTeX Warning: Reference `eventsel' on page 56 undefined on input line 919.
+
+[56]
+
+LaTeX Warning: Reference `eventsel' on page 57 undefined on input line 921.
+
+
+LaTeX Warning: Reference `tab:fakeratediagram' on page 57 undefined on input li
+ne 921.
+
+
+LaTeX Warning: Reference `eventsel' on page 57 undefined on input line 950.
+
+
+LaTeX Warning: Reference `addback' on page 57 undefined on input line 950.
+
+
+LaTeX Warning: Reference `fig:samesign_fakes' on page 57 undefined on input lin
+e 950.
+
+[57]
+
+! LaTeX Error: Cannot determine size of graphic in /home/aaron/root/hlfv/fakesE
+le_log.pdf (no BoundingBox).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.953 ...]{/home/aaron/root/hlfv/fakesEle_log.pdf}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+File: /home/aaron/root/hlfv/fakesEle_log.pdf Graphic file (type eps)
+</home/aaron/root/hlfv/fakesEle_log.pdf>
+
+! LaTeX Error: Cannot determine size of graphic in /home/aaron/root/hlfv/fakes_
+log.pdf (no BoundingBox).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.954 ...dth]{/home/aaron/root/hlfv/fakes_log.pdf}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+File: /home/aaron/root/hlfv/fakes_log.pdf Graphic file (type eps)
+</home/aaron/root/hlfv/fakes_log.pdf>
+
+LaTeX Warning: Reference `fig:taufakerate' on page 58 undefined on input line 9
+60.
+
+
+! LaTeX Error: Cannot determine size of graphic in tightOldIso_looseOldIso_tPt_
+fakeRate.png (no BoundingBox).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.963 ...tightOldIso_looseOldIso_tPt_fakeRate.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+File: tightOldIso_looseOldIso_tPt_fakeRate.png Graphic file (type eps)
+<tightOldIso_looseOldIso_tPt_fakeRate.png>
+
+! LaTeX Error: Cannot determine size of graphic in tightOldIso_looseOldIso_tEta
+_fakeRate.png (no BoundingBox).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.964 ...ightOldIso_looseOldIso_tEta_fakeRate.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+File: tightOldIso_looseOldIso_tEta_fakeRate.png Graphic file (type eps)
+<tightOldIso_looseOldIso_tEta_fakeRate.png>
+Runaway argument?
+{Distributions of $f_{tau_{h}}$ as a function of $ p_{T}^{\tau }$ (le\ETC.
+! Paragraph ended before \caption@prepareanchor was complete.
+<to be read again> 
+                   \par 
+l.1507  \end{tabular}}
+                      
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+
+LaTeX Warning: Reference `tab:taufakerate' on page 58 undefined on input line 1
+507.
+
+
+LaTeX Warning: Reference `fig:samesign_fakes' on page 58 undefined on input lin
+e 1507.
+
+
+! LaTeX Error: Not in outer par mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1507  \end{tabular}}
+                      
+You've lost some text.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: Reference `fakes' on page 58 undefined on input line 1507.
+
+
+LaTeX Warning: Reference `fig:samesign_fakes13TeV' on page 58 undefined on inpu
+t line 1507.
+
+
+! LaTeX Error: Not in outer par mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1507  \end{tabular}}
+                      
+You've lost some text.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Cannot determine size of graphic in /home/aaron/root/lfv/76X_V2_
+MuonFix_March30/preselectionSS_collMass_type1_MuTau_AMCATNLO.pdf (no BoundingBo
+x).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1507  \end{tabular}}
+                      
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
 File: /home/aaron/root/lfv/76X_V2_MuonFix_March30/preselectionSS_collMass_type1
-_MuTau_AMCATNLO.pdf Graphic file (type pdf)
+_MuTau_AMCATNLO.pdf Graphic file (type eps)
 
-<use /home/aaron/root/lfv/76X_V2_MuonFix_March30/preselectionSS_collMass_type1_
-MuTau_AMCATNLO.pdf>
-Package pdftex.def Info: /home/aaron/root/lfv/76X_V2_MuonFix_March30/preselecti
-onSS_collMass_type1_MuTau_AMCATNLO.pdf used on input line 974.
-(pdftex.def)             Requested size: 207.83815pt x 201.60643pt.
+</home/aaron/root/lfv/76X_V2_MuonFix_March30/preselectionSS_collMass_type1_MuTa
+u_AMCATNLO.pdf>
 
-</home/aaron/root/lfv/PreselectionSS_ForPAS/mue0J_preselection_SS.pdf, id=447, 
-569.12625pt x 552.0625pt>
+! LaTeX Error: Cannot determine size of graphic in /home/aaron/root/lfv/Presele
+ctionSS_ForPAS/mue0J_preselection_SS.pdf (no BoundingBox).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1507  \end{tabular}}
+                      
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
 File: /home/aaron/root/lfv/PreselectionSS_ForPAS/mue0J_preselection_SS.pdf Grap
-hic file (type pdf)
+hic file (type eps)
+</home/aaron/root/lfv/PreselectionSS_ForPAS/mue0J_preselection_SS.pdf>
 
-<use /home/aaron/root/lfv/PreselectionSS_ForPAS/mue0J_preselection_SS.pdf>
-Package pdftex.def Info: /home/aaron/root/lfv/PreselectionSS_ForPAS/mue0J_prese
-lection_SS.pdf used on input line 975.
-(pdftex.def)             Requested size: 207.83815pt x 201.60643pt.
+LaTeX Warning: Reference `fig:Mcol_after_presel_WITHDATA' on page 58 undefined 
+on input line 1507.
 
-[52 </home/aaron/root/lfv/76X_V2_MuonFix_March30/preselectionSS_collMass_type1_
-MuTau_AMCATNLO.pdf, page is rotated 90 degrees> </home/aaron/root/lfv/Preselect
-ionSS_ForPAS/mue0J_preselection_SS.pdf, page is rotated 90 degrees>]
-</home/aaron/root/hlfv/muele_GG_m_colinear_UNBLIND_PRESEL_BR100.pdf, id=537, 56
-9.12625pt x 548.0475pt>
+
+LaTeX Warning: Reference `fig:Mcol_after_presel_WITHDATA_13TeV' on page 58 unde
+fined on input line 1507.
+
+
+! LaTeX Error: Not in outer par mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1507  \end{tabular}}
+                      
+You've lost some text.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Cannot determine size of graphic in /home/aaron/root/hlfv/muele_
+GG_m_colinear_UNBLIND_PRESEL_BR100.pdf (no BoundingBox).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1507  \end{tabular}}
+                      
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
 File: /home/aaron/root/hlfv/muele_GG_m_colinear_UNBLIND_PRESEL_BR100.pdf Graphi
-c file (type pdf)
+c file (type eps)
+</home/aaron/root/hlfv/muele_GG_m_colinear_UNBLIND_PRESEL_BR100.pdf>
 
-<use /home/aaron/root/hlfv/muele_GG_m_colinear_UNBLIND_PRESEL_BR100.pdf>
-Package pdftex.def Info: /home/aaron/root/hlfv/muele_GG_m_colinear_UNBLIND_PRES
-EL_BR100.pdf used on input line 988.
-(pdftex.def)             Requested size: 181.8592pt x 175.1279pt.
+! LaTeX Error: Cannot determine size of graphic in /home/aaron/root/hlfv/muhad_
+GG_m_colinear_UNBLIND_PRESEL_BR100.pdf (no BoundingBox).
 
-</home/aaron/root/hlfv/muhad_GG_m_colinear_UNBLIND_PRESEL_BR100.pdf, id=538, 56
-9.12625pt x 548.0475pt>
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1507  \end{tabular}}
+                      
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
 File: /home/aaron/root/hlfv/muhad_GG_m_colinear_UNBLIND_PRESEL_BR100.pdf Graphi
-c file (type pdf)
+c file (type eps)
+</home/aaron/root/hlfv/muhad_GG_m_colinear_UNBLIND_PRESEL_BR100.pdf>
 
-<use /home/aaron/root/hlfv/muhad_GG_m_colinear_UNBLIND_PRESEL_BR100.pdf>
-Package pdftex.def Info: /home/aaron/root/hlfv/muhad_GG_m_colinear_UNBLIND_PRES
-EL_BR100.pdf used on input line 989.
-(pdftex.def)             Requested size: 181.8592pt x 175.1279pt.
+! LaTeX Error: Cannot determine size of graphic in /home/aaron/root/hlfv/muele_
+Boost_m_colinear_UNBLIND_PRESEL_BR100.pdf (no BoundingBox).
 
-</home/aaron/root/hlfv/muele_Boost_m_colinear_UNBLIND_PRESEL_BR100.pdf, id=539,
- 569.12625pt x 548.0475pt>
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1507  \end{tabular}}
+                      
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
 File: /home/aaron/root/hlfv/muele_Boost_m_colinear_UNBLIND_PRESEL_BR100.pdf Gra
-phic file (type pdf)
+phic file (type eps)
+</home/aaron/root/hlfv/muele_Boost_m_colinear_UNBLIND_PRESEL_BR100.pdf>
 
-<use /home/aaron/root/hlfv/muele_Boost_m_colinear_UNBLIND_PRESEL_BR100.pdf>
-Package pdftex.def Info: /home/aaron/root/hlfv/muele_Boost_m_colinear_UNBLIND_P
-RESEL_BR100.pdf used on input line 990.
-(pdftex.def)             Requested size: 181.8592pt x 175.1279pt.
+! LaTeX Error: Cannot determine size of graphic in /home/aaron/root/hlfv/muhad_
+Boost_m_colinear_UNBLIND_PRESEL_BR100.pdf (no BoundingBox).
 
-</home/aaron/root/hlfv/muhad_Boost_m_colinear_UNBLIND_PRESEL_BR100.pdf, id=540,
- 569.12625pt x 548.0475pt>
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1507  \end{tabular}}
+                      
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
 File: /home/aaron/root/hlfv/muhad_Boost_m_colinear_UNBLIND_PRESEL_BR100.pdf Gra
-phic file (type pdf)
+phic file (type eps)
+</home/aaron/root/hlfv/muhad_Boost_m_colinear_UNBLIND_PRESEL_BR100.pdf>
 
-<use /home/aaron/root/hlfv/muhad_Boost_m_colinear_UNBLIND_PRESEL_BR100.pdf>
-Package pdftex.def Info: /home/aaron/root/hlfv/muhad_Boost_m_colinear_UNBLIND_P
-RESEL_BR100.pdf used on input line 991.
-(pdftex.def)             Requested size: 181.8592pt x 175.1279pt.
+! LaTeX Error: Cannot determine size of graphic in /home/aaron/root/hlfv/muele_
+VBF_m_colinear_UNBLIND_PRESEL_BR100.pdf (no BoundingBox).
 
-</home/aaron/root/hlfv/muele_VBF_m_colinear_UNBLIND_PRESEL_BR100.pdf, id=541, 5
-69.12625pt x 548.0475pt>
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1507  \end{tabular}}
+                      
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
 File: /home/aaron/root/hlfv/muele_VBF_m_colinear_UNBLIND_PRESEL_BR100.pdf Graph
-ic file (type pdf)
+ic file (type eps)
+</home/aaron/root/hlfv/muele_VBF_m_colinear_UNBLIND_PRESEL_BR100.pdf>
 
-<use /home/aaron/root/hlfv/muele_VBF_m_colinear_UNBLIND_PRESEL_BR100.pdf>
-Package pdftex.def Info: /home/aaron/root/hlfv/muele_VBF_m_colinear_UNBLIND_PRE
-SEL_BR100.pdf used on input line 992.
-(pdftex.def)             Requested size: 181.8592pt x 175.1279pt.
+! LaTeX Error: Cannot determine size of graphic in /home/aaron/root/hlfv/muhad_
+VBF_m_colinear_UNBLIND_PRESEL_BR100.pdf (no BoundingBox).
 
-</home/aaron/root/hlfv/muhad_VBF_m_colinear_UNBLIND_PRESEL_BR100.pdf, id=542, 5
-69.12625pt x 548.0475pt>
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1507  \end{tabular}}
+                      
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
 File: /home/aaron/root/hlfv/muhad_VBF_m_colinear_UNBLIND_PRESEL_BR100.pdf Graph
-ic file (type pdf)
+ic file (type eps)
+</home/aaron/root/hlfv/muhad_VBF_m_colinear_UNBLIND_PRESEL_BR100.pdf>
 
-<use /home/aaron/root/hlfv/muhad_VBF_m_colinear_UNBLIND_PRESEL_BR100.pdf>
-Package pdftex.def Info: /home/aaron/root/hlfv/muhad_VBF_m_colinear_UNBLIND_PRE
-SEL_BR100.pdf used on input line 993.
-(pdftex.def)             Requested size: 181.8592pt x 175.1279pt.
+! LaTeX Error: Not in outer par mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1507  \end{tabular}}
+                      
+You've lost some text.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
 
 
-LaTeX Warning: Float too large for page by 2.3837pt on input line 996.
+! LaTeX Error: Cannot determine size of graphic in /home/aaron/root/lfv/Presele
+ctionEMu_ForPAS/mue0J_preselection.pdf (no BoundingBox).
 
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1507  \end{tabular}}
+                      
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
 
-</home/aaron/root/lfv/PreselectionEMu_ForPAS/mue0J_preselection.pdf, id=543, 56
-9.12625pt x 552.0625pt>
 File: /home/aaron/root/lfv/PreselectionEMu_ForPAS/mue0J_preselection.pdf Graphi
-c file (type pdf)
+c file (type eps)
+</home/aaron/root/lfv/PreselectionEMu_ForPAS/mue0J_preselection.pdf>
 
-<use /home/aaron/root/lfv/PreselectionEMu_ForPAS/mue0J_preselection.pdf>
-Package pdftex.def Info: /home/aaron/root/lfv/PreselectionEMu_ForPAS/mue0J_pres
-election.pdf used on input line 999.
-(pdftex.def)             Requested size: 181.8592pt x 176.41089pt.
+! LaTeX Error: Cannot determine size of graphic in /home/aaron/root/lfv/76X_V2_
+MuonFix_March30/preselection0Jet_collMass_type1_MuTau_AMCATNLO.pdf (no Bounding
+Box).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1507  \end{tabular}}
+                      
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+File: /home/aaron/root/lfv/76X_V2_MuonFix_March30/preselection0Jet_collMass_typ
+e1_MuTau_AMCATNLO.pdf Graphic file (type eps)
 
 </home/aaron/root/lfv/76X_V2_MuonFix_March30/preselection0Jet_collMass_type1_Mu
-Tau_AMCATNLO.pdf, id=544, 569.12625pt x 552.0625pt>
-File: /home/aaron/root/lfv/76X_V2_MuonFix_March30/preselection0Jet_collMass_typ
-e1_MuTau_AMCATNLO.pdf Graphic file (type pdf)
+Tau_AMCATNLO.pdf>
 
-<use /home/aaron/root/lfv/76X_V2_MuonFix_March30/preselection0Jet_collMass_type
-1_MuTau_AMCATNLO.pdf>
-Package pdftex.def Info: /home/aaron/root/lfv/76X_V2_MuonFix_March30/preselecti
-on0Jet_collMass_type1_MuTau_AMCATNLO.pdf used on input line 1000.
-(pdftex.def)             Requested size: 181.8592pt x 176.41089pt.
+! LaTeX Error: Cannot determine size of graphic in /home/aaron/root/lfv/Presele
+ctionEMu_ForPAS/mue1J_preselection.pdf (no BoundingBox).
 
-</home/aaron/root/lfv/PreselectionEMu_ForPAS/mue1J_preselection.pdf, id=545, 56
-9.12625pt x 552.0625pt>
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1507  \end{tabular}}
+                      
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
 File: /home/aaron/root/lfv/PreselectionEMu_ForPAS/mue1J_preselection.pdf Graphi
-c file (type pdf)
+c file (type eps)
+</home/aaron/root/lfv/PreselectionEMu_ForPAS/mue1J_preselection.pdf>
 
-<use /home/aaron/root/lfv/PreselectionEMu_ForPAS/mue1J_preselection.pdf>
-Package pdftex.def Info: /home/aaron/root/lfv/PreselectionEMu_ForPAS/mue1J_pres
-election.pdf used on input line 1001.
-(pdftex.def)             Requested size: 181.8592pt x 176.41089pt.
+! LaTeX Error: Cannot determine size of graphic in /home/aaron/root/lfv/76X_V2_
+MuonFix_March30/preselection1Jet_collMass_type1_MuTau_AMCATNLO.pdf (no Bounding
+Box).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1507  \end{tabular}}
+                      
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+File: /home/aaron/root/lfv/76X_V2_MuonFix_March30/preselection1Jet_collMass_typ
+e1_MuTau_AMCATNLO.pdf Graphic file (type eps)
 
 </home/aaron/root/lfv/76X_V2_MuonFix_March30/preselection1Jet_collMass_type1_Mu
-Tau_AMCATNLO.pdf, id=546, 569.12625pt x 552.0625pt>
-File: /home/aaron/root/lfv/76X_V2_MuonFix_March30/preselection1Jet_collMass_typ
-e1_MuTau_AMCATNLO.pdf Graphic file (type pdf)
+Tau_AMCATNLO.pdf>
 
-<use /home/aaron/root/lfv/76X_V2_MuonFix_March30/preselection1Jet_collMass_type
-1_MuTau_AMCATNLO.pdf>
-Package pdftex.def Info: /home/aaron/root/lfv/76X_V2_MuonFix_March30/preselecti
-on1Jet_collMass_type1_MuTau_AMCATNLO.pdf used on input line 1002.
-(pdftex.def)             Requested size: 181.8592pt x 176.41089pt.
+! LaTeX Error: Cannot determine size of graphic in /home/aaron/root/lfv/Presele
+ctionEMu_ForPAS/mue2J_preselection.pdf (no BoundingBox).
 
-</home/aaron/root/lfv/PreselectionEMu_ForPAS/mue2J_preselection.pdf, id=547, 56
-9.12625pt x 552.0625pt>
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1507  \end{tabular}}
+                      
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
 File: /home/aaron/root/lfv/PreselectionEMu_ForPAS/mue2J_preselection.pdf Graphi
-c file (type pdf)
+c file (type eps)
+</home/aaron/root/lfv/PreselectionEMu_ForPAS/mue2J_preselection.pdf>
 
-<use /home/aaron/root/lfv/PreselectionEMu_ForPAS/mue2J_preselection.pdf>
-Package pdftex.def Info: /home/aaron/root/lfv/PreselectionEMu_ForPAS/mue2J_pres
-election.pdf used on input line 1003.
-(pdftex.def)             Requested size: 181.8592pt x 176.41089pt.
+! LaTeX Error: Cannot determine size of graphic in /home/aaron/root/lfv/76X_V2_
+MuonFix_March30/preselection2Jet_collMass_type1_MuTau_AMCATNLO.pdf (no Bounding
+Box).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1507  \end{tabular}}
+                      
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+File: /home/aaron/root/lfv/76X_V2_MuonFix_March30/preselection2Jet_collMass_typ
+e1_MuTau_AMCATNLO.pdf Graphic file (type eps)
 
 </home/aaron/root/lfv/76X_V2_MuonFix_March30/preselection2Jet_collMass_type1_Mu
-Tau_AMCATNLO.pdf, id=548, 569.12625pt x 552.0625pt>
-File: /home/aaron/root/lfv/76X_V2_MuonFix_March30/preselection2Jet_collMass_typ
-e1_MuTau_AMCATNLO.pdf Graphic file (type pdf)
+Tau_AMCATNLO.pdf>
 
-<use /home/aaron/root/lfv/76X_V2_MuonFix_March30/preselection2Jet_collMass_type
-1_MuTau_AMCATNLO.pdf>
-Package pdftex.def Info: /home/aaron/root/lfv/76X_V2_MuonFix_March30/preselecti
-on2Jet_collMass_type1_MuTau_AMCATNLO.pdf used on input line 1004.
-(pdftex.def)             Requested size: 181.8592pt x 176.41089pt.
+LaTeX Warning: Reference `tab:kinematicselection' on page 58 undefined on input
+ line 1507.
 
 
-LaTeX Warning: Float too large for page by 6.23267pt on input line 1007.
+! LaTeX Error: Not in outer par mode.
 
-[53] [54 </home/aaron/root/hlfv/muele_GG_m_colinear_UNBLIND_PRESEL_BR100.pdf, p
-age is rotated 90 degrees> </home/aaron/root/hlfv/muhad_GG_m_colinear_UNBLIND_P
-RESEL_BR100.pdf, page is rotated 90 degrees> </home/aaron/root/hlfv/muele_Boost
-_m_colinear_UNBLIND_PRESEL_BR100.pdf, page is rotated 90 degrees> </home/aaron/
-root/hlfv/muhad_Boost_m_colinear_UNBLIND_PRESEL_BR100.pdf, page is rotated 90 d
-egrees> </home/aaron/root/hlfv/muele_VBF_m_colinear_UNBLIND_PRESEL_BR100.pdf, p
-age is rotated 90 degrees> </home/aaron/root/hlfv/muhad_VBF_m_colinear_UNBLIND_
-PRESEL_BR100.pdf, page is rotated 90 degrees>] [55 </home/aaron/root/lfv/Presel
-ectionEMu_ForPAS/mue0J_preselection.pdf, page is rotated 90 degrees> </home/aar
-on/root/lfv/76X_V2_MuonFix_March30/preselection0Jet_collMass_type1_MuTau_AMCATN
-LO.pdf, page is rotated 90 degrees> </home/aaron/root/lfv/PreselectionEMu_ForPA
-S/mue1J_preselection.pdf, page is rotated 90 degrees> </home/aaron/root/lfv/76X
-_V2_MuonFix_March30/preselection1Jet_collMass_type1_MuTau_AMCATNLO.pdf, page is
- rotated 90 degrees> </home/aaron/root/lfv/PreselectionEMu_ForPAS/mue2J_presele
-ction.pdf, page is rotated 90 degrees> </home/aaron/root/lfv/76X_V2_MuonFix_Mar
-ch30/preselection2Jet_collMass_type1_MuTau_AMCATNLO.pdf, page is rotated 90 deg
-rees>] [56]
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1507  \end{tabular}}
+                      
+You've lost some text.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
 
-LaTeX Warning: Reference `1748-0221-6-11-P11002' on page 57 undefined on input 
-line 1092.
 
-[57] [58] [59] [60]
-</home/aaron/root/hlfv/muele_GG_m_colinear_UNBLIND_PostFit.pdf, id=1093, 569.12
-625pt x 548.0475pt>
+LaTeX Warning: Reference `statmeth' on page 58 undefined on input line 1507.
+
+
+LaTeX Warning: Reference `tab:systematics' on page 58 undefined on input line 1
+507.
+
+
+LaTeX Warning: Reference `tab:theory_systematics' on page 58 undefined on input
+ line 1507.
+
+
+LaTeX Warning: Citation `Chatrchyan:2014mua' on page 58 undefined on input line
+ 1507.
+
+
+LaTeX Warning: Citation `1748-0221-7-01-P01001' on page 58 undefined on input l
+ine 1507.
+
+
+! LaTeX Error: Not in outer par mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1507  \end{tabular}}
+                      
+You've lost some text.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Not in outer par mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1507  \end{tabular}}
+                      
+You've lost some text.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: Reference `tab:theory_systematics' on page 58 undefined on input
+ line 1507.
+
+
+LaTeX Warning: Citation `Nadolsky:2008zw' on page 58 undefined on input line 15
+07.
+
+
+LaTeX Warning: Citation `Martin:2009iq' on page 58 undefined on input line 1507
+.
+
+
+LaTeX Warning: Citation `Ball:2010de' on page 58 undefined on input line 1507.
+
+
+LaTeX Warning: Citation `Alekhin:2011sk' on page 58 undefined on input line 150
+7.
+
+
+LaTeX Warning: Citation `Dittmaier:2011ti' on page 58 undefined on input line 1
+507.
+
+
+LaTeX Warning: Reference `1748-0221-6-11-P11002' on page 58 undefined on input 
+line 1507.
+
+
+LaTeX Warning: Reference `tab:systematics13TeV' on page 58 undefined on input l
+ine 1507.
+
+
+! LaTeX Error: Not in outer par mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1507  \end{tabular}}
+                      
+You've lost some text.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: Reference `eventsel' on page 58 undefined on input line 1507.
+
+
+LaTeX Warning: Reference `sysuncert' on page 58 undefined on input line 1507.
+
+
+LaTeX Warning: Citation `BevingtonRobinson200207' on page 58 undefined on input
+ line 1507.
+
+
+LaTeX Warning: Citation `Conway:2011in' on page 58 undefined on input line 1507
+.
+
+
+LaTeX Warning: Reference `fig:Mcol_Postfit' on page 58 undefined on input line 
+1507.
+
+
+LaTeX Warning: Citation `Cowan:2010js' on page 58 undefined on input line 1507.
+
+
+
+LaTeX Warning: Citation `wald1943tests' on page 58 undefined on input line 1507
+.
+
+
+LaTeX Warning: Citation `Read:451614' on page 58 undefined on input line 1507.
+
+
+LaTeX Warning: Citation `Cowan:2010js' on page 58 undefined on input line 1507.
+
+
+
+LaTeX Warning: Reference `fig:Mcol_Postfit' on page 58 undefined on input line 
+1507.
+
+
+LaTeX Warning: Reference `tab:EventYieldTable_100_to_150' on page 58 undefined 
+on input line 1507.
+
+
+! LaTeX Error: Not in outer par mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1507  \end{tabular}}
+                      
+You've lost some text.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Cannot determine size of graphic in /home/aaron/root/hlfv/muele_
+GG_m_colinear_UNBLIND_PostFit.pdf (no BoundingBox).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1507  \end{tabular}}
+                      
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
 File: /home/aaron/root/hlfv/muele_GG_m_colinear_UNBLIND_PostFit.pdf Graphic fil
-e (type pdf)
+e (type eps)
+</home/aaron/root/hlfv/muele_GG_m_colinear_UNBLIND_PostFit.pdf>
 
-<use /home/aaron/root/hlfv/muele_GG_m_colinear_UNBLIND_PostFit.pdf>
-Package pdftex.def Info: /home/aaron/root/hlfv/muele_GG_m_colinear_UNBLIND_Post
-Fit.pdf used on input line 1160.
-(pdftex.def)             Requested size: 207.83815pt x 200.1402pt.
+! LaTeX Error: Cannot determine size of graphic in /home/aaron/root/hlfv/muhad_
+GG_m_colinear_UNBLIND_PostFit.pdf (no BoundingBox).
 
-</home/aaron/root/hlfv/muhad_GG_m_colinear_UNBLIND_PostFit.pdf, id=1094, 569.12
-625pt x 548.0475pt>
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1507  \end{tabular}}
+                      
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
 File: /home/aaron/root/hlfv/muhad_GG_m_colinear_UNBLIND_PostFit.pdf Graphic fil
-e (type pdf)
+e (type eps)
+</home/aaron/root/hlfv/muhad_GG_m_colinear_UNBLIND_PostFit.pdf>
 
-<use /home/aaron/root/hlfv/muhad_GG_m_colinear_UNBLIND_PostFit.pdf>
-Package pdftex.def Info: /home/aaron/root/hlfv/muhad_GG_m_colinear_UNBLIND_Post
-Fit.pdf used on input line 1161.
-(pdftex.def)             Requested size: 207.83815pt x 200.1402pt.
+! LaTeX Error: Cannot determine size of graphic in /home/aaron/root/hlfv/muele_
+Boost_m_colinear_UNBLIND_PostFit.pdf (no BoundingBox).
 
-</home/aaron/root/hlfv/muele_Boost_m_colinear_UNBLIND_PostFit.pdf, id=1095, 569
-.12625pt x 548.0475pt>
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1507  \end{tabular}}
+                      
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
 File: /home/aaron/root/hlfv/muele_Boost_m_colinear_UNBLIND_PostFit.pdf Graphic 
-file (type pdf)
+file (type eps)
+</home/aaron/root/hlfv/muele_Boost_m_colinear_UNBLIND_PostFit.pdf>
 
-<use /home/aaron/root/hlfv/muele_Boost_m_colinear_UNBLIND_PostFit.pdf>
-Package pdftex.def Info: /home/aaron/root/hlfv/muele_Boost_m_colinear_UNBLIND_P
-ostFit.pdf used on input line 1162.
-(pdftex.def)             Requested size: 207.83815pt x 200.1402pt.
+! LaTeX Error: Cannot determine size of graphic in /home/aaron/root/hlfv/muhad_
+Boost_m_colinear_UNBLIND_PostFit.pdf (no BoundingBox).
 
-</home/aaron/root/hlfv/muhad_Boost_m_colinear_UNBLIND_PostFit.pdf, id=1096, 569
-.12625pt x 548.0475pt>
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1507  \end{tabular}}
+                      
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
 File: /home/aaron/root/hlfv/muhad_Boost_m_colinear_UNBLIND_PostFit.pdf Graphic 
-file (type pdf)
+file (type eps)
+</home/aaron/root/hlfv/muhad_Boost_m_colinear_UNBLIND_PostFit.pdf>
 
-<use /home/aaron/root/hlfv/muhad_Boost_m_colinear_UNBLIND_PostFit.pdf>
-Package pdftex.def Info: /home/aaron/root/hlfv/muhad_Boost_m_colinear_UNBLIND_P
-ostFit.pdf used on input line 1163.
-(pdftex.def)             Requested size: 207.83815pt x 200.1402pt.
+! LaTeX Error: Cannot determine size of graphic in /home/aaron/root/hlfv/muele_
+VBF_m_colinear_UNBLIND_PostFit.pdf (no BoundingBox).
 
-</home/aaron/root/hlfv/muele_VBF_m_colinear_UNBLIND_PostFit.pdf, id=1097, 569.1
-2625pt x 548.0475pt>
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1507  \end{tabular}}
+                      
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
 File: /home/aaron/root/hlfv/muele_VBF_m_colinear_UNBLIND_PostFit.pdf Graphic fi
-le (type pdf)
+le (type eps)
+</home/aaron/root/hlfv/muele_VBF_m_colinear_UNBLIND_PostFit.pdf>
 
-<use /home/aaron/root/hlfv/muele_VBF_m_colinear_UNBLIND_PostFit.pdf>
-Package pdftex.def Info: /home/aaron/root/hlfv/muele_VBF_m_colinear_UNBLIND_Pos
-tFit.pdf used on input line 1164.
-(pdftex.def)             Requested size: 207.83815pt x 200.1402pt.
+! LaTeX Error: Cannot determine size of graphic in /home/aaron/root/hlfv/muhad_
+VBF_m_colinear_UNBLIND_PostFit.pdf (no BoundingBox).
 
-</home/aaron/root/hlfv/muhad_VBF_m_colinear_UNBLIND_PostFit.pdf, id=1098, 569.1
-2625pt x 548.0475pt>
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1507  \end{tabular}}
+                      
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
 File: /home/aaron/root/hlfv/muhad_VBF_m_colinear_UNBLIND_PostFit.pdf Graphic fi
-le (type pdf)
+le (type eps)
+</home/aaron/root/hlfv/muhad_VBF_m_colinear_UNBLIND_PostFit.pdf>
 
-<use /home/aaron/root/hlfv/muhad_VBF_m_colinear_UNBLIND_PostFit.pdf>
-Package pdftex.def Info: /home/aaron/root/hlfv/muhad_VBF_m_colinear_UNBLIND_Pos
-tFit.pdf used on input line 1165.
-(pdftex.def)             Requested size: 207.83815pt x 200.1402pt.
+! LaTeX Error: Not in outer par mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1507  \end{tabular}}
+                      
+You've lost some text.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
 
 
-LaTeX Warning: Float too large for page by 77.4206pt on input line 1173.
+LaTeX Warning: Reference `tab:expected_limits' on page 58 undefined on input li
+ne 1507.
 
-[61] [62 </home/aaron/root/hlfv/muele_GG_m_colinear_UNBLIND_PostFit.pdf, page i
-s rotated 90 degrees> </home/aaron/root/hlfv/muhad_GG_m_colinear_UNBLIND_PostFi
-t.pdf, page is rotated 90 degrees> </home/aaron/root/hlfv/muele_Boost_m_colinea
-r_UNBLIND_PostFit.pdf, page is rotated 90 degrees> </home/aaron/root/hlfv/muhad
-_Boost_m_colinear_UNBLIND_PostFit.pdf, page is rotated 90 degrees> </home/aaron
-/root/hlfv/muele_VBF_m_colinear_UNBLIND_PostFit.pdf, page is rotated 90 degrees
-> </home/aaron/root/hlfv/muhad_VBF_m_colinear_UNBLIND_PostFit.pdf, page is rota
-ted 90 degrees>]
-</home/aaron/root/hlfv/NewMETLimits.pdf, id=1364, 544.0325pt x 569.12625pt>
-File: /home/aaron/root/hlfv/NewMETLimits.pdf Graphic file (type pdf)
 
-<use /home/aaron/root/hlfv/NewMETLimits.pdf>
-Package pdftex.def Info: /home/aaron/root/hlfv/NewMETLimits.pdf used on input l
-ine 1235.
-(pdftex.def)             Requested size: 207.83815pt x 217.42522pt.
+LaTeX Warning: Reference `tab:expected_limits' on page 58 undefined on input li
+ne 1507.
 
-<yukawa.pdf, id=1365, 569.12625pt x 546.04pt>
-File: yukawa.pdf Graphic file (type pdf)
- <use yukawa.pdf>
-Package pdftex.def Info: yukawa.pdf used on input line 1240.
-(pdftex.def)             Requested size: 212.17238pt x 203.5647pt.
- [63 </home/aaron/root/hlfv/NewMETLimits.pdf>]
 
-LaTeX Warning: Reference `fig:yukawa' on page 64 undefined on input line 1265.
+LaTeX Warning: Reference `fig:limits_summary' on page 58 undefined on input lin
+e 1507.
 
-[64 <./yukawa.pdf, page is rotated 90 degrees>]
-</home/aaron/root/lfv/76X_V6_MuonFix_SystematicsFix/LFVMuE_SR_OS_0Jet_UnBlinded
-_Postfit.pdf, id=1460, 569.12625pt x 552.0625pt>
+
+! LaTeX Error: Not in outer par mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1507  \end{tabular}}
+                      
+You've lost some text.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Not in outer par mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1507  \end{tabular}}
+                      
+You've lost some text.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Cannot determine size of graphic in /home/aaron/root/hlfv/NewMET
+Limits.pdf (no BoundingBox).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1507  \end{tabular}}
+                      
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+File: /home/aaron/root/hlfv/NewMETLimits.pdf Graphic file (type eps)
+</home/aaron/root/hlfv/NewMETLimits.pdf>
+
+! LaTeX Error: Not in outer par mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1507  \end{tabular}}
+                      
+You've lost some text.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Cannot determine size of graphic in yukawa.pdf (no BoundingBox).
+
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1507  \end{tabular}}
+                      
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+File: yukawa.pdf Graphic file (type eps)
+<yukawa.pdf>
+
+LaTeX Warning: Citation `Khachatryan:2015kon' on page 58 undefined on input lin
+e 1507.
+
+
+LaTeX Warning: Citation `Harnik:2012pb' on page 58 undefined on input line 1507
+.
+
+
+LaTeX Warning: Citation `Khachatryan:2015kon' on page 58 undefined on input lin
+e 1507.
+
+
+LaTeX Warning: Citation `Harnik:2012pb' on page 58 undefined on input line 1507
+.
+
+
+LaTeX Warning: Citation `Harnik:2012pb' on page 58 undefined on input line 1507
+.
+
+
+LaTeX Warning: Citation `Denner:2011mq' on page 58 undefined on input line 1507
+.
+
+
+LaTeX Warning: Reference `fig:yukawa' on page 58 undefined on input line 1507.
+
+
+LaTeX Warning: Reference `fig:Mcol_SignalRegion13TeV' on page 58 undefined on i
+nput line 1507.
+
+
+LaTeX Warning: Reference `tab:EventYieldTable_100_to_150_13TeV' on page 58 unde
+fined on input line 1507.
+
+
+! LaTeX Error: Not in outer par mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1507  \end{tabular}}
+                      
+You've lost some text.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Cannot determine size of graphic in /home/aaron/root/lfv/76X_V6_
+MuonFix_SystematicsFix/LFVMuE_SR_OS_0Jet_UnBlinded_Postfit.pdf (no BoundingBox)
+.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1507  \end{tabular}}
+                      
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
 File: /home/aaron/root/lfv/76X_V6_MuonFix_SystematicsFix/LFVMuE_SR_OS_0Jet_UnBl
-inded_Postfit.pdf Graphic file (type pdf)
+inded_Postfit.pdf Graphic file (type eps)
 
-<use /home/aaron/root/lfv/76X_V6_MuonFix_SystematicsFix/LFVMuE_SR_OS_0Jet_UnBli
-nded_Postfit.pdf>
-Package pdftex.def Info: /home/aaron/root/lfv/76X_V6_MuonFix_SystematicsFix/LFV
-MuE_SR_OS_0Jet_UnBlinded_Postfit.pdf used on input line 1274.
-(pdftex.def)             Requested size: 207.83815pt x 201.60643pt.
+</home/aaron/root/lfv/76X_V6_MuonFix_SystematicsFix/LFVMuE_SR_OS_0Jet_UnBlinded
+_Postfit.pdf>
+
+! LaTeX Error: Cannot determine size of graphic in /home/aaron/root/lfv/76X_V6_
+MuonFix_SystematicsFix/LFVMuTau_SR_OS_0Jet_UnBlinded_Postfit.pdf (no BoundingBo
+x).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1507  \end{tabular}}
+                      
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+File: /home/aaron/root/lfv/76X_V6_MuonFix_SystematicsFix/LFVMuTau_SR_OS_0Jet_Un
+Blinded_Postfit.pdf Graphic file (type eps)
 
 </home/aaron/root/lfv/76X_V6_MuonFix_SystematicsFix/LFVMuTau_SR_OS_0Jet_UnBlind
-ed_Postfit.pdf, id=1461, 569.12625pt x 552.0625pt>
-File: /home/aaron/root/lfv/76X_V6_MuonFix_SystematicsFix/LFVMuTau_SR_OS_0Jet_Un
-Blinded_Postfit.pdf Graphic file (type pdf)
+ed_Postfit.pdf>
 
-<use /home/aaron/root/lfv/76X_V6_MuonFix_SystematicsFix/LFVMuTau_SR_OS_0Jet_UnB
-linded_Postfit.pdf>
-Package pdftex.def Info: /home/aaron/root/lfv/76X_V6_MuonFix_SystematicsFix/LFV
-MuTau_SR_OS_0Jet_UnBlinded_Postfit.pdf used on input line 1275.
-(pdftex.def)             Requested size: 207.83815pt x 201.60643pt.
+! LaTeX Error: Cannot determine size of graphic in /home/aaron/root/lfv/76X_V6_
+MuonFix_SystematicsFix/LFVMuE_SR_OS_1Jet_UnBlinded_Postfit.pdf (no BoundingBox)
+.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1507  \end{tabular}}
+                      
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+File: /home/aaron/root/lfv/76X_V6_MuonFix_SystematicsFix/LFVMuE_SR_OS_1Jet_UnBl
+inded_Postfit.pdf Graphic file (type eps)
 
 </home/aaron/root/lfv/76X_V6_MuonFix_SystematicsFix/LFVMuE_SR_OS_1Jet_UnBlinded
-_Postfit.pdf, id=1462, 569.12625pt x 552.0625pt>
-File: /home/aaron/root/lfv/76X_V6_MuonFix_SystematicsFix/LFVMuE_SR_OS_1Jet_UnBl
-inded_Postfit.pdf Graphic file (type pdf)
+_Postfit.pdf>
 
-<use /home/aaron/root/lfv/76X_V6_MuonFix_SystematicsFix/LFVMuE_SR_OS_1Jet_UnBli
-nded_Postfit.pdf>
-Package pdftex.def Info: /home/aaron/root/lfv/76X_V6_MuonFix_SystematicsFix/LFV
-MuE_SR_OS_1Jet_UnBlinded_Postfit.pdf used on input line 1276.
-(pdftex.def)             Requested size: 207.83815pt x 201.60643pt.
+! LaTeX Error: Cannot determine size of graphic in /home/aaron/root/lfv/76X_V6_
+MuonFix_SystematicsFix/LFVMuTau_SR_OS_1Jet_UnBlinded_Postfit.pdf (no BoundingBo
+x).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1507  \end{tabular}}
+                      
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+File: /home/aaron/root/lfv/76X_V6_MuonFix_SystematicsFix/LFVMuTau_SR_OS_1Jet_Un
+Blinded_Postfit.pdf Graphic file (type eps)
 
 </home/aaron/root/lfv/76X_V6_MuonFix_SystematicsFix/LFVMuTau_SR_OS_1Jet_UnBlind
-ed_Postfit.pdf, id=1463, 569.12625pt x 552.0625pt>
-File: /home/aaron/root/lfv/76X_V6_MuonFix_SystematicsFix/LFVMuTau_SR_OS_1Jet_Un
-Blinded_Postfit.pdf Graphic file (type pdf)
+ed_Postfit.pdf>
 
-<use /home/aaron/root/lfv/76X_V6_MuonFix_SystematicsFix/LFVMuTau_SR_OS_1Jet_UnB
-linded_Postfit.pdf>
-Package pdftex.def Info: /home/aaron/root/lfv/76X_V6_MuonFix_SystematicsFix/LFV
-MuTau_SR_OS_1Jet_UnBlinded_Postfit.pdf used on input line 1277.
-(pdftex.def)             Requested size: 207.83815pt x 201.60643pt.
+! LaTeX Error: Cannot determine size of graphic in /home/aaron/root/lfv/76X_V6_
+MuonFix_SystematicsFix/LFVMuE_SR_OS_2Jet_UnBlinded_Postfit.pdf (no BoundingBox)
+.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1507  \end{tabular}}
+                      
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+File: /home/aaron/root/lfv/76X_V6_MuonFix_SystematicsFix/LFVMuE_SR_OS_2Jet_UnBl
+inded_Postfit.pdf Graphic file (type eps)
 
 </home/aaron/root/lfv/76X_V6_MuonFix_SystematicsFix/LFVMuE_SR_OS_2Jet_UnBlinded
-_Postfit.pdf, id=1464, 569.12625pt x 552.0625pt>
-File: /home/aaron/root/lfv/76X_V6_MuonFix_SystematicsFix/LFVMuE_SR_OS_2Jet_UnBl
-inded_Postfit.pdf Graphic file (type pdf)
+_Postfit.pdf>
 
-<use /home/aaron/root/lfv/76X_V6_MuonFix_SystematicsFix/LFVMuE_SR_OS_2Jet_UnBli
-nded_Postfit.pdf>
-Package pdftex.def Info: /home/aaron/root/lfv/76X_V6_MuonFix_SystematicsFix/LFV
-MuE_SR_OS_2Jet_UnBlinded_Postfit.pdf used on input line 1278.
-(pdftex.def)             Requested size: 207.83815pt x 201.60643pt.
+! LaTeX Error: Cannot determine size of graphic in /home/aaron/root/lfv/76X_V6_
+MuonFix_SystematicsFix/LFVMuTau_SR_OS_2Jet_UnBlinded_Postfit.pdf (no BoundingBo
+x).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1507  \end{tabular}}
+                      
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+File: /home/aaron/root/lfv/76X_V6_MuonFix_SystematicsFix/LFVMuTau_SR_OS_2Jet_Un
+Blinded_Postfit.pdf Graphic file (type eps)
 
 </home/aaron/root/lfv/76X_V6_MuonFix_SystematicsFix/LFVMuTau_SR_OS_2Jet_UnBlind
-ed_Postfit.pdf, id=1465, 569.12625pt x 552.0625pt>
-File: /home/aaron/root/lfv/76X_V6_MuonFix_SystematicsFix/LFVMuTau_SR_OS_2Jet_Un
-Blinded_Postfit.pdf Graphic file (type pdf)
+ed_Postfit.pdf>
 
-<use /home/aaron/root/lfv/76X_V6_MuonFix_SystematicsFix/LFVMuTau_SR_OS_2Jet_UnB
-linded_Postfit.pdf>
-Package pdftex.def Info: /home/aaron/root/lfv/76X_V6_MuonFix_SystematicsFix/LFV
-MuTau_SR_OS_2Jet_UnBlinded_Postfit.pdf used on input line 1279.
-(pdftex.def)             Requested size: 207.83815pt x 201.60643pt.
+! LaTeX Error: Not in outer par mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1507  \end{tabular}}
+                      
+You've lost some text.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
 
 
-LaTeX Warning: Float too large for page by 69.81929pt on input line 1287.
+LaTeX Warning: Reference `tab:expected_limits13TeV' on page 58 undefined on inp
+ut line 1507.
 
-<13TeVLimits.pdf, id=1466, 509.905pt x 569.12625pt>
-File: 13TeVLimits.pdf Graphic file (type pdf)
- <use 13TeVLimits.pdf>
-Package pdftex.def Info: 13TeVLimits.pdf used on input line 1359.
-(pdftex.def)             Requested size: 207.83815pt x 231.97986pt.
 
-[65] [66 </home/aaron/root/lfv/76X_V6_MuonFix_SystematicsFix/LFVMuE_SR_OS_0Jet_
-UnBlinded_Postfit.pdf, page is rotated 90 degrees> </home/aaron/root/lfv/76X_V6
-_MuonFix_SystematicsFix/LFVMuTau_SR_OS_0Jet_UnBlinded_Postfit.pdf, page is rota
-ted 90 degrees> </home/aaron/root/lfv/76X_V6_MuonFix_SystematicsFix/LFVMuE_SR_O
-S_1Jet_UnBlinded_Postfit.pdf, page is rotated 90 degrees> </home/aaron/root/lfv
-/76X_V6_MuonFix_SystematicsFix/LFVMuTau_SR_OS_1Jet_UnBlinded_Postfit.pdf, page 
-is rotated 90 degrees> </home/aaron/root/lfv/76X_V6_MuonFix_SystematicsFix/LFVM
-uE_SR_OS_2Jet_UnBlinded_Postfit.pdf, page is rotated 90 degrees> </home/aaron/r
-oot/lfv/76X_V6_MuonFix_SystematicsFix/LFVMuTau_SR_OS_2Jet_UnBlinded_Postfit.pdf
-, page is rotated 90 degrees>] [67 <./13TeVLimits.pdf>] [68
+LaTeX Warning: Reference `fig:limits_summary' on page 58 undefined on input lin
+e 1507.
 
-] [69] [70]
-</home/aaron/root/wjets/June12_WJetsFinal/ZNGoodJets_Zexc.pdf, id=1788, 569.126
-25pt x 712.6625pt>
+
+LaTeX Warning: Citation `Khachatryan:2015kon' on page 58 undefined on input lin
+e 1507.
+
+
+! LaTeX Error: Not in outer par mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1507  \end{tabular}}
+                      
+You've lost some text.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Not in outer par mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1507  \end{tabular}}
+                      
+You've lost some text.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Cannot determine size of graphic in 13TeVLimits.pdf (no Bounding
+Box).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1507  \end{tabular}}
+                      
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+File: 13TeVLimits.pdf Graphic file (type eps)
+<13TeVLimits.pdf>
+
+LaTeX Warning: Reference `eq:mtmu' on page 58 undefined on input line 1507.
+
+
+LaTeX Warning: Reference `eventsel' on page 58 undefined on input line 1507.
+
+
+LaTeX Warning: Reference `qcdestimate' on page 58 undefined on input line 1507.
+
+
+
+LaTeX Warning: Citation `Alwall:2014hca' on page 58 undefined on input line 150
+7.
+
+
+LaTeX Warning: Citation `Frixione:2007nu' on page 58 undefined on input line 15
+07.
+
+
+LaTeX Warning: Citation `Khachatryan:2015pea' on page 58 undefined on input lin
+e 1507.
+
+
+LaTeX Warning: Citation `Campbell:2015qma' on page 58 undefined on input line 1
+507.
+
+
+LaTeX Warning: Citation `Campbell:2011bn' on page 58 undefined on input line 15
+07.
+
+
+LaTeX Warning: Citation `Campbell:1999ah' on page 58 undefined on input line 15
+07.
+
+
+LaTeX Warning: Citation `Manohar:2012pe' on page 58 undefined on input line 150
+7.
+
+
+LaTeX Warning: Citation `Alwall:2008qv' on page 58 undefined on input line 1507
+.
+
+
+LaTeX Warning: Citation `Alwall:2007fs' on page 58 undefined on input line 1507
+.
+
+
+LaTeX Warning: Citation `Frederix:2012ps' on page 58 undefined on input line 15
+07.
+
+
+LaTeX Warning: Citation `Ball:2014uwa' on page 58 undefined on input line 1507.
+
+
+
+LaTeX Warning: Citation `Ball:2010de' on page 58 undefined on input line 1507.
+
+
+LaTeX Warning: Citation `Ball:2011mu' on page 58 undefined on input line 1507.
+
+
+LaTeX Warning: Reference `tab:qcdfactorsinc' on page 58 undefined on input line
+ 1507.
+
+
+LaTeX Warning: Reference `tab:qcdfactorsexc' on page 58 undefined on input line
+ 1507.
+
+
+! LaTeX Error: Not in outer par mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1507  \end{tabular}}
+                      
+You've lost some text.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Not in outer par mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1507  \end{tabular}}
+                      
+You've lost some text.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: Citation `CMS-PAS-JME-13-005' on page 58 undefined on input line
+ 1507.
+
+
+LaTeX Warning: Reference `fig:pumva' on page 58 undefined on input line 1507.
+
+
+! LaTeX Error: Not in outer par mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1507  \end{tabular}}
+                      
+You've lost some text.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Cannot determine size of graphic in /home/aaron/root/wjets/June1
+2_WJetsFinal/ZNGoodJets_Zexc.pdf (no BoundingBox).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1507  \end{tabular}}
+                      
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
 File: /home/aaron/root/wjets/June12_WJetsFinal/ZNGoodJets_Zexc.pdf Graphic file
- (type pdf)
+ (type eps)
+</home/aaron/root/wjets/June12_WJetsFinal/ZNGoodJets_Zexc.pdf>
 
-<use /home/aaron/root/wjets/June12_WJetsFinal/ZNGoodJets_Zexc.pdf>
-Package pdftex.def Info: /home/aaron/root/wjets/June12_WJetsFinal/ZNGoodJets_Ze
-xc.pdf used on input line 1449.
-(pdftex.def)             Requested size: 194.84868pt x 243.98756pt.
-
-</home/aaron/root/wjets/June12_WJetsFinal/ZNGoodJets_Zinc.pdf, id=1789, 569.126
-25pt x 712.6625pt>
-File: /home/aaron/root/wjets/June12_WJetsFinal/ZNGoodJets_Zinc.pdf Graphic file
- (type pdf)
-
-<use /home/aaron/root/wjets/June12_WJetsFinal/ZNGoodJets_Zinc.pdf>
-Package pdftex.def Info: /home/aaron/root/wjets/June12_WJetsFinal/ZNGoodJets_Zi
-nc.pdf used on input line 1450.
-(pdftex.def)             Requested size: 194.84868pt x 243.98756pt.
-
-</home/aaron/root/wjets/June12_WJetsFinal/FirstJetPt_Zinc1jet.pdf, id=1790, 569
-.12625pt x 712.6625pt>
-File: /home/aaron/root/wjets/June12_WJetsFinal/FirstJetPt_Zinc1jet.pdf Graphic 
-file (type pdf)
-
-<use /home/aaron/root/wjets/June12_WJetsFinal/FirstJetPt_Zinc1jet.pdf>
-Package pdftex.def Info: /home/aaron/root/wjets/June12_WJetsFinal/FirstJetPt_Zi
-nc1jet.pdf used on input line 1459.
-(pdftex.def)             Requested size: 194.84868pt x 243.98756pt.
-
-</home/aaron/root/wjets/June12_WJetsFinal/SecondJetPt_Zinc2jet.pdf, id=1791, 56
-9.12625pt x 712.6625pt>
-File: /home/aaron/root/wjets/June12_WJetsFinal/SecondJetPt_Zinc2jet.pdf Graphic
- file (type pdf)
-
-<use /home/aaron/root/wjets/June12_WJetsFinal/SecondJetPt_Zinc2jet.pdf>
-Package pdftex.def Info: /home/aaron/root/wjets/June12_WJetsFinal/SecondJetPt_Z
-inc2jet.pdf used on input line 1460.
-(pdftex.def)             Requested size: 194.84868pt x 243.98756pt.
-
-</home/aaron/root/wjets/June12_WJetsFinal/ThirdJetPt_Zinc3jet.pdf, id=1792, 569
-.12625pt x 712.6625pt>
-File: /home/aaron/root/wjets/June12_WJetsFinal/ThirdJetPt_Zinc3jet.pdf Graphic 
-file (type pdf)
-
-<use /home/aaron/root/wjets/June12_WJetsFinal/ThirdJetPt_Zinc3jet.pdf>
-Package pdftex.def Info: /home/aaron/root/wjets/June12_WJetsFinal/ThirdJetPt_Zi
-nc3jet.pdf used on input line 1469.
-(pdftex.def)             Requested size: 194.84868pt x 243.98756pt.
-
-</home/aaron/root/wjets/June12_WJetsFinal/FourthJetPt_Zinc4jet.pdf, id=1793, 56
-9.12625pt x 712.6625pt>
-File: /home/aaron/root/wjets/June12_WJetsFinal/FourthJetPt_Zinc4jet.pdf Graphic
- file (type pdf)
-
-<use /home/aaron/root/wjets/June12_WJetsFinal/FourthJetPt_Zinc4jet.pdf>
-Package pdftex.def Info: /home/aaron/root/wjets/June12_WJetsFinal/FourthJetPt_Z
-inc4jet.pdf used on input line 1470.
-(pdftex.def)             Requested size: 194.84868pt x 243.98756pt.
-
-</home/aaron/root/wjets/June12_WJetsFinal/FirstJetAbsRapidity_Zinc1jet.pdf, id=
-1794, 569.12625pt x 712.6625pt>
-File: /home/aaron/root/wjets/June12_WJetsFinal/FirstJetAbsRapidity_Zinc1jet.pdf
- Graphic file (type pdf)
-
-<use /home/aaron/root/wjets/June12_WJetsFinal/FirstJetAbsRapidity_Zinc1jet.pdf>
-Package pdftex.def Info: /home/aaron/root/wjets/June12_WJetsFinal/FirstJetAbsRa
-pidity_Zinc1jet.pdf used on input line 1480.
-(pdftex.def)             Requested size: 194.84868pt x 243.98756pt.
-
-</home/aaron/root/wjets/June12_WJetsFinal/SecondJetAbsRapidity_Zinc2jet.pdf, id
-=1795, 569.12625pt x 712.6625pt>
-File: /home/aaron/root/wjets/June12_WJetsFinal/SecondJetAbsRapidity_Zinc2jet.pd
-f Graphic file (type pdf)
-
-<use /home/aaron/root/wjets/June12_WJetsFinal/SecondJetAbsRapidity_Zinc2jet.pdf
->
-Package pdftex.def Info: /home/aaron/root/wjets/June12_WJetsFinal/SecondJetAbsR
-apidity_Zinc2jet.pdf used on input line 1481.
-(pdftex.def)             Requested size: 194.84868pt x 243.98756pt.
-
-</home/aaron/root/wjets/June12_WJetsFinal/ThirdJetAbsRapidity_Zinc3jet.pdf, id=
-1796, 569.12625pt x 712.6625pt>
-File: /home/aaron/root/wjets/June12_WJetsFinal/ThirdJetAbsRapidity_Zinc3jet.pdf
- Graphic file (type pdf)
-
-<use /home/aaron/root/wjets/June12_WJetsFinal/ThirdJetAbsRapidity_Zinc3jet.pdf>
-Package pdftex.def Info: /home/aaron/root/wjets/June12_WJetsFinal/ThirdJetAbsRa
-pidity_Zinc3jet.pdf used on input line 1490.
-(pdftex.def)             Requested size: 194.84868pt x 243.98756pt.
-
-</home/aaron/root/wjets/June12_WJetsFinal/FourthJetAbsRapidity_Zinc4jet.pdf, id
-=1797, 569.12625pt x 712.6625pt>
-File: /home/aaron/root/wjets/June12_WJetsFinal/FourthJetAbsRapidity_Zinc4jet.pd
-f Graphic file (type pdf)
-
-<use /home/aaron/root/wjets/June12_WJetsFinal/FourthJetAbsRapidity_Zinc4jet.pdf
->
-Package pdftex.def Info: /home/aaron/root/wjets/June12_WJetsFinal/FourthJetAbsR
-apidity_Zinc4jet.pdf used on input line 1491.
-(pdftex.def)             Requested size: 194.84868pt x 243.98756pt.
- [71] [72 </home/aaron/root/wjets/June12_WJetsFinal/ZNGoodJets_Zexc.pdf> </home
-/aaron/root/wjets/June12_WJetsFinal/ZNGoodJets_Zinc.pdf> </home/aaron/root/wjet
-s/June12_WJetsFinal/FirstJetPt_Zinc1jet.pdf> </home/aaron/root/wjets/June12_WJe
-tsFinal/SecondJetPt_Zinc2jet.pdf>] [73 </home/aaron/root/wjets/June12_WJetsFina
-l/ThirdJetPt_Zinc3jet.pdf> </home/aaron/root/wjets/June12_WJetsFinal/FourthJetP
-t_Zinc4jet.pdf> </home/aaron/root/wjets/June12_WJetsFinal/FirstJetAbsRapidity_Z
-inc1jet.pdf> </home/aaron/root/wjets/June12_WJetsFinal/SecondJetAbsRapidity_Zin
-c2jet.pdf>] [74 </home/aaron/root/wjets/June12_WJetsFinal/ThirdJetAbsRapidity_Z
-inc3jet.pdf> </home/aaron/root/wjets/June12_WJetsFinal/FourthJetAbsRapidity_Zin
-c4jet.pdf>] [75] [76]
-<energyScalesWJets.pdf, id=2253, 569.12625pt x 552.0625pt>
-File: energyScalesWJets.pdf Graphic file (type pdf)
-
-<use energyScalesWJets.pdf>
-Package pdftex.def Info: energyScalesWJets.pdf used on input line 1576.
-(pdftex.def)             Requested size: 212.17238pt x 205.80989pt.
- [77]
-
-LaTeX Font Warning: Command \tiny invalid in math mode on input line 1599.
+LaTeX Warning: Reference `tab:btag' on page 58 undefined on input line 1507.
 
 
-LaTeX Font Warning: Command \tiny invalid in math mode on input line 1617.
+LaTeX Warning: Reference `tab:events' on page 58 undefined on input line 1507.
 
 
-<SMu_unfolded_ZNGoodJetsFull_Zexc_Bayes_JetPtMin_30_JetEtaMax_24_MGPYTHIA6_.pdf
-, id=2257, 569.12625pt x 736.7525pt>
-File: SMu_unfolded_ZNGoodJetsFull_Zexc_Bayes_JetPtMin_30_JetEtaMax_24_MGPYTHIA6
-_.pdf Graphic file (type pdf)
+! LaTeX Error: Not in outer par mode.
 
-<use SMu_unfolded_ZNGoodJetsFull_Zexc_Bayes_JetPtMin_30_JetEtaMax_24_MGPYTHIA6_
-.pdf>
-Package pdftex.def Info: SMu_unfolded_ZNGoodJetsFull_Zexc_Bayes_JetPtMin_30_Jet
-EtaMax_24_MGPYTHIA6_.pdf used on input line 1623.
-(pdftex.def)             Requested size: 216.5pt x 280.27238pt.
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1507  \end{tabular}}
+                      
+You've lost some text.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
 
-<SMu_unfolded_ZNGoodJetsFull_Zinc_Bayes_JetPtMin_30_JetEtaMax_24_MGPYTHIA6_.pdf
-, id=2258, 569.12625pt x 736.7525pt>
-File: SMu_unfolded_ZNGoodJetsFull_Zinc_Bayes_JetPtMin_30_JetEtaMax_24_MGPYTHIA6
-_.pdf Graphic file (type pdf)
 
-<use SMu_unfolded_ZNGoodJetsFull_Zinc_Bayes_JetPtMin_30_JetEtaMax_24_MGPYTHIA6_
-.pdf>
-Package pdftex.def Info: SMu_unfolded_ZNGoodJetsFull_Zinc_Bayes_JetPtMin_30_Jet
-EtaMax_24_MGPYTHIA6_.pdf used on input line 1624.
-(pdftex.def)             Requested size: 216.5pt x 280.27238pt.
+! LaTeX Error: Not in outer par mode.
 
-Overfull \hbox (2.22221pt too wide) in paragraph at lines 1623--1625
-[][] [] 
- []
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1507  \end{tabular}}
+                      
+You've lost some text.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
 
-[78 <./energyScalesWJets.pdf, page is rotated 90 degrees>] [79 <./SMu_unfolded_
-ZNGoodJetsFull_Zexc_Bayes_JetPtMin_30_JetEtaMax_24_MGPYTHIA6_.pdf> <./SMu_unfol
-ded_ZNGoodJetsFull_Zinc_Bayes_JetPtMin_30_JetEtaMax_24_MGPYTHIA6_.pdf>]
-[80] [81
+! You can't use `macro parameter character #' in restricted horizontal mode.
+<argument> ... & 4375 & 902 & 184 & 46 & 21 \\ t##
+                                                  bar{t} & 1304 & 5132 & 973...
+l.1507  \end{tabular}}
+                      
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
 
-] (./thesisoutline_levine.bbl [82]
-bibitemlist
-Missing character: There is no Ã in font cmr10!
-Missing character: There is no ¼ in font cmr10!
-[83
-
-] [84]
-Missing character: There is no Ï in font cmr10!
-Missing character: There is no „ in font cmr10!
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no “ in font cmr10!
- [85]
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no “ in font cmr10!
-Missing character: There is no â in font cmr10!
-Missing character: There is no ˆ in font cmr10!
-Missing character: There is no š in font cmr10!
- [86]
-Missing character: There is no Ã in font cmr10!
-Missing character: There is no ® in font cmr10!
-Missing character: There is no Ã in font cmr10!
-Missing character: There is no © in font cmr10!
-Missing character: There is no Ã in font cmr10!
-Missing character: There is no © in font cmr10!
-Missing character: There is no Ã in font cmr10!
-Missing character: There is no ¶ in font cmr10!
-Missing character: There is no Ã in font cmr10!
-Missing character: There is no ¶ in font cmr10!
- [87])
-
-Package caption Warning: Unused \captionsetup[sub] on input line 242.
-See the caption package documentation for explanation.
-
-[88]
-\tf@toc=\write4
-\openout4 = `thesisoutline_levine.toc'.
-
-\tf@lof=\write5
-\openout5 = `thesisoutline_levine.lof'.
-
-\tf@lot=\write6
-\openout6 = `thesisoutline_levine.lot'.
-
- (./thesisoutline_levine.aux)
-
-LaTeX Warning: There were undefined references.
-
- ) 
-Here is how much of TeX's memory you used:
- 8932 strings out of 494985
- 141903 string characters out of 6180357
- 246398 words of memory out of 5000000
- 11940 multiletter control sequences out of 15000+600000
- 14804 words of font info for 57 fonts, out of 8000000 for 9000
- 36 hyphenation exceptions out of 8191
- 45i,14n,75p,1866b,409s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/tex
-live/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-d
-ist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dist/fon
-ts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type
-1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
-nts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
-mr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb>
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/sh
-are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/te
-xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/share/texlive/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/font
-s/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on thesisoutline_levine.pdf (104 pages, 4783139 bytes).
-PDF statistics:
- 2485 PDF objects out of 2487 (max. 8388607)
- 1120 compressed objects within 12 object streams
- 0 named destinations out of 1000 (max. 500000)
- 381 words of extra memory for PDF output out of 10000 (max. 10000000)
-
+! You can't use `macro parameter character #' in restricted horizontal mode.
+<argument> ...04 & 5889 & 2356 & 837 & 348 \\ W ##
+                                            

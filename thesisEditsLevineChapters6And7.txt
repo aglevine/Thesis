@@ -1,0 +1,61 @@
+Chapter 6
+
+Note: I made the unlabeled introduction text its own section (6.1: Analysis Overview). So your comments in 6.1 now apply to section 6.2, etc. 
+
+6.1
+missing energy -> missing transverse energy
+
+6.2
+added citation for Pythia8
+added citation for Tauola
+added citation for Pythia6
+added citation for embedded sample
+added citation for Madgraph
+independant -> independent 
+Added lots of details to fake rate discussion
+
+Chapter 7
+
+Added introduction (section 7.1)
+7.2.1 
+referenced rapidity separation from LFV section
+7.2.2
+"with" makes more grammatical sense here than "have"
+cited amc@nlo
+cited powheg
+cited mcfm
+PYTHIA in proper formatting
+7.2.3
+added isolation information about muons in QCD regions
+added iterative QCD scale factors, before and after computation
+did -> does
+
+7.3
+Added that the analysis focuses on associated jets, in addition to the W boson
+fixed greater than sign
+*** Add plot of puMVA, add table (cut flow from b tag  -> puMVA -> both)
+
+7.4
+*** Add ttbar plots
+*** Add W boson plots (like Kira has)
+
+7.5
+removed comment about infallibility
+an -> a
+Then -> The second step is to
+accout -> account
+
+7.6
+Explained jet energy uncertainty in more detail and added a reference to the applicable table
+Added reference for lumi
+7.6.1 
+varying these scales -> halving or doubling these scales
+in Monte Carlo -> in the Monte Carlo
+***fixed equation number (check)
+***update systematics after talk
+
+7.7
+measured -> measured for
+***conclusion of madgraph underestimation
+break down -> breakdown
+*** get rid of tiny and rotate tables
