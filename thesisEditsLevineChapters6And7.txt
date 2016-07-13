@@ -4,15 +4,34 @@ Note: I made the unlabeled introduction text its own section (6.1: Analysis Over
 
 6.1
 missing energy -> missing transverse energy
-
 6.2
+Added lots of details to fake rate discussion
+6.3
 added citation for Pythia8
 added citation for Tauola
 added citation for Pythia6
 added citation for embedded sample
 added citation for Madgraph
 independant -> independent 
-Added lots of details to fake rate discussion
+referenced mc software section
+added reference for CT10 PDF
+
+6.4
+Added 13 TeV tables after presel and after selection
+**percentage of VBF events
+
+6.6
+evaluated b -> evaluated by
+catories -> categories
+**find reference for cuet2 and z2**
+fixed broken reference for jet energy scale, reference includes next few sentences
+***add more information about jet energy scale uncertainty
+Added reference for tau energy scale
+***show fake rate systematic
+show -> shown
+added higgs to tau tau, z to tau tau refs as examples of analysis that performed useful studies in 2012.
+Referenced previous discussion about theoretical uncertaintie in LFV at 8 TeV
+
 
 Chapter 7
 

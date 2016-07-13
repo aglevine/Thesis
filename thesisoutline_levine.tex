@@ -961,7 +961,7 @@ $\ell^{\mp}_{2}$(non-isolated )  &  $\ell^{\pm}_{2}$(non-isolated)             \
 \label{fig:taufakerate13TeV}\end{figure*}
 
 
-\qquad The enriched background regions (III and IV) are defined by requiring the presence of $\tau_{h}$ candidates that pass the looser isolation requirement ($I_{PF}^{\tau} <$ 2 GeV), but do not pass the tight isolation requirement ($I_{PF}^{\tau} <$ 0.8 GeV). The misidentified background yield in the signal region (Region I) is estimated by multiplying the event yield in Region III by a factor $\frac{f_{\tau_{h}}}{1-f_{\tau_{h}}}$. The fake rate factors, which are computed as a function of the tau decay mode, are given in tables \ref{tab:taufakerate8TeV} and \ref{tab:taufakerate13TeV}. The procedure is validated with same-sign $\mu\tau_{h}$ events (Region II) using Region IV to model the misidentified background, in the same way as for the $H \rightarrow \mu\tau_{e}$ channel. The control region for the $H \rightarrow \mu\tau_{h}$ channel is shown in Figure \ref{fig:samesign_fakes}.
+\qquad The enriched background regions (III and IV) are defined by requiring the presence of $\tau_{h}$ candidates that pass the looser isolation requirement ($I_{PF}^{\tau} <$ 2 GeV), but do not pass the tight isolation requirement ($I_{PF}^{\tau} <$ 0.8 GeV). The misidentified background yield in the signal region (Region I) is estimated by multiplying the event yield in Region III by a factor $\frac{f_{\tau_{h}}}{1-f_{\tau_{h}}}$. The fake rate factors, which are computed as a function of the tau decay mode, are given in tables \ref{tab:taufakerate8TeV} and \ref{tab:taufakerate13TeV}. The procedure is validated with same-sign $\mu\tau_{h}$ events in Region II by scaling the yield in Region IV by the measured misidentification rates. The control region (Region II) for the $H \rightarrow \mu\tau_{h}$ channel is shown in Figure \ref{fig:samesign_fakes}.
 
 \begin{table}[htbp]
   \centering
@@ -1021,17 +1021,20 @@ from scaling the region IV sample by the measured misidentification rates at $\s
 \subsection{Data}
 \qquad The search is performed on the 2012, $\sqrt{s}$ = 8 TeV dataset, comprising 19.7$fb^{-1}$ of data. The $H \rightarrow \mu\tau_{h}$ channel selection requires an isolated single muon trigger with a $p_{T}^{\mu}$ threshold of 24 GeV in the range $|\eta| < 2.1$, while the $H \rightarrow \mu\tau_{e}$ channel requires a muon-electron trigger with $p_{T}$ threshold of 17 GeV ($|\eta| < 2.5$) and 8 GeV ($|\eta| < 2.4$), respectively. 
 \subsection{LFV Higgs and SM Higgs}
-\qquad The signal decay $H \rightarrow \mu\tau$ is implemented via {\sc Pythia}8\cite{Sjostrand:2014zea}. This version of {\sc Pythia}8 contains decay mechanisms that account for tau polarization and spin, and the interface with {\sc Tauola}\cite{Was:2011tv} is not needed\cite{Sjostrand:2014zea}. The Standard Model $H \rightarrow \tau\tau$ background is modelled using {\sc Powheg}1.0\cite{Frixione:2007nu} and {\sc Tauola}. In addition to the generators, the full GEANT detector simulation is used for each Monte Carlo sample.
+\qquad The signal decay $H \rightarrow \mu\tau$ is implemented via {\sc Pythia}8\cite{Sjostrand:2014zea}. {\sc Pythia}8 contains decay mechanisms that account for tau polarization and spin, and the interface with {\sc Tauola}\cite{Was:2011tv} is not needed\cite{Sjostrand:2014zea}. The Standard Model $H \rightarrow \tau\tau$ background is modelled using {\sc Powheg}1.0\cite{Frixione:2007nu} and {\sc Tauola}. In addition to the generators, the full GEANT detector simulation is used for each Monte Carlo sample.
 
 %\qquad The largest Monte Carlo backgrounds, such as $Z \rightarrow \tau\tau$ and W+jets, are estimated using data and the smaller backgrounds are estimated with simulation. 
 \subsection{Z to tau tau}
 \qquad The $Z \rightarrow \tau\tau$ background is estimated using a particle flow embedding technique\cite{CMS-PAS-HIG-12-018}. A sample of $Z \rightarrow \mu\mu$ events is taken from data. The muons are then replaced with simulated tau decays reconstructed with the particle flow algorithm. The key features of the event topology, such as the jets, missing energy, and underlying event, are taken directly from data. Only the tau decays are simulated. The sample is normalized in accordance with the Monte Carlo expectation, using Drell Yan events generated with {\sc MadGraph}\cite{Alwall:2011uj} and {\sc Pythia}6\cite{Sjostrand:2006za}.
 
+\subsection{Additional Backgrounds}\label{addback}
+\qquad The remaining backgrounds play a small role in the analysis and are all estimated with simulation. MADGRAPH5, PYTHIA6, and Tauola (section \ref{mcsoftware}) are used to simulate diboson events and events with one top quark and one antitop quark (ttbar events). POWHEG 1.0 (section \ref{mcsoftware}), PYTHIA6, and Tauola are used to simulated single top quark events.
+
 \section{13 TeV Backgrounds and Datasets}
 
 \qquad The search is performed on the 2015, $\sqrt{s}$ = 13 TeV dataset, comprising 2.3$fb^{-1}$ of data. The trigger selection requires an isolated single muon with $p_{T} >$ 20 GeV in the range $|\eta| < 2.4$.
 
-\qquad The LFV and SM Higgs boson samples are generated using {\sc Powheg} 1.0, with CT10 parton distribution functions, interfaced to {\sc Pythia} 8.212. The {\sc MadGraph} 5.1.3.30 generator is used for Z+jets, $t\bar{t}$, and diboson production. {\sc Powheg} is used for single top production. The {\sc Powheg} and {\sc MadGraph} generators are interfaced to {\sc Pythia} for parton showering and hadronization. The misidentified lepton background is modelled using the fake rate method, as discussed in section \ref{fakes}. Comparisons between data and Monte Carlo in the Region II control region are show in Figure \ref{fig:samesign_fakes13TeV} 
+\qquad The LFV and SM Higgs boson samples are generated using {\sc Powheg} 1.0, with CT10 parton distribution functions \cite{Guzzi:2011sv}, interfaced to {\sc Pythia} 8.212\cite{Sjostrand:2014zea}. The {\sc MadGraph} 5.1.3.30 \cite{Alwall:2011uj} generator is used for Z+jets, $t\bar{t}$, and diboson production. {\sc Powheg} is used for single top production. The {\sc Powheg} and {\sc MadGraph} generators are interfaced to {\sc Pythia} for parton showering and hadronization. The misidentified lepton background is modelled using the fake rate method, as discussed in section \ref{fakes}. Comparisons between data and Monte Carlo in the Region II control region are show in Figure \ref{fig:samesign_fakes13TeV} 
 
 \begin{figure*}[hbtp]\centering
 \includegraphics[width=0.48\textwidth]{/home/aaron/root/lfv/76X_V2_MuonFix_March30/preselectionSS_collMass_type1_MuTau_AMCATNLO.pdf}
@@ -1045,7 +1048,56 @@ from scaling the region IV sample by the measured misidentification rates at $\s
 
 \qquad The preselection for the $H \rightarrow \mu\tau_{e}$ channel requires an isolated tight muon (section \ref{muons}) with $p_{T} > 25 GeV$, $|\eta| < 2.1$, and an isolated tight election (section \ref{electrons}) of opposite charge, with $p_{T} > 10 GeV$, $|\eta| < 2.3$. The isolation requirement for the muon is $I_{PF}^{\mu} < 0.12$ at 8 TeV and $I_{PF}^{\mu} < 0.15$ at 13 TeV. The isolation requirement for the electron is $I_{PF}^{e} < 0.12$ at 8 TeV, and $I_{PF}^{e} < 0.10$ at 13 TeV. The effective area corrections for pileup subtraction are applied at 13 TeV. The $H \rightarrow \mu\tau_{h}$ channel requires an isolated tight muon with $p_{T} > 30 GeV$, $|\eta| < 2.1$, and a tightly isolated hadronic tau (section \ref{taus}) of opposite charge, with $p_{T} >$ 30 GeV, $|\eta| <$ 2.3. Events with additional leptons are vetoed.
 
-\qquad The events are then divided into categories corresponding to the number of jets in the event. Jets are required to pass particle flow identification algorithms (section\ref{jets}), have $p_{T} > 30$ GeV and lie within $|\eta| < 4.7$. The zero jet category contains events primarily produced by gluon-gluon fusion. The one jet category is also dominated by gluon-gluon fusion events. The two jet category contains a significant number of vector boson fusion events. Events in the two jet category are required to have the jets separated by a rapidity gap ($\Delta\eta > 3.5$) and to have an invariant dijet mass greater than 550 GeV. The rapidity requirement allows us to veto ttbar events, as mentioned in section \ref{higgspheno}. In the $H \rightarrow \mu\tau_{e}$ channel events are vetoed if they contain a b-jet. Agreement between data and Monte Carlo simulation at preselection are show in figure \ref{fig:Mcol_after_presel_WITHDATA} for $\sqrt{s}$ = 8 TeV and in figure \ref{fig:Mcol_after_presel_WITHDATA_13TeV} for $\sqrt{s}$ = 13 TeV.
+\qquad The events are then divided into categories corresponding to the number of jets in the event. Jets are required to pass particle flow identification algorithms (section\ref{jets}), have $p_{T} > 30$ GeV and lie within $|\eta| < 4.7$. The zero jet category contains events primarily produced by gluon-gluon fusion. The one jet category is also dominated by gluon-gluon fusion events. The two jet category contains 60\%-70\% of vector boson fusion events. Events in the two jet category are required to have the jets separated by a rapidity gap ($\Delta\eta > 3.5$) and to have an invariant dijet mass greater than 550 GeV. The rapidity requirement allows us to veto ttbar events, as mentioned in section \ref{higgspheno}. In the $H \rightarrow \mu\tau_{e}$ channel events are vetoed if they contain a b-jet. Agreement between data and Monte Carlo simulation at preselection are show in figure \ref{fig:Mcol_after_presel_WITHDATA} for $\sqrt{s}$ = 8 TeV and in figure \ref{fig:Mcol_after_presel_WITHDATA_13TeV} for $\sqrt{s}$ = 13 TeV.
+Event yields after preselection are shown in table \ref{tab:EventYieldTable_100_to_150_8TeV_Presel} for 8 TeV and in table \ref{tab:EventYieldTable_100_to_150_13TeV_Presel} for 13 TeV
+
+
+ \begin{table*}[hbtp]
+ \centering  \caption{Event yields in the signal region in the range $100 < M_\text{col} < 150GeV$ after preselection cuts are applied. The expected contributions are normalized to an integrated luminosity
+of 19.7$fb^{-1}$. The LFV Higgs boson signal is the expected yield for $B(H \rightarrow \mu \tau)=1\%$ with the SM Higgs boson cross section.}
+  \label{tab:EventYieldTable_100_to_150_8TeV_Presel}
+%   \cmsTable{\textwidth}{
+  \begin{tabular}{lccc|ccc} \hline
+        \multirow{2}{*}{Sample}                                & \multicolumn{3}{c}{$H \rightarrow \mu \tau_{e}$}                &     \multicolumn{3}{c}{$H \rightarrow \mu \tau_{h}$}     \\ \cline{2-7}
+                                              &  0-Jet            & 1-Jet            & 2-Jets               &  0-Jet             & 1-Jet            & 2-Jets  \\ \hline
+    misidentified leptons                    &  898  &   300     &  127 & 10334 & 3751 & 1790\\
+    $ Z \rightarrow \tau \tau$                    & 1326   & 511      &  56 & 2818   & 563  & 192  \\
+    $ ZZ,WW$                       & 1368   &  573      &  241 & 361   & 128  & 37.2\\
+    $ W\gamma$                             &   33.5  &  25.8      &  0.0 &NA & NA & NA    \\
+    $ Z \rightarrow ee$ or $\mu \mu$          &  106   &  30.6      &  0.0 & 815 & 90.5& 23.5  \\
+    $t\bar{t}     $                            &  221   & 877      & 1245 &29.3 & 266 & 833    \\
+    t, $\bar{t}$                             &  96   &  214      &  121 &35.3 & 159 & 122    \\
+    SM H background                        &  19.5   &  15.3      &  8.1 &61.8 & 31.8 & 14.7    \\ \hline
+    sum of backgrounds                       & 4069   & 2547      & 1910 &14450& 4989 & 3012  \\  \hline
+    LFV Higgs boson signal                   &  66.9   &  40.6      &  18.1 &172 & 96.5 & 49.3    \\ \hline \hline
+      Observed data                          &  4158    &  2497       &  1924  & 14199 & 4836 & 2903 \\ \hline
+  \end{tabular}
+%  }
+\end{table*}
+
+ \begin{table*}[hbtp]
+ \centering  \caption{Event yields in the signal region in the range $100 < M_\text{col} < 150GeV$ after preselection cuts are applied. The expected contributions are normalized to an integrated luminosity
+of 2.3$fb^{-1}$. The LFV Higgs boson signal is the expected yield for $B(H \rightarrow \mu \tau)=1\%$ with the SM Higgs boson cross section.}
+  \label{tab:EventYieldTable_100_to_150_13TeV_Presel}
+%   \cmsTable{\textwidth}{
+  \begin{tabular}{lccc|ccc} \hline
+        \multirow{2}{*}{Sample}                                & \multicolumn{3}{c}{$H \rightarrow \mu \tau_{e}$}                &     \multicolumn{3}{c}{$H \rightarrow \mu \tau_{h}$}     \\ \cline{2-7}
+                                              &  0-Jet            & 1-Jet            & 2-Jets               &  0-Jet             & 1-Jet            & 2-Jets  \\ \hline
+    misidentified leptons                    &  234.3  &   103.2     &  28.7 & 1623.8 & 520.9 & 228.0\\
+    $ Z \rightarrow \tau \tau$                    & 553.7   & 173.8      &  66.7 & 239.7   & 43.6  & 10.7  \\
+    $ ZZ,WW$                       & 430.6   &  159.2      &  45.8 & 32.0   & 12.4  & 5.9\\
+    $ W\gamma$                             &   36.2  &  27.5      &  8.8 &NA & NA & NA    \\
+    $ Z \rightarrow ee$ or $\mu \mu$          &  98.7   &  27.0      &  7.6 & 477.0 & 93.4& 33.2  \\
+    $t\bar{t}     $                            &  172.2   & 595.9      & 668.0 &9.5 & 48.5 & 94.2    \\
+    t, $\bar{t}$                             &  52.2   &  115.6      &  51.2 &4.1 & 16.0 & 12.5    \\
+    SM H background                        &  6.8   &  3.9      &  2.4 &11.9 & 5.4 & 2.7    \\ \hline
+    sum of backgrounds                       & 1584.6   & 1206.2      & 879.3 &2398.0& 740.2 & 387.2  \\  \hline
+    LFV Higgs boson signal                   &  19.9   &  9.3      &  4.6 &29.9 & 13.6 & 6.9    \\ \hline \hline
+      Observed data                          &  1485    &  1004       &  794  & 2284 & 686 & 329 \\ \hline
+  \end{tabular}
+%  }
+\end{table*}
+
 
 \begin{figure*}[hbtp]\centering
  \includegraphics[width=0.42\textwidth]{/home/aaron/root/hlfv/muele_GG_m_colinear_UNBLIND_PRESEL_BR100.pdf}
@@ -1065,7 +1117,7 @@ from scaling the region IV sample by the measured misidentification rates at $\s
  \includegraphics[width=0.42\textwidth]{/home/aaron/root/lfv/76X_V2_MuonFix_March30/preselection1Jet_collMass_type1_MuTau_AMCATNLO.pdf}
  \includegraphics[width=0.42\textwidth]{/home/aaron/root/lfv/PreselectionEMu_ForPAS/mue2J_preselection.pdf}
  \includegraphics[width=0.42\textwidth]{/home/aaron/root/lfv/76X_V2_MuonFix_March30/preselection2Jet_collMass_type1_MuTau_AMCATNLO.pdf}
- \caption{Distributions of the collinear mass $M_{collinear}$ at $\sqrt{s}$ = 8 TeV, for signal with $B(H \rightarrow \mu \tau )=100\%$ for clarity, and background processes after the loose selection requirements for the LFV $H \rightarrow \mu \tau$ candidates for the different channels and categories compared to data. The shaded grey bands indicate the total uncertainty. The bottom panel in each plot shows the fractional difference between the observed data and the total estimated background.  Top left: $H \rightarrow \mu \tau_{e}$ 0-jet; top right: $H \rightarrow \mu \tau_{h}$ 0-jet;  middle left: $H \rightarrow \mu \tau_{e}$ 1-jet; middle right: $H \rightarrow \mu \tau_{h}$
+ \caption{Distributions of the collinear mass $M_{collinear}$ at $\sqrt{s}$ = 13 TeV, for signal with $B(H \rightarrow \mu \tau )=100\%$ for clarity, and background processes after the loose selection requirements for the LFV $H \rightarrow \mu \tau$ candidates for the different channels and categories compared to data. The shaded grey bands indicate the total uncertainty. The bottom panel in each plot shows the fractional difference between the observed data and the total estimated background.  Top left: $H \rightarrow \mu \tau_{e}$ 0-jet; top right: $H \rightarrow \mu \tau_{h}$ 0-jet;  middle left: $H \rightarrow \mu \tau_{e}$ 1-jet; middle right: $H \rightarrow \mu \tau_{h}$
 1-jet; bottom left: $H \rightarrow \mu \tau_{e}$ 2-jet; bottom right $H \rightarrow \mu \tau_{h}$ 2-jet. }
  \label{fig:Mcol_after_presel_WITHDATA_13TeV}\end{figure*}
 
@@ -1096,13 +1148,63 @@ $\Delta\phi_{\vec{p}_{T}^{e}-\vec{p}_{T}^{\mu}}>$            &    2.7        &  
 }
 \end{table}
 
-\qquad At $\sqrt{s}$ = 13 TeV, the 8 TeV optimization is re-used. Due to the lower integrated luminosity the cuts in the 2 jet category are loosened. The dijet mass requirement is loosened from 550 to 200 GeV and the rapidity gap requirement is decreased from $\Delta \eta > 3.5$ to $\Delta \eta > 2.5$. The electron $p_{T}$ requirement is increased from 10 to 15 GeV to suppress the misidentified electron background. 
+\qquad At $\sqrt{s}$ = 13 TeV, the 8 TeV optimization is re-used. Due to the lower integrated luminosity the cuts in the 2 jet category are loosened. The dijet mass requirement is loosened from 550 to 200 GeV and the rapidity gap requirement is decreased from $\Delta \eta > 3.5$ to $\Delta \eta > 2.5$. The muon $p_{T}$ in the two jet category in the $\mu \tau_{h}$ channel is increased from 30 GeV to 40 GeV. The electron $p_{T}$ requirement is increased from 10 to 15 GeV to suppress the misidentified electron background. Event yields after signal region cuts are show in table \ref{tab:EventYieldTable_100_to_150_8TeV_Signal} for 8 TeV and in table \ref{tab:EventYieldTable_100_to_150_13TeV_Signal} for 13 TeV.
+
+
+ \begin{table*}[hbtp]
+ \centering  \caption{Event yields in the signal region in the range $100 < M_\text{col} < 150GeV$ after signal optimization cuts are applied. The expected contributions are normalized to an integrated luminosity
+of 19.7$fb^{-1}$. The LFV Higgs boson signal is the expected yield for $B(H \rightarrow \mu \tau)=1\%$ with the SM Higgs boson cross section.}
+  \label{tab:EventYieldTable_100_to_150_8TeV_Signal}
+%   \cmsTable{\textwidth}{
+  \begin{tabular}{lccc|ccc} \hline
+        \multirow{2}{*}{Sample}                                & \multicolumn{3}{c}{$H \rightarrow \mu \tau_{e}$}                &     \multicolumn{3}{c}{$H \rightarrow \mu \tau_{h}$}     \\ \cline{2-7}
+                                              &  0-Jet            & 1-Jet            & 2-Jets               &  0-Jet             & 1-Jet            & 2-Jets  \\ \hline
+    misidentified leptons                    &  50.0  &   19.4     &  1.3 & 1716.4 & 412.1 & 1.4\\
+    $ Z \rightarrow \tau \tau$                    & 75.2   & 43.7      &  1.4 & 196.1   & 60.9  & 0.4  \\
+    $ ZZ,WW$                       & 53.9   &  26.9      &  0.8 & 48.1   & 15.2  & 0.3\\
+    $ W\gamma$                             &   2.4  &  2.4     &  0.0 &NA & NA & NA    \\
+    $ Z \rightarrow ee$ or $\mu \mu$          &  2.2   &  2.3      &  0.1 & 139.5 & 23.3& 0.1  \\
+    $t\bar{t}     $                            &  7.5   & 42.1      & 2.6 &2.4 & 26.0 & 1.0    \\
+    t, $\bar{t}$                             &  2.7   &  9.1      &  0.3 &2.3 & 14.5 & 0.4    \\
+    SM H background                        &  2.2   &  1.8      &  0.7 &7.5 & 5.6 & 1.8    \\ \hline
+    sum of backgrounds                       & 196.3   & 147.7      & 7.2 &2112.1& 557.7 & 5.2  \\  \hline
+    LFV Higgs boson signal                   &  29.2   &  16.6      &  1.6 &79.7 & 36.7 & 3.8    \\ \hline \hline
+      Observed data                          &  180   &  104      &  6  & 2147 & 511 & 10 \\ \hline
+  \end{tabular}
+%  }
+\end{table*}
+
+
+
+
+ \begin{table*}[hbtp]
+ \centering  \caption{Event yields in the signal region in the range $100 < M_\text{col} < 150GeV$ after signal optimization cuts are applied. The expected contributions are normalized to an integrated luminosity
+of 2.3$fb^{-1}$. The LFV Higgs boson signal is the expected yield for $B(H \rightarrow \mu \tau)=1\%$ with the SM Higgs boson cross section.}
+  \label{tab:EventYieldTable_100_to_150_13TeV_Signal}
+%   \cmsTable{\textwidth}{
+  \begin{tabular}{lccc|ccc} \hline
+        \multirow{2}{*}{Sample}                                & \multicolumn{3}{c}{$H \rightarrow \mu \tau_{h}$}                &     \multicolumn{3}{c}{$H \rightarrow \mu \tau_{e}$}     \\ \cline{2-7}
+                                              &  0-Jet            & 1-Jet            & 2-Jets               &  0-Jet             & 1-Jet            & 2-Jets  \\ \hline
+    misidentified leptons                    &  15.5  &   5.8     &  2.4 & 212.6 & 50.7 & 3.8\\
+    $ Z \rightarrow \tau \tau$                    & 15.0   & 13.2      &  1.2 & 6.3   & 3.0  & 0.0  \\
+    $ ZZ,WW$                       & 11.1   &  4.4      &  45.8 & 3.4   & 2.9  & 0.3\\
+    $ W\gamma$                             &   1.0  &  3.4      &  1.0 &NA & NA & NA    \\
+    $ Z \rightarrow ee$ or $\mu \mu$          &  1.9   &  2.4      &  0.3 & 85.1 & 11.5& 0.1  \\
+    $t\bar{t}     $                            &  1.5   & 21.4      & 19.1 &1.4 & 6.1 & 1.1    \\
+    t, $\bar{t}$                             &  0.5   &  4.0      &  1.6 &0.3 & 2.5 & 0.2    \\
+    SM H background                        &  0.4   &  0.4      &  0.5 &11.9 & 1.1 & 0.3    \\ \hline
+    sum of backgrounds                       & 46.9   & 55.0      & 28.9 &310.1& 76.7 & 5.8  \\  \hline
+    LFV Higgs boson signal                   &  7.1   &  3.7      &  1.9 &13.8 & 4.7 & 1.2    \\ \hline \hline
+      Observed data                          &  33    &  41       &  32  & 315 & 77 & 7 \\ \hline
+  \end{tabular}
+%  }
+\end{table*}
 \section{Systematic Uncertainties}\label{sysuncert}
 \subsection{8 TeV}
 
 \qquad To set upper bounds on the signal strength, or determine a signal significance, we use the $CL_{s}$ method (section \ref{statmeth}).  A binned likelihood is used, based on the distributions of $M_{collinear}$ for the signal and background sources. Systematic uncertainties are represented by nuisance parameters, some of which only affect the background and signal normalizations, while others affect the shape and/or normalization of the $M_{col}$ distributions. 
 
-\subsubsection{Normalization Uncertainties}
+\subsubsection{Normalization Uncertainties}\label{normsys}
 
 \qquad The uncertainties are summarized in Tables \ref{tab:systematics} and \ref{tab:theory_systematics}. The uncertainties in the e and $\mu$ selection efficiency (trigger, identification, and isolation) are estimated using the "tag and probe" technique in $Z \rightarrow ee,\mu\mu$ data \cite{Chatrchyan:2014mua}. The identification efficiency of hadronic tau decays is estimated using the "tag and probe" technique in $Z \rightarrow \tau\tau$ data \cite{1748-0221-7-01-P01001}. The uncertainty in the $Z \rightarrow \tau\tau$ background comes predominantly from the uncertainty in the tau efficiency. The uncertainties in the estimation of the misidentified lepton rate come from the difference in rates measured in different data samples (QCD multijets and W+jets). The uncertainty in the production cross section of the backgrounds that have been estimated by simulation is also included.
 
@@ -1148,15 +1250,29 @@ underlying event/parton shower  &   $+4$     & $-5$   &  $-10$   & $+10$    &   
 \end{table*}
 
 
-\qquad There are several uncertainties on the H production cross section, which depend on the production mechanism contribution and the analysis category. They are given in Table \ref{tab:theory_systematics}. These affect the LFV H and the SM H background equally, and are treated as 100\% correlated. The parton distribution function (PDF) uncertainty is evaluated b comparing the yields in each category, when spanning the parameter range of a number of different independent PDF sets including CT10 \cite{Nadolsky:2008zw}, MSTW \cite{Martin:2009iq}, NNPDF \cite{Ball:2010de}, as recommended by PDF4LHC \cite{Alekhin:2011sk}. The scale uncertainty is estimated by varying the renormalization and factorization scales, $\mu_{R}$ and $\mu_{F}$, up and down by one half or two times the nominal scale ($\mu_{R} = \mu_{F} = M_{H}/2$) under the constraint $0.5 < \mu_{F}/\mu_{R} < 2$. \cite{Dittmaier:2011ti}. The underlying event and parton shower uncertainty is estimated by using two different {\sc Pythia} tunes, CUET2 and Z2*. Anticorrelations arise due to migration of events between the categories and are expressed as negative numbers
+\qquad There are several uncertainties on the H production cross section, which depend on the production mechanism contribution and the analysis category. They are given in Table \ref{tab:theory_systematics}. These affect the LFV H and the SM H background equally, and are treated as 100\% correlated. The parton distribution function (PDF) uncertainty is evaluated by comparing the yields in each category, when spanning the parameter range of a number of different independent PDF sets including CT10 \cite{Nadolsky:2008zw}, MSTW \cite{Martin:2009iq}, NNPDF \cite{Ball:2010de}, as recommended by PDF4LHC \cite{Alekhin:2011sk}. The scale uncertainty is estimated by varying the renormalization and factorization scales, $\mu_{R}$ and $\mu_{F}$, up and down by one half or two times the nominal scale ($\mu_{R} = \mu_{F} = M_{H}/2$) under the constraint $0.5 < \mu_{F}/\mu_{R} < 2$. \cite{Dittmaier:2011ti}. The underlying event and parton shower uncertainty is estimated by using two different {\sc Pythia} tunes, CUET2\cite{Khachatryan:2015pea} and Z2* \cite{Field:2012jv}. Anticorrelations arise due to migration of events between the categories and are expressed as negative numbers
  
 \subsubsection{Shape Uncertainties}
 
-\qquad The systematic uncertainties that lead to a change in the shape of the $M_{collinear}$ distribution are summarized in Table 5. In the embedded $Z \rightarrow \tau\tau$ $M_{collinear}$ distribution, used to estimate the $Z \rightarrow \tau\tau$ background, a 1\% shift has been observed with respect to $Z \rightarrow \tau\tau$ simulations by comparing the means of both distributions. This only occurs in the $H \rightarrow \mu\tau_{e}$ channel. The $M_{collinear}$ distribution has been corrected for this effect and a 100\% uncertainty on this shift is used as a systematic uncertainty. The jet energy scale has been studied extensively and a standard prescription for corrections \ref{1748-0221-6-11-P11002} is used in all CMS analyses. The overall uncertainty is set using $\gamma$+jets events and the most significant uncertainty arises from the photon energy scale. A number of other uncertainties such as jet fragmentation modelling, single pion response, and uncertainties in the pileup corrections are also included. The jet energy scale uncertainties (3-7\%) are applied as a function of $p_{T}$ and $\eta$, including all correlations, to all jets in the event, and are also propagated to the missing energy. The unclustered energy scale comes from jets below 10 GeV and PF candidates not within jets. It also has its associated uncertainty which is propagated to the missing transverse energy. The tau energy scale is estimated by comparing $Z \rightarrow \tau\tau$ events in data and simulation. An uncertainty of 3\% is derived from this comparison. The uncertainty is applied by shifting the $p_{T}$ of the tau candidates in the event. Finally, the $M_{collinear}$ distributions used in the fit have a statistical uncertainty in each mass bin. This uncertainty is uncorrelated between the bins.
+\qquad The systematic uncertainties that lead to a change in the shape of the $M_{collinear}$ distribution are summarized in Table 5. In the embedded $Z \rightarrow \tau\tau$ $M_{collinear}$ distribution, used to estimate the $Z \rightarrow \tau\tau$ background, a 1\% shift has been observed with respect to $Z \rightarrow \tau\tau$ simulations by comparing the means of both distributions. This only occurs in the $H \rightarrow \mu\tau_{e}$ channel. The $M_{collinear}$ distribution has been corrected for this effect and a 100\% uncertainty on this shift is used as a systematic uncertainty. The jet energy scale has been studied extensively and a standard prescription for corrections \ref{1748-0221-6-11-P11002} is used in all CMS analyses. The overall uncertainty is set using $\gamma$+jets events and the most significant uncertainty arises from the photon energy scale. A number of other uncertainties such as jet fragmentation modelling, single pion response, and uncertainties in the pileup corrections are also included. The jet energy scale uncertainties are computed by varying the jet energy scale by $\pm 1 \sigma$ which results in a 3-7\% change in yield in a given category. The jet energy scale corrections are applied as a function of $p_{T}$ and $\eta$, including all correlations, to all jets in the event, and are also propagated to the missing energy. The unclustered energy scale comes from jets below 10 GeV and PF candidates not within jets. It also has its associated uncertainty which is propagated to the missing transverse energy. The tau energy scale is estimated by comparing $Z \rightarrow \tau\tau$ events in data and simulation. An uncertainty of 3\% is derived from this comparison\cite{CMS-PAS-HIG-12-018}. The uncertainty is applied by shifting the $p_{T}$ of the tau candidates in the event. Finally, the $M_{collinear}$ distributions used in the fit have a statistical uncertainty in each mass bin. This uncertainty is uncorrelated between the bins.
 
-\qquad Uncertainties in the shape of the misidentified lepton backgrounds have also been calculated. In the $H \rightarrow \mu\tau_{e}$ channel the misidentified lepton ratios $f_{\mu},f_{e}$ are measured and applied in bins of lepton $p_{T}$ and $|\eta|$. These ratios are all adjusted up or down by one standard deviation and the differences in the shape of the resultant $M_{col}$ distributions are then used as nuisance parameters in the fit. In the $H \rightarrow \mu\tau_{h}$ channel the tau misidentification rate $f_{\tau}$ is found to be approximately flat in $p_{T}$ and $\eta$. To estimate the systematic uncertainty the $p_{T}$ distribution of $f_{\tau}$ is fit with a linear function and the rate recomputed from the fitted slope and intercept. 
+\qquad Uncertainties in the shape of the misidentified lepton backgrounds have also been calculated. In the $H \rightarrow \mu\tau_{e}$ channel the misidentified lepton ratios $f_{\mu},f_{e}$ are measured and applied in bins of lepton $p_{T}$ and $|\eta|$. These ratios are all adjusted up or down by one standard deviation and the differences in the shape of the resultant $M_{col}$ distributions are then used as nuisance parameters in the fit. In the $H \rightarrow \mu\tau_{h}$ channel the tau misidentification rate $f_{\tau}$ is found to be approximately flat in $p_{T}$ and $\eta$. To estimate the systematic uncertainty the $p_{T}$ distribution of $f_{\tau}$ is fit with a linear function and the rate recomputed from the fitted slope and intercept. This is shown in figure \ref{fig:fakeratesys8TeV}
+\begin{figure*}[hbtp]\centering
+\includegraphics[width=0.9\textwidth]{FakeFitLine.png}
+
+\caption{A linear fit to the fake rate is made to estimate the uncertainty. The y intercept of the line is 0.52 and the slope is -0.00044 $\pm$ 0.00046. The slope is varied up and down by the uncertainty and the misidentified leptons background is recomputed with the shifted fake rate.}
+\label{fig:fakeratesys8TeV}\end{figure*}
+
+The results of the shifts are shown in figure \ref{fig:fakerateupdownsigma}.
+
+\begin{figure*}[hbtp]\centering
+\includegraphics[width=0.9\textwidth]{FakesUpDownShift.pdf}
+
+\caption{The effect of applying the shift described in figure \ref{fig:fakeratesys8TeV} to the zero jet category. The effect of the systematic is small.} 
+\label{fig:fakerateupdownsigma}\end{figure*}
+
 \subsection{13 TeV}
-\qquad The systematic uncertainties used in the 13 TeV analysis are similar to those used in the 8 TeV analysis. They are show in Table \ref{tab:systematics13TeV}. The 8 TeV analysis was carried out after many standard model studies had been completed, but the same is not true for the 13 TeV analysis. Therefore, a greater uncertainty is applied to the $Z \rightarrow \tau\tau$ and the $t\bar{t}$ backgrounds. The understanding of the $W+\gamma$ sample has increased significantly. The dominant theoretical uncertainties are  uncertainties in the GGF and VBF Higgs production cross section, which are determined by varying $\mu_{R}$, $\mu_{F}$, and PDF sets. The overall theoretical uncertainty is approximated to 10\%. 
+\qquad The systematic uncertainties used in the 13 TeV analysis are similar to those used in the 8 TeV analysis. They are shown in Table \ref{tab:systematics13TeV}. The 8 TeV analysis was carried out after many standard model studies had been completed \cite{1748-0221-6-11-P11002} \cite{CMS-PAS-EWK-10-002}, but the same is not true for the 13 TeV analysis. Therefore, a greater uncertainty is applied to the $Z \rightarrow \tau\tau$ and the $t\bar{t}$ backgrounds. The understanding of the $W+\gamma$ sample has increased significantly. The dominant theoretical uncertainties (section \ref{normsys} are  uncertainties in the GGF and VBF Higgs production cross section, which are determined by varying $\mu_{R}$, $\mu_{F}$, and PDF sets. The overall theoretical uncertainty is approximated to 10\%. 
 
 \begin{table*}[t]
  \centering
@@ -1194,26 +1310,26 @@ Luminosity                                             &              2.7\%     
 \subsection{Maximum Likelihood Fit}
 \qquad After selecting events which pass the signal region selections (section \ref{eventsel}) and defining sources of systematic uncertainty (section \ref{sysuncert}), the next step is to fit the backgrounds to the data. This is done via a binned maximum likelihood fit.\cite{BevingtonRobinson200207}\cite{Conway:2011in} We assume that the number of events in each bin follows a Poisson distribution, defined as $P(n_{i}|\mu_{i}) = \frac{\mu_{i}^{n_{i}}e^{-\mu_{i}}}{n_{i}!}$, where $n_{i}$ is the number of events in the $i^{th}$ bin and $\mu_{i}$ is the number of Monte Carlo events in each bin. 
 
-\qquad We then define the likelihood $L$ as $L =  \prod P(n_{i}|\mu_{i})$. The goal of the fit is to determine the $\mu_{i}$ that maximizes the likelihood. This procedure is complicated by the addition of the systematic uncertainties, which are treated as nuisance parameters. For example, the luminosity uncertainty introduces a  2.3\% uncertainty. To account for this, each term in the likelihood expression is multiplied by a log-normal distribution. The log-normal distribution is used instead of the Gaussian distribution to prevent the parameter from becoming negative. 
+\qquad We then define the likelihood $L$ as $L =  \prod P(n_{i}|\mu_{i})$. The goal of the fit is to determine the $\mu_{i}$ that maximizes the likelihood. This procedure is complicated by the addition of the systematic uncertainties, which are treated as nuisance parameters. For example, the luminosity uncertainty\cite{EWK-10-002} introduces a  2.3\% uncertainty. To account for this, each term in the likelihood expression is multiplied by a log-normal distribution. The log-normal distribution is used instead of the Gaussian distribution to prevent the parameter from becoming negative. 
 The lognormal distribution is defined: $N(\mu,\sigma) = \frac{1}{x\sigma \sqrt{2\pi}}e^{-\frac{(\log x - \mu)^{2}}{2\sigma^{2}}}$. 
 Shape uncertainties, like the jet energy scale and tau energy scale systematics, are represented by Gaussian distributions. For the $j^{th}$ sample in the $i^{th}$ bin we can write: $\epsilon_{ji} = \epsilon_{ji}^{0} + f \frac{\epsilon_{ji}^{+} - \epsilon_{ji}^{-}}{2}$. Here, $\epsilon_{ji}^{0}$ is the efficiency before the shift, $\epsilon_{ji}^{+}$ is the efficiency after the scale shift up, and $\epsilon_{ji}^{-}$ is the efficiency after the scale shift down. 
 The morphing parameter $f$ has a Gaussian distribution. We can interpolate quadratically for $|f|<1$ and write $\epsilon_{ji} = \frac{f (f-1)}{2} \epsilon_{ji}^{-} - (f - 1)(f + 1)\epsilon_{ji}^{0}+\frac{f(f+1}{2}\epsilon_{ji}^{+}$ This term is then added as an additional factor in the maximum likelihood formula. 
 
-\qquad The postfit histograms are shown in Figure \ref{fig:Mcol_Postfit}. %The postfit yields in the collinear mass signal region are given in tables *** and ***. The best fit on the lepton flavor violating signal gives us an expected branching ratio, shown in tables *** and ***. 
+\qquad After the maximum likelihood fit is applied to the backgrounds and the signal, the histograms considered to be "postfit." Postfit histograms are shown in Figure \ref{fig:Mcol_Postfit}. %The postfit yields in the collinear mass signal region are given in tables *** and ***. The best fit on the lepton flavor violating signal gives us an expected branching ratio, shown in tables *** and ***. 
 \subsection{Maximum Likelihood Limits}
 
 \qquad After computing the expected LFV signal branching ratios, the next step is to determine the statistical significance of the result. The profile likelihood $\lambda(\mu)$ is defined as  $\lambda(\mu) = \frac{L(\mu,\hat{\hat{\theta)}}}{L(\hat{\mu},\hat{\theta})}$ where $\mu$ is the hypothesized signal strength defined by $\mu=0$ as the background hypothesis and $\mu=1$ the signal hypothesis.~\cite{Cowan:2010js} 
 The nuisance parameters are represented by $\theta$. The denominator is the maximum value of the likelihood function, where $\hat{\mu}$ and $\hat{\theta}$ take their values that maximize the likelihood. The numerator is a likelihood as a function of $\mu$, where $\hat{\hat{\theta}}$ maximizes the likelihood for a given $\mu$. The profile likelihood can range between 0 and 1. 
 We define our test statistic as $t_{\mu} = -2\ln\lambda\mu$. The probability distribution of this test statistic is given by $t_{\mu} = \frac{\mu-\hat{\mu}}{\sigma^2} + \mathcal{O}(\frac{1}{\sqrt{N}})$.~\cite{wald1943tests} 
-Here $\sigma$ is related to the variance of all the nuisance parameters. We can make the asymptotic approximation that the second term goes to zero as $N \rightarrow \infty$. This is known as the asymptotic approximation.
+Here $\sigma$ is related to the variance of all the nuisance parameters. We can make the asymptotic approximation that the second term goes to zero as $N \rightarrow \infty$. This is known as the asymptotic approximation~\cite{Cowan:2010js}.
 
-\qquad Note that the test statistic is zero for total agreement between the hypothesis and the data and decreases as the data differs more and more from the hypothesis. The probability to observe a given hypothesis $\mu$ is defined by $p_{\mu} = \int_{\mu_{obs}}^{\infty} - 2 ln \lambda(\mu)$. The p-value is defined as $p_{\mu=0}$ and is the probability to exclude the background hypothesis. If $p<\alpha$ then we can consider the background hypothesis to be excluded. In high energy physics we define $\alpha$ as $2.87 \times 10^{-7}$. It is customary to express the in terms of standard deviations from the mean, assuming a Gaussian probability distribution function (PDF). For a p-value of $2.87 \times 10^{-7}$ the significance is 5$\sigma$. 
+\qquad Note that the test statistic is zero for total agreement between the hypothesis and the data and decreases as the data differs more and more from the hypothesis. The probability to observe a given hypothesis $\mu$ is defined by $p_{\mu} = \int_{\mu_{obs}}^{\infty} - 2 ln \lambda(\mu)$. The p-value is defined as $p_{\mu=0}$ and is a measure of the probability to exclude the background hypothesis. If $p<\alpha$ then we can consider the background hypothesis to be excluded. In high energy physics we define $\alpha$ as $2.87 \times 10^{-7}$, corresponding to a 0.0000287 \% chance that the measurement was due to the background only hypothesis. It is customary to express the in terms of standard deviations from the mean, assuming a Gaussian probability distribution function (PDF). For a p-value of $2.87 \times 10^{-7}$ the significance is 5$\sigma$. 
 
 \qquad It is customary to use $95\%$ confidence intervals when setting limits. If $p_{\mu} < 5\%$ then the hypothesis where the signal strength is $\mu$ can be excluded at $95\%$ confidence. However, if the background is very small or fluctuates downward, it is possible to exclude a signal that the analysis is not sensitive to. This can be avoided by using the $CL_{s}$ method.~\cite{Read:451614} The p-value for the $CL_{s}$ method is defined by dividing the p-value for the signal hypothesis by the probability for excluding the background, which is $(1-p_{\mu=0})$.
 
 \qquad It is useful to compare the observed limit with the expected limit. The expected limit is determined by generating an Asimov dataset~\cite{Cowan:2010js} which is consistent with the background hypothesis. By definition, the Asimov dataset will produce postfit nuisance parameters that are identical to their expected values. The expected limit is a useful statistic that measures the exclusion power of an analysis. For example, if the expected limit is significantly greater than the signal hypothesis, then the analysis does not have the statistical power to investigate the signal region. 
 \section{Results}
-\subsection{8 TeV Results}
+\subsection{8 TeV Results}\label{8tevresults}
 The $M_\text{col}$ distributions after the fit for signal and background contributions are shown in Fig.~\ref{fig:Mcol_Postfit} and the
 event yields in the mass range $100\:  < M_\text{col} < 150GeV$ are shown in Table~\ref{tab:EventYieldTable_100_to_150}.
 The different channels and categories are combined  to set a $95\%$ $CL_{s}$  upper limit on the branching
@@ -1325,13 +1441,13 @@ The SM H decay width is assumed to be $\Gamma_{SM}=4.1$MeV~\cite{Denner:2011mq} 
 The 95\% CL constraint on the Yukawa couplings derived from $B(H \rightarrow \mu \tau )<1.51\%$ and the expression for the branching fraction above is:\begin{equation*}
 \sqrt{\abs{Y_{\mu\tau}}^{2}+\abs{Y_{\tau\mu}}^{2}}<3.6\times 10^{-3}.
 \end{equation*}
-Figure~\ref{fig:yukawa} compares this result to the constraints from previous indirect
+Figure~\ref{fig:yukawalimits} compares this result to the constraints from previous indirect
 measurements.
 \subsection{13 TeV Results}
 After applying the full selection cuts, a maximum likelihood fit is performed in the $M_\text{col}$ variable. Each systematic uncertainty is used as a nuisance parameter in the fit. The distributions of the signal and background contributions after the full selection and the fit are shown in Fig.~\ref{fig:Mcol_SignalRegion13TeV} and the
 event yields in the mass range $100\:  < M_\text{col} < 150GeV$ are shown in Table~\ref{tab:EventYieldTable_100_to_150_13TeV}.
 The different channels and categories are combined  to set a $95\%$ CL  upper limit on the branching
-fraction of LFV H decay in the  $\mu\tau$ channel, $V(H\rightarrow\mu\tau)$.
+fraction of LFV H decay in the  $\mu\tau$ channel, $B(H\rightarrow\mu\tau)$.
 
 \begin{figure*}[hbtp]\centering
  \includegraphics[width=0.48\textwidth]{/home/aaron/root/lfv/76X_V6_MuonFix_SystematicsFix/LFVMuE_SR_OS_0Jet_UnBlinded_Postfit.pdf}
@@ -1373,7 +1489,6 @@ of 2.3$fb^{-1}$. The LFV Higgs boson signal is the expected yield for $B(H \righ
 \end{table*}
 
 
-\subsection{Limit computation}
 
 The observed and median expected $95\%$ CL upper limits on the $B(H \rightarrow \mu \tau )$ for the H mass at 125GeV are given for each category
 in Table~\ref{tab:expected_limits13TeV}.  Combining all
@@ -1382,15 +1497,14 @@ The observed upper limit is $B(H \rightarrow \mu \tau ) < 1.20\%$.
 The limits are also  summarized graphically  in
 Fig.~\ref{fig:limits_summary}.
 
-This observed limit on the branching ratio is slightly tighter than the $B(H \rightarrow \mu \tau )<(1.51 \pm 0.83)\%$ limit obtained using the 19.7 $fb^{-1}$ data sample at 8 TeV analyzed in~\cite{Khachatryan:2015kon}. The 95\% CL constraint on the Yukawa couplings derived from $B(H \rightarrow \mu \tau )<1.20\%$ and the expression for the branching fraction above is:\begin{equation*}
+The observed limit for the branching ratio is slightly tighter than the $B(H \rightarrow \mu \tau )<(1.51 \pm 0.83)\%$ limit obtained using the 19.7 $fb^{-1}$ data sample at 8 TeV analyzed in~\cite{Khachatryan:2015kon}. As mentioned in section \ref{8tevresults} the 95\% $CL_{s}$ limits on $B(H\rightarrow\mu\tau)$ can be used to impose limits on the Yukawa couplings. The 95\% $CL_{s}$ constraint on the Yukawa couplings derived from $B(H \rightarrow \mu \tau )<1.20\%$ and the expression for the branching fraction above is:\begin{equation*}
 \sqrt{\abs{Y_{\mu\tau}}^{2}+\abs{Y_{\tau\mu}}^{2}}<3.16\times 10^{-3}.
 \end{equation*}
 
 \begin{table}[hbtp]
  \centering
   \caption{The observed and expected upper limits for different
-    jet categories for the $H \rightarrow \mu \tau$  process.
-    The one standard deviation probability intervals around the expected limits are shown in parentheses.}
+    jet categories for the $H \rightarrow \mu \tau$  process.}
  \label{tab:expected_limits13TeV}
 \begin{tabular}{c|c|c|c|c} \hline
 \multicolumn{5}{c}{Expected limits} \\ \hline
@@ -1495,7 +1609,7 @@ The single top simulation is generated with a mixture of {\sc Powheg} and {\sc M
 \end{table}
  
 \section{Event Selection}
-\qquad As mentioned in section \ref{wboson}, W bosons decay to hadrons or leptons. This analysis focuses on the muonic decay channel, in association with jets, in which the W boson decays to a muon and a muon neutrino and jets are produced from energetic hadronic products of deep inelastic scattering. The muon system of CMS, as discussed in section \ref{muonsys}, enables particularly high muon efficiency and accurate energy resolution. Complicated scenarios such as hadronic tau decays or superclusters of e/$\gamma$ deposits are avoided by choosing the muonic channel. Muons are required to have $p_{T} >$ 25 GeV, $|\eta| <$ 2.4, and $I_{PF}^{\mu} < 0.15$. Jets are identified using the anti-$k_{T}$ algorithm (section \ref{jets}), with $p_{T} >$ 30 GeV and $|y| <$ 2.4. Jets are required to be separated by $\Delta R >$ 0.4 from muon candidates. Jets that originate from pileup interactions, rather than the hard scattering event that produces the W boson, are referred to as pileup jets. The contamination from pileup jets is reduced by requiring jets to originate from the same vertex as the muon candidate. This is accomplished by passing vertex and jet shower shape variables into a boosted decision tree which returns a discriminator, puMVA, for pileup jets \cite{CMS-PAS-JME-13-005}. An additional cut of $-0.3 <$ puMVA is placed on the discriminator so that W+jets events exhibit a minimal dependence on the pileup. The effect of this cut is show in figure ***\ref{fig:pumva}. 
+\qquad As mentioned in section \ref{wboson}, W bosons decay to hadrons or leptons. This analysis focuses on the muonic decay channel, in association with jets, in which the W boson decays to a muon and a muon neutrino and jets are produced from energetic hadronic products of deep inelastic scattering. The muon system of CMS, as discussed in section \ref{muonsys}, enables particularly high muon efficiency and accurate energy resolution. Complicated scenarios such as hadronic tau decays or superclusters of e/$\gamma$ deposits are avoided by choosing the muonic channel. Muons are required to have $p_{T} >$ 25 GeV, $|\eta| <$ 2.4, and $I_{PF}^{\mu} < 0.15$. Jets are identified using the anti-$k_{T}$ algorithm (section \ref{jets}), with $p_{T} >$ 30 GeV and $|y| <$ 2.4. Jets are required to be separated by $\Delta R >$ 0.4 from muon candidates. Jets that originate from pileup interactions, rather than the hard scattering event that produces the W boson, are referred to as pileup jets. The contamination from pileup jets is reduced by requiring jets to originate from the same vertex as the muon candidate. This is accomplished by passing vertex and jet shower shape variables into a boosted decision tree which returns a discriminator, puMVA, for pileup jets \cite{CMS-PAS-JME-13-005}. An additional cut of $-0.3 <$ puMVA is placed on the discriminator so that W+jets events exhibit a minimal dependence on the pileup. The discriminator is shown in figure \ref{fig:pumva}. The distribution of events before the cut is shown in table \ref{tab:pumva}. The effect of the cut is to move a small number of events from bins of higher jet multiplicity to bins of lower jet multiplicity, as pileup jets are removed from the $Njets$ count. 
 
 \begin{figure}[!Hhtbp]
 %\renewcommand{\figurename}{Figure}
@@ -1503,7 +1617,7 @@ The single top simulation is generated with a mixture of {\sc Powheg} and {\sc M
 \includegraphics[width=0.9\textwidth]{/home/aaron/root/wjets/June12_WJetsFinal/ZNGoodJets_Zexc.pdf}
 \end{center}
 \caption{A plot of the puMVA discriminator used to reduce dependence on pileup jets. A cut of puMVA $>-0.3$ is applied.}
-\label{mult}
+\label{fig:pumva}
 \end{figure}
 
 \qquad The main background to W+jets production at high jet multiplicities is $t\bar{t}$ production. The top quarks will decay into their lighter partners, bottom quarks, which will produce b jets. The $t\bar{t}$ contamination is reduced by applying a b-jet veto, as discussed in section \ref{jets}. The yield differences between table \ref{tab:btag} and table \ref{tab:events} show the effect of the b-jet veto. At high jet multiplicities the $t\bar{t}$ contribution is reduced by approximately a factor of six while the $W \rightarrow \mu\nu$ signal remains at 80\%-90\% of its pre-veto yield.
@@ -1511,7 +1625,6 @@ The single top simulation is generated with a mixture of {\sc Powheg} and {\sc M
 \begin{table}\small
 \centering
 \caption{Number of events in data and simulation as a function of the exclusive jet multiplicity before the implementation of the b-tag veto. The diboson samples (WW, WZ, and ZZ) are represented by VV.}
-\footnotesize{
 \begin{tabular}{l|ccccccc}
   &  $N_{\text{jets}} = 0 $ & $N_{\text{jets}} = 1 $ & $N_{\text{jets}} = 2 $ & $N_{\text{jets}} = 3 $ & $N_{\text{jets}} = 4 $ & $N_{\text{jets}} = 5 $ & $N_{\text{jets}} = 6 $ \\ \hline
    VV        & 4041 & 3122 & 1336 & 382 & 92 & 19 & 3  \\
@@ -1531,7 +1644,7 @@ The single top simulation is generated with a mixture of {\sc Powheg} and {\sc M
 
 \begin{table}\small
 \centering
-\caption{Number of events in data and simulation as a function of the exclusive jet multiplicity after the implementation of b tag veto. The diboson samples (WW, WZ, and ZZ) are represented by VV.}
+\caption{Number of events in data and simulation as a function of the exclusive jet multiplicity before the implementation of the pileup jet veto. The diboson samples (WW, WZ, and ZZ) are represented by VV. The jet counts in this table are slightly higher than those in table \ref{tab:events}}
 \begin{tabular}{l|cccccccc}
   &  $N_{\text{jets}} = 0 $ & $N_{\text{jets}} = 1 $ & $N_{\text{jets}} = 2 $ & $N_{\text{jets}} = 3 $ & $N_{\text{jets}} = 4 $ & $N_{\text{jets}} = 5 $ & $N_{\text{jets}} = 6 $ \\ \hline
    VV        & 3945 & 2919 & 1197 & 329 & 78 & 15 & 2 & 0 \\
@@ -1544,7 +1657,8 @@ The single top simulation is generated with a mixture of {\sc Powheg} and {\sc M
  TOTAL & 15223405 & 2150097 & 462070 & 98108 & 21323 & 6118 & 1225 & 1128 \\
  \hline
  Data          & 15919072 & 2128830 & 463729 & 103255 & 25341 & 6462 & 1549 & 506 \\
-  %Ratio          & 0.956300 & 1.009990 & 0.996422 & 0.950153 & 0.841443 & 0.946766 & 0.790833 & 2.229249 \\
+  %Ratio          & 0.956300 & 1.009990 & 0.996422 & 0.950153 & 0.841443 & 0.946766 & 0.790833 & 2.229249   
+  \label{tab:pumva}
  \end{tabular}}
 ~                
 \begin{table}\small
@@ -1678,19 +1792,19 @@ This is accomplished by defining the exclusive cross section in terms of inclusi
 \subsection{Methodology}
 \label{application}
 
-\qquad The analysis cuts are applied at generator level in the W+Jets {\sc MadGraph5$\_$aMC@NLO} sample. The muon is required to have originated from a W boson decay. Jets are required to have $p_{T} > 30$ and $|\eta| < 2.4$. Muons are required to have $p_{T} > 25$ GeV and $|\eta| < 2.4$. An $M_{T}$ cut of the form $M_{T}(\mu,E_{T}^{miss}) > 50$ GeV is applied, and the muon and the jet are required to be separated by $\Delta R(\mu,jet) > 0.4$. Starting from a default value of $\mu_{r} = \mu_{f} = 1$, the scales are varied by a factor of two. The theoretical uncertainty, which is defined in terms of event acceptance, is equal to $\frac{|A_{\mu=2} - A_{\mu=1/2}|}{2 \times A_{\mu=1}}$  The results are in Table~\ref{tab:JetUncTable}. Note that adding the inclusive uncertainties in quadrature increases the uncertainty, especially in the zero jets bin.
+\qquad The analysis cuts are applied at generator level in the W+Jets {\sc MadGraph5$\_$aMC@NLO} sample. The muon is required to have originated from a W boson decay. Jets are required to have $p_{T} > 30$ and $|\eta| < 2.4$. Muons are required to have $p_{T} > 25$ GeV and $|\eta| < 2.4$. An $M_{T}$ cut of the form $M_{T}(\mu,E_{T}^{miss}) > 50$ GeV is applied, and the muon and the jet are required to be separated by $\Delta R(\mu,jet) > 0.4$. Starting from a default value of $\mu_{r} = \mu_{f} = 1$, the scales are varied by a factor of two. The scales are varied for all eight combinations of 2, 0.5, and 1, and the results are compared to the simple double or half variation.  The theoretical uncertainty, which is defined in terms of event acceptance, is equal to $\frac{|A_{max} - A_{min}|}{2 \times A_{\mu=1}}$  The results are in tables ~\ref{tab:JetUncTable} and \ref{tab:JetUncTableDoubleHalf}. Note that adding the inclusive uncertainties in quadrature increases the uncertainty, especially in the zero jets bin.
 
-\qquad Note that in Figure~\ref{fig:acceptances} the exclusive acceptance difference in the first bin ($N_{jets}=0$) is much smaller than the acceptance differences in the neighboring inclusive bins of $N_{jets} \geq 0$ and $N_{jets} \geq 1$, which represent the uncertainties at the boundaries of the $N_{jets}=0$ region. The seemingly small uncertainty in the $N_{jets}=0$ region is not in fact caused by small changes within the region but by cancellation of large migrations of events into and out of the region. A smaller version of this effect can be seen in all of the other exclusive jet bins.
-It is therefore justified to quantify the theoretical uncertainty of an exclusive jet bin by the migrations of events into and out of the bin, rather than the absolute change of the number of events in the jet bin. The uncertainties at the boundaries of the jet bin are represented by the inclusive uncertainties, which leads us to equation.
+\qquad Note that in Figure~\ref{fig:acceptances} the exclusive acceptance difference in the second bin ($N_{jets}=1$) is smaller than the acceptance difference in the neighboring inclusive bins of $N_{jets} \geq 1$ and $N_{jets} \geq2$, which represent the uncertainties at the boundaries of the $N_{jets}=1$ region. The seemingly small uncertainty in the $N_{jets}=1$ region is not in fact caused by small changes within the region but by cancellation of large migrations of events into and out of the region. This effect can be seen in all of the other exclusive jet bins.
+It is therefore justified to quantify the theoretical uncertainty of an exclusive jet bin by the migrations of events into and out of the bin, rather than the absolute change of the number of events in the jet bin. The uncertainties at the boundaries of the jet bin are represented by the inclusive uncertainties, which leads us to equation \eqref{eq:excunc}.
 
 
 
 \begin{table*}[hbtp]
  \centering  
- \caption{Comparison of exclusive uncertainties in jet bins. The direct scale variation method means that the uncertainties have been computed by observing the difference in yields after varying $\mu_{r}$ and $\mu_{f}$. The via inclusive method adds the inclusive uncertainties according to ~\ref{eq:excunc}.}
+ \caption{Comparison of exclusive uncertainties in jet bins. The direct scale variation method means that the uncertainties have been computed by observing the difference in yields after varying $\mu_{r}$ and $\mu_{f}$ by a factor of 2 or 0.5. The via inclusive method adds the inclusive uncertainties according to ~\ref{eq:excunc}.}
   \label{tab:JetUncTable}
-   
-  \begin{tabular}{l|c|c|c} \hline
+  
+      \begin{tabular}{l|c|c|c} \hline
     $N_{jets} =$       &Inclusive(\%)   &  Direct Scale (\%)    & Via Inclusive (\%) \\ \hline
     0                  & 0.1   & 1.1  & 6.2 \\
     1                  & 6.2   & 5.5  & 10.8\\
@@ -1702,11 +1816,30 @@ It is therefore justified to quantify the theoretical uncertainty of an exclusiv
     7                  & 20.3  & 19.2 & 30.6\\
   \hline
   \end{tabular}
+  \end{table*}
   
+   \begin{table*}[hbtp]
+ \centering  
+ \caption{This table is analogous to table \ref{tab:JetUncTable}, but here the uncertainties have been computed by varying the factorization and renormalization scales by all eight combinations of 2,1, and 0.5. Almost no change is observed relative to \ref{tab:JetUncTable}. The choices of $\mu_{R} = \mu_{F} = 0.5$ and $\mu_{R} = \mu_{F} = 2.0$ produce the maximal variation in both directions for almost every jet bin. The "via inclusive" results are left unchanged to a tenth of a percent.}
+  \label{tab:JetUncTableDoubleHalf}
+  \begin{tabular}{l|c|c|c} \hline
+    $N_{jets} =$       &Inclusive(\%)   &  Direct Scale (\%)    & Via Inclusive (\%) \\ \hline
+    0                  & 0.4   & 1.3  & 6.2 \\
+    1                  & 6.2   & 5.5  & 10.8\\
+    2                  & 8.9   & 8.2  & 14.7\\
+    3                  & 11.8  & 11.7 & 16.8\\
+    4                  & 11.9  & 10.9 & 19.5\\
+    5                  & 15.5  & 16.4 & 19.8\\
+    6                  & 12.3  & 10.2  & 23.7\\
+    7                  & 20.3  & 19.2 & 30.6\\
+  \hline
+  \end{tabular}
+  
+
 \end{table*}
 
 \begin{figure}[hbt]\centering
-\includegraphics[width=0.49\textwidth]{energyScalesWJets.pdf}
+\includegraphics[width=0.49\textwidth]{energyScalesMinMaxWJets.pdf}
  \centering 
  \caption{Changes in acceptance for inclusive and exclusive jets, as a function of number of jets. The points in the middle of the bins are the exclusive variations and the points at the edges of the bins are the inclusive variations. The inclusive variations show the changes in acceptance at the boundaries of the exclusive jet bins.}
  \label{fig:acceptances}\end{figure}
