@@ -1,51 +1,74 @@
 This is BibTeX, Version 0.99d (TeX Live 2013/Debian)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: thesisoutline_levine.aux
-No "}"---line 299 of file thesisoutline_levine.aux
- : \citation{Sjo
- :              
-I'm skipping whatever remains of this command
-I found no \bibdata command---while reading file thesisoutline_levine.aux
-I found no \bibstyle command---while reading file thesisoutline_levine.aux
-You've used 55 entries,
-            0 wiz_defined-function locations,
-            192 strings with 2211 characters,
-and the built_in function-call counts, 0 in all, are:
-= -- 0
-> -- 0
-< -- 0
-+ -- 0
-- -- 0
-* -- 0
-:= -- 0
-add.period$ -- 0
-call.type$ -- 0
-change.case$ -- 0
+The style file: plain.bst
+Database file #1: thesisoutline_levine.bib
+Warning--I didn't find a database entry for "Barger:020105876"
+Warning--I didn't find a database entry for "EWK-10-002"
+Warning--to sort, need author or key in CMS-DP-2015-009
+Warning--to sort, need author or key in CMS-PAS-PFT-10-002
+Warning--to sort, need author or key in CMS-PAS-JME-13-005
+Warning--to sort, need author or key in CMS-DP-2014-015
+Warning--to sort, need author or key in CMS-PAS-HIG-12-018
+Warning--to sort, need author or key in CMS-PAS-EWK-10-002
+Warning--to sort, need author or key in CMS-PAS-LUM-15-001
+Warning--empty author in CMS-PAS-PFT-10-002
+Warning--empty author in CMS-PAS-EWK-10-002
+Warning--empty author in CMS-PAS-HIG-12-018
+Warning--empty author in CMS-PAS-JME-13-005
+Warning--empty author in CMS-DP-2014-015
+Warning--empty journal in CMS-DP-2014-015
+Warning--empty author in CMS-DP-2015-009
+Warning--empty journal in CMS-DP-2015-009
+Warning--empty author in CMS-PAS-LUM-15-001
+Warning--empty journal in Alekhin:2011sk
+Warning--empty journal in Heinemeyer:2013tqa
+Warning--empty journal in Dittmaier:2011ti
+Warning--empty journal in Frixione:2007nu
+Warning--empty journal in Guzzi:2011sv
+Warning--empty journal in Halzen:1984mc
+Warning--empty journal in Marcastel:1621583
+Warning--empty journal in Read:451614
+Warning--there's a number but no volume in Read:451614
+You've used 85 entries,
+            2118 wiz_defined-function locations,
+            989 strings with 17424 characters,
+and the built_in function-call counts, 25132 in all, are:
+= -- 2381
+> -- 1273
+< -- 9
++ -- 506
+- -- 420
+* -- 1776
+:= -- 4418
+add.period$ -- 250
+call.type$ -- 85
+change.case$ -- 438
 chr.to.int$ -- 0
-cite$ -- 0
-duplicate$ -- 0
-empty$ -- 0
-format.name$ -- 0
-if$ -- 0
+cite$ -- 110
+duplicate$ -- 919
+empty$ -- 1930
+format.name$ -- 420
+if$ -- 5115
 int.to.chr$ -- 0
-int.to.str$ -- 0
-missing$ -- 0
-newline$ -- 0
-num.names$ -- 0
-pop$ -- 0
-preamble$ -- 0
-purify$ -- 0
+int.to.str$ -- 85
+missing$ -- 79
+newline$ -- 423
+num.names$ -- 156
+pop$ -- 367
+preamble$ -- 1
+purify$ -- 356
 quote$ -- 0
-skip$ -- 0
+skip$ -- 633
 stack$ -- 0
-substring$ -- 0
-swap$ -- 0
-text.length$ -- 0
+substring$ -- 1329
+swap$ -- 79
+text.length$ -- 9
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 0
-warning$ -- 0
-while$ -- 0
-width$ -- 0
-write$ -- 0
-(There were 3 error messages)
+type$ -- 332
+warning$ -- 25
+while$ -- 213
+width$ -- 87
+write$ -- 908
+(There were 27 warnings)

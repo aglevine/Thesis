@@ -765,7 +765,7 @@ $<p^{2}_{T}> = \kappa / \pi$ and the Lund fragmentation function\cite{Agashe:201
 
 \subsection{Monte Carlo Generator Software}\label{mcsoftware}
 
-\qquad A variety of different Monte Carlo generators are used at CMS. {\sc MadGraph} \cite{Alwall:2014hca} is used to compute matrix elements. Next to leading order (NLO) matrix elements can be computed with the aMC@NLO\cite{Alwall:2014hca} version of {\sc MadGraph} or with {\sc Powheg}\cite{Alioli:2010xd, Frixione:2007vw, Nason:2004rx}. NLO calculations are vital for accurately depicting physical processes such as W+Jets or Z+Jets. These calculations include quark and gluon loops that complement the fundamental hard scattering process. However, {\sc MadGraph} and {\sc Powheg} do not include parton showering and hadronization, which are necessary for accurate modelling of proton-proton collisions and jet formation, as discussed in section \ref{ppcoll}. The output of the matrix element generators are piped into {\sc Pythia}, which models parton showers and hadronization using the Lund String Model. While {\sc Pythia} is a powerful tool for calculating parton showering and hadronization, it is only a leading order (LO) generator, so it must receive matrix element results {\sc MadGraph} or {\sc Powheg} to give results at the desired degree of precision. After hadronization, some heavy states may still need to decay. The $\tau$ lepton is too short lived to be directly observed in the detector, so any Monte Carlo simulation must decay the $\tau$ further. 
+\qquad A variety of different Monte Carlo generators are used at CMS. {\sc MadGraph} \cite{Alwall:2014hca} is used to compute matrix elements. Next to leading order (NLO) matrix elements can be computed with the aMC@NLO\cite{Alwall:2014hca} version of {\sc MadGraph} or with {\sc Powheg}\cite{Alioli:2010xd} \cite{Frixione:2007vw} \cite{Nason:2004rx}. NLO calculations are vital for accurately depicting physical processes such as W+Jets or Z+Jets. These calculations include quark and gluon loops that complement the fundamental hard scattering process. However, {\sc MadGraph} and {\sc Powheg} do not include parton showering and hadronization, which are necessary for accurate modelling of proton-proton collisions and jet formation, as discussed in section \ref{ppcoll}. The output of the matrix element generators are piped into {\sc Pythia}, which models parton showers and hadronization using the Lund String Model. While {\sc Pythia} is a powerful tool for calculating parton showering and hadronization, it is only a leading order (LO) generator, so it must receive matrix element results {\sc MadGraph} or {\sc Powheg} to give results at the desired degree of precision. After hadronization, some heavy states may still need to decay. The $\tau$ lepton is too short lived to be directly observed in the detector, so any Monte Carlo simulation must decay the $\tau$ further. 
 {\sc Tauola} \cite{Was:2011tv} is interfaced with {\sc Pythia} to provide an accurate view of $\tau$ decay by taking into account $\tau$ helicity and polarization. The Monte Carlo for FeMtobarn (MCFM) program \cite{Campbell:1999ah}\cite{Campbell:2011bn}\cite{Campbell:2015qma} is used to calculate the expected cross sections of the Monte Carlo simulation. 
 
 %\subsection{Monte Carlo Samples}\label{mcsamples}
@@ -951,13 +951,13 @@ $\ell^{\mp}_{2}$(non-isolated )  &  $\ell^{\pm}_{2}$(non-isolated)             \
 \begin{figure*}[hbtp]\centering
 \includegraphics[width=0.48\textwidth]{tightOldIso_looseOldIso_tPt_fakeRate_8TeV.png}
 \includegraphics[width=0.48\textwidth]{tightOldIso_looseOldIso_tEta_fakeRate_8TeV.png}
-\caption{Distributions of $f_{tau_{h}}$ as a function of $ p_{T}^{\tau}$ (left) and $\eta^{\tau}$ (right) in $\sqrt{s}$ = 8 TeV.
+\caption{Distributions of $f_{tau_{h}}$ as a function of $ p_{T}^{\tau}$ (left) and $\eta^{\tau}$ (right) in $\sqrt{s}$ = 8 TeV.}
 \label{fig:taufakerate8TeV}\end{figure*}
 
 \begin{figure*}[hbtp]\centering
 \includegraphics[width=0.48\textwidth]{tightOldIso_looseOldIso_tPt_fakeRate_13TeV.png}
 \includegraphics[width=0.48\textwidth]{tightOldIso_looseOldIso_tEta_fakeRate_13TeV.png}
-\caption{Distributions of $f_{tau_{h}}$ as a function of $ p_{T}^{\tau}$ (left) and $\eta^{\tau}$ (right) in $\sqrt{s}$ = 13 TeV.
+\caption{Distributions of $f_{tau_{h}}$ as a function of $ p_{T}^{\tau}$ (left) and $\eta^{\tau}$ (right) in $\sqrt{s}$ = 13 TeV.}
 \label{fig:taufakerate13TeV}\end{figure*}
 
 
@@ -1021,7 +1021,7 @@ from scaling the region IV sample by the measured misidentification rates at $\s
 \subsection{Data}
 \qquad The search is performed on the 2012, $\sqrt{s}$ = 8 TeV dataset, comprising 19.7$fb^{-1}$ of data. The $H \rightarrow \mu\tau_{h}$ channel selection requires an isolated single muon trigger with a $p_{T}^{\mu}$ threshold of 24 GeV in the range $|\eta| < 2.1$, while the $H \rightarrow \mu\tau_{e}$ channel requires a muon-electron trigger with $p_{T}$ threshold of 17 GeV ($|\eta| < 2.5$) and 8 GeV ($|\eta| < 2.4$), respectively. 
 \subsection{LFV Higgs and SM Higgs}
-\qquad The signal decay $H \rightarrow \mu\tau$ is implemented via {\sc Pythia}8\cite{Sjostrand:2014zea}. {\sc Pythia}8 contains decay mechanisms that account for tau polarization and spin, and the interface with {\sc Tauola}\cite{Was:2011tv} is not needed\cite{Sjostrand:2014zea}. The Standard Model $H \rightarrow \tau\tau$ background is modelled using {\sc Powheg}1.0\cite{Frixione:2007nu} and {\sc Tauola}. In addition to the generators, the full GEANT detector simulation is used for each Monte Carlo sample.
+\qquad The signal decay $H \rightarrow \mu\tau$ is implemented via {\sc Pythia}8 \cite{Sjostrand:2014zea}. {\sc Pythia}8 contains decay mechanisms that account for tau polarization and spin, and the interface with {\sc Tauola}\cite{Was:2011tv} is not needed\cite{Sjostrand:2014zea}. The Standard Model $H \rightarrow \tau\tau$ background is modelled using {\sc Powheg}1.0\cite{Frixione:2007nu} and {\sc Tauola}. In addition to the generators, the full GEANT detector simulation is used for each Monte Carlo sample.
 
 %\qquad The largest Monte Carlo backgrounds, such as $Z \rightarrow \tau\tau$ and W+jets, are estimated using data and the smaller backgrounds are estimated with simulation. 
 \subsection{Z to tau tau}
@@ -1121,7 +1121,7 @@ of 2.3$fb^{-1}$. The LFV Higgs boson signal is the expected yield for $B(H \righ
 1-jet; bottom left: $H \rightarrow \mu \tau_{e}$ 2-jet; bottom right $H \rightarrow \mu \tau_{h}$ 2-jet. }
  \label{fig:Mcol_after_presel_WITHDATA_13TeV}\end{figure*}
 
-\qquad Next, a set of kinematic variables are defined and the criteria for selection is determined by optimizing for $\frac{S}{\sqrt{S+B}}$ for the $\sqrt{s}$ = 8 TeV dataset, where S and B are the expected signal and background event yields in the mass window 100 GeV < $M_{collinear} <$ 150 GeV. The signal strength is set as $B(H\rightarrow\mu\tau) = 10\%$. The $10\%$ value was chosen because it corresponds to the limit from indirect measurements, as mentioned in section \ref{BSM}. The criteria for each category, and in each channel, are given in Table \ref{tab:kinematicselection}. The optimization was also performed assuming $B(H\rightarrow\mu\tau) = 1\%$ and a negligible change in the optimal selection criteria was observed. The variables used are the lepton transverse momenta $p_{T}^{\ell}$ with $\ell = \tau_{h},\mu,e$, azimuthal angles between the leptons 
+\qquad Next, a set of kinematic variables are defined and the criteria for selection is determined by optimizing for $\frac{S}{\sqrt{S+B}}$ for the $\sqrt{s}$ = 8 TeV dataset, where S and B are the expected signal and background event yields in the mass window 100 GeV $< M_{collinear} <$ 150 GeV. The signal strength is set as $B(H\rightarrow\mu\tau) = 10\%$. The $10\%$ value was chosen because it corresponds to the limit from indirect measurements, as mentioned in section \ref{BSM}. The criteria for each category, and in each channel, are given in Table \ref{tab:kinematicselection}. The optimization was also performed assuming $B(H\rightarrow\mu\tau) = 1\%$ and a negligible change in the optimal selection criteria was observed. The variables used are the lepton transverse momenta $p_{T}^{\ell}$ with $\ell = \tau_{h},\mu,e$, azimuthal angles between the leptons 
 $\Delta\phi_{\vec{p}_{T}^{\ell_{1}}-\vec{p}_{T}^{\ell_{2}}}$, azimuthal angle 
 $\Delta\phi_{\vec{p}_{T}^{\ell}-\vec{E}_{T}^{miss}}$, and the transverse mass 
 $M_{T}^{\ell} = \sqrt{2 p_{T}^{\ell}E_{T}^{miss}(1-cos \Delta\phi_{\vec{p}_{T}^{\ell}-\vec{E}_{T}^{miss}})}$. 
@@ -1250,7 +1250,7 @@ underlying event/parton shower  &   $+4$     & $-5$   &  $-10$   & $+10$    &   
 \end{table*}
 
 
-\qquad There are several uncertainties on the H production cross section, which depend on the production mechanism contribution and the analysis category. They are given in Table \ref{tab:theory_systematics}. These affect the LFV H and the SM H background equally, and are treated as 100\% correlated. The parton distribution function (PDF) uncertainty is evaluated by comparing the yields in each category, when spanning the parameter range of a number of different independent PDF sets including CT10 \cite{Nadolsky:2008zw}, MSTW \cite{Martin:2009iq}, NNPDF \cite{Ball:2010de}, as recommended by PDF4LHC \cite{Alekhin:2011sk}. The scale uncertainty is estimated by varying the renormalization and factorization scales, $\mu_{R}$ and $\mu_{F}$, up and down by one half or two times the nominal scale ($\mu_{R} = \mu_{F} = M_{H}/2$) under the constraint $0.5 < \mu_{F}/\mu_{R} < 2$. \cite{Dittmaier:2011ti}. The underlying event and parton shower uncertainty is estimated by using two different {\sc Pythia} tunes, CUET2\cite{Khachatryan:2015pea} and Z2* \cite{Field:2012jv}. Anticorrelations arise due to migration of events between the categories and are expressed as negative numbers
+\qquad There are several uncertainties on the H production cross section, which depend on the production mechanism contribution and the analysis category. They are given in Table \ref{tab:theory_systematics}. These affect the LFV H and the SM H background equally, and are treated as 100\% correlated. The parton distribution function (PDF) uncertainty is evaluated by comparing the yields in each category, when spanning the parameter range of a number of different independent PDF sets including CT10 \cite{Nadolsky:2008zw}, MSTW \cite{Martin:2009iq}, NNPDF \cite{Ball:2010de}, as recommended by PDF4LHC \cite{Alekhin:2011sk}. The scale uncertainty is estimated by varying the renormalization and factorization scales, $\mu_{R}$ and $\mu_{F}$, up and down by one half or two times the nominal scale ($\mu_{R} = \mu_{F} = M_{H}/2$) under the constraint $0.5 < \mu_{F}/\mu_{R} < 2$. \cite{Dittmaier:2011ti}. The underlying event and parton shower uncertainty is estimated by using two different {\sc Pythia} tunes, CUET2\cite{Khachatryan:2015pea} and Z2* \cite{Field:2012jv}. Anticorrelations arise due to migration of events between the categories and are expressed as negative numbers.
  
 \subsubsection{Shape Uncertainties}
 
@@ -1547,7 +1547,7 @@ The observed limit for the branching ratio is slightly tighter than the $B(H \ri
 
 \begin{equation}
 M_{T}^{\mu} = \sqrt{2 p_{T}^{\mu}E_{T}^{miss}(1-cos \Delta\phi_{\vec{p}_{T}^{\mu}-\vec{E}_{T}^{miss}})}
-\label{eq:mumu}
+\label{eq:mtmu}
 \end{equation}
 
 \section{Backgrounds and Datasets}
@@ -1605,7 +1605,7 @@ The single top simulation is generated with a mixture of {\sc Powheg} and {\sc M
    $N_{\text{jets}} \geq 5$        & 1.23 & 1.18 & 0.65 & 0.71 \\
  \hline
  \end{tabular}}
-\label{tab:qcdfactorsexc}
+\label{tab:qcdfactorsinc}
 \end{table}
  
 \section{Event Selection}
@@ -1614,7 +1614,8 @@ The single top simulation is generated with a mixture of {\sc Powheg} and {\sc M
 \begin{figure}[!Hhtbp]
 %\renewcommand{\figurename}{Figure}
 \begin{center}
-\includegraphics[width=0.9\textwidth]{/home/aaron/root/wjets/June12_WJetsFinal/ZNGoodJets_Zexc.pdf}
+\includegraphics[width=0.9\textwidth]{/home/aaron/root/wjets/July10_WJets_Zinc4JetMTW/puMVA.pdf}
+
 \end{center}
 \caption{A plot of the puMVA discriminator used to reduce dependence on pileup jets. A cut of puMVA $>-0.3$ is applied.}
 \label{fig:pumva}
@@ -1632,13 +1633,13 @@ The single top simulation is generated with a mixture of {\sc Powheg} and {\sc M
    Single top        & 4341 & 13379 & 11519 & 5437 & 1956 & 612 & 176 \\
    DYJets        & 624220 & 94046 & 21916 & 4805 & 1036 & 209 & 59 \\
    $t\bar{t}$        & 1951 & 12400 & 34151 & 46371 & 31871 & 13838 & 5147 \\
-   $\PW \rightarrow \mu\nu$        & 14401433 & 2004189 & 433512 & 84961 & 16012 & 3438 & 369 \\
+   $W \rightarrow \mu\nu$        & 14401433 & 2004189 & 433512 & 84961 & 16012 & 3438 & 369 \\
  \hline
  TOTAL & 15447808 & 2236356 & 525738 & 146299 & 51606 & 18242 & 5754 \\
  \hline
  Data          & 16105074 & 2204919 & 526117 & 153912 & 55339 & 18580 & 5483 \\
   %Ratio          & 0.959189 & 1.014258 & 0.999280 & 0.950537 & 0.932543 & 0.981808 & 1.049425 \\ 
- \end{tabular}}
+ \end{tabular}
 \label{tab:btag}
 \end{table}
 
@@ -1651,20 +1652,20 @@ The single top simulation is generated with a mixture of {\sc Powheg} and {\sc M
    QCD        & 391095 & 96656 & 18689 & 3731 & 573 & 231 & 0 & 506 \\
    Single top        & 3383 & 6847 & 4764 & 1902 & 566 & 146 & 39 & 10 \\
    DYJets        & 615199 & 90842 & 20152 & 4375 & 902 & 184 & 46 & 21 \\
-   t#bar{t}        & 1304 & 5132 & 9733 & 10004 & 5889 & 2356 & 837 & 348 \\
-   W #rightarrow #mu#nu        & 14208479 & 1947701 & 407535 & 77767 & 13315 & 3186 & 301 & 243 \\
+   $t\bar{t}$        & 1304 & 5132 & 9733 & 10004 & 5889 & 2356 & 837 & 348 \\
+   $W \rightarrow \mu\nu$        & 14208479 & 1947701 & 407535 & 77767 & 13315 & 3186 & 301 & 243 \\
  \hline
  TOTAL & 15223405 & 2150097 & 462070 & 98108 & 21323 & 6118 & 1225 & 1128 \\
  \hline
  Data          & 15919072 & 2128830 & 463729 & 103255 & 25341 & 6462 & 1549 & 506 \\
   %Ratio          & 0.956300 & 1.009990 & 0.996422 & 0.950153 & 0.841443 & 0.946766 & 0.790833 & 2.229249   
   \label{tab:pumva}
- \end{tabular}}
-~                
+ \end{tabular}
+ \end{table}  
+          
 \begin{table}\small
 \centering
 \caption{Number of events in data and simulation as a function of the exclusive jet multiplicity after the implementation of b tag veto. The diboson samples (WW, WZ, and ZZ) are represented by VV.}
-\footnotesize{
 \begin{tabular}{l|cccccccc}
   &  $N_{\text{jets}} = 0 $ & $N_{\text{jets}} = 1 $ & $N_{\text{jets}} = 2 $ & $N_{\text{jets}} = 3 $ & $N_{\text{jets}} = 4 $ & $N_{\text{jets}} = 5 $ & $N_{\text{jets}} = 6 $ \\ \hline
    VV        & 3961 & 2917 & 1189 & 325 & 76 & 15 & 2 \\
@@ -1672,13 +1673,13 @@ The single top simulation is generated with a mixture of {\sc Powheg} and {\sc M
    Single top        & 3426 & 6850 & 4747 & 1884 & 558 & 145 & 38 \\
    DYJets        & 617130 & 89398 & 19782 & 4278 & 887 & 180 & 45 \\
    $t\bar{t}$         & 1323 & 5178 & 9765 & 9989 & 5850 & 2332 & 825 \\
-   $\PW \rightarrow \mu\nu$        & 14250375 & 1914920 & 400201 & 76319 & 13153 & 2995 & 310 \\
+   $W \rightarrow \mu\nu$        & 14250375 & 1914920 & 400201 & 76319 & 13153 & 2995 & 310 \\
  \hline
  TOTAL & 15269847 & 2114098 & 454346 & 96321 & 20989 & 5930 & 1220 \\
  \hline
  Data          & 15962756 & 2096555 & 454919 & 101282 & 24903 & 6319 & 1515 \\
   %Ratio          & 0.956592 & 1.008368 & 0.998740 & 0.951018 & 0.842830 & 0.938440 & 0.805281 \\ 
- \end{tabular}}
+ \end{tabular}
  \label{tab:events}
  \end{table}
 
@@ -1855,8 +1856,8 @@ It is therefore justified to quantify the theoretical uncertainty of an exclusiv
 \begin{tabular}{c|cc|ccccccccccc}
 \multicolumn{12}{c}{Exclusive jet multiplicity} \\
 
-%$N_{\text{jets}}$ & $\frac{d\sigma}{dN_{\text{jets}}} \tiny{\left[\text{pb}\right]}$ & \tiny{Tot. Unc [\%]} & \tiny{stat [\%]} & \tiny{Simulation stat [\%]} & \tiny{JES [\%]} & \tiny{JER [\%]} & \tiny{PU [\%]} & \tiny{XSEC [\%]} & \tiny{Lumi [\%]} & \tiny{BtagSF [\%]} & \tiny{Eff [\%]} \\\hline
-$N_{\text{jets}}$ & $\frac{d\sigma}{dN_{\text{jets}}} \left[\text{pb}\right]$ & Tot. Unc [\%] & stat [\%] & Simulation stat [\%] & JES [\%] & JER [\%] & PU [\%] & XSEC [\%] & Lumi [\%] & BtagSF [\%] & Eff [\%]} \\\hline
+$N_{\text{jets}}$ & $\frac{d\sigma}{dN_{\text{jets}}} \tiny{\left[\text{pb}\right]}$ & \tiny{Tot. Unc [\%]} & \tiny{stat [\%]} & \tiny{Simulation stat [\%]} & \tiny{JES [\%]} & \tiny{JER [\%]} & \tiny{PU [\%]} & \tiny{XSEC [\%]} & \tiny{Lumi [\%]} & \tiny{BtagSF [\%]} & \tiny{Eff [\%]} \\\hline
+%$N_{\text{jets}}$ & $\frac{d\sigma}{dN_{\text{jets}}} \left[\text{pb}\right]$ & Tot. Unc [\%] & stat [\%] & Simulation stat [\%] & JES [\%] & JER [\%] & PU [\%] & XSEC [\%] & Lumi [\%] & BtagSF [\%] & Eff [\%]} \\\hline
 = 0 & 7.43e+03 & 5.3 & 0.064 & 0.15 & 0.15 & 0.092 & 1.7 & 0.17 & 4.9 & 0.40 & 0.53 \\
 = 1 & 867. & 5.6 & 0.28 & 0.69 & 1.4 & 0.43 & 1.3 & 0.25 & 5.2 & 0.82 & 0.56 \\
 = 2 & 197. & 8.8 & 0.76 & 1.8 & 6.4 & 0.31 & 1.5 & 0.58 & 5.3 & 1.7 & 0.57 \\

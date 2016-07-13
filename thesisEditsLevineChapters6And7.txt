@@ -18,20 +18,31 @@ added reference for CT10 PDF
 
 6.4
 Added 13 TeV tables after presel and after selection
-**percentage of VBF events
+Added percentage of VBF events. Will make a table with more time.
 
 6.6
 evaluated b -> evaluated by
 catories -> categories
-**find reference for cuet2 and z2**
+added references for cuet2 and z2
 fixed broken reference for jet energy scale, reference includes next few sentences
-***add more information about jet energy scale uncertainty
+added more information about jet energy scale uncertainty, probably need to add some more plots.
 Added reference for tau energy scale
-***show fake rate systematic
+showed fake rate systematic
 show -> shown
 added higgs to tau tau, z to tau tau refs as examples of analysis that performed useful studies in 2012.
 Referenced previous discussion about theoretical uncertaintie in LFV at 8 TeV
 
+6.7
+Added lumi uncertainty reference
+defined postfit
+Added citation for asymptotic approximation
+Added more information about the p-value (I also had already mentioned 5sigma in the next sentence, not sure if you saw it)
+
+6.8
+Fixed broken reference to figure
+V(H->mutau) to B(H->mutau)
+referred to prior yukawa couplings discussion
+removed the last sentence on Table 6.9's caption
 
 Chapter 7
 
@@ -52,11 +63,11 @@ did -> does
 7.3
 Added that the analysis focuses on associated jets, in addition to the W boson
 fixed greater than sign
-*** Add plot of puMVA, add table (cut flow from b tag  -> puMVA -> both)
+Added plot of puMVA, added table
 
 7.4
-*** Add ttbar plots
-*** Add W boson plots (like Kira has)
+*** Need to Add ttbar plots
+*** Need to Add W boson plots (like Kira has)
 
 7.5
 removed comment about infallibility
@@ -70,11 +81,11 @@ Added reference for lumi
 7.6.1 
 varying these scales -> halving or doubling these scales
 in Monte Carlo -> in the Monte Carlo
-***fixed equation number (check)
-***update systematics after talk
+fixed equation number
+Added information about 8 variations of renormalization/factorization scales
 
 7.7
 measured -> measured for
-***conclusion of madgraph underestimation
+***need to add conclusion of madgraph underestimation
 break down -> breakdown
-*** get rid of tiny and rotate tables
+*** need to add get rid of tiny and rotate tables
