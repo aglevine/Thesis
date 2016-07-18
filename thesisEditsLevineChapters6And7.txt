@@ -18,14 +18,15 @@ added reference for CT10 PDF
 
 6.4
 Added 13 TeV tables after presel and after selection
-Added percentage of VBF events. Will make a table with more time.
+Added percentage of VBF events after signal cuts in table
 
 6.6
 evaluated b -> evaluated by
 catories -> categories
 added references for cuet2 and z2
 fixed broken reference for jet energy scale, reference includes next few sentences
-added more information about jet energy scale uncertainty, probably need to add some more plots.
+added more information about jet energy scale uncertainty
+Showed plots for jes,tes,uessystematics
 Added reference for tau energy scale
 showed fake rate systematic
 show -> shown
@@ -66,8 +67,8 @@ fixed greater than sign
 Added plot of puMVA, added table
 
 7.4
-*** Need to Add ttbar plots
-*** Need to Add W boson plots (like Kira has)
+Added ttbar plots
+Added MT and W pT plots
 
 7.5
 removed comment about infallibility
@@ -86,6 +87,5 @@ Added information about 8 variations of renormalization/factorization scales
 
 7.7
 measured -> measured for
-***need to add conclusion of madgraph underestimation
 break down -> breakdown
-*** need to add get rid of tiny and rotate tables
+mad tables bigger and rotated

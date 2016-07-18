@@ -11,7 +11,9 @@ Warning--to sort, need author or key in CMS-PAS-JME-13-005
 Warning--to sort, need author or key in CMS-DP-2014-015
 Warning--to sort, need author or key in CMS-PAS-HIG-12-018
 Warning--to sort, need author or key in CMS-PAS-EWK-10-002
+Warning--to sort, need author or key in CMS-PAS-SMP-14-011
 Warning--to sort, need author or key in CMS-PAS-LUM-15-001
+Warning--empty author in CMS-PAS-SMP-14-011
 Warning--empty author in CMS-PAS-PFT-10-002
 Warning--empty author in CMS-PAS-EWK-10-002
 Warning--empty author in CMS-PAS-HIG-12-018
@@ -30,45 +32,45 @@ Warning--empty journal in Halzen:1984mc
 Warning--empty journal in Marcastel:1621583
 Warning--empty journal in Read:451614
 Warning--there's a number but no volume in Read:451614
-You've used 85 entries,
+You've used 86 entries,
             2118 wiz_defined-function locations,
-            989 strings with 17424 characters,
-and the built_in function-call counts, 25132 in all, are:
-= -- 2381
-> -- 1273
-< -- 9
-+ -- 506
+            993 strings with 17623 characters,
+and the built_in function-call counts, 25298 in all, are:
+= -- 2399
+> -- 1274
+< -- 10
++ -- 507
 - -- 420
-* -- 1776
-:= -- 4418
-add.period$ -- 250
-call.type$ -- 85
-change.case$ -- 438
+* -- 1789
+:= -- 4442
+add.period$ -- 252
+call.type$ -- 86
+change.case$ -- 441
 chr.to.int$ -- 0
-cite$ -- 110
-duplicate$ -- 919
-empty$ -- 1930
+cite$ -- 113
+duplicate$ -- 928
+empty$ -- 1946
 format.name$ -- 420
-if$ -- 5115
+if$ -- 5151
 int.to.chr$ -- 0
-int.to.str$ -- 85
+int.to.str$ -- 86
 missing$ -- 79
-newline$ -- 423
+newline$ -- 427
 num.names$ -- 156
-pop$ -- 367
+pop$ -- 369
 preamble$ -- 1
-purify$ -- 356
+purify$ -- 358
 quote$ -- 0
-skip$ -- 633
+skip$ -- 638
 stack$ -- 0
-substring$ -- 1329
-swap$ -- 79
-text.length$ -- 9
+substring$ -- 1334
+swap$ -- 80
+text.length$ -- 10
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 332
-warning$ -- 25
+type$ -- 336
+warning$ -- 27
 while$ -- 213
-width$ -- 87
-write$ -- 908
-(There were 27 warnings)
+width$ -- 88
+write$ -- 918
+(There were 29 warnings)

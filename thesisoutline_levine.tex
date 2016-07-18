@@ -246,6 +246,7 @@
 \usepackage{xr}
 \usepackage{multirow}
 \usepackage{mathtools}
+\usepackage{rotating}
 \DeclarePairedDelimiter{\abs}{\lvert}{\rvert}
 
 %\usepackage[sorting=none]{biblatex}
@@ -339,14 +340,14 @@ Placeholder for better acknowledgements section later. Thank parents, advisors, 
 \mainmatter
 \setsecnumdepth{subsubsection}
 \chapter{Theoretical Motivation}\label{theory}
-\qquad In high energy particle physics, the goal is to use high energy densities to probe small distance scales and investigate properties of fundamental particles and the forces that govern them. This thesis describes the search for an exotic, lepton flavor violating, interaction between a Higgs boson, a muon, and a tau. These concepts are defined in subsequent sections of this chapter. This interaction has never been observed in nature and is prohibited by the Standard Model, the most comprehensive theory of particle interactions to date. If observed, these lepton flavor violating couplings would represent signs of a deeper theory that would significantly enhance our perception of forces and particles. This thesis also contains the measurement of W boson production and associated jets. This process involves key forces and particles of the Standard Model, and precise measurements of the process will improve understanding of the existing theory. These measurements take place at the Compact Muon Solenoid (CMS) detector using the Large Hadron Collider (LHC). 
+\qquad The goal of high energy physics is to use high energy densities to probe small distance scales and investigate properties of fundamental particles and the forces that govern them. This thesis describes the first search for a lepton flavor violating interaction between a Higgs boson, a muon, and a tau. These concepts are defined in subsequent sections of this chapter. This interaction has never been observed in nature and is prohibited by the Standard Model, the most comprehensive theory of particle interactions to date. If observed, these lepton flavor violating couplings would represent signs of a deeper theory that would significantly enhance our perception of forces and particles. This thesis also contains a measurement of the production of W bosons and associated jets. This process involves key forces and particles of the Standard Model, and precise measurements of the process will improve understanding of the existing theory. These measurements take place at the Compact Muon Solenoid (CMS) detector using the Large Hadron Collider (LHC). 
 
 \section{The Standard Model}\label{sm}
 
-\qquad Our knowledge of particle interactions is summarized in a theory called the Standard Model. The theoretical framework of the Standard Model was developed over the course of the 20th century as more and more fundamental particles and forces were discovered and studied. The Standard Model is not without its flaws. It is a phenomenological theory that contains many free parameters, such as the masses of the particles, that can only be determined from experiment. It also fails to include the gravitational interactions, and thus only describes three of the four fundamental forces. The ad hoc design of the Standard Model and the lack of unification provides a strong motivation for particle physicists to search for a more profound, comprehensive theory. The current state of particles physics takes a two pronged approach, with physicists making precision measurements of the Standard Model and searching for physics beyond the Standard Model. The goal is to measure the parameters of the Standard Model while searching for the theory's extension. This thesis contains both aspects. The W+jets production cross section measurement directly tests the Standard Model while the search for lepton flavor violating Higgs couplings tests hypotheses that extend the theory.
+\qquad Our knowledge of particle interactions is summarized in a theory called the Standard Model. The theoretical framework of the Standard Model was developed over the course of the 20th century as more and more fundamental particles and forces were discovered and studied. The Standard Model is not without its flaws. It is a phenomenological theory that contains many free parameters, **how many** such as the masses of the particles, that can only be determined from experiment. It also fails to include gravitational interactions, thus describing only three of the four fundamental forces. The ad hoc design of the Standard Model and the lack of grand unification provides a strong motivation for particle physicists to search for a more profound, comprehensive theory. The current state of particles physics takes a two pronged approach, with physicists making precision measurements of the Standard Model and searching for physics beyond the Standard Model. The goal is to measure the parameters of the Standard Model while searching for the theory's extension. This thesis contains both aspects. The W+jets production cross section measurement directly tests the Standard Model while the search for lepton flavor violating Higgs couplings tests hypotheses that extend the theory.
 
 \subsection{Elementary Particles}\label{elemparticles}
-\qquad The fundamental particles in the Standard Model are summarized in Figure \ref{fig:SMParticles}. The fundamental particles consist of fermions and bosons. The fermions are particles that have half integer spin, and the bosons have integer spin. Spin is the intrinsic quantized angular momentum of a particle. The bosons mediate the fundamental forces and provide mass. They will be discussed further in section \ref{elemforces} and section \ref{higgstheory}. The fermions consist of the quarks, leptons, and neutrinos. 
+\qquad The fundamental particles in the Standard Model are summarized in Figure \ref{fig:SMParticles} **professional figure***lll. The fundamental particles consist of fermions and bosons. The fermions are particles that have half integer spin, and the bosons have integer spin. Spin is the intrinsic quantized angular momentum of a particle. The bosons mediate the fundamental forces and provide mass. They will be discussed further in section \ref{elemforces} and section \ref{higgstheory}. The fermions consist of the quarks, leptons, and neutrinos. 
 
 \qquad There are three generations of quarks, with two flavors in each generation. Each quark generation consists of a quark with +2/3 of an electron charge (+2/3e) and a quark with -1/3 of an electron charge (-1/3e). Quarks also have a property known as "color." There are three possible colors for each quark: red, green, or blue. The concept of color is important for understanding the strong nuclear force, as discussed in section \ref{elemforces}. As shown in figure ~\ref{fig:SMParticles} the masses of the quarks vary significantly from one generation to the next.
 
@@ -361,7 +362,9 @@ Placeholder for better acknowledgements section later. Thank parents, advisors, 
 
 %Mesons consist of a quark antiquark pair, and baryons consist of three quarks, such as the proton (uud). In both cases, the charges of the quarks must sum to an integer multiple of the electron charge. Particles with non integer charges are not found by themselves in nature. It should be noted that it is simplistic to model a proton as a collection of two up quarks and a down quark. Those three quarks are known as valence quarks, which give the proton its charge and spin. In high energy collisions the "sea quarks," which are a vast number of quark antiquark pairs, dominate the model. This will be discussed further in chapter 2 ***. All matter that is made out of quarks is known as hadronic matter.
 
-\qquad There are three generations of leptons, each with a neutrino pair. The electron is extremely light and does not decay, but the muon and the tau are heavier and have lifetimes on the order of $10^{-6}s$ and $10^{-15}s$ respectively\cite{Agashe:2014kda}. The mechanisms for lepton decay will be discussed in section \ref{elemforces} . In the Standard Model, there is a conserved quantity known as the lepton number. Each lepton/neutrino pair, such as an $e$ and an $\nu_{e}$ each will have an electron lepton number of 1, and the corresponding antiparticle pair will have a lepton number of -1. Figure~\ref{fig:TauDecay} gives an example of a decay that conserves lepton number. In the initial state only the tau exists and the tau lepton number of the system is one while the muon and electron lepton numbers of the system are 0. The decay produces a tau neutrino which also has a tau lepton number of one along with an electron and an antielectron neutrino, which have electron lepton numbers of one and negative one, respectively. So the final state also has a tau lepton number of one. Also note that lepton number and flavor are conserved at each vertex. In the lepton flavor violating couplings studied in this thesis, a muon and a tau share a vertex, which is not allowed in the standard model. 
+\qquad There are three generations of leptons, each with a neutrino pair. The electron is extremely light and does not decay, but the muon and the tau are heavier and have lifetimes on the order of $10^{-6}s$ and $10^{-15}s$ respectively\cite{Agashe:2014kda}. The mechanisms for lepton decay will be discussed in section \ref{elemforces} . In the Standard Model, there is a conserved quantity known as the lepton number. The lepton number is defined for each lepton generation. Each lepton/neutrino pair in the generation has a generation lepton number of one and the corresponding antiparticle pair has a generation lepton number of -1. For example, and $e$ and an $\nu_{e}$ each will have an electron lepton number of 1, and the corresponding antiparticle pair will have an electron lepton number of -1. Figure~\ref{fig:TauDecay} gives an example of a typical Standard Model decay that conserves lepton number. In the initial state only the tau exists and the tau lepton number of the system is one while the muon and electron lepton numbers of the system are 0. The decay produces a tau neutrino which also has a tau lepton number of one along with an electron and an antielectron neutrino, which have electron lepton numbers of one and negative one, respectively. So the final state also has a tau lepton number of one. Also note that lepton number and flavor are conserved at each vertex. In the lepton flavor violating couplings studied in this thesis, a muon and a tau share a vertex, which is not allowed in the Standard Model. *** professional feynman diagrams ***
+
+Figure \ref{fig:TauDecay} displays an example of a Feynman diagram, which are pictorial representations of particle interactions. These diagrams are actually very powerful tools in high energy physics because they used to calculate the matrix elements of the interaction. Matrix elements are used to compute the cross sections, which, as described in section \ref{elemforces}, are a measurement of the likelihood of the process occurring. Matrix elements can be thought of as an entry in the matrix $V_{if}$, which relates a particle in the initial state $i$ to the final state $f$ via a potential $V$. The square of the matrix element will define the probability of the transfer occurring.
 
 \begin{figure}[here]
 \includegraphics[width=0.4\textwidth]{TauDecay.pdf}
@@ -385,9 +388,9 @@ Placeholder for better acknowledgements section later. Thank parents, advisors, 
   \label{tab:FundForces}
 \end{table}
 
-\qquad The fundamental forces of the Standard Model are shown in Table~\ref{tab:FundForces}. Note that gravity is not included in the table. Gravity is not contained in the standard model and has a strength on the order of $10^{-30}$ \cite{Barger:0201058766} relative to the weak nuclear force. It plays a negligible role in high energy physics.
+\qquad The fundamental forces of the Standard Model are shown in Table~\ref{tab:FundForces}. Note that gravity is not included in the table. Gravity is not contained in the Standard Model and has a strength on the order of $10^{-30}$ \cite{Barger:0201058766} relative to the weak nuclear force. It plays a negligible role in high energy physics.
 
-\qquad The theory of the electromagnetic is know as quantum electrodynamics (QED). The Electromagnetic force is mediated by the photon. The photon is a spin 0 massless particle and only interacts with particles that carry charge. Two examples of electromagnetic interactions are show in figure~\ref{fig:eeScattering}. This figure displays an example of a Feynman diagram, which are pictorial representations of particle interactions that are also used to calculate the matrix elements of the process. Matrix elements are used to compute the cross sections, which, as described in section \ref{elemforces}, are a measurement of the likelihood of the process occurring. Matrix elements can be thought of as an entry in the matrix $V_{if}$, which relates a particle in the initial state $i$ to the final state $f$ via a potential $V$. The square of the matrix element will define the probability of the transfer occurring. 
+\qquad The theory of the electromagnetic force is know as quantum electrodynamics (QED). The electromagnetic force is mediated by the photon, which is a spin 0 massless particle and only interacts with particles that carry charge. Two examples of electromagnetic interactions are show in figure~\ref{fig:eeScattering}.
 
 \begin{figure}[here]
 \includegraphics[width=0.4\textwidth]{eeScattering.jpg}
@@ -396,12 +399,12 @@ Placeholder for better acknowledgements section later. Thank parents, advisors, 
 \end{figure}
 
 
-\qquad The weak nuclear force is mediated by the W and Z bosons. The Z boson is a neutral spin 1 particle. It decays into pairs of quarks, leptons, or neutrinos. The W boson is a charged spin 1 particle. It has the special property of changing flavors of quarks and leptons. For example, the W boson can mediate the decay of a tau to an electron. This is illustrated in figure ~\ref{fig:TauDecay}. Note that lepton number is still conserved in these types of interactions.  
+\qquad The weak nuclear force is mediated by the W and Z bosons. The Z boson is a massive neutral spin 1 particle. It decays into pairs of quarks, leptons, or neutrinos. The W boson is a massive charged spin 1 particle. It has the special property of changing flavors of quarks and leptons. For example, the W boson can mediate the decay of a tau to an electron. This is illustrated in figure ~\ref{fig:TauDecay}. Note that lepton number is still conserved in these types of interactions. The weak nuclear force only involves "left handed" doublets of quarks and neutrinos. The concept of "handedness" is defined by helicity. Right handed particles are those with parallel spin and momentum vectors, and left handed particles have anti parallel spin and momentum vectors. Only left handed particles participate in the weak interaction.
 
 \qquad The theory of the strong nuclear force is known as quantum chromodynamics (QCD). The strong nuclear force is mediated by the gluon. Each gluon is a color doublet, with a corresponding color and anticolor. For example, a gluon could be red and antigreen, or blue and antired, et cetera. Gluons only interact with particles that share one of their color charges. Therefore, the quarks are the only particles involved in strong interactions. Virtual gluons can self interact which increases the strength of the color charge surrounding a quark. At small distance scales the virtual gluon cloud is penetrated and the effective color charge decreases. This effect is known as asymptotic freedom. \cite{Halzen:1984mc} At larger distances, as a quark antiquark pair move apart from each other, the increase in potential energy allows new quark antiquark pairs to be created from the vacuum. The new quarks will be bound to the initial quarks by the strong nuclear force, which is why free quarks have never been observed. 
 \qquad The coupling constant for QCD, $\alpha_{s}$, is energy dependent and scales as $\alpha_{s}(Q^{2}) \propto 1/ln(\frac{Q^{2}}{\Lambda_{QCD}^{2}})$. Here $Q^{2}$ represents the momentum transfer of the process and $\Lambda_{QCD}$ is a constant, referred to as the QCD scale, with a measured value of 214 MeV\cite{Agashe:2014kda}. At the TeV scale collision energies of the Large Hadron Collider, $\alpha_{s}$ is small and interactions are modelled using perturbative QCD (pQCD). Leading order terms that depend on $\alpha_{s}$ and next to leading order terms that depend on $\alpha_{s}^{2}$ dominant the computation and higher order terms can be neglected.
 
-\qquad As mentioned in section \ref{wboson} both the strong force and the weak force play important roles in the production of W bosons and associated jets. The strong force governs quark-gluon interactions and jet formation, while the weak force is responsible for the W boson couplings to initial start quarks and final state muons. Thus, a precision measurement of W+jets production is an powerful channel to evaluate the accuracy of the Standard Model.
+\qquad As mentioned in section \ref{wboson}, both the strong force and the weak force play important roles in the production of W bosons and associated jets. The strong force governs quark-gluon interactions and jet formation, while the weak force is responsible for the W boson couplings to initial start quarks and final state muons. Thus, a precision measurement of W+jets production is an powerful channel to evaluate the accuracy of the Standard Model.
 
 
 
@@ -419,11 +422,11 @@ Placeholder for better acknowledgements section later. Thank parents, advisors, 
 
 \section{Beyond the Standard Model}\label{BSM}
 
-\qquad As mentioned in section \ref{sm} the Standard Model requires many free parameters determined by experiment and fails to unify gravity with the other four fundamental forces. Additionally, it fails to account for neutrino oscillations\cite{Fukuda:1998mi}\cite{Ahmad:2001an}\cite{Ahmad:2002jz} and it doesn't address the hierarchy problem. \cite{ArkaniHamed:1998rs} A more fundamental theory must exist, and the recently discovered Higgs boson provides a rich environment for probing the existence of such a theory. Many proposed theories such as Randall-Sundrum models \cite{Randall:1999ee} or Two Higgs Doublet models \cite{Branco:2011iw} predict a Higgs boson with couplings that violate lepton flavor conservation. The strength of Higgs couplings are proportional to the masses of the particles involved, so the most logical place to start a search for lepton flavor violation would be a Higgs boson coupling directly to the two heaviest leptons: a muon and a tau.
+\qquad As mentioned in section \ref{sm} the Standard Model requires many free parameters determined by experiment and fails to unify gravity with the other four fundamental forces. Additionally, it fails to account for neutrino oscillations\cite{Fukuda:1998mi}\cite{Ahmad:2001an}\cite{Ahmad:2002jz}, which involve neutrinos of one generation spontaneously transforming into neutrinos of another generation. Additionally, it doesn't address the hierarchy problem\cite{ArkaniHamed:1998rs}***. A more fundamental theory must exist, and the recently discovered Higgs boson provides a rich environment for probing the existence of such a theory. Many proposed theories, such as Randall-Sundrum models \cite{Randall:1999ee} or Two Higgs Doublet models \cite{Branco:2011iw} ***elaborate** predict a Higgs boson with couplings that violate lepton flavor conservation. The strength of Higgs couplings are proportional to the masses of the particles involved, so the most logical place to start a search for lepton flavor violation would be a Higgs boson coupling directly to the two heaviest leptons: a muon and a tau.
 
 \qquad There have been no direct searches for $H \rightarrow \mu\tau$ prior to the result contained in this dissertation. Null searches for $\tau \rightarrow \mu\gamma$ constrain the branching fraction for $H \rightarrow \mu\tau$ to $\mathcal{O}(10\%)$.\cite{Harnik:2012pb}
 
-\qquad Lepton flavor violating couplings may explain a discrepancy in the anomalous magnetic moment of the muon. The magnetic moment is a quantity defined for a current loop that describes the torque the current loop experiences in a magnetic field. Muons are point particles, so according to classical electrodynamics they lack a magnetic moment. However, in QED, loop interactions will effectively generate a magnetic moment, known as the anomalous magnetic moment of the muon. The current measured value differs from the expected standard model value by $2.87 \times 10^{-9}$, a significance of $3.6 \sigma$ \cite{Bennett:2004pv}\cite{Agashe:2014kda}. Loop corrections, as shown in Figure\ref{fig:mutauloop} from a Higgs coupling to a muon and a tau could resolve this discrepancy \cite{Harnik:2012pb}.
+\qquad Lepton flavor violating couplings may explain a discrepancy in the anomalous magnetic moment of the muon. The magnetic moment is a quantity defined for a current loop that describes the torque the current loop experiences in a magnetic field. Muons are point particles, so according to classical electrodynamics they lack a magnetic moment. However, in QED, loop interactions will effectively generate a magnetic moment, known as the anomalous magnetic moment of the muon. The current measured value differs from the expected standard model value by $2.87 \times 10^{-9}$, a significance of $3.6 \sigma$ \cite{Bennett:2004pv}\cite{Agashe:2014kda}. Loop corrections, as shown in Figure\ref{fig:mutauloop} from a Higgs coupling to a muon and a tau could resolve this discrepancy \cite{Harnik:2012pb}. ***professional feynman diagrams***
 
 \begin{figure}[here]
 \includegraphics[width=0.9\textwidth]{mutauloop.jpg}
@@ -432,12 +435,12 @@ Placeholder for better acknowledgements section later. Thank parents, advisors, 
 \end{figure}
 
 \chapter{Collider Phenomenology}\label{pheno}
-Now that the underlying physics has been described in section \ref{sm}, the question remains: how exactly are W+Jets and lepton flavor violating Higgs events produced and studied? Before proceeding further, it is necessary to define some basic terms of collider physics. The cross section of a particle interaction is an effective area that gives a sense of the likelihood of the interaction. In collider physics, cross sections are measured in barns (b), where $1b = 10^{-24}cm^{2}$. The luminosity is defined as the rate of observed events divided by the cross section. The integrated luminosity is computed by integrating the luminosity with respect to time. Integrated luminosity is used to define how much total data a collider has supplied. These terms will be used for describing proton proton collisions, W boson production, and Higgs boson production in the coming sections of this chapter.
+Now that the underlying physics has been described in sections \ref{sm} and \ref{BSM}, the question remains: how exactly are W+jets and lepton flavor violating Higgs events produced and studied? Before proceeding further, some basic terms of collider physics must be defined. The cross section of a particle interaction is an effective area that gives a sense of the likelihood of the interaction. In collider physics, cross sections are measured in barns (b), where $1b = 10^{-24}cm^{2}$. The luminosity is defined as the rate of observed events divided by the cross section. The integrated luminosity is computed by summing the luminosity with respect to time. Integrated luminosity is used to define how much total data has been used in a measurement. These terms will be used for describing proton proton collisions, W boson production, and Higgs boson production in the coming sections of this chapter.
 
 \section{Kinematics Definitions}\label{kindef}
-\qquad Before proceeding further it is necessary to define relevant kinematic variables. The protons are accelerated up to almost the speed of light, so a relativistic treatment must be used to study the collisions.   In special relativity, the energy of the system, $E$, is defined as $E^{2} = m^{2}+p^{2}$. Here the speed of light, $c$, is set to 1, in accordance with natural units. The energy momentum 4-vector is defined as $ \hat{P} = (E, \vec{p})$, and the dot product is defined such that $\vec{P} \dot \vec{P} = E^{2}-p^{2}$, which is the Lorentz invariant mass of the particle. The square of the sum of four momentum vectors gives the invariant mass of a system of particles. Lorentz invariant quantities are useful because they are frame of reference independent. 
+\qquad The subsequent sections in the chapter require knowledge of relevant kinematic variables, which will be defined here. The protons are accelerated up to almost the speed of light, so a relativistic treatment must be used to study the collisions.   In special relativity, the energy of the system, $E$, is defined as $E^{2} = m^{2}+p^{2}$. Here the speed of light, $c$, is set to 1, in accordance with natural units. The energy momentum 4-vector is defined as $ \hat{P} = (E, \vec{p})$, and the dot product is defined such that $\vec{P} \dot \vec{P} = E^{2}-p^{2}$, which is the Lorentz invariant mass of the particle. The square of the sum of four momentum vectors gives the invariant mass of a system of particles. Lorentz invariant quantities are useful because they are independent of the frame of reference. 
 
-\qquad For two colliding particles, $p_{1}$ and $p_{2}$ we can define a quantity: $s = (p_{1}^2+p_{2}^2)$, which is the Lorentz invariant square of the total center of mass energy of the event.
+\qquad For two colliding particles, $p_{1}$ and $p_{2}$ we can define a quantity: $s = (p_{1}^2+p_{2}^2)$, which is the Lorentz invariant square of the total center of mass energy of the event. This variables is used to express the energy of particle collisions.
 
 \qquad The rapidity $y$ of a particle is defined as: $y = \frac{1}{2}ln(\frac{E+p_{z}}{E-p_{z}}$, where $p_{z}$ is the component of the momentum parallel to the beam axis. The rapidity gap between two particles, $\Delta y_{12}$, is Lorentz invariant. The pseudorapidity $\eta$ is defined as : $\eta = \frac{1}{2}ln(\frac{p+p_{z}}{p-p_{z}}$. This can be expressed in terms of polar angle (section \ref{cms}) as $\eta = ln(cot(\theta /2))$. The pseudorapidity is equal to the rapidity if the rest mass is 0. At high energy collisions at the LHC, $E \gg m$ and $y \approx \eta$.
 
@@ -446,7 +449,7 @@ Now that the underlying physics has been described in section \ref{sm}, the ques
 
 \qquad When the two proton beams in the LHC intersect, the partons from one beam will interact with the partons from the other beam. In each collision there will be multiple high momentum transfer, "hard" scattering interactions between different pairs of protons. As discussed in section \ref{trigger}, the probability of producing an interesting physics event with high energy leptons or hadrons is low. Therefore, each time a physics event is stored for detailed analysis, in addition to the high energy, hard scattering process of interest, there will be additional hard scattering processes in the event. These additional hard scattering interactions are referred to as "pileup". The additional particles produced threaten to cloud our knowledge of the hard scattering process at the primary vertex. Methods of vetoing and subtracting pileup contributions to the event are discussed in sections \ref{electrons}, \ref{muons}, and \ref{hadrons}. The "underlying event" includes any particles in the event not due to the hard scattering process of interest. In addition to pileup, this includes intial and final state radiation from the beam, as well as lower energy "soft" scattering interactions between protons. 
 
-\qquad As quarks and gluons move apart after the collision, the increase in potential energy from the strong interaction produces a stream of collimated hadrons, known as a jet. Jet formation is shown in Figure \ref{fig:JetFormation}. First, energetic quarks radiate gluons, which split into quarks. These quarks may still be energetic enough to radiate gluons, and the process continues. This is known as parton showering. Detailed simulations of this process are described in section \ref{partonshower}. After the conclusion of parton showering, hadronization occurs. QCD confinement requires that the quarks and gluons are naturally grouped into colorless clusters. These clusters then separate into groups of hadrons, which is known as hadronization. The identification of jets is discussed in section \ref{jets}. 
+\qquad As quarks and gluons move apart after the collision, the increase in potential energy from the strong interaction produces a stream of collimated hadrons, known as a jet. Jet formation is shown in Figure \ref{fig:JetFormation}. First, energetic quarks radiate gluons, which split into quarks. These quarks may still be energetic enough to radiate gluons, and the process continues. This is known as parton showering. Detailed simulations of this process are described in section \ref{partonshower}. QCD confinement requires that the quarks and gluons are naturally grouped into colorless clusters. These clusters then separate into groups of hadrons after the conclusion of parton showering, which is known as hadronization. The identification of jets is discussed in section \ref{jets}. 
 
 \begin{figure}[here]
 \includegraphics[width=0.9\textwidth]{jetformation.jpg}
@@ -471,7 +474,7 @@ Now that the underlying physics has been described in section \ref{sm}, the ques
 \label{fig:cteq6PDF}
 \end{figure}
 
-\qquad W bosons decay to leptons and quarks at equal rates. The W may decay to an up/down quark pair, a charm/strange quark pair, or a lepton/lepton neutrino pair. The presence of the muon neutrino in the final state is necessary to conserve lepton flavor in the standard model, as discussed in section \ref{elemforces}.  The decay to a bottom/top quark pair is suppressed because of the high mass of the top quark. Each quark has three flavors, and there are three total leptons, so ultimately W decay has six hadronic final states and three leptonic final states. This means that W bosons decay to hadrons approximately 67$\%$ of the time and decay to leptons about $33\%$ of the time. As discussed in section \ref{muonsys}, due to CMS's ability to detect and reconstruct muons with high efficiency, we look for W bosons decaying to a muon and a muon neutrino. Because of lepton universality, the branching fraction of $W \rightarrow \mu\nu_{\mu}$ is about 11$\%$. 
+\qquad W bosons decay to leptons and quarks at equal rates. The W may decay to an up/down quark pair, a charm/strange quark pair, or a lepton/lepton neutrino pair. The presence of the associated neutrino in the final state of the leptonic decay is necessary to conserve lepton flavor in the Standard Model, as discussed in section \ref{elemforces}.  The decay to a bottom/top quark pair is suppressed because of the high mass of the top quark. Each quark has three flavors, and there are three total leptons, so ultimately W decay has six hadronic final states and three leptonic final states. This means that W bosons decay to hadrons approximately 67$\%$ of the time and decay to leptons about $33\%$ of the time. As discussed in section \ref{muonsys}, due to CMS's ability to detect and reconstruct muons with high efficiency, we look for W bosons decaying to a muon and a muon neutrino. Because of lepton universality, the branching fraction of $W \rightarrow \mu\nu_{\mu}$ is about 11$\%$. 
 
 \qquad W boson production is studied based on the number of jets produced in association with the W boson. An example of a single radiated jet is shown in Figure \ref{fig:WOneJet}. The cross section for W boson production from two partons scattering is given by equation \ref{eq:wprod} \cite{Barger:0201058766}. Here, $V_{ud}$ defines the probability for up-down quark transitions, $G_{F}$ is a fundamental constant of the Standard Model, $M_{W}$ is the mass of the W boson, and $\hat{s}$ is the momentum of the diquark system. The hats on $\hat{s}$ and $\hat{\sigma}$ indicate that these values apply to one parton scatting off of another parton. To calculate the full cross section of W production we must integrate over the parton distribution functions of the quarks involved.
 
@@ -495,7 +498,7 @@ Previous results from CMS measured at 7 TeV center of mass collisions\cite{Khach
 
 
 \section{Higgs Boson Production}\label{higgspheno}
-\qquad As discussed in section \ref{higgstheory}, Higgs boson couplings are mass dependent. The more massive the particle, the stronger its coupling is to the Higgs. Top quarks, with a mass of 172 GeV, are the heaviest standard model particle. As a result, the dominant method of Higgs production is when two energetic gluons fuse together via a top quark loop, as shown in Figure \ref{fig:ggfHiggs}. This is called gluon-gluon fusion.
+\qquad As discussed in section \ref{higgstheory}, Higgs boson couplings are mass dependent. The more massive the particle, the stronger its coupling is to the Higgs. Top quarks, with a mass of 172 GeV, are the heaviest standard model particle. As a result, the dominant method of Higgs production is when two energetic gluons fuse together via a top quark loop, as shown in Figure \ref{fig:ggfHiggs}. This is called gluon-gluon fusion. The estimated cross section is ***.
 
 \begin{figure}[here]
 \includegraphics[width=0.9\textwidth]{ggfHiggs.jpg}
@@ -504,7 +507,7 @@ Previous results from CMS measured at 7 TeV center of mass collisions\cite{Khach
 \end{figure}
 
 
-\qquad Vector boson fusion (VBF) is the dominant mechanism of two jet Higgs boson production. It is shown in Figure \ref{fig:vbfHiggs}. The two quarks that seed the jets are thrust apart in $\eta$ after vector boson radiation. This rapidity gap between the two highest $p_{T}$ jets in vector boson fusion allows us to distinguish this signal from events with a top quark and an antitop quark (ttbar events). The vector bosons that connect the final state quarks are colorless, and the final state jets will have no inherent strong force connection (section \ref{elemforces}). However, in ttbar the top and antitop quarks will be connected at a gluon vertex. Because gluons are color doublets (section \ref{elemforces}) the two final state quarks may be color connected, meaning that they share the same color. If this is the case, then the increase in potential energy will cause central jet formation within the rapidity gap, distinguishing this background from the VBF Higgs signal. \ref{fig:higgsproduction}\cite{Dittmaier:2011ti}.
+\qquad Vector boson fusion (VBF) is the second most likely method of Higgs boson production, with an estimated crosss section of *** It is shown in Figure \ref{fig:vbfHiggs}. The two quarks that seed the jets are thrust apart in $\eta$ after vector boson radiation. This rapidity gap between the two highest $p_{T}$ jets in vector boson fusion allows us to distinguish this signal from events with a top quark and an antitop quark ($t\bar{t}$ events). The vector bosons that connect the final state quarks are colorless, and the final state jets will have no inherent strong force connection (section \ref{elemforces}). However, in $t\bar{t}$ (figure \ref{fig:ttbarcolor}) the top and antitop quarks will be connected at a gluon vertex. Because gluons are color doublets (section \ref{elemforces}) the two final state quarks may be color connected, meaning that they share the same color. If this is the case, then the increase in potential energy will cause central jet formation within the rapidity gap, distinguishing this background from the VBF Higgs signal. \ref{fig:higgsproduction}\cite{Dittmaier:2011ti}.
 
 \begin{figure}[here]
 \includegraphics[width=0.9\textwidth]{vbfHiggs.png}
@@ -514,21 +517,21 @@ Previous results from CMS measured at 7 TeV center of mass collisions\cite{Khach
 
 \begin{figure}[here]
 \includegraphics[width=0.9\textwidth]{ttbarcolor.jpg}
-\caption{Color connected ttbar production. The bold (red) line indicates a color connection between the final state quarks. Central jets are beginning to form due to the increase in potential energy as the color connected quarks move apart.}
+\caption{Color connected $t\bar{t}$ production. The bold (red) line indicates a color connection between the final state quarks. Central jets are beginning to form due to the increase in potential energy as the color connected quarks move apart.}
 \label{fig:ttbarcolor}
 \end{figure}
 
 \begin{figure}[here]
 \includegraphics[width=0.9\textwidth]{higgsproduction.jpg}
-\caption{Higgs production cross sections\cite{Dittmaier:2011ti}. At a mass of 125 GeV, the two largest production modes are gluon gluon fusion and vector boson fusion.}
+\caption{Higgs production cross sections\cite{Dittmaier:2011ti}. At a mass of 125 GeV, the two most likely production modes are gluon gluon fusion and vector boson fusion.}
 \label{fig:higgsproduction}
 \end{figure}
 
-\qquad There is no known Higgs branching ratio to guide this search. This is the first direct measurement of $H \rightarrow \mu \tau$. The kinematics of this search are similar to the kinematics $H \rightarrow \tau\tau$ search carried out at CMS \cite{Chatrchyan:2012xdj}. As discussed in section ~\ref{taus}, tau leptons are detected at CMS via their hadronic decay mode ($\tau_{h}$) or their leptonic decay modes ($\tau_{e}, \tau_{\mu}$). Therefore, the final state objects, a muon and a tau, are exactly the same between $H \rightarrow \mu \tau$ and the $H \rightarrow \tau_{\mu} \tau$ channel of $H \rightarrow \tau\tau$, making $H \rightarrow \tau\tau$ a major background of the search. A major difference between $H \rightarrow \tau_{\mu} \tau$ and $H \rightarrow \mu \tau$ is the distribution of missing transverse energy (MET) in the event. MET, which is discussed further in section ~\ref{met}, arises from neutrinos that CMS cannot detect. As shown in figure ~\ref{fig:TauDecay}, tau decays will always produce neutrinos. The $H \rightarrow \tau_{\mu} \tau$ channel will contain a muon neutrino associated with the muonic decay of the tau, but $H \rightarrow \mu \tau$ contains no such neutrino. The only neutrinos will be associated with the tau decay. The MET distribution will be used to define the signal region in section 6. A graphic of Higgs boson decay probabilities is shown in Figure \ref{fig:higgsBR}\cite{Heinemeyer:2013tqa}
+\qquad There is no known Higgs branching ratio to guide this search. This is the first direct measurement of $H \rightarrow \mu \tau$. The kinematics of this search are similar to the kinematics $H \rightarrow \tau\tau$ search carried out at CMS \cite{Chatrchyan:2012xdj}. As discussed in section ~\ref{taus}, tau leptons are detected at CMS via their hadronic decay mode ($\tau_{h}$) or their leptonic decay modes ($\tau_{e}, \tau_{\mu}$). Therefore, the final state objects, a muon and a tau, are exactly the same between the $H \rightarrow \mu \tau$ and the $H \rightarrow \tau_{\mu} \tau$ channel of $H \rightarrow \tau\tau$, making $H \rightarrow \tau\tau$ a major background of the search. A significant difference between $H \rightarrow \tau_{\mu} \tau$ and $H \rightarrow \mu \tau$ is the distribution of missing transverse energy (MET) in the event. MET, which is discussed further in section ~\ref{met}, arises from neutrinos and other particles that CMS cannot detect. As shown in figure ~\ref{fig:TauDecay}, tau decays will always produce neutrinos. The $H \rightarrow \tau_{\mu} \tau$ channel will contain a muon neutrino associated with the muonic decay of the tau, but $H \rightarrow \mu \tau$ contains no such neutrino. The only neutrinos will be associated with the tau decay. The MET distribution will be used to define the signal region in section 6. A graphic of Higgs boson decay branching fractions is shown in Figure \ref{fig:higgsBR}\cite{Heinemeyer:2013tqa}
 
 \begin{figure}[here]
 \includegraphics[width=0.9\textwidth]{higgsBR.jpg}
-\caption{Higgs decay branching ratios\cite{Heinemeyer:2013tqa}. The mass of the Standard Model Higgs is 125 GeV. }
+\caption{Higgs decay branching fractions\cite{Heinemeyer:2013tqa}. The mass of the Standard Model Higgs is 125 GeV. }
 \label{fig:higgsBR}
 \end{figure}
 
@@ -552,9 +555,9 @@ Previous results from CMS measured at 7 TeV center of mass collisions\cite{Khach
 
 \qquad After entering the LHC, the protons are further accelerated up to their intended collision energy. The first run, in 2011, accelerated the protons up to 3.5 TeV. This was increased to 4 TeV in 2012, and to 6.5 TeV in 2015. The two proton beams travel in opposite directions around the LHC ring, which is 27 km in circumference. Therefore, the center of mass energy of collisions is twice as much as the energy of the individual beams. The beams are crossed at points within each of the major LHC experiments, producing proton-proton collisions.
 
-\qquad The beams in the LHC travel in opposite directions around the LHC in vacuum sealed beam pipes and are controlled using superconducting NbTi magnets, which are cooled down to below 2K using liquid helium. The magents are designed to produce a magnetic field of 8.3 T, which requires a current of 11850 A. Superconducting magnets are required so that the magnets don't act as resistors against the high current. There are 1232 dipole magnets, which bend the beams in their circular paths, and 392 quadropole magnets, which keep the beams focused. The magnetic field is controlled by RF cavities operating at a frequency of 400 MHz.
+\qquad The beams in the LHC travel in opposite directions around the LHC in vacuum sealed beam pipes and are controlled using superconducting NbTi magnets, which are cooled down to below 2K using liquid helium. The magents are designed to produce a magnetic field of 8.3 T, which requires a current of 11850 A. Superconducting magnets are required so that the magnets don't act as resistors against the high current needed to sustain the high magnetic field. There are 1232 dipole magnets, which bend the beams in their circular paths, and 392 quadropole magnets, which keep the beams focused. The beam is accelerated by RF cavities operating at a frequency of 400 MHz.
 
-\qquad The protons in the beam are divided up into "bunches". Each bunch contained about $1.7 \times 10^{11}$ protons in 2012 and about $1.1 \times 10^{11}$ protons in 2015. In 2012, the LHC ran with 1374 bunches per beam, with 50 ns spacing in between bunches. In 2015, the number of bunches per beam was gradually increased up to 2244 bunches per beam, with 25 ns bunch spacing. The emittance  However, the intensity of the beam is lower in 2015 than in 2012. The transverse emittance ($\epsilon$) is a measure of the beam's cross sectional area in its phase space. It was 1.8 $\mu$m in 2012 and about 3 $\mu$m in 2015. The $\beta$ function in accelerator physics relates the transverse emittance to the cross section area of the beam ($\sigma_{x}\sigma_{y}$) via: $ \beta	= \sigma_{x}\sigma_{y} / \epsilon$. The value of the $\beta$ function at the interaction point is referred to as $\beta^{*}$, which has increased from 0.6m in 2012 to 0.8m in 2015.
+\qquad The protons in the beam are divided up into "bunches". Each bunch contained about $1.7 \times 10^{11}$ protons in 2012 and about $1.1 \times 10^{11}$ protons in 2015. In 2012, the LHC ran with 1374 bunches per beam, with 50 ns spacing in between bunches. In 2015, the number of bunches per beam was gradually increased up to 2244 bunches per beam, with 25 ns bunch spacing. THowever, the intensity of the beam was lower in 2015 than in 2012. The transverse emittance ($\epsilon$) is a measure of the beam's cross sectional area in its phase space. It was 1.8 $\mu$m in 2012 and about 3 $\mu$m in 2015. The $\beta$ function in accelerator physics relates the transverse emittance to the cross section area of the beam ($\sigma_{x}\sigma_{y}$) via: $ \beta	= \sigma_{x}\sigma_{y} / \epsilon$. The value of the $\beta$ function at the interaction point is referred to as $\beta^{*}$, which has increased from 0.6m in 2012 to 0.8m in 2015.
 
 \qquad The performance of the LHC can be measured by how many collisions it creates. The number of events generated per second at the LHC ($N$) is given by: $N = L\sigma$, where $\sigma$ is the proton-proton cross section (section \ref{ppcoll}) and $L$ is the luminosity. The luminosity is proportional to the square of the number of particles per bunch, the number of bunches, and the revolution frequency of 11.2 kHz, and inversely proportional to $\epsilon$ and $\beta^{*}$. The peak luminosity delivered to CMS by the LHC in 2012 was $7 \times 10^{33} s^{-1} cm^{-2}$, and at 2015 it was $5.33 \times 10^{33} s^{-1} cm^{-2}$. 
 
@@ -1028,7 +1031,7 @@ from scaling the region IV sample by the measured misidentification rates at $\s
 \qquad The $Z \rightarrow \tau\tau$ background is estimated using a particle flow embedding technique\cite{CMS-PAS-HIG-12-018}. A sample of $Z \rightarrow \mu\mu$ events is taken from data. The muons are then replaced with simulated tau decays reconstructed with the particle flow algorithm. The key features of the event topology, such as the jets, missing energy, and underlying event, are taken directly from data. Only the tau decays are simulated. The sample is normalized in accordance with the Monte Carlo expectation, using Drell Yan events generated with {\sc MadGraph}\cite{Alwall:2011uj} and {\sc Pythia}6\cite{Sjostrand:2006za}.
 
 \subsection{Additional Backgrounds}\label{addback}
-\qquad The remaining backgrounds play a small role in the analysis and are all estimated with simulation. MADGRAPH5, PYTHIA6, and Tauola (section \ref{mcsoftware}) are used to simulate diboson events and events with one top quark and one antitop quark (ttbar events). POWHEG 1.0 (section \ref{mcsoftware}), PYTHIA6, and Tauola are used to simulated single top quark events.
+\qquad The remaining backgrounds play a small role in the analysis and are all estimated with simulation. MADGRAPH5, PYTHIA6, and Tauola (section \ref{mcsoftware}) are used to simulate diboson events and events with one top quark and one antitop quark ($t\bar{t}$ events). POWHEG 1.0 (section \ref{mcsoftware}), PYTHIA6, and Tauola are used to simulated single top quark events.
 
 \section{13 TeV Backgrounds and Datasets}
 
@@ -1048,7 +1051,7 @@ from scaling the region IV sample by the measured misidentification rates at $\s
 
 \qquad The preselection for the $H \rightarrow \mu\tau_{e}$ channel requires an isolated tight muon (section \ref{muons}) with $p_{T} > 25 GeV$, $|\eta| < 2.1$, and an isolated tight election (section \ref{electrons}) of opposite charge, with $p_{T} > 10 GeV$, $|\eta| < 2.3$. The isolation requirement for the muon is $I_{PF}^{\mu} < 0.12$ at 8 TeV and $I_{PF}^{\mu} < 0.15$ at 13 TeV. The isolation requirement for the electron is $I_{PF}^{e} < 0.12$ at 8 TeV, and $I_{PF}^{e} < 0.10$ at 13 TeV. The effective area corrections for pileup subtraction are applied at 13 TeV. The $H \rightarrow \mu\tau_{h}$ channel requires an isolated tight muon with $p_{T} > 30 GeV$, $|\eta| < 2.1$, and a tightly isolated hadronic tau (section \ref{taus}) of opposite charge, with $p_{T} >$ 30 GeV, $|\eta| <$ 2.3. Events with additional leptons are vetoed.
 
-\qquad The events are then divided into categories corresponding to the number of jets in the event. Jets are required to pass particle flow identification algorithms (section\ref{jets}), have $p_{T} > 30$ GeV and lie within $|\eta| < 4.7$. The zero jet category contains events primarily produced by gluon-gluon fusion. The one jet category is also dominated by gluon-gluon fusion events. The two jet category contains 60\%-70\% of vector boson fusion events. Events in the two jet category are required to have the jets separated by a rapidity gap ($\Delta\eta > 3.5$) and to have an invariant dijet mass greater than 550 GeV. The rapidity requirement allows us to veto ttbar events, as mentioned in section \ref{higgspheno}. In the $H \rightarrow \mu\tau_{e}$ channel events are vetoed if they contain a b-jet. Agreement between data and Monte Carlo simulation at preselection are show in figure \ref{fig:Mcol_after_presel_WITHDATA} for $\sqrt{s}$ = 8 TeV and in figure \ref{fig:Mcol_after_presel_WITHDATA_13TeV} for $\sqrt{s}$ = 13 TeV.
+\qquad The events are then divided into categories corresponding to the number of jets in the event. Jets are required to pass particle flow identification algorithms (section\ref{jets}), have $p_{T} > 30$ GeV and lie within $|\eta| < 4.7$. The zero jet category contains events primarily produced by gluon-gluon fusion. The one jet category is also dominated by gluon-gluon fusion events. The two jet category contains a majority of vector boson fusion events after the full selection is applied, as shown in tables \ref{tab:EventYieldTable_100_to_150_8TeV_Signal} and \ref{tab:EventYieldTable_100_to_150_13TeV_Signal}. Events in the two jet category are required to have the jets separated by a rapidity gap ($\Delta\eta > 3.5$) and to have an invariant dijet mass greater than 550 GeV. The rapidity requirement allows us to veto $t\bar{t}$ events, as mentioned in section \ref{higgspheno}. In the $H \rightarrow \mu\tau_{e}$ channel events are vetoed if they contain a b-jet. Agreement between data and Monte Carlo simulation at preselection are show in figure \ref{fig:Mcol_after_presel_WITHDATA} for $\sqrt{s}$ = 8 TeV and in figure \ref{fig:Mcol_after_presel_WITHDATA_13TeV} for $\sqrt{s}$ = 13 TeV.
 Event yields after preselection are shown in table \ref{tab:EventYieldTable_100_to_150_8TeV_Presel} for 8 TeV and in table \ref{tab:EventYieldTable_100_to_150_13TeV_Presel} for 13 TeV
 
 
@@ -1153,23 +1156,23 @@ $\Delta\phi_{\vec{p}_{T}^{e}-\vec{p}_{T}^{\mu}}>$            &    2.7        &  
 
  \begin{table*}[hbtp]
  \centering  \caption{Event yields in the signal region in the range $100 < M_\text{col} < 150GeV$ after signal optimization cuts are applied. The expected contributions are normalized to an integrated luminosity
-of 19.7$fb^{-1}$. The LFV Higgs boson signal is the expected yield for $B(H \rightarrow \mu \tau)=1\%$ with the SM Higgs boson cross section.}
+of 19.7$fb^{-1}$ at 8 TeV. The LFV Higgs boson signal is the expected yield for $B(H \rightarrow \mu \tau)=1\%$ with the SM Higgs boson cross section.}
   \label{tab:EventYieldTable_100_to_150_8TeV_Signal}
 %   \cmsTable{\textwidth}{
   \begin{tabular}{lccc|ccc} \hline
         \multirow{2}{*}{Sample}                                & \multicolumn{3}{c}{$H \rightarrow \mu \tau_{e}$}                &     \multicolumn{3}{c}{$H \rightarrow \mu \tau_{h}$}     \\ \cline{2-7}
                                               &  0-Jet            & 1-Jet            & 2-Jets               &  0-Jet             & 1-Jet            & 2-Jets  \\ \hline
-    misidentified leptons                    &  50.0  &   19.4     &  1.3 & 1716.4 & 412.1 & 1.4\\
-    $ Z \rightarrow \tau \tau$                    & 75.2   & 43.7      &  1.4 & 196.1   & 60.9  & 0.4  \\
-    $ ZZ,WW$                       & 53.9   &  26.9      &  0.8 & 48.1   & 15.2  & 0.3\\
-    $ W\gamma$                             &   2.4  &  2.4     &  0.0 &NA & NA & NA    \\
-    $ Z \rightarrow ee$ or $\mu \mu$          &  2.2   &  2.3      &  0.1 & 139.5 & 23.3& 0.1  \\
-    $t\bar{t}     $                            &  7.5   & 42.1      & 2.6 &2.4 & 26.0 & 1.0    \\
-    t, $\bar{t}$                             &  2.7   &  9.1      &  0.3 &2.3 & 14.5 & 0.4    \\
-    SM H background                        &  2.2   &  1.8      &  0.7 &7.5 & 5.6 & 1.8    \\ \hline
-    sum of backgrounds                       & 196.3   & 147.7      & 7.2 &2112.1& 557.7 & 5.2  \\  \hline
-    LFV Higgs boson signal                   &  29.2   &  16.6      &  1.6 &79.7 & 36.7 & 3.8    \\ \hline \hline
-      Observed data                          &  180   &  104      &  6  & 2147 & 511 & 10 \\ \hline
+    misidentified leptons                    &  47.0  &   18.3     &  1.3 & 1716.4 & 412.1 & 1.4\\
+    $ Z \rightarrow \tau \tau$                    & 66.5   & 41.2      &  1.4 & 196.1   & 60.9  & 0.4  \\
+    $ ZZ,WW$                       & 41.6   &  21.7      &  0.7 & 48.1   & 15.2  & 0.3\\
+    $ W\gamma$                             &   2.1  &  1.9     &  0.1 &NA & NA & NA    \\
+    $ Z \rightarrow ee$ or $\mu \mu$          &  2.1   &  2.2      &  0.1 & 139.5 & 23.3& 0.1  \\
+    $t\bar{t}     $                            &  5.3   & 31.8      & 1.9 &2.4 & 26.0 & 1.0    \\
+    t, $\bar{t}$                             &  2.0   &  7.1      &  0.2 &2.3 & 14.5 & 0.4    \\
+    SM H background                        &  2.2   &  1.8      &  0.7 (0.4 VBF) &7.5 & 5.6 & 1.8 (1.2 VBF)    \\ \hline
+    sum of backgrounds                       & 168.8   & 126.0      & 6.2 &2112.1& 557.7 & 5.2  \\  \hline
+    LFV Higgs boson signal                   &  27.6   &  15.7      &  1.6 (0.9 VBF) &79.7 & 36.7 & 3.8 (2.4 VBF)   \\ \hline \hline
+      Observed data                          &  180   &  128      &  6  & 2147 & 511 & 10 \\ \hline
   \end{tabular}
 %  }
 \end{table*}
@@ -1192,9 +1195,9 @@ of 2.3$fb^{-1}$. The LFV Higgs boson signal is the expected yield for $B(H \righ
     $ Z \rightarrow ee$ or $\mu \mu$          &  1.9   &  2.4      &  0.3 & 85.1 & 11.5& 0.1  \\
     $t\bar{t}     $                            &  1.5   & 21.4      & 19.1 &1.4 & 6.1 & 1.1    \\
     t, $\bar{t}$                             &  0.5   &  4.0      &  1.6 &0.3 & 2.5 & 0.2    \\
-    SM H background                        &  0.4   &  0.4      &  0.5 &11.9 & 1.1 & 0.3    \\ \hline
+    SM H background                        &  0.4   &  0.4      &  0.5 (0.3 VBF) &11.9 & 1.1 & 0.3 (0.2 VBF)    \\ \hline
     sum of backgrounds                       & 46.9   & 55.0      & 28.9 &310.1& 76.7 & 5.8  \\  \hline
-    LFV Higgs boson signal                   &  7.1   &  3.7      &  1.9 &13.8 & 4.7 & 1.2    \\ \hline \hline
+    LFV Higgs boson signal                   &  7.1   &  3.7      &  1.9 (1.1 VBF) &13.8 & 4.7 & 1.2 (0.7 VBF)   \\ \hline \hline
       Observed data                          &  33    &  41       &  32  & 315 & 77 & 7 \\ \hline
   \end{tabular}
 %  }
@@ -1206,7 +1209,7 @@ of 2.3$fb^{-1}$. The LFV Higgs boson signal is the expected yield for $B(H \righ
 
 \subsubsection{Normalization Uncertainties}\label{normsys}
 
-\qquad The uncertainties are summarized in Tables \ref{tab:systematics} and \ref{tab:theory_systematics}. The uncertainties in the e and $\mu$ selection efficiency (trigger, identification, and isolation) are estimated using the "tag and probe" technique in $Z \rightarrow ee,\mu\mu$ data \cite{Chatrchyan:2014mua}. The identification efficiency of hadronic tau decays is estimated using the "tag and probe" technique in $Z \rightarrow \tau\tau$ data \cite{1748-0221-7-01-P01001}. The uncertainty in the $Z \rightarrow \tau\tau$ background comes predominantly from the uncertainty in the tau efficiency. The uncertainties in the estimation of the misidentified lepton rate come from the difference in rates measured in different data samples (QCD multijets and W+jets). The uncertainty in the production cross section of the backgrounds that have been estimated by simulation is also included.
+\qquad The uncertainties are summarized in Tables \ref{tab:systematics} and \ref{tab:theory_systematics}. The uncertainties in the e and $\mu$ selection efficiency (trigger, identification, and isolation) are estimated using the "tag and probe" technique in $Z \rightarrow ee,\mu\mu$ data \cite{Chatrchyan:2014mua}. The identification efficiency of hadronic tau decays is estimated using the "tag and probe" technique in $Z \rightarrow \tau\tau$ data \cite{1748-0221-7-01-P01001}. The uncertainty in the $Z \rightarrow \tau\tau$ background comes predominantly from the uncertainty in the tau efficiency. The uncertainties in the estimation of the misidentified lepton rate are chosen conservatively and come from the difference in yields between the data driven fake rate and the expected yield from W+jets simulation. The uncertainty in the production cross section of the backgrounds that have been estimated by simulation is used to assign uncertainties to the remaining backgrounds, as displayed in table \ref{tab:systematics}.
 
 \begin{table*}[t]
  \centering
@@ -1254,7 +1257,26 @@ underlying event/parton shower  &   $+4$     & $-5$   &  $-10$   & $+10$    &   
  
 \subsubsection{Shape Uncertainties}
 
-\qquad The systematic uncertainties that lead to a change in the shape of the $M_{collinear}$ distribution are summarized in Table 5. In the embedded $Z \rightarrow \tau\tau$ $M_{collinear}$ distribution, used to estimate the $Z \rightarrow \tau\tau$ background, a 1\% shift has been observed with respect to $Z \rightarrow \tau\tau$ simulations by comparing the means of both distributions. This only occurs in the $H \rightarrow \mu\tau_{e}$ channel. The $M_{collinear}$ distribution has been corrected for this effect and a 100\% uncertainty on this shift is used as a systematic uncertainty. The jet energy scale has been studied extensively and a standard prescription for corrections \ref{1748-0221-6-11-P11002} is used in all CMS analyses. The overall uncertainty is set using $\gamma$+jets events and the most significant uncertainty arises from the photon energy scale. A number of other uncertainties such as jet fragmentation modelling, single pion response, and uncertainties in the pileup corrections are also included. The jet energy scale uncertainties are computed by varying the jet energy scale by $\pm 1 \sigma$ which results in a 3-7\% change in yield in a given category. The jet energy scale corrections are applied as a function of $p_{T}$ and $\eta$, including all correlations, to all jets in the event, and are also propagated to the missing energy. The unclustered energy scale comes from jets below 10 GeV and PF candidates not within jets. It also has its associated uncertainty which is propagated to the missing transverse energy. The tau energy scale is estimated by comparing $Z \rightarrow \tau\tau$ events in data and simulation. An uncertainty of 3\% is derived from this comparison\cite{CMS-PAS-HIG-12-018}. The uncertainty is applied by shifting the $p_{T}$ of the tau candidates in the event. Finally, the $M_{collinear}$ distributions used in the fit have a statistical uncertainty in each mass bin. This uncertainty is uncorrelated between the bins.
+\qquad The systematic uncertainties that lead to a change in the shape of the $M_{collinear}$ distribution are summarized in Table 5. In the embedded $Z \rightarrow \tau\tau$ $M_{collinear}$ distribution, used to estimate the $Z \rightarrow \tau\tau$ background, a 1\% shift has been observed with respect to $Z \rightarrow \tau\tau$ simulations by comparing the means of both distributions. This only occurs in the $H \rightarrow \mu\tau_{e}$ channel. The $M_{collinear}$ distribution has been corrected for this effect and a 100\% uncertainty on this shift is used as a systematic uncertainty. The jet energy scale has been studied extensively and a standard prescription for corrections \ref{1748-0221-6-11-P11002} is used in all CMS analyses. The overall uncertainty is set using $\gamma$+jets events and the most significant uncertainty arises from the photon energy scale. A number of other uncertainties such as jet fragmentation modelling, single pion response, and uncertainties in the pileup corrections are also included. The jet energy scale uncertainties are computed by varying the jet energy scale by $\pm 1 \sigma$ which results in a 3-7\% change in yield in a given category. The jet energy scale corrections are applied as a function of $p_{T}$ and $\eta$, including all correlations, to all jets in the event, and are also propagated to the missing energy. An example of the effect of this systematic is shown in figure \ref{fig:jesshift}. The unclustered energy scale comes from jets below 10 GeV and PF candidates not within jets. It also has its associated uncertainty which is propagated to the missing transverse energy (figure \ref{fig:uesshift}). The tau energy scale is estimated by comparing $Z \rightarrow \tau\tau$ events in data and simulation. An uncertainty of 3\% is derived from this comparison\cite{CMS-PAS-HIG-12-018}. The uncertainty is applied by shifting the $p_{T}$ of the tau candidates in the event by this 3\% uncertainty (figure \ref{fig:tesshift}). Finally, the $M_{collinear}$ distributions used in the fit have a statistical uncertainty in each mass bin. This uncertainty is uncorrelated between the bins.
+
+\begin{figure*}[hbtp]\centering
+\includegraphics[width=0.9\textwidth]{JES_Shift_8TeV.pdf}
+
+\caption{The effect of shifting the jet energy scale by $\pm 1 \sigma$. The shift in this is shown for the LFV signal in the 0 jet category.} 
+\label{fig:jesshift}\end{figure*}
+
+\begin{figure*}[hbtp]\centering
+\includegraphics[width=0.9\textwidth]{UES_Shift_8TeV.pdf}
+
+\caption{The effect of shifting the unclustered energy scale by $\pm 1 \sigma$. The shift in this is shown for the LFV signal in the 0 jet category.} 
+\label{fig:uesshift}\end{figure*}
+
+\begin{figure*}[hbtp]\centering
+\includegraphics[width=0.9\textwidth]{TES_Shift_8TeV.pdf}
+
+\caption{The effect of shifting the tau energy scale by $\pm 1 \sigma$. The shift in this is shown for the LFV signal in the 0 jet category.} 
+\label{fig:tesshift}\end{figure*}
+
 
 \qquad Uncertainties in the shape of the misidentified lepton backgrounds have also been calculated. In the $H \rightarrow \mu\tau_{e}$ channel the misidentified lepton ratios $f_{\mu},f_{e}$ are measured and applied in bins of lepton $p_{T}$ and $|\eta|$. These ratios are all adjusted up or down by one standard deviation and the differences in the shape of the resultant $M_{col}$ distributions are then used as nuisance parameters in the fit. In the $H \rightarrow \mu\tau_{h}$ channel the tau misidentification rate $f_{\tau}$ is found to be approximately flat in $p_{T}$ and $\eta$. To estimate the systematic uncertainty the $p_{T}$ distribution of $f_{\tau}$ is fit with a linear function and the rate recomputed from the fitted slope and intercept. This is shown in figure \ref{fig:fakeratesys8TeV}
 \begin{figure*}[hbtp]\centering
@@ -1272,7 +1294,7 @@ The results of the shifts are shown in figure \ref{fig:fakerateupdownsigma}.
 \label{fig:fakerateupdownsigma}\end{figure*}
 
 \subsection{13 TeV}
-\qquad The systematic uncertainties used in the 13 TeV analysis are similar to those used in the 8 TeV analysis. They are shown in Table \ref{tab:systematics13TeV}. The 8 TeV analysis was carried out after many standard model studies had been completed \cite{1748-0221-6-11-P11002} \cite{CMS-PAS-EWK-10-002}, but the same is not true for the 13 TeV analysis. Therefore, a greater uncertainty is applied to the $Z \rightarrow \tau\tau$ and the $t\bar{t}$ backgrounds. The understanding of the $W+\gamma$ sample has increased significantly. The dominant theoretical uncertainties (section \ref{normsys} are  uncertainties in the GGF and VBF Higgs production cross section, which are determined by varying $\mu_{R}$, $\mu_{F}$, and PDF sets. The overall theoretical uncertainty is approximated to 10\%. 
+\qquad The systematic uncertainties used in the 13 TeV analysis are similar to those used in the 8 TeV analysis. They are shown in Table \ref{tab:systematics13TeV}. The 8 TeV analysis was carried out after many standard model studies had been completed \cite{1748-0221-6-11-P11002} \cite{CMS-PAS-EWK-10-002} at the given center of mass energy, but the same is not true for the 13 TeV analysis. Therefore, a greater uncertainty is applied to the $Z \rightarrow \tau\tau$ and the $t\bar{t}$ backgrounds. No standard model study of $W+\gamma$ had been completed at the time of the 8 TeV analysis. The completion of $W+\gamma$ at 8 TeV \cite{CMS-PAS-SMP-14-011} allows for a significant reduction in the uncertainty of the $W+\gamma$ Monte Carlo simulation. The dominant theoretical uncertainties (section \ref{normsys} are  uncertainties in the GGF and VBF Higgs production cross section, which are determined by varying $\mu_{R}$, $\mu_{F}$, and PDF sets. The overall theoretical uncertainty is approximated to 10\%. 
 
 \begin{table*}[t]
  \centering
@@ -1543,7 +1565,7 @@ The observed limit for the branching ratio is slightly tighter than the $B(H \ri
 
 \section{Analysis Overview}
 
-\qquad As mentioned in section \ref{wboson}, events with a W boson with associated jets are produced at the LHC via parton-parton scattering. The jet multiplicity and kinematics give an experimental measurement of QCD and are compared to LO and NLO Monte Carlo simulation. The W boson may decay hadronically or leptonically. In this analysis we only select the muonic decay channel because of CMS's efficiency at identifying muons (sections \ref{muonsys}, \ref{muons}). Due to lepton flavor conservation required by the Standard Model, a muon neutrino will be emitted in conjunction with the muon. This neutrino will contribute to the missing transverse energy (section \ref{met}) in the event. To conserve momentum, the muon and its neutrino partiner will tend to be emitted back-to-back in $\phi$. This difference in $\phi$ will result in a large transverse mass $M_{T}^{\mu}$, as given in equation \ref{eq:mtmu}. 
+\qquad As mentioned in section \ref{wboson}, events with a W boson with associated jets are produced at the LHC via parton-parton scattering. The jet multiplicity and kinematics give an experimental measurement of QCD and are compared to LO and NLO Monte Carlo simulation. The W boson may decay hadronically or leptonically. In this analysis we only select the muonic decay channel because of CMS's efficiency at identifying muons (sections \ref{muonsys}, \ref{muons}). Due to lepton flavor conservation required by the Standard Model, a muon neutrino will be emitted in conjunction with the muon. This neutrino will contribute to the missing transverse energy (section \ref{met}) in the event. To conserve momentum, the muon and its neutrino partner will tend to be emitted back-to-back in $\phi$. This difference in $\phi$ will result in a large transverse mass $M_{T}^{\mu}$, as given in equation \ref{eq:mtmu}. 
 
 \begin{equation}
 M_{T}^{\mu} = \sqrt{2 p_{T}^{\mu}E_{T}^{miss}(1-cos \Delta\phi_{\vec{p}_{T}^{\mu}-\vec{E}_{T}^{miss}})}
@@ -1690,7 +1712,19 @@ The single top simulation is generated with a mixture of {\sc Powheg} and {\sc M
 /
 \qquad The event yields for data and simulation processes in each bin of exclusive jet multiplicity are listed in Table \ref{tab:events}.
 
-\qquad At high jet multiplicities, the W+jets signal is less dominant and the accuracy of the largest background, $t\bar{t}$, becomes more important. A $t\bar{t}$ enriched control sample was created by removing the b-jet veto and requiring two or more b-tagged jets. The data-simulation agreement was found to be with 10\% up to the exclusive jet multiplicity of 5 and the inclusive jet multiplicity of 4. 
+\qquad At high jet multiplicities, the W+jets signal is less dominant and the accuracy of the largest background, $t\bar{t}$, becomes more important. A $t\bar{t}$ enriched control sample was created by removing the b-jet veto and requiring two or more b-tagged jets. The data-simulation agreement was found to be with 10\% up to the exclusive jet multiplicity of 5 and the inclusive jet multiplicity of 4, as shown in figure \ref{fig:ttbar_excinc}.
+
+
+\begin{figure}[!Hhtbp]
+%\renewcommand{\figurename}{Figure}
+\begin{center}
+\includegraphics[width=0.45\textwidth]{/home/aaron/root/wjets/July15_WJets_2BjetsTTbar/ZNGoodJets_Zexc.pdf}
+\includegraphics[width=0.45\textwidth]{/home/aaron/root/wjets/July15_WJets_2BjetsTTbar/ZNGoodJets_Zinc.pdf}
+\end{center}
+\caption{Data to simulation comparison of exclusive (left) and inclusive (right) jet multiplicity in the ttbar control region}
+\label{fig:ttbar_excinc}
+\end{figure}
+
 
 \begin{figure}[!Hhtbp]
 %\renewcommand{\figurename}{Figure}
@@ -1744,7 +1778,47 @@ The single top simulation is generated with a mixture of {\sc Powheg} and {\sc M
 \label{eta34}
 \end{figure}
 
+\begin{figure}[!Hhtbp]
+%\renewcommand{\figurename}{Figure}
+\begin{center}
+\includegraphics[width=0.45\textwidth]{/home/aaron/root/wjets/July10_WJets_Zinc4JetMTW/MT_Zinc1jet.pdf}
+\includegraphics[width=0.45\textwidth]{/home/aaron/root/wjets/July10_WJets_Zinc4JetMTW/MT_Zinc2jet.pdf}
+\end{center}
+\caption{Data to simulation comparison of the $m_{T}$ in $1^{st}$ (left) and $2^{nd}$ (right) inclusive jet events. QCD background is estimated using a data-driven method. The diboson samples (WW, WZ, and ZZ) are represented by VV.}
+\label{eta12}
+\end{figure}
 
+\begin{figure}[!Hhtbp]
+%\renewcommand{\figurename}{Figure}
+\begin{center}
+\includegraphics[width=0.45\textwidth]{/home/aaron/root/wjets/July10_WJets_Zinc4JetMTW/MT_Zinc3jet.pdf}
+\includegraphics[width=0.45\textwidth]{/home/aaron/root/wjets/July10_WJets_Zinc4JetMTW/MT_Zinc4jet.pdf}
+\end{center}
+%\caption{Data to simulation comparison for $3^{rd}$ jet $y$.}
+\caption{Data to simulation comparison of the $m_{T}$ in  $3^{rd}$ (left) and $4^{th}$ (right) inclusive jet events. QCD background is estimated using a data-driven method. The diboson samples (WW, WZ, and ZZ) are represented by VV.}
+\label{eta34}
+\end{figure}
+
+\begin{figure}[!Hhtbp]
+%\renewcommand{\figurename}{Figure}
+\begin{center}
+\includegraphics[width=0.45\textwidth]{/home/aaron/root/wjets/July10_WJets_Zinc4JetMTW/ZPt_Zinc1jet.pdf}
+\includegraphics[width=0.45\textwidth]{/home/aaron/root/wjets/July10_WJets_Zinc4JetMTW/ZPt_Zinc2jet.pdf}
+\end{center}
+\caption{Data to simulation comparison of the W $p_{T}$ in $1^{st}$ (left) and $2^{nd}$ (right) inclusive jet events. QCD background is estimated using a data-driven method. The diboson samples (WW, WZ, and ZZ) are represented by VV.}
+\label{eta12}
+\end{figure}
+
+\begin{figure}[!Hhtbp]
+%\renewcommand{\figurename}{Figure}
+\begin{center}
+\includegraphics[width=0.45\textwidth]{/home/aaron/root/wjets/July10_WJets_Zinc4JetMTW/ZPt_Zinc3jet.pdf}
+\includegraphics[width=0.45\textwidth]{/home/aaron/root/wjets/July10_WJets_Zinc4JetMTW/ZPt_Zinc4jet.pdf}
+\end{center}
+%\caption{Data to simulation comparison for $3^{rd}$ jet $y$.}
+\caption{Data to simulation comparison of the W $p_{T}$ in  $3^{rd}$ (left) and $4^{th}$ (right) inclusive jet events. QCD background is estimated using a data-driven method. The diboson samples (WW, WZ, and ZZ) are represented by VV.}
+\label{eta34}
+\end{figure}
 \section{Detector Unfolding}
 \qquad The CMS detector response can cause a measurement to deviate from its true value. For example, for a given event with a leading jet $p_{T}$ in the 40-45 GeV bin, there is a probability that the jet could have had a $p_{T}$ in the 35-40 GeV bin or in the 45-50 GeV bin. The detector response can cause the measured value to deviate from its true value. A response matrix is used to transform the measured values to the true values. 
 
@@ -1846,18 +1920,18 @@ It is therefore justified to quantify the theoretical uncertainty of an exclusiv
  \label{fig:acceptances}\end{figure}
  
 \section{Results}
-\qquad The cross sections of jet multiplicities are measured for up to 5 jets. The measured W+jets differential cross section distributions are compared with the predictions of the {\sc MadGraph5$\_$aMC@NLO} FXFX and {\sc MadGraph}5 LO MLM event generators. As shown in figure \ref{fig:xsec_Njets_nlo}, the measured data and predictions are generally agreement within uncertainties. {\sc MadGraph}5 appears to underestimate the measured cross section up to a multiplicity of 4. Tables \ref{tab:DMuZNGoodJets_Zexc} and \ref{tab:SMuZNGoodJetsFull_Zinc} show the measured cross sections and associated uncertainties. 
+\qquad The cross sections of jet multiplicities are measured for up to 5 jets. The measured W+jets differential cross section distributions are compared with the predictions of the {\sc MadGraph5$\_$aMC@NLO} FXFX and {\sc MadGraph}5 LO MLM event generators. As shown in figure \ref{fig:xsec_Njets_nlo}, the measured data and predictions are generally agreement within uncertainties. {\sc MadGraph}5 appears to underestimate the measured cross section up to a multiplicity of 4. This may be because LO calculations neglect NLO and NNLO processes that could contribute to the higher jet multiplicity bins. This hypothesis is supported by the superior agreement of the NLO sample, which also underestimates the data slightly as jet multiplicity increases, possibily due to a lack of NNLO contributions to the jet bins. \ref{tab:DMuZNGoodJets_Zexc} and \ref{tab:SMuZNGoodJetsFull_Zinc} show the measured cross sections and associated uncertainties. 
 
 
-\begin{table}[!Hhtbp]
+\begin{sidewaystable}[!Hhtbp]
 \begin{center}
 \caption{Differential cross section in exclusive jet multiplicity and breakdown of the systematic uncertainties for the muon decay channel.}
 \resizebox{\textwidth}{!}{
 \begin{tabular}{c|cc|ccccccccccc}
 \multicolumn{12}{c}{Exclusive jet multiplicity} \\
 
-$N_{\text{jets}}$ & $\frac{d\sigma}{dN_{\text{jets}}} \tiny{\left[\text{pb}\right]}$ & \tiny{Tot. Unc [\%]} & \tiny{stat [\%]} & \tiny{Simulation stat [\%]} & \tiny{JES [\%]} & \tiny{JER [\%]} & \tiny{PU [\%]} & \tiny{XSEC [\%]} & \tiny{Lumi [\%]} & \tiny{BtagSF [\%]} & \tiny{Eff [\%]} \\\hline
-%$N_{\text{jets}}$ & $\frac{d\sigma}{dN_{\text{jets}}} \left[\text{pb}\right]$ & Tot. Unc [\%] & stat [\%] & Simulation stat [\%] & JES [\%] & JER [\%] & PU [\%] & XSEC [\%] & Lumi [\%] & BtagSF [\%] & Eff [\%]} \\\hline
+%$N_{\text{jets}}$ & $\frac{d\sigma}{dN_{\text{jets}}} \tiny{\left[\text{pb}\right]}$ & \tiny{Tot. Unc [\%]} & \tiny{stat [\%]} & \tiny{Simulation stat [\%]} & \tiny{JES [\%]} & \tiny{JER [\%]} & \tiny{PU [\%]} & \tiny{XSEC [\%]} & \tiny{Lumi [\%]} & \tiny{BtagSF [\%]} & \tiny{Eff [\%]} \\\hline
+$N_{\text{jets}}$ & $\frac{d\sigma}{dN_{\text{jets}}} \left[\text{pb}\right]$ & Tot. Unc [\%] & stat [\%] & Simulation stat [\%] & JES [\%] & JER [\%] & PU [\%] & XSEC [\%] & Lumi [\%] & BtagSF [\%] & Eff [\%] \\\hline
 = 0 & 7.43e+03 & 5.3 & 0.064 & 0.15 & 0.15 & 0.092 & 1.7 & 0.17 & 4.9 & 0.40 & 0.53 \\
 = 1 & 867. & 5.6 & 0.28 & 0.69 & 1.4 & 0.43 & 1.3 & 0.25 & 5.2 & 0.82 & 0.56 \\
 = 2 & 197. & 8.8 & 0.76 & 1.8 & 6.4 & 0.31 & 1.5 & 0.58 & 5.3 & 1.7 & 0.57 \\
@@ -1866,15 +1940,17 @@ $N_{\text{jets}}$ & $\frac{d\sigma}{dN_{\text{jets}}} \tiny{\left[\text{pb}\righ
 = 5 & 1.76 & 41. & 14. & 27. & 21. & 0.12 & 2.1 & 11. & 11. & 11. & 1.1 \\
 \end{tabular}}
 \label{tab:DMuZNGoodJets_Zexc}
-\end{center}\end{table}
+\end{center}
+%\end{table}
+\end{sidewaystable}
 
-\begin{table}[htb!]
+\begin{sidewaystable}[htb!]
 \begin{center}
 \caption{Differential cross section in inclusive jet multiplicity and breakdown of the systematic uncertainties for the muon decay channel.}
 \resizebox{\textwidth}{!}{
 \begin{tabular}{c|cc|ccccccccccc}
 \multicolumn{12}{c}{Inclusive jet multiplicity} \\
-$N_{\text{jets}}$ & $\frac{d\sigma}{dN_{\text{jets}}} \tiny{\left[\text{pb}\right]}$  & \tiny{Tot. Unc [\%]} & \tiny{stat [\%]} & \tiny{MC stat [\%]} & \tiny{JES [\%]} & \tiny{JER [\%]} & \tiny{PU [\%]} & \tiny{XSEC [\%]} & \tiny{Lumi [\%]} & \tiny{BtagSF [\%]} & \tiny{Eff [\%]} \\ \hline
+$N_{\text{jets}}$ & $\frac{d\sigma}{dN_{\text{jets}}} \left[\text{pb}\right]$  & Tot. Unc [\%] & stat [\%] & MC stat [\%] & JES [\%] & JER [\%] & PU [\%] & XSEC [\%] & Lumi [\%] & BtagSF [\%] & Eff [\%] \\ \hline
 $\geq 0$ & 8.59e+03 & 5.3 & 0.056 & 0.15 & 0.53 & 0.024 & 1.7 & 0.19 & 4.9 & 0.48 & 0.54 \\
 $\geq 1$ & 1.12e+03 & 7.9 & 0.32 & 0.55 & 5.6 & 0.15 & 1.3 & 0.42 & 5.2 & 1.1 & 0.57 \\
 $\geq 2$ & 253. & 11. & 0.90 & 1.4 & 7.9 & 0.49 & 2.9 & 1.1 & 5.6 & 2.2 & 0.61 \\
@@ -1884,7 +1960,8 @@ $\geq 5$ & 2.65 & 42. & 14. & 18. & 26. & 2.3 & 1.5 & 14. & 12. & 15. & 1.3 \\
 \end{tabular}
 }
 \label{tab:SMuZNGoodJetsFull_Zinc}
-\end{center}\end{table}
+\end{center}
+\end{sidewaystable}
 
 
 \begin{figure}[hp]

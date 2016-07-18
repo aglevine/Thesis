@@ -1,6 +1,6 @@
 \contentsline {section}{Abstract}{i}
 \contentsline {section}{Acknowledgements}{ii}
-\contentsline {chapter}{List of Tables}{xiii}
+\contentsline {chapter}{List of Tables}{xiv}
 \contentsline {chapter}{\chapternumberline {1}Theoretical Motivation}{1}
 \contentsline {section}{\numberline {1.1}The Standard Model}{1}
 \contentsline {subsection}{\numberline {1.1.1}Elementary Particles}{2}
@@ -58,25 +58,25 @@
 \contentsline {subsection}{\numberline {6.6.2}13 TeV}{64}
 \contentsline {section}{\numberline {6.7}Statistical Methods}{65}
 \contentsline {subsection}{\numberline {6.7.1}Maximum Likelihood Fit}{65}
-\contentsline {subsection}{\numberline {6.7.2}Maximum Likelihood Limits}{67}
-\contentsline {section}{\numberline {6.8}Results}{68}
-\contentsline {subsection}{\numberline {6.8.1}8 TeV Results}{68}
-\contentsline {subsubsection}{\numberline {6.8.1.1}Limits on lepton-flavour-violating couplings}{71}
-\contentsline {subsection}{\numberline {6.8.2}13 TeV Results}{72}
-\contentsline {chapter}{\chapternumberline {7}W+Jets Differential Cross Section Measurement}{75}
-\contentsline {section}{\numberline {7.1}Analysis Overview}{75}
-\contentsline {section}{\numberline {7.2}Backgrounds and Datasets}{75}
-\contentsline {subsection}{\numberline {7.2.1}Data}{75}
-\contentsline {subsection}{\numberline {7.2.2}Monte Carlo}{76}
-\contentsline {subsection}{\numberline {7.2.3}QCD Background}{77}
-\contentsline {section}{\numberline {7.3}Event Selection}{77}
-\contentsline {section}{\numberline {7.4}Data-Simulation Comparisons}{81}
-\contentsline {section}{\numberline {7.5}Detector Unfolding}{84}
-\contentsline {section}{\numberline {7.6}Systematic Uncertainties}{85}
-\contentsline {subsection}{\numberline {7.6.1}Theoretical Uncertainties}{86}
-\contentsline {subsection}{\numberline {7.6.2}Methodology}{86}
-\contentsline {section}{\numberline {7.7}Results}{88}
-\contentsline {chapter}{\chapternumberline {8}Conclusions}{90}
-\contentsline {section}{\numberline {8.1}Summary}{90}
-\contentsline {section}{\numberline {8.2}Future Outlook}{91}
-\contentsline {chapter}{Bibliography}{92}
+\contentsline {subsection}{\numberline {6.7.2}Maximum Likelihood Limits}{68}
+\contentsline {section}{\numberline {6.8}Results}{70}
+\contentsline {subsection}{\numberline {6.8.1}8 TeV Results}{70}
+\contentsline {subsubsection}{\numberline {6.8.1.1}Limits on lepton-flavour-violating couplings}{72}
+\contentsline {subsection}{\numberline {6.8.2}13 TeV Results}{73}
+\contentsline {chapter}{\chapternumberline {7}W+Jets Differential Cross Section Measurement}{78}
+\contentsline {section}{\numberline {7.1}Analysis Overview}{78}
+\contentsline {section}{\numberline {7.2}Backgrounds and Datasets}{78}
+\contentsline {subsection}{\numberline {7.2.1}Data}{78}
+\contentsline {subsection}{\numberline {7.2.2}Monte Carlo}{79}
+\contentsline {subsection}{\numberline {7.2.3}QCD Background}{80}
+\contentsline {section}{\numberline {7.3}Event Selection}{80}
+\contentsline {section}{\numberline {7.4}Data-Simulation Comparisons}{84}
+\contentsline {section}{\numberline {7.5}Detector Unfolding}{89}
+\contentsline {section}{\numberline {7.6}Systematic Uncertainties}{90}
+\contentsline {subsection}{\numberline {7.6.1}Theoretical Uncertainties}{91}
+\contentsline {subsection}{\numberline {7.6.2}Methodology}{92}
+\contentsline {section}{\numberline {7.7}Results}{92}
+\contentsline {chapter}{\chapternumberline {8}Conclusions}{98}
+\contentsline {section}{\numberline {8.1}Summary}{98}
+\contentsline {section}{\numberline {8.2}Future Outlook}{99}
+\contentsline {chapter}{Bibliography}{100}
