@@ -23,6 +23,7 @@ Warning--empty journal in CMS-DP-2014-015
 Warning--empty author in CMS-DP-2015-009
 Warning--empty journal in CMS-DP-2015-009
 Warning--empty author in CMS-PAS-LUM-15-001
+Warning--empty journal in Khachatryan:2016vau
 Warning--empty journal in Alekhin:2011sk
 Warning--empty journal in Heinemeyer:2013tqa
 Warning--empty journal in Dittmaier:2011ti
@@ -32,45 +33,45 @@ Warning--empty journal in Halzen:1984mc
 Warning--empty journal in Marcastel:1621583
 Warning--empty journal in Read:451614
 Warning--there's a number but no volume in Read:451614
-You've used 86 entries,
+You've used 88 entries,
             2118 wiz_defined-function locations,
-            993 strings with 17623 characters,
-and the built_in function-call counts, 25298 in all, are:
-= -- 2399
-> -- 1274
-< -- 10
-+ -- 507
-- -- 420
-* -- 1789
-:= -- 4442
-add.period$ -- 252
-call.type$ -- 86
-change.case$ -- 441
+            1007 strings with 18072 characters,
+and the built_in function-call counts, 25624 in all, are:
+= -- 2430
+> -- 1282
+< -- 11
++ -- 511
+- -- 422
+* -- 1803
+:= -- 4509
+add.period$ -- 258
+call.type$ -- 88
+change.case$ -- 449
 chr.to.int$ -- 0
-cite$ -- 113
-duplicate$ -- 928
-empty$ -- 1946
-format.name$ -- 420
-if$ -- 5151
+cite$ -- 116
+duplicate$ -- 947
+empty$ -- 1973
+format.name$ -- 422
+if$ -- 5212
 int.to.chr$ -- 0
-int.to.str$ -- 86
-missing$ -- 79
-newline$ -- 427
-num.names$ -- 156
-pop$ -- 369
+int.to.str$ -- 88
+missing$ -- 80
+newline$ -- 437
+num.names$ -- 160
+pop$ -- 377
 preamble$ -- 1
-purify$ -- 358
+purify$ -- 364
 quote$ -- 0
-skip$ -- 638
+skip$ -- 648
 stack$ -- 0
-substring$ -- 1334
-swap$ -- 80
-text.length$ -- 10
+substring$ -- 1326
+swap$ -- 81
+text.length$ -- 11
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 336
-warning$ -- 27
-while$ -- 213
-width$ -- 88
-write$ -- 918
-(There were 29 warnings)
+type$ -- 344
+warning$ -- 28
+while$ -- 217
+width$ -- 90
+write$ -- 939
+(There were 30 warnings)

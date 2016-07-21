@@ -37,23 +37,24 @@
 {CMS Luminosity Measurement for the 2015 Data Taking Period}.
 \newblock Technical Report CMS-PAS-LUM-15-001, CERN, Geneva, 2016.
 
+\bibitem{Aad:2015zhl}
+Georges Aad et~al.
+\newblock {Combined Measurement of the Higgs Boson Mass in $pp$ Collisions at
+  $\sqrt{s}=7$ and 8 TeV with the ATLAS and CMS Experiments}.
+\newblock {\em Phys. Rev. Lett.}, 114:191803, 2015.
+
+\bibitem{Khachatryan:2016vau}
+Georges Aad et~al.
+\newblock {Measurements of the Higgs boson production and decay rates and
+  constraints on its couplings from a combined ATLAS and CMS analysis of the
+  LHC $pp$ collision data at $\sqrt{s}=$ 7 and 8 TeV}.
+\newblock 2016.
+
 \bibitem{Adam:815410}
 Wolfgang Adam, R~Frühwirth, Are Strandlie, and T~Todor.
 \newblock {Reconstruction of Electrons with the Gaussian-Sum Filter in the CMS
   Tracker at the LHC}.
 \newblock Technical Report CMS-NOTE-2005-001, CERN, Geneva, Jan 2005.
-
-\bibitem{Ahmad:2001an}
-Q.~R. Ahmad et~al.
-\newblock {Measurement of the rate of $\nu_e+d \to p+p+e^-$ interactions
-  produced by $^8B$ solar neutrinos at the Sudbury Neutrino Observatory}.
-\newblock {\em Phys. Rev. Lett.}, 87:071301, 2001.
-
-\bibitem{Ahmad:2002jz}
-Q.~R. Ahmad et~al.
-\newblock {Direct evidence for neutrino flavor transformation from neutral
-  current interactions in the Sudbury Neutrino Observatory}.
-\newblock {\em Phys. Rev. Lett.}, 89:011301, 2002.
 
 \bibitem{Alekhin:2011sk}
 Sergey Alekhin et~al.
@@ -267,6 +268,11 @@ Glen Cowan, Kyle Cranmer, Eilam Gross, and Ofer Vitells.
 \newblock {\em Eur. Phys. J.}, C71:1554, 2011.
 \newblock [Erratum: Eur. Phys. J.C73,2501(2013)].
 
+\bibitem{Csaki:1996ks}
+Csaba Csaki.
+\newblock {The Minimal supersymmetric standard model (MSSM)}.
+\newblock {\em Mod. Phys. Lett.}, A11:599, 1996.
+
 \bibitem{D'Agostini:1995487}
 G.~D'Agostini.
 \newblock A multidimensional unfolding method based on bayes' theorem.
@@ -321,11 +327,6 @@ Stefano Frixione, Paolo Nason, and Giovanni Ridolfi.
 R.~Fruhwirth.
 \newblock {Application of Kalman filtering to track and vertex fitting}.
 \newblock {\em Nucl. Instrum. Meth.}, A262:444--450, 1987.
-
-\bibitem{Fukuda:1998mi}
-Y.~Fukuda et~al.
-\newblock {Evidence for oscillation of atmospheric neutrinos}.
-\newblock {\em Phys. Rev. Lett.}, 81:1562--1567, 1998.
 
 \bibitem{Gangal:2013nxa}
 Shireen Gangal and Frank~J. Tackmann.
@@ -397,6 +398,11 @@ Henning Kirschenmann.
 \newblock {Jet performance in CMS}.
 \newblock Technical Report CMS-CR-2013-325, CERN, Geneva, Oct 2013.
 
+\bibitem{Lobanov:2015jla}
+Artur Lobanov.
+\newblock {The CMS Outer HCAL SiPM Upgrade}.
+\newblock {\em J. Phys. Conf. Ser.}, 587(1):012005, 2015.
+
 \bibitem{Manohar:2012pe}
 Aneesh~V. Manohar and Wouter~J. Waalewijn.
 \newblock {What is Double Parton Scattering?}
@@ -412,6 +418,11 @@ Fabienne Marcastel.
 A.~D. Martin, W.~J. Stirling, R.~S. Thorne, and G.~Watt.
 \newblock {Parton distributions for the LHC}.
 \newblock {\em Eur. Phys. J.}, C63:189--285, 2009.
+
+\bibitem{Meier:1977837}
+Frank Meier.
+\newblock {Physics Performance with the CMS Pixel Detector}.
+\newblock Technical Report CMS-CR-2014-437, CERN, Geneva, Dec 2014.
 
 \bibitem{Nadolsky:2008zw}
 Pavel~M. Nadolsky, Hung-Liang Lai, Qing-Hong Cao, Joey Huston, Jon Pumplin,

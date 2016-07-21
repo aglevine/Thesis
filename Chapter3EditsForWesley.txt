@@ -1,0 +1,50 @@
+3.1
+Added that high current in superconducting magnets is necessary for high magnetic field.
+Oops.. that made no sense. Magnetic field is obviously constant to keep particles in their circular path. Changed "magnetic field is controlled by" to "beam is accelerated by"
+Removed stray phrase "The emittance"
+"is lower in 2015" -> "was lower in 2015"
+added 2016 LHC performance
+"collisions" -> "proton proton collisions"
+
+3.2.1
+"hermetic" -> "mostly hermetic"
+
+3.2.2
+Added information about pixel resolution and referenced displaced vertices.
+charge -> charged
+
+3.2.3
+"hermetic" -> "mostly hermetic"
+"distance" -> "mean distance"
+"the particle" -> "electron"
+"shower" -> "electron shower"
+added that ECAL crystals are temperature dependent as well
+"dependant" -> "dependent"
+added that preshower is located in front of the ecal
+
+3.2.4
+added better definition for interaction length
+removed extra sig fig from length of HCAL
+added HO paragraph
+
+3.2.5
+"systems" -> "system"
+combeind the first two sentences
+"magnetic" -> "magnet"
+added more information about potential hadronic punchthrough
+Added high voltage electrodes
+"anode" -> "The anode"
+fixed mentions of cathode instead of electrode
+"flow" -> "flow away"
+Added width of csc strips
+CSCs were added for 3/4 tracking for all endcap region
+"strips" -> "pads"
+
+3.2.6
+"events that are generated" -> "proton proton collisions"
+"contains" -> "contain"
+added HCAL mapping information
+"Sums" -> "Sums from ECAL and HCAL"
+"rougher" -> "coarser"
+removed random sentence fragment
+mentioned oRSC
