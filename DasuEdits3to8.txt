@@ -1,0 +1,14 @@
+Made sure no question marks from undefined references in final thesis
+Made sure quotes faced correct direction everywhere
+
+Made suggested small changes to HLT section
+
+Made final LFV plots slightly smaller to accomodate caption
+
+changed "about 10fb-1 so far in 2016" to "expected 30-40 fb-1 recorded in 2016"
+(the original text was highlighted but I didn't see a comment so I wasn't sure what you were going for. I got the expected numbers from Greg's talk a couple weeks ago at USCMS.)
+
+Still need to change CMS Preliminary to A. Levine Thesis on W+jets plots.
+
+One significant issue... We never made a combination Yukawa plot. We briefly combined 8 TeV and 13 TeV datacards with all systematics uncorrelated. We got an expected limit of 0.67 and an observed limit of 1.16 (slightly tighter than 8 TeV and 13 TeV respectively). But we never went through the full procedure with the Higgs datacard group for this combination. After the preliminary combination, it was decided that since nothing profound was revealed we would proceed to get the 2015 result out as quickly as possible so that we could focus on optimizing the analysis for 2016, and then do a rigorous combination after the 2016 analysis was finished.   
+We did make a "zoomed" yukawa plot that was shown in the approval. It zooms in on the Yukawa couplings plot in order to illustrate the difference between the 8 TeV and 13 TeV limits on the Yukawa couplings. I've attached this plot so you can see what I mean. One issue: Maria made it, so I'll technically have to reproduce it myself before I can include it in the thesis, which shouldn't be a problem but I can't guarantee it in the next few hours.

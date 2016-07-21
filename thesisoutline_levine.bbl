@@ -11,11 +11,6 @@
   Events from pp Collisions at 7 TeV}.
 \newblock Technical Report CMS-PAS-PFT-10-002, CERN, Geneva, 2010.
 
-\bibitem{CMS-PAS-EWK-10-002}
-{Measurement of the W and Z inclusive production cross sections at sqrts=7 TeV
-  with the CMS experiment at the LHC}.
-\newblock Technical Report CMS-PAS-EWK-10-002, CERN, 2010. Geneva, 2010.
-
 \bibitem{CMS-PAS-HIG-12-018}
 {Search for a standard model Higgs bosons decaying to tau pairs in pp
   collisions}.
@@ -189,6 +184,18 @@ S~Chatrchyan et~al.
 \newblock {Performance of the CMS Drift Tube Chambers with Cosmic Rays}.
 \newblock {\em JINST}, 5:T03015, 2010.
 
+\bibitem{Chatrchyan:2011ds}
+Serguei Chatrchyan et~al.
+\newblock {Determination of Jet Energy Calibration and Transverse Momentum
+  Resolution in CMS}.
+\newblock {\em JINST}, 6:P11002, 2011.
+
+\bibitem{CMS:2011aa}
+Serguei Chatrchyan et~al.
+\newblock {Measurement of the Inclusive $W$ and $Z$ Production Cross Sections
+  in $pp$ Collisions at $\sqrt{s}=7$ TeV}.
+\newblock {\em JHEP}, 10:132, 2011.
+
 \bibitem{Chatrchyan:2012xdj}
 Serguei Chatrchyan et~al.
 \newblock {Observation of a new boson at a mass of 125 GeV with the CMS
@@ -247,12 +254,6 @@ CMS Collaboration.
 CMS Collaboration.
 \newblock Performance of τ-lepton reconstruction and identification in cms.
 \newblock {\em Journal of Instrumentation}, 7(01):P01001, 2012.
-
-\bibitem{1748-0221-6-11-P11002}
-The~CMS collaboration.
-\newblock Determination of jet energy calibration and transverse momentum
-  resolution in cms.
-\newblock {\em Journal of Instrumentation}, 6(11):P11002, 2011.
 
 \bibitem{Conway:2011in}
 J.~S. Conway.

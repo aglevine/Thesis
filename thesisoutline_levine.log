@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.1.8)  21 JUL 2016 06:13
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.1.8)  21 JUL 2016 11:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -811,525 +811,520 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 File: HiggsPotential.png Graphic file (type png)
 
 <use HiggsPotential.png>
-Package pdftex.def Info: HiggsPotential.png used on input line 419.
+Package pdftex.def Info: HiggsPotential.png used on input line 424.
 (pdftex.def)             Requested size: 389.69736pt x 207.2026pt.
  [6 <./HiggsPotential.png>] [7]
-<mutauloop.jpg, id=106, 943.525pt x 483.8075pt>
+<mutauloop.jpg, id=107, 943.525pt x 483.8075pt>
 File: mutauloop.jpg Graphic file (type jpg)
  <use mutauloop.jpg>
-Package pdftex.def Info: mutauloop.jpg used on input line 442.
+Package pdftex.def Info: mutauloop.jpg used on input line 447.
 (pdftex.def)             Requested size: 389.69736pt x 199.82405pt.
- [8 <./mutauloop.jpg>] [9
 
-] [10] <jetformation.jpg, id=116, 1077.02374pt x 466.74374pt>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[8] [9 <./mutauloop.jpg>] [10
+
+] [11]
+<jetformation.jpg, id=120, 1077.02374pt x 466.74374pt>
 File: jetformation.jpg Graphic file (type jpg)
-
-<use jetformation.jpg>
-Package pdftex.def Info: jetformation.jpg used on input line 465.
+ <use jetformation.jpg>
+Package pdftex.def Info: jetformation.jpg used on input line 470.
 (pdftex.def)             Requested size: 389.69736pt x 168.88225pt.
- <WFormation.jpg, id=117, 734.745pt x 439.6425pt>
-File: WFormation.jpg Graphic file (type jpg)
 
-<use WFormation.jpg>
-Package pdftex.def Info: WFormation.jpg used on input line 476.
+<WFormation.jpg, id=121, 734.745pt x 439.6425pt>
+File: WFormation.jpg Graphic file (type jpg)
+ <use WFormation.jpg>
+Package pdftex.def Info: WFormation.jpg used on input line 481.
 (pdftex.def)             Requested size: 389.69736pt x 233.18382pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<cteq6PDF.jpg, id=118, 1059.96pt x 492.84125pt>
+<cteq6PDF.jpg, id=122, 1059.96pt x 492.84125pt>
 File: cteq6PDF.jpg Graphic file (type jpg)
  <use cteq6PDF.jpg>
-Package pdftex.def Info: cteq6PDF.jpg used on input line 482.
+Package pdftex.def Info: cteq6PDF.jpg used on input line 487.
 (pdftex.def)             Requested size: 389.69736pt x 181.19781pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[11 <./jetformation.jpg>] [12 <./WFormation.jpg> <./cteq6PDF.jpg>]
-<WOneJet.jpg, id=125, 664.4825pt x 393.47pt>
+[12 <./jetformation.jpg>] [13 <./WFormation.jpg> <./cteq6PDF.jpg>]
+<WOneJet.jpg, id=130, 664.4825pt x 393.47pt>
 File: WOneJet.jpg Graphic file (type jpg)
  <use WOneJet.jpg>
-Package pdftex.def Info: WOneJet.jpg used on input line 496.
+Package pdftex.def Info: WOneJet.jpg used on input line 501.
 (pdftex.def)             Requested size: 303.09868pt x 179.47942pt.
 
-<wjets7TeV.jpg, id=126, 939.51pt x 652.4375pt>
+<wjets7TeV.jpg, id=131, 939.51pt x 652.4375pt>
 File: wjets7TeV.jpg Graphic file (type jpg)
  <use wjets7TeV.jpg>
-Package pdftex.def Info: wjets7TeV.jpg used on input line 504.
+Package pdftex.def Info: wjets7TeV.jpg used on input line 509.
 (pdftex.def)             Requested size: 389.69736pt x 270.61714pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[13 <./WOneJet.jpg>] [14 <./wjets7TeV.jpg>]
-<higgscouplings.jpg, id=134, 451.6875pt x 516.93124pt>
+[14 <./WOneJet.jpg>] [15 <./wjets7TeV.jpg>]
+<higgscouplings.jpg, id=138, 451.6875pt x 516.93124pt>
 File: higgscouplings.jpg Graphic file (type jpg)
 
 <use higgscouplings.jpg>
-Package pdftex.def Info: higgscouplings.jpg used on input line 546.
+Package pdftex.def Info: higgscouplings.jpg used on input line 551.
 (pdftex.def)             Requested size: 303.09868pt x 346.90216pt.
 
-<higgswwgammagamma.jpg, id=135, 474.77374pt x 255.95625pt>
+<higgswwgammagamma.jpg, id=139, 474.77374pt x 255.95625pt>
 File: higgswwgammagamma.jpg Graphic file (type jpg)
 
 <use higgswwgammagamma.jpg>
-Package pdftex.def Info: higgswwgammagamma.jpg used on input line 552.
+Package pdftex.def Info: higgswwgammagamma.jpg used on input line 557.
 (pdftex.def)             Requested size: 303.09868pt x 163.40915pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<higgsmass.jpg, id=136, 554.07pt x 395.4775pt>
+<higgsmass.jpg, id=140, 554.07pt x 395.4775pt>
 File: higgsmass.jpg Graphic file (type jpg)
  <use higgsmass.jpg>
-Package pdftex.def Info: higgsmass.jpg used on input line 560.
+Package pdftex.def Info: higgsmass.jpg used on input line 565.
 (pdftex.def)             Requested size: 389.69736pt x 278.15392pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[15 <./higgscouplings.jpg>] <ggfHiggs.jpg, id=140, 852.18375pt x 345.29pt>
+[16 <./higgscouplings.jpg>] <ggfHiggs.jpg, id=144, 852.18375pt x 345.29pt>
 File: ggfHiggs.jpg Graphic file (type jpg)
 
 <use ggfHiggs.jpg>
-Package pdftex.def Info: ggfHiggs.jpg used on input line 568.
+Package pdftex.def Info: ggfHiggs.jpg used on input line 573.
 (pdftex.def)             Requested size: 389.69736pt x 157.90276pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<vbfHiggs.png, id=141, 861.2175pt x 559.08875pt>
+<vbfHiggs.png, id=145, 861.2175pt x 559.08875pt>
 File: vbfHiggs.png Graphic file (type png)
  <use vbfHiggs.png>
-Package pdftex.def Info: vbfHiggs.png used on input line 578.
+Package pdftex.def Info: vbfHiggs.png used on input line 583.
 (pdftex.def)             Requested size: 389.69736pt x 252.9867pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<ttbarcolor.jpg, id=142, 725.71124pt x 376.40625pt>
+<ttbarcolor.jpg, id=146, 725.71124pt x 376.40625pt>
 File: ttbarcolor.jpg Graphic file (type jpg)
  <use ttbarcolor.jpg>
-Package pdftex.def Info: ttbarcolor.jpg used on input line 584.
+Package pdftex.def Info: ttbarcolor.jpg used on input line 589.
 (pdftex.def)             Requested size: 389.69736pt x 202.13062pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<higgsproduction.jpg, id=143, 705.63625pt x 522.95375pt>
+<higgsproduction.jpg, id=147, 705.63625pt x 522.95375pt>
 File: higgsproduction.jpg Graphic file (type jpg)
 
 <use higgsproduction.jpg>
-Package pdftex.def Info: higgsproduction.jpg used on input line 590.
+Package pdftex.def Info: higgsproduction.jpg used on input line 595.
 (pdftex.def)             Requested size: 389.69736pt x 288.80643pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[16 <./higgswwgammagamma.jpg>] [17 <./higgsmass.jpg> <./ggfHiggs.jpg>]
-<higgsBR.jpg, id=150, 584.1825pt x 554.07pt>
+[17 <./higgswwgammagamma.jpg>] [18 <./higgsmass.jpg> <./ggfHiggs.jpg>]
+<higgsBR.jpg, id=154, 584.1825pt x 554.07pt>
 File: higgsBR.jpg Graphic file (type jpg)
  <use higgsBR.jpg>
-Package pdftex.def Info: higgsBR.jpg used on input line 598.
+Package pdftex.def Info: higgsBR.jpg used on input line 603.
 (pdftex.def)             Requested size: 389.69736pt x 369.61864pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[18 <./vbfHiggs.png>] [19 <./ttbarcolor.jpg> <./higgsproduction.jpg>] [20 <./hi
+[19 <./vbfHiggs.png>] [20 <./ttbarcolor.jpg> <./higgsproduction.jpg>] [21 <./hi
 ggsBR.jpg>]
-<CERN's-accelerator-complex2013.jpg, id=161, 3380.63pt x 2389.92876pt>
+<CERN's-accelerator-complex2013.jpg, id=165, 3380.63pt x 2389.92876pt>
 File: CERN's-accelerator-complex2013.jpg Graphic file (type jpg)
 
 <use CERN's-accelerator-complex2013.jpg>
 Package pdftex.def Info: CERN's-accelerator-complex2013.jpg used on input line 
-614.
+619.
 (pdftex.def)             Requested size: 389.69736pt x 275.47421pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[21
+[22
 
-] [22 <./CERN's-accelerator-complex2013.jpg>]
-<CMS_SLICE.png, id=168, 1003.75pt x 499.8675pt>
+] [23 <./CERN's-accelerator-complex2013.jpg>]
+<CMS_SLICE.png, id=172, 1003.75pt x 499.8675pt>
 File: CMS_SLICE.png Graphic file (type png)
  <use CMS_SLICE.png>
-Package pdftex.def Info: CMS_SLICE.png used on input line 636.
+Package pdftex.def Info: CMS_SLICE.png used on input line 641.
 (pdftex.def)             Requested size: 389.69736pt x 194.07039pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<CMSview.png, id=169, 845.1575pt x 597.23125pt>
+<CMSview.png, id=173, 845.1575pt x 597.23125pt>
 File: CMSview.png Graphic file (type png)
  <use CMSview.png>
-Package pdftex.def Info: CMSview.png used on input line 644.
+Package pdftex.def Info: CMSview.png used on input line 649.
 (pdftex.def)             Requested size: 389.69736pt x 275.38583pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[23] <trackerlength.jpg, id=173, 982.67125pt x 468.75125pt>
+[24] <trackerlength.jpg, id=177, 982.67125pt x 468.75125pt>
 File: trackerlength.jpg Graphic file (type jpg)
 
 <use trackerlength.jpg>
-Package pdftex.def Info: trackerlength.jpg used on input line 656.
+Package pdftex.def Info: trackerlength.jpg used on input line 661.
 (pdftex.def)             Requested size: 389.69736pt x 185.88785pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[24 <./CMS_SLICE.png>] [25 <./CMSview.png (PNG copy)>]
-<cmstracker.png, id=181, 791.95876pt x 356.33125pt>
+[25 <./CMS_SLICE.png>] [26 <./CMSview.png (PNG copy)>]
+<cmstracker.png, id=185, 791.95876pt x 356.33125pt>
 File: cmstracker.png Graphic file (type png)
  <use cmstracker.png>
-Package pdftex.def Info: cmstracker.png used on input line 673.
+Package pdftex.def Info: cmstracker.png used on input line 678.
 (pdftex.def)             Requested size: 389.69736pt x 175.34329pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<cmsecal.png, id=182, 1172.38pt x 803.0pt>
+<cmsecal.png, id=186, 1172.38pt x 803.0pt>
 File: cmsecal.png Graphic file (type png)
  <use cmsecal.png>
-Package pdftex.def Info: cmsecal.png used on input line 683.
+Package pdftex.def Info: cmsecal.png used on input line 688.
 (pdftex.def)             Requested size: 389.69736pt x 266.9145pt.
- [26 <./trackerlength.jpg>] [27 <./cmstracker.png> <./cmsecal.png (PNG copy)>]
-<apd.jpg, id=189, 76.17258pt x 46.10826pt>
+ [27 <./trackerlength.jpg>] [28 <./cmstracker.png> <./cmsecal.png (PNG copy)>]
+<apd.jpg, id=193, 76.17258pt x 46.10826pt>
 File: apd.jpg Graphic file (type jpg)
  <use apd.jpg>
-Package pdftex.def Info: apd.jpg used on input line 693.
+Package pdftex.def Info: apd.jpg used on input line 698.
 (pdftex.def)             Requested size: 389.69736pt x 235.93835pt.
- [28 <./apd.jpg>]
-<vpt.jpg, id=193, 55.79243pt x 35.99046pt>
+ [29 <./apd.jpg>]
+<vpt.jpg, id=197, 55.79243pt x 35.99046pt>
 File: vpt.jpg Graphic file (type jpg)
  <use vpt.jpg>
-Package pdftex.def Info: vpt.jpg used on input line 703.
+Package pdftex.def Info: vpt.jpg used on input line 708.
 (pdftex.def)             Requested size: 389.69736pt x 251.43439pt.
- [29 <./vpt.jpg>]
-[30] [31] <drift_tube.png, id=206, 622.325pt x 368.37625pt>
+ [30 <./vpt.jpg>]
+[31] [32] <drift_tube.png, id=209, 622.325pt x 368.37625pt>
 File: drift_tube.png Graphic file (type png)
 
 <use drift_tube.png>
-Package pdftex.def Info: drift_tube.png used on input line 741.
+Package pdftex.def Info: drift_tube.png used on input line 746.
 (pdftex.def)             Requested size: 389.69736pt x 230.67863pt.
- <muoncsc.png, id=207, 819.06pt x 416.55624pt>
+ <muoncsc.png, id=210, 819.06pt x 416.55624pt>
 File: muoncsc.png Graphic file (type png)
 
 <use muoncsc.png>
-Package pdftex.def Info: muoncsc.png used on input line 749.
+Package pdftex.def Info: muoncsc.png used on input line 754.
 (pdftex.def)             Requested size: 389.69736pt x 198.19678pt.
- [32 <./drift_tube.png>] [33 <./muoncsc.png>]
-<L1trigger.png, id=214, 973.6375pt x 660.4675pt>
+ [33 <./drift_tube.png>] [34 <./muoncsc.png>]
+<L1trigger.png, id=217, 973.6375pt x 660.4675pt>
 File: L1trigger.png Graphic file (type png)
  <use L1trigger.png>
-Package pdftex.def Info: L1trigger.png used on input line 762.
+Package pdftex.def Info: L1trigger.png used on input line 767.
 (pdftex.def)             Requested size: 389.69736pt x 264.35364pt.
- [34 <./L1trigger.png>] <rct.png, id=218, 803.0pt x 602.25pt>
+ [35 <./L1trigger.png>] <rct.png, id=221, 803.0pt x 602.25pt>
 File: rct.png Graphic file (type png)
  <use rct.png>
-Package pdftex.def Info: rct.png used on input line 772.
+Package pdftex.def Info: rct.png used on input line 777.
 (pdftex.def)             Requested size: 389.69736pt x 292.27469pt.
- [35 <./rct.png>] <tauveto.jpg, id=224, 1000.73875pt x 520.94624pt>
+ [36 <./rct.png>] <tauveto.jpg, id=227, 1000.73875pt x 520.94624pt>
 File: tauveto.jpg Graphic file (type jpg)
  <use tauveto.jpg>
-Package pdftex.def Info: tauveto.jpg used on input line 780.
+Package pdftex.def Info: tauveto.jpg used on input line 785.
 (pdftex.def)             Requested size: 389.69736pt x 202.8582pt.
 
-<TDR_RlxIsoLegacy_28GeV.pdf, id=225, 569.12625pt x 552.0625pt>
+<TDR_RlxIsoLegacy_28GeV.pdf, id=228, 569.12625pt x 552.0625pt>
 File: TDR_RlxIsoLegacy_28GeV.pdf Graphic file (type pdf)
 
 <use TDR_RlxIsoLegacy_28GeV.pdf>
-Package pdftex.def Info: TDR_RlxIsoLegacy_28GeV.pdf used on input line 788.
+Package pdftex.def Info: TDR_RlxIsoLegacy_28GeV.pdf used on input line 793.
 (pdftex.def)             Requested size: 389.69736pt x 378.02574pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[36 <./tauveto.jpg>] [37 <./TDR_RlxIsoLegacy_28GeV.pdf, page is rotated 90 degr
-ees>] [38]
+[37 <./tauveto.jpg>] [38 <./TDR_RlxIsoLegacy_28GeV.pdf, page is rotated 90 degr
+ees>] [39] [40
 
-LaTeX Warning: Reference `fundforces' on page 39 undefined on input line 801.
-
-[39
-
-]
-
-LaTeX Warning: Citation `Barger:020105876' on page 40 undefined on input line 8
-23.
-
-[40] <lundstring.png, id=285, 395.4775pt x 159.59625pt>
+] [41] <lundstring.png, id=288, 395.4775pt x 159.59625pt>
 File: lundstring.png Graphic file (type png)
- <use lundstring.png>
-Package pdftex.def Info: lundstring.png used on input line 828.
-(pdftex.def)             Requested size: 389.69736pt x 157.2653pt.
 
-[41 <./lundstring.png>] [42]
-<iterative_tracking.jpg, id=292, 1437.37pt x 263.98625pt>
+<use lundstring.png>
+Package pdftex.def Info: lundstring.png used on input line 834.
+(pdftex.def)             Requested size: 389.69736pt x 157.2653pt.
+ [42 <./lundstring.png>] [43]
+<iterative_tracking.jpg, id=296, 1437.37pt x 263.98625pt>
 File: iterative_tracking.jpg Graphic file (type jpg)
 
 <use iterative_tracking.jpg>
-Package pdftex.def Info: iterative_tracking.jpg used on input line 880.
+Package pdftex.def Info: iterative_tracking.jpg used on input line 886.
 (pdftex.def)             Requested size: 476.30264pt x 87.47826pt.
 
-Overfull \hbox (43.30264pt too wide) in paragraph at lines 880--881
+Overfull \hbox (43.30264pt too wide) in paragraph at lines 886--887
 [][] 
  []
 
-[43
+[44
 
-] [44 <./iterative_tracking.jpg>]
-Overfull \hbox (24.13037pt too wide) in paragraph at lines 897--898
+] [45 <./iterative_tracking.jpg>]
+Overfull \hbox (24.13037pt too wide) in paragraph at lines 903--904
 [] \OT1/cmr/m/n/10 Pho-tons are neu-tral par-ti-cles and will there-fore not le
 ave any tracks in the tracker. Bremsstrahlung
  []
 
-[45]
-Overfull \hbox (9.81444pt too wide) in paragraph at lines 905--906
+[46]
+Overfull \hbox (9.81444pt too wide) in paragraph at lines 911--912
 \OT1/cmr/m/n/10 The par-ti-cle flow iso-la-tion is de-fined as $\OML/cmm/m/it/1
 0 I[] \OT1/cmr/m/n/10 = [] \OML/cmm/m/it/10 =p[]$\OT1/cmr/m/n/10 .
  []
 
-[46]
-Overfull \hbox (20.2165pt too wide) in paragraph at lines 917--919
+[47]
+Overfull \hbox (20.2165pt too wide) in paragraph at lines 923--925
 \OT1/cmr/m/n/10 the def-i-ni-tion for elec-trons in sec-tion 5.2[]. $\OML/cmm/m
 /it/10 I[] \OT1/cmr/m/n/10 = [] \OML/cmm/m/it/10 =p[]$\OT1/cmr/m/n/10 .
  []
 
-<antikt.jpg, id=306, 926.46124pt x 662.475pt>
+<antikt.jpg, id=309, 926.46124pt x 662.475pt>
 File: antikt.jpg Graphic file (type jpg)
  <use antikt.jpg>
-Package pdftex.def Info: antikt.jpg used on input line 930.
+Package pdftex.def Info: antikt.jpg used on input line 936.
 (pdftex.def)             Requested size: 389.69736pt x 278.66216pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[47] [48 <./antikt.jpg>] [49] [50] [51
+[48] [49 <./antikt.jpg>] [50] [51] [52
 
 ]
-<masses_muhad_VBF_After_Presel_signal.pdf, id=323, 569.12625pt x 552.0625pt>
+<masses_muhad_VBF_After_Presel_signal.pdf, id=326, 569.12625pt x 552.0625pt>
 File: masses_muhad_VBF_After_Presel_signal.pdf Graphic file (type pdf)
 
 <use masses_muhad_VBF_After_Presel_signal.pdf>
 Package pdftex.def Info: masses_muhad_VBF_After_Presel_signal.pdf used on input
- line 983.
+ line 989.
 (pdftex.def)             Requested size: 161.32556pt x 156.49014pt.
- [52 <./masses_muhad_VBF_After_Presel_signal.pdf, page is rotated 90 degrees>] 
-[53]
-<tightOldIso_looseOldIso_tPt_fakeRate_8TeV.png, id=373, 798.985pt x 774.895pt>
+ [53 <./masses_muhad_VBF_After_Presel_signal.pdf, page is rotated 90 degrees>] 
+[54]
+<tightOldIso_looseOldIso_tPt_fakeRate_8TeV.png, id=376, 798.985pt x 774.895pt>
 File: tightOldIso_looseOldIso_tPt_fakeRate_8TeV.png Graphic file (type png)
 
 <use tightOldIso_looseOldIso_tPt_fakeRate_8TeV.png>
 Package pdftex.def Info: tightOldIso_looseOldIso_tPt_fakeRate_8TeV.png used on 
-input line 1024.
+input line 1030.
 (pdftex.def)             Requested size: 207.83815pt x 201.57436pt.
 
-<tightOldIso_looseOldIso_tEta_fakeRate_8TeV.png, id=374, 798.985pt x 774.895pt>
+<tightOldIso_looseOldIso_tEta_fakeRate_8TeV.png, id=377, 798.985pt x 774.895pt>
 File: tightOldIso_looseOldIso_tEta_fakeRate_8TeV.png Graphic file (type png)
 <use tightOldIso_looseOldIso_tEta_fakeRate_8TeV.png>
 Package pdftex.def Info: tightOldIso_looseOldIso_tEta_fakeRate_8TeV.png used on
- input line 1025.
+ input line 1031.
 (pdftex.def)             Requested size: 207.83815pt x 201.57436pt.
 
-<tightOldIso_looseOldIso_tPt_fakeRate_13TeV.png, id=375, 798.985pt x 774.895pt>
+<tightOldIso_looseOldIso_tPt_fakeRate_13TeV.png, id=378, 798.985pt x 774.895pt>
 File: tightOldIso_looseOldIso_tPt_fakeRate_13TeV.png Graphic file (type png)
 <use tightOldIso_looseOldIso_tPt_fakeRate_13TeV.png>
 Package pdftex.def Info: tightOldIso_looseOldIso_tPt_fakeRate_13TeV.png used on
- input line 1030.
+ input line 1036.
 (pdftex.def)             Requested size: 207.83815pt x 201.57436pt.
 
-<tightOldIso_looseOldIso_tEta_fakeRate_13TeV.png, id=376, 798.985pt x 774.895pt
+<tightOldIso_looseOldIso_tEta_fakeRate_13TeV.png, id=379, 798.985pt x 774.895pt
 >
 File: tightOldIso_looseOldIso_tEta_fakeRate_13TeV.png Graphic file (type png)
  <use tightOldIso_looseOldIso_tEta_fakeRate_13TeV.png>
 Package pdftex.def Info: tightOldIso_looseOldIso_tEta_fakeRate_13TeV.png used o
-n input line 1031.
+n input line 1037.
 (pdftex.def)             Requested size: 207.83815pt x 201.57436pt.
- [54 <./tightOldIso_looseOldIso_tPt_fakeRate_8TeV.png> <./tightOldIso_looseOldI
-so_tEta_fakeRate_8TeV.png>] [55 <./tightOldIso_looseOldIso_tPt_fakeRate_13TeV.p
+ [55 <./tightOldIso_looseOldIso_tPt_fakeRate_8TeV.png> <./tightOldIso_looseOldI
+so_tEta_fakeRate_8TeV.png>] [56 <./tightOldIso_looseOldIso_tPt_fakeRate_13TeV.p
 ng> <./tightOldIso_looseOldIso_tEta_fakeRate_13TeV.png>]
-</home/aaron/root/hlfv/fakesEle_log.pdf, id=384, 569.12625pt x 548.0475pt>
+</home/aaron/root/hlfv/fakesEle_log.pdf, id=387, 569.12625pt x 548.0475pt>
 File: /home/aaron/root/hlfv/fakesEle_log.pdf Graphic file (type pdf)
 
 <use /home/aaron/root/hlfv/fakesEle_log.pdf>
 Package pdftex.def Info: /home/aaron/root/hlfv/fakesEle_log.pdf used on input l
-ine 1085.
+ine 1091.
 (pdftex.def)             Requested size: 207.83815pt x 200.1402pt.
 
-</home/aaron/root/hlfv/fakes_log.pdf, id=385, 569.12625pt x 548.0475pt>
+</home/aaron/root/hlfv/fakes_log.pdf, id=388, 569.12625pt x 548.0475pt>
 File: /home/aaron/root/hlfv/fakes_log.pdf Graphic file (type pdf)
 
 <use /home/aaron/root/hlfv/fakes_log.pdf>
 Package pdftex.def Info: /home/aaron/root/hlfv/fakes_log.pdf used on input line
- 1086.
+ 1092.
 (pdftex.def)             Requested size: 207.83815pt x 200.1402pt.
- [56] [57 </home/aaron/root/hlfv/fakesEle_log.pdf, page is rotated 90 degrees> 
+ [57] [58 </home/aaron/root/hlfv/fakesEle_log.pdf, page is rotated 90 degrees> 
 </home/aaron/root/hlfv/fakes_log.pdf, page is rotated 90 degrees>]
 </home/aaron/root/lfv/76X_V2_MuonFix_March30/preselectionSS_collMass_type1_MuTa
-u_AMCATNLO.pdf, id=479, 569.12625pt x 552.0625pt>
+u_AMCATNLO.pdf, id=482, 569.12625pt x 552.0625pt>
 File: /home/aaron/root/lfv/76X_V2_MuonFix_March30/preselectionSS_collMass_type1
 _MuTau_AMCATNLO.pdf Graphic file (type pdf)
 
 <use /home/aaron/root/lfv/76X_V2_MuonFix_March30/preselectionSS_collMass_type1_
 MuTau_AMCATNLO.pdf>
 Package pdftex.def Info: /home/aaron/root/lfv/76X_V2_MuonFix_March30/preselecti
-onSS_collMass_type1_MuTau_AMCATNLO.pdf used on input line 1112.
+onSS_collMass_type1_MuTau_AMCATNLO.pdf used on input line 1118.
 (pdftex.def)             Requested size: 207.83815pt x 201.60643pt.
 
-</home/aaron/root/lfv/PreselectionSS_ForPAS/mue0J_preselection_SS.pdf, id=480, 
+</home/aaron/root/lfv/PreselectionSS_ForPAS/mue0J_preselection_SS.pdf, id=483, 
 569.12625pt x 552.0625pt>
 File: /home/aaron/root/lfv/PreselectionSS_ForPAS/mue0J_preselection_SS.pdf Grap
 hic file (type pdf)
 
 <use /home/aaron/root/lfv/PreselectionSS_ForPAS/mue0J_preselection_SS.pdf>
 Package pdftex.def Info: /home/aaron/root/lfv/PreselectionSS_ForPAS/mue0J_prese
-lection_SS.pdf used on input line 1113.
+lection_SS.pdf used on input line 1119.
 (pdftex.def)             Requested size: 207.83815pt x 201.60643pt.
 
-[58 </home/aaron/root/lfv/76X_V2_MuonFix_March30/preselectionSS_collMass_type1_
+[59 </home/aaron/root/lfv/76X_V2_MuonFix_March30/preselectionSS_collMass_type1_
 MuTau_AMCATNLO.pdf, page is rotated 90 degrees> </home/aaron/root/lfv/Preselect
 ionSS_ForPAS/mue0J_preselection_SS.pdf, page is rotated 90 degrees>]
-</home/aaron/root/hlfv/muele_GG_m_colinear_UNBLIND_PRESEL_BR100.pdf, id=570, 56
+</home/aaron/root/hlfv/muele_GG_m_colinear_UNBLIND_PRESEL_BR100.pdf, id=573, 56
 9.12625pt x 548.0475pt>
 File: /home/aaron/root/hlfv/muele_GG_m_colinear_UNBLIND_PRESEL_BR100.pdf Graphi
 c file (type pdf)
 
 <use /home/aaron/root/hlfv/muele_GG_m_colinear_UNBLIND_PRESEL_BR100.pdf>
 Package pdftex.def Info: /home/aaron/root/hlfv/muele_GG_m_colinear_UNBLIND_PRES
-EL_BR100.pdf used on input line 1175.
+EL_BR100.pdf used on input line 1181.
 (pdftex.def)             Requested size: 181.8592pt x 175.1279pt.
 
-</home/aaron/root/hlfv/muhad_GG_m_colinear_UNBLIND_PRESEL_BR100.pdf, id=571, 56
+</home/aaron/root/hlfv/muhad_GG_m_colinear_UNBLIND_PRESEL_BR100.pdf, id=574, 56
 9.12625pt x 548.0475pt>
 File: /home/aaron/root/hlfv/muhad_GG_m_colinear_UNBLIND_PRESEL_BR100.pdf Graphi
 c file (type pdf)
 
 <use /home/aaron/root/hlfv/muhad_GG_m_colinear_UNBLIND_PRESEL_BR100.pdf>
 Package pdftex.def Info: /home/aaron/root/hlfv/muhad_GG_m_colinear_UNBLIND_PRES
-EL_BR100.pdf used on input line 1176.
+EL_BR100.pdf used on input line 1182.
 (pdftex.def)             Requested size: 181.8592pt x 175.1279pt.
 
-</home/aaron/root/hlfv/muele_Boost_m_colinear_UNBLIND_PRESEL_BR100.pdf, id=572,
+</home/aaron/root/hlfv/muele_Boost_m_colinear_UNBLIND_PRESEL_BR100.pdf, id=575,
  569.12625pt x 548.0475pt>
 File: /home/aaron/root/hlfv/muele_Boost_m_colinear_UNBLIND_PRESEL_BR100.pdf Gra
 phic file (type pdf)
 
 <use /home/aaron/root/hlfv/muele_Boost_m_colinear_UNBLIND_PRESEL_BR100.pdf>
 Package pdftex.def Info: /home/aaron/root/hlfv/muele_Boost_m_colinear_UNBLIND_P
-RESEL_BR100.pdf used on input line 1177.
+RESEL_BR100.pdf used on input line 1183.
 (pdftex.def)             Requested size: 181.8592pt x 175.1279pt.
 
-</home/aaron/root/hlfv/muhad_Boost_m_colinear_UNBLIND_PRESEL_BR100.pdf, id=573,
+</home/aaron/root/hlfv/muhad_Boost_m_colinear_UNBLIND_PRESEL_BR100.pdf, id=576,
  569.12625pt x 548.0475pt>
 File: /home/aaron/root/hlfv/muhad_Boost_m_colinear_UNBLIND_PRESEL_BR100.pdf Gra
 phic file (type pdf)
 
 <use /home/aaron/root/hlfv/muhad_Boost_m_colinear_UNBLIND_PRESEL_BR100.pdf>
 Package pdftex.def Info: /home/aaron/root/hlfv/muhad_Boost_m_colinear_UNBLIND_P
-RESEL_BR100.pdf used on input line 1178.
+RESEL_BR100.pdf used on input line 1184.
 (pdftex.def)             Requested size: 181.8592pt x 175.1279pt.
 
-</home/aaron/root/hlfv/muele_VBF_m_colinear_UNBLIND_PRESEL_BR100.pdf, id=574, 5
+</home/aaron/root/hlfv/muele_VBF_m_colinear_UNBLIND_PRESEL_BR100.pdf, id=577, 5
 69.12625pt x 548.0475pt>
 File: /home/aaron/root/hlfv/muele_VBF_m_colinear_UNBLIND_PRESEL_BR100.pdf Graph
 ic file (type pdf)
 
 <use /home/aaron/root/hlfv/muele_VBF_m_colinear_UNBLIND_PRESEL_BR100.pdf>
 Package pdftex.def Info: /home/aaron/root/hlfv/muele_VBF_m_colinear_UNBLIND_PRE
-SEL_BR100.pdf used on input line 1179.
+SEL_BR100.pdf used on input line 1185.
 (pdftex.def)             Requested size: 181.8592pt x 175.1279pt.
 
-</home/aaron/root/hlfv/muhad_VBF_m_colinear_UNBLIND_PRESEL_BR100.pdf, id=575, 5
+</home/aaron/root/hlfv/muhad_VBF_m_colinear_UNBLIND_PRESEL_BR100.pdf, id=578, 5
 69.12625pt x 548.0475pt>
 File: /home/aaron/root/hlfv/muhad_VBF_m_colinear_UNBLIND_PRESEL_BR100.pdf Graph
 ic file (type pdf)
 
 <use /home/aaron/root/hlfv/muhad_VBF_m_colinear_UNBLIND_PRESEL_BR100.pdf>
 Package pdftex.def Info: /home/aaron/root/hlfv/muhad_VBF_m_colinear_UNBLIND_PRE
-SEL_BR100.pdf used on input line 1180.
+SEL_BR100.pdf used on input line 1186.
 (pdftex.def)             Requested size: 181.8592pt x 175.1279pt.
 
 
-LaTeX Warning: Float too large for page by 2.3837pt on input line 1183.
+LaTeX Warning: Float too large for page by 2.3837pt on input line 1189.
 
 
-</home/aaron/root/lfv/PreselectionEMu_ForPAS/mue0J_preselection.pdf, id=576, 56
+</home/aaron/root/lfv/PreselectionEMu_ForPAS/mue0J_preselection.pdf, id=579, 56
 9.12625pt x 552.0625pt>
 File: /home/aaron/root/lfv/PreselectionEMu_ForPAS/mue0J_preselection.pdf Graphi
 c file (type pdf)
 
 <use /home/aaron/root/lfv/PreselectionEMu_ForPAS/mue0J_preselection.pdf>
 Package pdftex.def Info: /home/aaron/root/lfv/PreselectionEMu_ForPAS/mue0J_pres
-election.pdf used on input line 1186.
+election.pdf used on input line 1192.
 (pdftex.def)             Requested size: 181.8592pt x 176.41089pt.
 
 </home/aaron/root/lfv/76X_V2_MuonFix_March30/preselection0Jet_collMass_type1_Mu
-Tau_AMCATNLO.pdf, id=577, 569.12625pt x 552.0625pt>
+Tau_AMCATNLO.pdf, id=580, 569.12625pt x 552.0625pt>
 File: /home/aaron/root/lfv/76X_V2_MuonFix_March30/preselection0Jet_collMass_typ
 e1_MuTau_AMCATNLO.pdf Graphic file (type pdf)
 
 <use /home/aaron/root/lfv/76X_V2_MuonFix_March30/preselection0Jet_collMass_type
 1_MuTau_AMCATNLO.pdf>
 Package pdftex.def Info: /home/aaron/root/lfv/76X_V2_MuonFix_March30/preselecti
-on0Jet_collMass_type1_MuTau_AMCATNLO.pdf used on input line 1187.
+on0Jet_collMass_type1_MuTau_AMCATNLO.pdf used on input line 1193.
 (pdftex.def)             Requested size: 181.8592pt x 176.41089pt.
 
-</home/aaron/root/lfv/PreselectionEMu_ForPAS/mue1J_preselection.pdf, id=578, 56
+</home/aaron/root/lfv/PreselectionEMu_ForPAS/mue1J_preselection.pdf, id=581, 56
 9.12625pt x 552.0625pt>
 File: /home/aaron/root/lfv/PreselectionEMu_ForPAS/mue1J_preselection.pdf Graphi
 c file (type pdf)
 
 <use /home/aaron/root/lfv/PreselectionEMu_ForPAS/mue1J_preselection.pdf>
 Package pdftex.def Info: /home/aaron/root/lfv/PreselectionEMu_ForPAS/mue1J_pres
-election.pdf used on input line 1188.
+election.pdf used on input line 1194.
 (pdftex.def)             Requested size: 181.8592pt x 176.41089pt.
 
 </home/aaron/root/lfv/76X_V2_MuonFix_March30/preselection1Jet_collMass_type1_Mu
-Tau_AMCATNLO.pdf, id=579, 569.12625pt x 552.0625pt>
+Tau_AMCATNLO.pdf, id=582, 569.12625pt x 552.0625pt>
 File: /home/aaron/root/lfv/76X_V2_MuonFix_March30/preselection1Jet_collMass_typ
 e1_MuTau_AMCATNLO.pdf Graphic file (type pdf)
 
 <use /home/aaron/root/lfv/76X_V2_MuonFix_March30/preselection1Jet_collMass_type
 1_MuTau_AMCATNLO.pdf>
 Package pdftex.def Info: /home/aaron/root/lfv/76X_V2_MuonFix_March30/preselecti
-on1Jet_collMass_type1_MuTau_AMCATNLO.pdf used on input line 1189.
+on1Jet_collMass_type1_MuTau_AMCATNLO.pdf used on input line 1195.
 (pdftex.def)             Requested size: 181.8592pt x 176.41089pt.
 
-</home/aaron/root/lfv/PreselectionEMu_ForPAS/mue2J_preselection.pdf, id=580, 56
+</home/aaron/root/lfv/PreselectionEMu_ForPAS/mue2J_preselection.pdf, id=583, 56
 9.12625pt x 552.0625pt>
 File: /home/aaron/root/lfv/PreselectionEMu_ForPAS/mue2J_preselection.pdf Graphi
 c file (type pdf)
 
 <use /home/aaron/root/lfv/PreselectionEMu_ForPAS/mue2J_preselection.pdf>
 Package pdftex.def Info: /home/aaron/root/lfv/PreselectionEMu_ForPAS/mue2J_pres
-election.pdf used on input line 1190.
+election.pdf used on input line 1196.
 (pdftex.def)             Requested size: 181.8592pt x 176.41089pt.
 
 </home/aaron/root/lfv/76X_V2_MuonFix_March30/preselection2Jet_collMass_type1_Mu
-Tau_AMCATNLO.pdf, id=581, 569.12625pt x 552.0625pt>
+Tau_AMCATNLO.pdf, id=584, 569.12625pt x 552.0625pt>
 File: /home/aaron/root/lfv/76X_V2_MuonFix_March30/preselection2Jet_collMass_typ
 e1_MuTau_AMCATNLO.pdf Graphic file (type pdf)
 
 <use /home/aaron/root/lfv/76X_V2_MuonFix_March30/preselection2Jet_collMass_type
 1_MuTau_AMCATNLO.pdf>
 Package pdftex.def Info: /home/aaron/root/lfv/76X_V2_MuonFix_March30/preselecti
-on2Jet_collMass_type1_MuTau_AMCATNLO.pdf used on input line 1191.
+on2Jet_collMass_type1_MuTau_AMCATNLO.pdf used on input line 1197.
 (pdftex.def)             Requested size: 181.8592pt x 176.41089pt.
 
 
-LaTeX Warning: Float too large for page by 6.23267pt on input line 1194.
+LaTeX Warning: Float too large for page by 6.23267pt on input line 1200.
 
-[59] [60] [61 </home/aaron/root/hlfv/muele_GG_m_colinear_UNBLIND_PRESEL_BR100.p
+[60] [61] [62 </home/aaron/root/hlfv/muele_GG_m_colinear_UNBLIND_PRESEL_BR100.p
 df, page is rotated 90 degrees> </home/aaron/root/hlfv/muhad_GG_m_colinear_UNBL
 IND_PRESEL_BR100.pdf, page is rotated 90 degrees> </home/aaron/root/hlfv/muele_
 Boost_m_colinear_UNBLIND_PRESEL_BR100.pdf, page is rotated 90 degrees> </home/a
 aron/root/hlfv/muhad_Boost_m_colinear_UNBLIND_PRESEL_BR100.pdf, page is rotated
  90 degrees> </home/aaron/root/hlfv/muele_VBF_m_colinear_UNBLIND_PRESEL_BR100.p
 df, page is rotated 90 degrees> </home/aaron/root/hlfv/muhad_VBF_m_colinear_UNB
-LIND_PRESEL_BR100.pdf, page is rotated 90 degrees>] [62 </home/aaron/root/lfv/P
+LIND_PRESEL_BR100.pdf, page is rotated 90 degrees>] [63 </home/aaron/root/lfv/P
 reselectionEMu_ForPAS/mue0J_preselection.pdf, page is rotated 90 degrees> </hom
 e/aaron/root/lfv/76X_V2_MuonFix_March30/preselection0Jet_collMass_type1_MuTau_A
 MCATNLO.pdf, page is rotated 90 degrees> </home/aaron/root/lfv/PreselectionEMu_
@@ -1338,51 +1333,44 @@ v/76X_V2_MuonFix_March30/preselection1Jet_collMass_type1_MuTau_AMCATNLO.pdf, pa
 ge is rotated 90 degrees> </home/aaron/root/lfv/PreselectionEMu_ForPAS/mue2J_pr
 eselection.pdf, page is rotated 90 degrees> </home/aaron/root/lfv/76X_V2_MuonFi
 x_March30/preselection2Jet_collMass_type1_MuTau_AMCATNLO.pdf, page is rotated 9
-0 degrees>] [63] [64]
-
-LaTeX Warning: Reference `1748-0221-6-11-P11002' on page 65 undefined on input 
-line 1329.
-
-[65] <JES_Shift_8TeV.pdf, id=1122, 569.12625pt x 552.0625pt>
+0 degrees>] [64] [65] [66]
+<JES_Shift_8TeV.pdf, id=1125, 569.12625pt x 552.0625pt>
 File: JES_Shift_8TeV.pdf Graphic file (type pdf)
 
 <use JES_Shift_8TeV.pdf>
-Package pdftex.def Info: JES_Shift_8TeV.pdf used on input line 1332.
-(pdftex.def)             Requested size: 389.69736pt x 378.02574pt.
+Package pdftex.def Info: JES_Shift_8TeV.pdf used on input line 1338.
+(pdftex.def)             Requested size: 259.80264pt x 252.02278pt.
 
-<UES_Shift_8TeV.pdf, id=1123, 569.12625pt x 552.0625pt>
+<UES_Shift_8TeV.pdf, id=1126, 569.12625pt x 552.0625pt>
 File: UES_Shift_8TeV.pdf Graphic file (type pdf)
 
 <use UES_Shift_8TeV.pdf>
-Package pdftex.def Info: UES_Shift_8TeV.pdf used on input line 1338.
-(pdftex.def)             Requested size: 389.69736pt x 378.02574pt.
+Package pdftex.def Info: UES_Shift_8TeV.pdf used on input line 1344.
+(pdftex.def)             Requested size: 259.80264pt x 252.02278pt.
 
-<TES_Shift_8TeV.pdf, id=1124, 569.12625pt x 552.0625pt>
+<TES_Shift_8TeV.pdf, id=1127, 569.12625pt x 552.0625pt>
 File: TES_Shift_8TeV.pdf Graphic file (type pdf)
 
 <use TES_Shift_8TeV.pdf>
-Package pdftex.def Info: TES_Shift_8TeV.pdf used on input line 1344.
-(pdftex.def)             Requested size: 389.69736pt x 378.02574pt.
- <FakeFitLine.png, id=1125, 798.985pt x 774.895pt>
+Package pdftex.def Info: TES_Shift_8TeV.pdf used on input line 1350.
+(pdftex.def)             Requested size: 259.80264pt x 252.02278pt.
+ <FakeFitLine.png, id=1128, 798.985pt x 774.895pt>
 File: FakeFitLine.png Graphic file (type png)
 
 <use FakeFitLine.png>
-Package pdftex.def Info: FakeFitLine.png used on input line 1352.
+Package pdftex.def Info: FakeFitLine.png used on input line 1358.
 (pdftex.def)             Requested size: 389.69736pt x 377.95193pt.
 
-<FakesUpDownShift.pdf, id=1126, 569.12625pt x 552.0625pt>
+<FakesUpDownShift.pdf, id=1129, 569.12625pt x 552.0625pt>
 File: FakesUpDownShift.pdf Graphic file (type pdf)
 
 <use FakesUpDownShift.pdf>
-Package pdftex.def Info: FakesUpDownShift.pdf used on input line 1360.
+Package pdftex.def Info: FakesUpDownShift.pdf used on input line 1366.
 (pdftex.def)             Requested size: 389.69736pt x 378.02574pt.
- [66] [67 <./JES_Shift_8TeV.pdf, page is rotated 90 degrees>] [68 <./UES_Shift_
-8TeV.pdf, page is rotated 90 degrees>]
-
-LaTeX Warning: Citation `EWK-10-002' on page 69 undefined on input line 1404.
-
-[69 <./TES_Shift_8TeV.pdf, page is rotated 90 degrees>] [70 <./FakeFitLine.png>
-] [71 <./FakesUpDownShift.pdf, page is rotated 90 degrees>] [72]
+ [67] [68 <./JES_Shift_8TeV.pdf, page is rotated 90 degrees> <./UES_Shift_8TeV.
+pdf, page is rotated 90 degrees>] [69 <./TES_Shift_8TeV.pdf, page is rotated 90
+ degrees>] [70 <./FakeFitLine.png>] [71 <./FakesUpDownShift.pdf, page is rotate
+d 90 degrees>] [72]
 </home/aaron/root/hlfv/muele_GG_m_colinear_UNBLIND_PostFit.pdf, id=1323, 569.12
 625pt x 548.0475pt>
 File: /home/aaron/root/hlfv/muele_GG_m_colinear_UNBLIND_PostFit.pdf Graphic fil
@@ -1390,8 +1378,8 @@ e (type pdf)
 
 <use /home/aaron/root/hlfv/muele_GG_m_colinear_UNBLIND_PostFit.pdf>
 Package pdftex.def Info: /home/aaron/root/hlfv/muele_GG_m_colinear_UNBLIND_Post
-Fit.pdf used on input line 1430.
-(pdftex.def)             Requested size: 207.83815pt x 200.1402pt.
+Fit.pdf used on input line 1436.
+(pdftex.def)             Requested size: 186.18683pt x 179.29243pt.
 
 </home/aaron/root/hlfv/muhad_GG_m_colinear_UNBLIND_PostFit.pdf, id=1324, 569.12
 625pt x 548.0475pt>
@@ -1400,8 +1388,8 @@ e (type pdf)
 
 <use /home/aaron/root/hlfv/muhad_GG_m_colinear_UNBLIND_PostFit.pdf>
 Package pdftex.def Info: /home/aaron/root/hlfv/muhad_GG_m_colinear_UNBLIND_Post
-Fit.pdf used on input line 1431.
-(pdftex.def)             Requested size: 207.83815pt x 200.1402pt.
+Fit.pdf used on input line 1437.
+(pdftex.def)             Requested size: 186.18683pt x 179.29243pt.
 
 </home/aaron/root/hlfv/muele_Boost_m_colinear_UNBLIND_PostFit.pdf, id=1325, 569
 .12625pt x 548.0475pt>
@@ -1410,8 +1398,8 @@ file (type pdf)
 
 <use /home/aaron/root/hlfv/muele_Boost_m_colinear_UNBLIND_PostFit.pdf>
 Package pdftex.def Info: /home/aaron/root/hlfv/muele_Boost_m_colinear_UNBLIND_P
-ostFit.pdf used on input line 1432.
-(pdftex.def)             Requested size: 207.83815pt x 200.1402pt.
+ostFit.pdf used on input line 1438.
+(pdftex.def)             Requested size: 186.18683pt x 179.29243pt.
 
 </home/aaron/root/hlfv/muhad_Boost_m_colinear_UNBLIND_PostFit.pdf, id=1326, 569
 .12625pt x 548.0475pt>
@@ -1420,8 +1408,8 @@ file (type pdf)
 
 <use /home/aaron/root/hlfv/muhad_Boost_m_colinear_UNBLIND_PostFit.pdf>
 Package pdftex.def Info: /home/aaron/root/hlfv/muhad_Boost_m_colinear_UNBLIND_P
-ostFit.pdf used on input line 1433.
-(pdftex.def)             Requested size: 207.83815pt x 200.1402pt.
+ostFit.pdf used on input line 1439.
+(pdftex.def)             Requested size: 186.18683pt x 179.29243pt.
 
 </home/aaron/root/hlfv/muele_VBF_m_colinear_UNBLIND_PostFit.pdf, id=1327, 569.1
 2625pt x 548.0475pt>
@@ -1430,8 +1418,8 @@ le (type pdf)
 
 <use /home/aaron/root/hlfv/muele_VBF_m_colinear_UNBLIND_PostFit.pdf>
 Package pdftex.def Info: /home/aaron/root/hlfv/muele_VBF_m_colinear_UNBLIND_Pos
-tFit.pdf used on input line 1434.
-(pdftex.def)             Requested size: 207.83815pt x 200.1402pt.
+tFit.pdf used on input line 1440.
+(pdftex.def)             Requested size: 186.18683pt x 179.29243pt.
 
 </home/aaron/root/hlfv/muhad_VBF_m_colinear_UNBLIND_PostFit.pdf, id=1328, 569.1
 2625pt x 548.0475pt>
@@ -1440,11 +1428,11 @@ le (type pdf)
 
 <use /home/aaron/root/hlfv/muhad_VBF_m_colinear_UNBLIND_PostFit.pdf>
 Package pdftex.def Info: /home/aaron/root/hlfv/muhad_VBF_m_colinear_UNBLIND_Pos
-tFit.pdf used on input line 1435.
-(pdftex.def)             Requested size: 207.83815pt x 200.1402pt.
+tFit.pdf used on input line 1441.
+(pdftex.def)             Requested size: 186.18683pt x 179.29243pt.
 
 
-LaTeX Warning: Float too large for page by 77.4206pt on input line 1443.
+LaTeX Warning: Float too large for page by 14.8773pt on input line 1449.
 
 [73] [74 </home/aaron/root/hlfv/muele_GG_m_colinear_UNBLIND_PostFit.pdf, page i
 s rotated 90 degrees> </home/aaron/root/hlfv/muhad_GG_m_colinear_UNBLIND_PostFi
@@ -1459,90 +1447,83 @@ File: /home/aaron/root/hlfv/NewMETLimits.pdf Graphic file (type pdf)
 
 <use /home/aaron/root/hlfv/NewMETLimits.pdf>
 Package pdftex.def Info: /home/aaron/root/hlfv/NewMETLimits.pdf used on input l
-ine 1505.
+ine 1511.
 (pdftex.def)             Requested size: 207.83815pt x 217.42522pt.
 
 <yukawa.pdf, id=1596, 569.12625pt x 546.04pt>
 File: yukawa.pdf Graphic file (type pdf)
  <use yukawa.pdf>
-Package pdftex.def Info: yukawa.pdf used on input line 1510.
+Package pdftex.def Info: yukawa.pdf used on input line 1516.
 (pdftex.def)             Requested size: 212.17238pt x 203.5647pt.
- [75]
+ [75] [76 </home/aaron/root/hlfv/NewMETLimits.pdf>]
 </home/aaron/root/lfv/76X_V6_MuonFix_SystematicsFix/LFVMuE_SR_OS_0Jet_UnBlinded
-_Postfit.pdf, id=1600, 569.12625pt x 552.0625pt>
+_Postfit.pdf, id=1647, 569.12625pt x 552.0625pt>
 File: /home/aaron/root/lfv/76X_V6_MuonFix_SystematicsFix/LFVMuE_SR_OS_0Jet_UnBl
 inded_Postfit.pdf Graphic file (type pdf)
 
 <use /home/aaron/root/lfv/76X_V6_MuonFix_SystematicsFix/LFVMuE_SR_OS_0Jet_UnBli
 nded_Postfit.pdf>
 Package pdftex.def Info: /home/aaron/root/lfv/76X_V6_MuonFix_SystematicsFix/LFV
-MuE_SR_OS_0Jet_UnBlinded_Postfit.pdf used on input line 1544.
-(pdftex.def)             Requested size: 207.83815pt x 201.60643pt.
+MuE_SR_OS_0Jet_UnBlinded_Postfit.pdf used on input line 1550.
+(pdftex.def)             Requested size: 186.18683pt x 180.60593pt.
 
 </home/aaron/root/lfv/76X_V6_MuonFix_SystematicsFix/LFVMuTau_SR_OS_0Jet_UnBlind
-ed_Postfit.pdf, id=1601, 569.12625pt x 552.0625pt>
+ed_Postfit.pdf, id=1648, 569.12625pt x 552.0625pt>
 File: /home/aaron/root/lfv/76X_V6_MuonFix_SystematicsFix/LFVMuTau_SR_OS_0Jet_Un
 Blinded_Postfit.pdf Graphic file (type pdf)
 
 <use /home/aaron/root/lfv/76X_V6_MuonFix_SystematicsFix/LFVMuTau_SR_OS_0Jet_UnB
 linded_Postfit.pdf>
 Package pdftex.def Info: /home/aaron/root/lfv/76X_V6_MuonFix_SystematicsFix/LFV
-MuTau_SR_OS_0Jet_UnBlinded_Postfit.pdf used on input line 1545.
-(pdftex.def)             Requested size: 207.83815pt x 201.60643pt.
+MuTau_SR_OS_0Jet_UnBlinded_Postfit.pdf used on input line 1551.
+(pdftex.def)             Requested size: 186.18683pt x 180.60593pt.
 
 </home/aaron/root/lfv/76X_V6_MuonFix_SystematicsFix/LFVMuE_SR_OS_1Jet_UnBlinded
-_Postfit.pdf, id=1602, 569.12625pt x 552.0625pt>
+_Postfit.pdf, id=1649, 569.12625pt x 552.0625pt>
 File: /home/aaron/root/lfv/76X_V6_MuonFix_SystematicsFix/LFVMuE_SR_OS_1Jet_UnBl
 inded_Postfit.pdf Graphic file (type pdf)
 
 <use /home/aaron/root/lfv/76X_V6_MuonFix_SystematicsFix/LFVMuE_SR_OS_1Jet_UnBli
 nded_Postfit.pdf>
 Package pdftex.def Info: /home/aaron/root/lfv/76X_V6_MuonFix_SystematicsFix/LFV
-MuE_SR_OS_1Jet_UnBlinded_Postfit.pdf used on input line 1546.
-(pdftex.def)             Requested size: 207.83815pt x 201.60643pt.
+MuE_SR_OS_1Jet_UnBlinded_Postfit.pdf used on input line 1552.
+(pdftex.def)             Requested size: 186.18683pt x 180.60593pt.
 
 </home/aaron/root/lfv/76X_V6_MuonFix_SystematicsFix/LFVMuTau_SR_OS_1Jet_UnBlind
-ed_Postfit.pdf, id=1603, 569.12625pt x 552.0625pt>
+ed_Postfit.pdf, id=1650, 569.12625pt x 552.0625pt>
 File: /home/aaron/root/lfv/76X_V6_MuonFix_SystematicsFix/LFVMuTau_SR_OS_1Jet_Un
 Blinded_Postfit.pdf Graphic file (type pdf)
 
 <use /home/aaron/root/lfv/76X_V6_MuonFix_SystematicsFix/LFVMuTau_SR_OS_1Jet_UnB
 linded_Postfit.pdf>
 Package pdftex.def Info: /home/aaron/root/lfv/76X_V6_MuonFix_SystematicsFix/LFV
-MuTau_SR_OS_1Jet_UnBlinded_Postfit.pdf used on input line 1547.
-(pdftex.def)             Requested size: 207.83815pt x 201.60643pt.
+MuTau_SR_OS_1Jet_UnBlinded_Postfit.pdf used on input line 1553.
+(pdftex.def)             Requested size: 186.18683pt x 180.60593pt.
 
 </home/aaron/root/lfv/76X_V6_MuonFix_SystematicsFix/LFVMuE_SR_OS_2Jet_UnBlinded
-_Postfit.pdf, id=1604, 569.12625pt x 552.0625pt>
+_Postfit.pdf, id=1651, 569.12625pt x 552.0625pt>
 File: /home/aaron/root/lfv/76X_V6_MuonFix_SystematicsFix/LFVMuE_SR_OS_2Jet_UnBl
 inded_Postfit.pdf Graphic file (type pdf)
 
 <use /home/aaron/root/lfv/76X_V6_MuonFix_SystematicsFix/LFVMuE_SR_OS_2Jet_UnBli
 nded_Postfit.pdf>
 Package pdftex.def Info: /home/aaron/root/lfv/76X_V6_MuonFix_SystematicsFix/LFV
-MuE_SR_OS_2Jet_UnBlinded_Postfit.pdf used on input line 1548.
-(pdftex.def)             Requested size: 207.83815pt x 201.60643pt.
+MuE_SR_OS_2Jet_UnBlinded_Postfit.pdf used on input line 1554.
+(pdftex.def)             Requested size: 186.18683pt x 180.60593pt.
 
 </home/aaron/root/lfv/76X_V6_MuonFix_SystematicsFix/LFVMuTau_SR_OS_2Jet_UnBlind
-ed_Postfit.pdf, id=1605, 569.12625pt x 552.0625pt>
+ed_Postfit.pdf, id=1652, 569.12625pt x 552.0625pt>
 File: /home/aaron/root/lfv/76X_V6_MuonFix_SystematicsFix/LFVMuTau_SR_OS_2Jet_Un
 Blinded_Postfit.pdf Graphic file (type pdf)
 
 <use /home/aaron/root/lfv/76X_V6_MuonFix_SystematicsFix/LFVMuTau_SR_OS_2Jet_UnB
 linded_Postfit.pdf>
 Package pdftex.def Info: /home/aaron/root/lfv/76X_V6_MuonFix_SystematicsFix/LFV
-MuTau_SR_OS_2Jet_UnBlinded_Postfit.pdf used on input line 1549.
-(pdftex.def)             Requested size: 207.83815pt x 201.60643pt.
+MuTau_SR_OS_2Jet_UnBlinded_Postfit.pdf used on input line 1555.
+(pdftex.def)             Requested size: 186.18683pt x 180.60593pt.
 
 
-LaTeX Warning: Float too large for page by 69.81929pt on input line 1557.
-
-[76 </home/aaron/root/hlfv/NewMETLimits.pdf>]
-<13TeVLimits.pdf, id=1653, 509.905pt x 569.12625pt>
-File: 13TeVLimits.pdf Graphic file (type pdf)
- <use 13TeVLimits.pdf>
-Package pdftex.def Info: 13TeVLimits.pdf used on input line 1627.
-(pdftex.def)             Requested size: 207.83815pt x 231.97986pt.
+LaTeX Warning: Float too large for page by 6.81778pt on input line 1563.
 
 [77 <./yukawa.pdf, page is rotated 90 degrees>] [78 </home/aaron/root/lfv/76X_V
 6_MuonFix_SystematicsFix/LFVMuE_SR_OS_0Jet_UnBlinded_Postfit.pdf, page is rotat
@@ -1554,6 +1535,12 @@ Tau_SR_OS_1Jet_UnBlinded_Postfit.pdf, page is rotated 90 degrees> </home/aaron/
 root/lfv/76X_V6_MuonFix_SystematicsFix/LFVMuE_SR_OS_2Jet_UnBlinded_Postfit.pdf,
  page is rotated 90 degrees> </home/aaron/root/lfv/76X_V6_MuonFix_SystematicsFi
 x/LFVMuTau_SR_OS_2Jet_UnBlinded_Postfit.pdf, page is rotated 90 degrees>]
+<13TeVLimits.pdf, id=1961, 509.905pt x 569.12625pt>
+File: 13TeVLimits.pdf Graphic file (type pdf)
+ <use 13TeVLimits.pdf>
+Package pdftex.def Info: 13TeVLimits.pdf used on input line 1633.
+(pdftex.def)             Requested size: 207.83815pt x 231.97986pt.
+
 [79] [80 <./13TeVLimits.pdf>] [81
 
 ] [82] [83]
@@ -1564,7 +1551,7 @@ ype pdf)
 
 <use /home/aaron/root/wjets/July10_WJets_Zinc4JetMTW/puMVA.pdf>
 Package pdftex.def Info: /home/aaron/root/wjets/July10_WJets_Zinc4JetMTW/puMVA.
-pdf used on input line 1708.
+pdf used on input line 1714.
 (pdftex.def)             Requested size: 389.69736pt x 487.99689pt.
  [84] [85 </home/aaron/root/wjets/July10_WJets_Zinc4JetMTW/puMVA.pdf>] [86]
 </home/aaron/root/wjets/July15_WJets_2BjetsTTbar/ZNGoodJets_Zexc.pdf, id=2083, 
@@ -1574,7 +1561,7 @@ ic file (type pdf)
 
 <use /home/aaron/root/wjets/July15_WJets_2BjetsTTbar/ZNGoodJets_Zexc.pdf>
 Package pdftex.def Info: /home/aaron/root/wjets/July15_WJets_2BjetsTTbar/ZNGood
-Jets_Zexc.pdf used on input line 1790.
+Jets_Zexc.pdf used on input line 1796.
 (pdftex.def)             Requested size: 194.84868pt x 243.98756pt.
 
 </home/aaron/root/wjets/July15_WJets_2BjetsTTbar/ZNGoodJets_Zinc.pdf, id=2084, 
@@ -1584,7 +1571,7 @@ ic file (type pdf)
 
 <use /home/aaron/root/wjets/July15_WJets_2BjetsTTbar/ZNGoodJets_Zinc.pdf>
 Package pdftex.def Info: /home/aaron/root/wjets/July15_WJets_2BjetsTTbar/ZNGood
-Jets_Zinc.pdf used on input line 1791.
+Jets_Zinc.pdf used on input line 1797.
 (pdftex.def)             Requested size: 194.84868pt x 243.98756pt.
 
 </home/aaron/root/wjets/June12_WJetsFinal/ZNGoodJets_Zexc.pdf, id=2085, 569.126
@@ -1594,7 +1581,7 @@ File: /home/aaron/root/wjets/June12_WJetsFinal/ZNGoodJets_Zexc.pdf Graphic file
 
 <use /home/aaron/root/wjets/June12_WJetsFinal/ZNGoodJets_Zexc.pdf>
 Package pdftex.def Info: /home/aaron/root/wjets/June12_WJetsFinal/ZNGoodJets_Ze
-xc.pdf used on input line 1801.
+xc.pdf used on input line 1807.
 (pdftex.def)             Requested size: 194.84868pt x 243.98756pt.
 
 </home/aaron/root/wjets/June12_WJetsFinal/ZNGoodJets_Zinc.pdf, id=2086, 569.126
@@ -1604,7 +1591,7 @@ File: /home/aaron/root/wjets/June12_WJetsFinal/ZNGoodJets_Zinc.pdf Graphic file
 
 <use /home/aaron/root/wjets/June12_WJetsFinal/ZNGoodJets_Zinc.pdf>
 Package pdftex.def Info: /home/aaron/root/wjets/June12_WJetsFinal/ZNGoodJets_Zi
-nc.pdf used on input line 1802.
+nc.pdf used on input line 1808.
 (pdftex.def)             Requested size: 194.84868pt x 243.98756pt.
 
 </home/aaron/root/wjets/June12_WJetsFinal/FirstJetPt_Zinc1jet.pdf, id=2087, 569
@@ -1614,7 +1601,7 @@ file (type pdf)
 
 <use /home/aaron/root/wjets/June12_WJetsFinal/FirstJetPt_Zinc1jet.pdf>
 Package pdftex.def Info: /home/aaron/root/wjets/June12_WJetsFinal/FirstJetPt_Zi
-nc1jet.pdf used on input line 1811.
+nc1jet.pdf used on input line 1817.
 (pdftex.def)             Requested size: 194.84868pt x 243.98756pt.
 
 </home/aaron/root/wjets/June12_WJetsFinal/SecondJetPt_Zinc2jet.pdf, id=2088, 56
@@ -1624,7 +1611,7 @@ File: /home/aaron/root/wjets/June12_WJetsFinal/SecondJetPt_Zinc2jet.pdf Graphic
 
 <use /home/aaron/root/wjets/June12_WJetsFinal/SecondJetPt_Zinc2jet.pdf>
 Package pdftex.def Info: /home/aaron/root/wjets/June12_WJetsFinal/SecondJetPt_Z
-inc2jet.pdf used on input line 1812.
+inc2jet.pdf used on input line 1818.
 (pdftex.def)             Requested size: 194.84868pt x 243.98756pt.
 
 </home/aaron/root/wjets/June12_WJetsFinal/ThirdJetPt_Zinc3jet.pdf, id=2089, 569
@@ -1634,7 +1621,7 @@ file (type pdf)
 
 <use /home/aaron/root/wjets/June12_WJetsFinal/ThirdJetPt_Zinc3jet.pdf>
 Package pdftex.def Info: /home/aaron/root/wjets/June12_WJetsFinal/ThirdJetPt_Zi
-nc3jet.pdf used on input line 1821.
+nc3jet.pdf used on input line 1827.
 (pdftex.def)             Requested size: 194.84868pt x 243.98756pt.
 
 </home/aaron/root/wjets/June12_WJetsFinal/FourthJetPt_Zinc4jet.pdf, id=2090, 56
@@ -1644,7 +1631,7 @@ File: /home/aaron/root/wjets/June12_WJetsFinal/FourthJetPt_Zinc4jet.pdf Graphic
 
 <use /home/aaron/root/wjets/June12_WJetsFinal/FourthJetPt_Zinc4jet.pdf>
 Package pdftex.def Info: /home/aaron/root/wjets/June12_WJetsFinal/FourthJetPt_Z
-inc4jet.pdf used on input line 1822.
+inc4jet.pdf used on input line 1828.
 (pdftex.def)             Requested size: 194.84868pt x 243.98756pt.
 
 </home/aaron/root/wjets/June12_WJetsFinal/FirstJetAbsRapidity_Zinc1jet.pdf, id=
@@ -1654,7 +1641,7 @@ File: /home/aaron/root/wjets/June12_WJetsFinal/FirstJetAbsRapidity_Zinc1jet.pdf
 
 <use /home/aaron/root/wjets/June12_WJetsFinal/FirstJetAbsRapidity_Zinc1jet.pdf>
 Package pdftex.def Info: /home/aaron/root/wjets/June12_WJetsFinal/FirstJetAbsRa
-pidity_Zinc1jet.pdf used on input line 1832.
+pidity_Zinc1jet.pdf used on input line 1838.
 (pdftex.def)             Requested size: 194.84868pt x 243.98756pt.
 
 </home/aaron/root/wjets/June12_WJetsFinal/SecondJetAbsRapidity_Zinc2jet.pdf, id
@@ -1665,7 +1652,7 @@ f Graphic file (type pdf)
 <use /home/aaron/root/wjets/June12_WJetsFinal/SecondJetAbsRapidity_Zinc2jet.pdf
 >
 Package pdftex.def Info: /home/aaron/root/wjets/June12_WJetsFinal/SecondJetAbsR
-apidity_Zinc2jet.pdf used on input line 1833.
+apidity_Zinc2jet.pdf used on input line 1839.
 (pdftex.def)             Requested size: 194.84868pt x 243.98756pt.
 
 </home/aaron/root/wjets/June12_WJetsFinal/ThirdJetAbsRapidity_Zinc3jet.pdf, id=
@@ -1675,7 +1662,7 @@ File: /home/aaron/root/wjets/June12_WJetsFinal/ThirdJetAbsRapidity_Zinc3jet.pdf
 
 <use /home/aaron/root/wjets/June12_WJetsFinal/ThirdJetAbsRapidity_Zinc3jet.pdf>
 Package pdftex.def Info: /home/aaron/root/wjets/June12_WJetsFinal/ThirdJetAbsRa
-pidity_Zinc3jet.pdf used on input line 1842.
+pidity_Zinc3jet.pdf used on input line 1848.
 (pdftex.def)             Requested size: 194.84868pt x 243.98756pt.
 
 </home/aaron/root/wjets/June12_WJetsFinal/FourthJetAbsRapidity_Zinc4jet.pdf, id
@@ -1686,7 +1673,7 @@ f Graphic file (type pdf)
 <use /home/aaron/root/wjets/June12_WJetsFinal/FourthJetAbsRapidity_Zinc4jet.pdf
 >
 Package pdftex.def Info: /home/aaron/root/wjets/June12_WJetsFinal/FourthJetAbsR
-apidity_Zinc4jet.pdf used on input line 1843.
+apidity_Zinc4jet.pdf used on input line 1849.
 (pdftex.def)             Requested size: 194.84868pt x 243.98756pt.
 
 </home/aaron/root/wjets/July10_WJets_Zinc4JetMTW/MT_Zinc1jet.pdf, id=2095, 569.
@@ -1696,7 +1683,7 @@ ile (type pdf)
 
 <use /home/aaron/root/wjets/July10_WJets_Zinc4JetMTW/MT_Zinc1jet.pdf>
 Package pdftex.def Info: /home/aaron/root/wjets/July10_WJets_Zinc4JetMTW/MT_Zin
-c1jet.pdf used on input line 1853.
+c1jet.pdf used on input line 1859.
 (pdftex.def)             Requested size: 194.84868pt x 243.98756pt.
 
 </home/aaron/root/wjets/July10_WJets_Zinc4JetMTW/MT_Zinc2jet.pdf, id=2096, 569.
@@ -1706,7 +1693,7 @@ ile (type pdf)
 
 <use /home/aaron/root/wjets/July10_WJets_Zinc4JetMTW/MT_Zinc2jet.pdf>
 Package pdftex.def Info: /home/aaron/root/wjets/July10_WJets_Zinc4JetMTW/MT_Zin
-c2jet.pdf used on input line 1854.
+c2jet.pdf used on input line 1860.
 (pdftex.def)             Requested size: 194.84868pt x 243.98756pt.
 
 </home/aaron/root/wjets/July10_WJets_Zinc4JetMTW/MT_Zinc3jet.pdf, id=2097, 569.
@@ -1716,7 +1703,7 @@ ile (type pdf)
 
 <use /home/aaron/root/wjets/July10_WJets_Zinc4JetMTW/MT_Zinc3jet.pdf>
 Package pdftex.def Info: /home/aaron/root/wjets/July10_WJets_Zinc4JetMTW/MT_Zin
-c3jet.pdf used on input line 1863.
+c3jet.pdf used on input line 1869.
 (pdftex.def)             Requested size: 194.84868pt x 243.98756pt.
 
 </home/aaron/root/wjets/July10_WJets_Zinc4JetMTW/MT_Zinc4jet.pdf, id=2098, 569.
@@ -1726,7 +1713,7 @@ ile (type pdf)
 
 <use /home/aaron/root/wjets/July10_WJets_Zinc4JetMTW/MT_Zinc4jet.pdf>
 Package pdftex.def Info: /home/aaron/root/wjets/July10_WJets_Zinc4JetMTW/MT_Zin
-c4jet.pdf used on input line 1864.
+c4jet.pdf used on input line 1870.
 (pdftex.def)             Requested size: 194.84868pt x 243.98756pt.
 
 </home/aaron/root/wjets/July10_WJets_Zinc4JetMTW/ZPt_Zinc1jet.pdf, id=2099, 569
@@ -1736,7 +1723,7 @@ file (type pdf)
 
 <use /home/aaron/root/wjets/July10_WJets_Zinc4JetMTW/ZPt_Zinc1jet.pdf>
 Package pdftex.def Info: /home/aaron/root/wjets/July10_WJets_Zinc4JetMTW/ZPt_Zi
-nc1jet.pdf used on input line 1874.
+nc1jet.pdf used on input line 1880.
 (pdftex.def)             Requested size: 194.84868pt x 243.98756pt.
 
 </home/aaron/root/wjets/July10_WJets_Zinc4JetMTW/ZPt_Zinc2jet.pdf, id=2100, 569
@@ -1746,7 +1733,7 @@ file (type pdf)
 
 <use /home/aaron/root/wjets/July10_WJets_Zinc4JetMTW/ZPt_Zinc2jet.pdf>
 Package pdftex.def Info: /home/aaron/root/wjets/July10_WJets_Zinc4JetMTW/ZPt_Zi
-nc2jet.pdf used on input line 1875.
+nc2jet.pdf used on input line 1881.
 (pdftex.def)             Requested size: 194.84868pt x 243.98756pt.
 
 </home/aaron/root/wjets/July10_WJets_Zinc4JetMTW/ZPt_Zinc3jet.pdf, id=2101, 569
@@ -1756,7 +1743,7 @@ file (type pdf)
 
 <use /home/aaron/root/wjets/July10_WJets_Zinc4JetMTW/ZPt_Zinc3jet.pdf>
 Package pdftex.def Info: /home/aaron/root/wjets/July10_WJets_Zinc4JetMTW/ZPt_Zi
-nc3jet.pdf used on input line 1884.
+nc3jet.pdf used on input line 1890.
 (pdftex.def)             Requested size: 194.84868pt x 243.98756pt.
 
 </home/aaron/root/wjets/July10_WJets_Zinc4JetMTW/ZPt_Zinc4jet.pdf, id=2102, 569
@@ -1766,7 +1753,7 @@ file (type pdf)
 
 <use /home/aaron/root/wjets/July10_WJets_Zinc4JetMTW/ZPt_Zinc4jet.pdf>
 Package pdftex.def Info: /home/aaron/root/wjets/July10_WJets_Zinc4JetMTW/ZPt_Zi
-nc4jet.pdf used on input line 1885.
+nc4jet.pdf used on input line 1891.
 (pdftex.def)             Requested size: 194.84868pt x 243.98756pt.
  [87 </home/aaron/root/wjets/July15_WJets_2BjetsTTbar/ZNGoodJets_Zexc.pdf> </ho
 me/aaron/root/wjets/July15_WJets_2BjetsTTbar/ZNGoodJets_Zinc.pdf>] [88 </home/a
@@ -1791,10 +1778,10 @@ aron/root/wjets/July10_WJets_Zinc4JetMTW/ZPt_Zinc4jet.pdf>] [93] [94]
 File: energyScalesMinMaxWJets.pdf Graphic file (type pdf)
 
 <use energyScalesMinMaxWJets.pdf>
-Package pdftex.def Info: energyScalesMinMaxWJets.pdf used on input line 1986.
+Package pdftex.def Info: energyScalesMinMaxWJets.pdf used on input line 1992.
 (pdftex.def)             Requested size: 212.17238pt x 205.80989pt.
 
-Overfull \hbox (12.12128pt too wide) in paragraph at lines 1992--1993
+Overfull \hbox (12.12128pt too wide) in paragraph at lines 1998--1999
 \OT1/cmr/m/n/10 fer-en-tial cross sec-tion dis-tri-bu-tions are com-pared with 
 the pre-dic-tions of the \OT1/cmr/m/sc/10 MadGraph5$[]$aMC@NLO
  []
@@ -1808,7 +1795,7 @@ _.pdf Graphic file (type pdf)
 <use SMu_unfolded_ZNGoodJetsFull_Zexc_Bayes_JetPtMin_30_JetEtaMax_24_MGPYTHIA6_
 .pdf>
 Package pdftex.def Info: SMu_unfolded_ZNGoodJetsFull_Zexc_Bayes_JetPtMin_30_Jet
-EtaMax_24_MGPYTHIA6_.pdf used on input line 2037.
+EtaMax_24_MGPYTHIA6_.pdf used on input line 2043.
 (pdftex.def)             Requested size: 216.5pt x 280.27238pt.
 
 <SMu_unfolded_ZNGoodJetsFull_Zinc_Bayes_JetPtMin_30_JetEtaMax_24_MGPYTHIA6_.pdf
@@ -1819,10 +1806,10 @@ _.pdf Graphic file (type pdf)
 <use SMu_unfolded_ZNGoodJetsFull_Zinc_Bayes_JetPtMin_30_JetEtaMax_24_MGPYTHIA6_
 .pdf>
 Package pdftex.def Info: SMu_unfolded_ZNGoodJetsFull_Zinc_Bayes_JetPtMin_30_Jet
-EtaMax_24_MGPYTHIA6_.pdf used on input line 2038.
+EtaMax_24_MGPYTHIA6_.pdf used on input line 2044.
 (pdftex.def)             Requested size: 216.5pt x 280.27238pt.
 
-Overfull \hbox (2.22221pt too wide) in paragraph at lines 2037--2039
+Overfull \hbox (2.22221pt too wide) in paragraph at lines 2043--2045
 [][] [] 
  []
 
@@ -1837,10 +1824,9 @@ Missing character: There is no Ã in font cmr10!
 Missing character: There is no ¼ in font cmr10!
 [103
 
-] [104]
+] [104] [105]
 Missing character: There is no Ï in font cmr10!
 Missing character: There is no „ in font cmr10!
- [105]
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no “ in font cmr10!
@@ -1879,17 +1865,14 @@ See the caption package documentation for explanation.
 
  (./thesisoutline_levine.aux)
 
-LaTeX Warning: There were undefined references.
-
-
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 9217 strings out of 494985
- 149513 string characters out of 6180357
- 255614 words of memory out of 5000000
- 12191 multiletter control sequences out of 15000+600000
+ 9214 strings out of 494985
+ 149444 string characters out of 6180357
+ 255648 words of memory out of 5000000
+ 12188 multiletter control sequences out of 15000+600000
  16215 words of font info for 63 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
  45i,17n,75p,2546b,476s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1914,7 +1897,7 @@ public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
 amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
 s/cm/cmsy9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
 ti10.pfb>
-Output written on thesisoutline_levine.pdf (126 pages, 5283351 bytes).
+Output written on thesisoutline_levine.pdf (126 pages, 5283771 bytes).
 PDF statistics:
  3243 PDF objects out of 3580 (max. 8388607)
  1450 compressed objects within 15 object streams
