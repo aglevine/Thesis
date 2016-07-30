@@ -334,7 +334,7 @@ Placeholder for better acknowledgements section later. Thank parents, advisors, 
 \makeatother
  \listoffigures*  % if you have any figures
  \clearpage
- \listoftables   % if you have any tables
+ \listoftables*   % if you have any tables
 
 % Tell the memoir class to set up normal pagination, etc. for the main doc
 \mainmatter
@@ -461,7 +461,7 @@ predict a Higgs boson with couplings that violate lepton flavor conservation.
 \qquad Now that the underlying physics has been described in sections \ref{sm} and \ref{BSM}, the question remains: how exactly are W+jets and lepton flavor violating Higgs events produced and studied? Before proceeding further, some basic terms of collider physics must be defined. The cross section of a particle interaction is an effective area that gives a sense of the likelihood of the interaction. In collider physics, cross sections are measured in barns (b), where $1b = 10^{-24}cm^{2}$. The luminosity is defined as the rate of observed events divided by the cross section. The integrated luminosity is computed by summing the luminosity with respect to time. Integrated luminosity is used to define how much total data has been used in a measurement. These terms will be used for describing proton proton collisions, W boson production, and Higgs boson production in the coming sections of this chapter.
 
 \section{Kinematics Definitions}\label{kindef}
-\qquad The subsequent sections in the chapter require knowledge of relevant kinematic variables, which will be defined here. The protons are accelerated up to almost the speed of light, so a relativistic treatment must be used to study the collisions.   In special relativity, the energy of the system, $E$, is defined as $E^{2} = m^{2}+p^{2}$. Here the speed of light, $c$, is set to 1, in accordance with natural units. The energy momentum 4-vector is defined as $ \hat{P} = (E, \vec{p})$, and the dot product is defined such that $\vec{P} \dot \vec{P} = E^{2}-p^{2}$, which is the Lorentz invariant mass of the particle. The square of the sum of four momentum vectors gives the invariant mass of a system of particles. Lorentz invariant quantities are useful because they are independent of the frame of reference. 
+\qquad The subsequent sections in the chapter require knowledge of relevant kinematic variables, which will be defined here. The protons are accelerated up to almost the speed of light, so a relativistic treatment must be used to study the collisions.   In special relativity, the energy of the system, $E$, is defined as $E^{2} = m^{2}+p^{2}$. Here the speed of light, $c$, is set to 1, in accordance with natural units. The energy momentum 4-vector is defined as $ \hat{P} = (E, \vec{p})$, and the dot product is defined such that $\vec{P} \cdot \vec{P} = E^{2}-p^{2}$, which is the Lorentz invariant mass of the particle. The square of the sum of four momentum vectors gives the invariant mass of a system of particles. Lorentz invariant quantities are useful because they are independent of the frame of reference. 
 
 \qquad For two colliding particles, $p_{1}$ and $p_{2}$ we can define a quantity: $s = (p_{1}^2+p_{2}^2)$, which is the Lorentz invariant square of the total center of mass energy of the event. This variables is used to express the energy of particle collisions.
 
@@ -780,7 +780,7 @@ In equation \ref{eq:ecal}, there are three experimentally determined terms. $A$ 
 
 \subsubsection{Level 1 Trigger}\label{L1trig}
 
-\qquad The L1 calorimeter trigger consists of the regional calorimeter trigger (RCT) and the global calorimeter trigger (GCT). The regional calorimeter trigger contains 4176 trigger towers. Of these trigger towers, 3456 are mapped to regions of 5x5 crystals in the ECAL and the corresponding single readout towers in the HCAL. Each trigger tower in the central region ($|\eta| < 3.0$) covers a region of 0.087 $\times$ 0.087 in the $\eta - \phi$ plane. Sums from ECAL and HCAL are computed in 4x4 regions of trigger towers. For $3.0 < |\eta| < 5.0$, only HF contributes sums. The RCT is detailed in figure \ref{fig:rct}.The trigger regions in this regime have the same granularity in $\phi$ (0.348), but a coarser granularity in $\eta$ (0.500). The $E_{T}$ sums from HF are simply passed on to the GCT. ECAL and HCAL each send 8 bit compressed $E_{T}$ sums along with a fine grain bit that indicates if 90\% ECAL energy in a trigger tower is restricted to a 2x5 crystal region in $\eta - \phi$. The RCT performs regional sums of the ECAL and HCAL energies and stores an H/E bit for an electron isolation, indicating if the HCAL energy is less than 5\% of the ECAL energy. Electron/photon candidates are constructed from 2x1 trigger towers.The RCT then identifies one isolated $e/\gamma$ candidate and one non-isolated $e/\gamma$ candidate per 4x4 trigger tower region. The jet/summary card sorts the four highest energy isolated and nonisolated candidates and passes them on to the GCT. 
+\qquad The L1 calorimeter trigger consists of the regional calorimeter trigger (RCT) and the global calorimeter trigger (GCT). The regional calorimeter trigger contains 4176 trigger towers. Of these trigger towers, 3456 are mapped to regions of 5x5 crystals in the ECAL and the corresponding single readout towers in the HCAL. Each trigger tower in the central region ($|\eta| < 3.0$) covers a region of 0.087 $\times$ 0.087 in the $\eta - \phi$ plane. Sums from ECAL and HCAL are computed in 4x4 regions of trigger towers. For $3.0 < |\eta| < 5.0$, only HF contributes sums. The RCT is detailed in figure \ref{fig:rct}.The trigger regions in this regime have the same granularity in $\phi$ (0.348), but a coarser granularity in $\eta$ (0.500). The $E_{T}$ sums from HF are simply passed on to the GCT. ECAL and HCAL each send 8 bit compressed $E_{T}$ sums along with a fine grain bit that indicates if 90\% ECAL energy in a trigger tower is restricted to a 2x5 crystal region in $\eta - \phi$. The RCT performs regional sums of the ECAL and HCAL energies and stores an H/E bit for an electron isolation, indicating if the HCAL energy is less than 5\% of the ECAL energy. Electron/photon candidates are constructed from 2x1 trigger towers. The RCT then identifies one isolated $e/\gamma$ candidate and one non-isolated $e/\gamma$ candidate per 4x4 trigger tower region. The jet/summary card sorts the four highest energy isolated and nonisolated candidates and passes them on to the GCT. 
 
 \begin{figure}[here]
 \includegraphics[width=0.9\textwidth]{rct.png}
@@ -835,7 +835,7 @@ However, this calculation provides only a very basic picture of the event and ne
 
 \subsection{Hadronization}\label{hadronization}
  
-\qquad After parton showering, the event consists of the hard final products and many soft partons, as defined in section \ref{ppcoll}. At this point, the partons must transform into color singlet final state hadrons. One way to the this is the Lund string model\cite{Barger:0201058766}. In this model, quark and anti-quark pairs are connected by color ``strings" with a potential 
+\qquad After parton showering, the event consists of the hard final products and many soft partons, as defined in section \ref{ppcoll}. At this point, the partons must transform into color singlet final state hadrons. One way to do this is the Lund string model\cite{Barger:0201058766}. In this model, quark and anti-quark pairs are connected by color ``strings" with a potential 
 $V(r) = \kappa r $, where $r$ refers to the distance between the quarks and $\kappa$ is a dimensionless constant that defines the strength of the potential. Since the potential is directly proportional to the distance between the quark pairs, the energy of the system increases as the quarks move further apart. Eventually, the energy of the system is enough to generate an additional quark/anti-quark pair, which effectively breaks the string into two separate string, as shown in figure~\ref{fig:lund}.The $p_{T}$ of the quark or anti-quark is  
 $<p^{2}_{T}> = \kappa / \pi$ and the Lund fragmentation function\cite{Agashe:2014kda} defines the fraction of the longitudinal momentum of the endpoint particle that is imparted to its recently produced neighbor. In this fashion, the kinematic variables of the produced hadrons are known, and the shower continues until an energy scale cut-off is reached.
 
@@ -977,7 +977,7 @@ Hadrons are identified after the unique signatures of electrons, photons, and mu
 \qquad The collinear approximation\cite{Ellis:1987xu} arises from the observation that since the mass of the Higgs is much greater than the mass of the tau, the tau decay products are highly boosted in the direction of the original tau. Therefore, the neutrino momentum can be approximated to be in the same direction as the other visible decay products of the tau. The component of the missing transverse energy in the direction of the visible tau decay products is used to estimate the transverse component of the neutrino momentum:
 
 \begin{equation}
-\vec{p}_{T}^{\nu} = \vec{E}_{T}^{miss} \dot \hat{p}_{T}^{\tau_{vis}}
+\vec{p}_{T}^{\nu} = \vec{E}_{T}^{miss} \cdot \hat{p}_{T}^{\tau_{vis}}
 \end{equation}
 
 The fraction of the tau momentum carried by the visible tau decay products, $x_{\tau_{vis}}$, is given by:
@@ -1055,9 +1055,9 @@ $\ell^{\mp}_{2}$(non-isolated )  &  $\ell^{\pm}_{2}$(non-isolated)             \
   \begin{tabular}{ | l | c |}
     \hline
     Decay Mode & $f_{\tau_{h}}$ \\ \hline \hline
-    $\tau \rightarrow \pi^{+}_{ - }$ & 0.53 \\ \hline
-    $\tau \rightarrow \pi^{+}_{ - }\pi^{0}$ & 0.48 \\ \hline
-    $\tau \rightarrow \pi^{+}_{ - }\pi\pi\pi$& 0.46 \\ \hline
+    $\tau \rightarrow \pi^{\pm}$ & 0.53 \\ \hline
+    $\tau \rightarrow \pi^{\pm}\pi^{0} (\pi^{0})$ & 0.48 \\ \hline
+    $\tau \rightarrow \pi^{\pm}\pi^{\pm}\pi^{\pm}$& 0.46 \\ \hline
     
   \end{tabular}
   \caption{Measured fake rates $f_{\tau_{h}}$ in 8 TeV data.}
@@ -1069,9 +1069,9 @@ $\ell^{\mp}_{2}$(non-isolated )  &  $\ell^{\pm}_{2}$(non-isolated)             \
   \begin{tabular}{ | l | c | c |}
     \hline
     Decay Mode & $f_{\tau_{h}}$ $\left(|\eta^{\tau}|<1.5\right)$ & $f_{\tau_{h}}$ $\left(|\eta^{\tau}|>1.5\right)$ \\ \hline \hline
-    $\tau \rightarrow \pi^{+}_{ - }$ & 0.39 & 0.41 \\ \hline
-    $\tau \rightarrow \pi^{+}_{ - }\pi^{0}$ & 0.43 & 0.45 \\ \hline
-    $\tau \rightarrow \pi^{+}_{ - }\pi\pi\pi$& 0.36 & 0.35 \\ \hline
+    $\tau \rightarrow \pi^{\pm}$ & 0.39 & 0.41 \\ \hline
+    $\tau \rightarrow \pi^{\pm}\pi^{0} (\pi^{0})$ & 0.43 & 0.45 \\ \hline
+    $\tau \rightarrow \pi^{\pm}\pi^{\pm}\pi^{\pm}$& 0.36 & 0.35 \\ \hline
   \end{tabular}
   \caption{Measured fake rates $f_{\tau_{h}}$ in 13 TeV data. At 13 TeV a small $\eta$ dependence in $f_{\tau_{h}}$ with respect to the decay mode was observed and $f_{\tau_{h}}$ was computed as a function of $|\eta|$ in two bins}
   \label{tab:taufakerate13TeV}
@@ -1211,7 +1211,7 @@ of 2.3$fb^{-1}$. The LFV Higgs boson signal is the expected yield for $B(H \righ
 \qquad Next, a set of kinematic variables are defined and the criteria for selection is determined by optimizing for $\frac{S}{\sqrt{S+B}}$ for the $\sqrt{s}$ = 8 TeV dataset, where S and B are the expected signal and background event yields in the mass window 100 GeV $< M_{collinear} <$ 150 GeV. The signal strength is set as $B(H\rightarrow\mu\tau) = 10\%$. The $10\%$ value was chosen because it corresponds to the limit from indirect measurements, as mentioned in section \ref{BSM}. The criteria for each category, and in each channel, are given in Table \ref{tab:kinematicselection}. The optimization was also performed assuming $B(H\rightarrow\mu\tau) = 1\%$ and a negligible change in the optimal selection criteria was observed. The variables used are the lepton transverse momenta $p_{T}^{\ell}$ with $\ell = \tau_{h},\mu,e$, azimuthal angles between the leptons 
 $\Delta\phi_{\vec{p}_{T}^{\ell_{1}}-\vec{p}_{T}^{\ell_{2}}}$, azimuthal angle 
 $\Delta\phi_{\vec{p}_{T}^{\ell}-\vec{E}_{T}^{miss}}$, and the transverse mass 
-$M_{T}^{\ell} = \sqrt{2 p_{T}^{\ell}E_{T}^{miss}(1-cos \Delta\phi_{\vec{p}_{T}^{\ell}-\vec{E}_{T}^{miss}})}$. 
+$M_{T}^{\ell} = \sqrt{2 p_{T}^{\ell}E_{T}^{miss}(1-cos \Delta\phi_{\vec{p}_{T}^{\ell}-\vec{E}_{T}^{miss}})}$ 
 
 \begin{table}[hbtp]
  \centering
