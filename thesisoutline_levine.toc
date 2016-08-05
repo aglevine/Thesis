@@ -1,83 +1,84 @@
 \contentsline {section}{Abstract}{i}
 \contentsline {section}{Acknowledgements}{ii}
+\contentsline {chapter}{List of Tables}{xiv}
 \contentsline {chapter}{\chapternumberline {1}Theoretical Motivation}{1}
 \contentsline {section}{\numberline {1.1}The Standard Model}{1}
 \contentsline {subsection}{\numberline {1.1.1}Elementary Particles}{2}
 \contentsline {subsection}{\numberline {1.1.2}Elementary Forces}{4}
 \contentsline {subsection}{\numberline {1.1.3}The Higgs Boson}{6}
 \contentsline {section}{\numberline {1.2}Beyond the Standard Model}{7}
-\contentsline {section}{\numberline {1.3}Summary}{8}
-\contentsline {chapter}{\chapternumberline {2}Collider Phenomenology}{10}
-\contentsline {section}{\numberline {2.1}Kinematics Definitions}{10}
-\contentsline {section}{\numberline {2.2}Proton-Proton Collisions}{11}
-\contentsline {section}{\numberline {2.3}W Boson Production}{12}
-\contentsline {section}{\numberline {2.4}Higgs Boson Phenomenology}{15}
-\contentsline {subsection}{\numberline {2.4.1}LFV Higgs Phenomenology}{18}
-\contentsline {chapter}{\chapternumberline {3}Experimental Design}{23}
-\contentsline {section}{\numberline {3.1}LHC}{23}
-\contentsline {section}{\numberline {3.2}CMS}{25}
-\contentsline {subsection}{\numberline {3.2.1}Overview}{25}
-\contentsline {subsection}{\numberline {3.2.2}Tracker}{26}
-\contentsline {subsection}{\numberline {3.2.3}ECAL}{28}
-\contentsline {subsection}{\numberline {3.2.4}HCAL}{32}
-\contentsline {subsection}{\numberline {3.2.5}Muon System}{33}
-\contentsline {subsection}{\numberline {3.2.6}Trigger}{35}
-\contentsline {subsubsection}{\numberline {3.2.6.1}Level 1 Trigger}{36}
-\contentsline {subsubsection}{\numberline {3.2.6.2}High Level Trigger}{39}
-\contentsline {chapter}{\chapternumberline {4}Event Simulation}{41}
-\contentsline {section}{\numberline {4.1}Monte Carlo Event Generation}{41}
-\contentsline {subsection}{\numberline {4.1.1}Matrix Elements}{42}
-\contentsline {subsection}{\numberline {4.1.2}Parton Showering}{42}
-\contentsline {subsection}{\numberline {4.1.3}Hadronization}{43}
-\contentsline {subsection}{\numberline {4.1.4}Monte Carlo Generator Software}{43}
-\contentsline {section}{\numberline {4.2}Detector Simulation}{44}
-\contentsline {chapter}{\chapternumberline {5}Event Reconstruction}{45}
-\contentsline {section}{\numberline {5.1}Particle Flow Overview}{45}
-\contentsline {section}{\numberline {5.2}Electrons}{46}
-\contentsline {section}{\numberline {5.3}Muons}{48}
-\contentsline {section}{\numberline {5.4}Hadrons}{49}
-\contentsline {subsection}{\numberline {5.4.1}Jets}{49}
-\contentsline {subsubsection}{\numberline {5.4.1.1}B-Jets}{51}
-\contentsline {subsection}{\numberline {5.4.2}Taus}{51}
-\contentsline {section}{\numberline {5.5}Missing Energy}{52}
-\contentsline {chapter}{\chapternumberline {6}Lepton Flavor Violating Decays of the Higgs Boson}{53}
-\contentsline {section}{\numberline {6.1}Analysis Overview}{53}
-\contentsline {section}{\numberline {6.2}Misidentified Leptons}{54}
-\contentsline {subsection}{\numberline {6.2.1}Misidentified Taus}{56}
-\contentsline {subsection}{\numberline {6.2.2}Misidentified Muons and Electrons}{57}
-\contentsline {section}{\numberline {6.3}8 TeV Backgrounds and Datasets}{58}
-\contentsline {subsection}{\numberline {6.3.1}Data}{58}
-\contentsline {subsection}{\numberline {6.3.2}LFV Higgs and SM Higgs}{59}
-\contentsline {subsection}{\numberline {6.3.3}Z to tau tau}{59}
-\contentsline {subsection}{\numberline {6.3.4}Additional Backgrounds}{60}
-\contentsline {section}{\numberline {6.4}13 TeV Backgrounds and Datasets}{60}
-\contentsline {section}{\numberline {6.5}Event Selection}{61}
-\contentsline {section}{\numberline {6.6}Systematic Uncertainties}{66}
-\contentsline {subsection}{\numberline {6.6.1}8 TeV}{66}
-\contentsline {subsubsection}{\numberline {6.6.1.1}Normalization Uncertainties}{66}
-\contentsline {subsubsection}{\numberline {6.6.1.2}Shape Uncertainties}{68}
-\contentsline {subsection}{\numberline {6.6.2}13 TeV}{70}
-\contentsline {section}{\numberline {6.7}Statistical Methods}{71}
-\contentsline {subsection}{\numberline {6.7.1}Maximum Likelihood Fit}{71}
-\contentsline {subsection}{\numberline {6.7.2}Maximum Likelihood Limits}{73}
-\contentsline {section}{\numberline {6.8}Results}{74}
-\contentsline {subsection}{\numberline {6.8.1}8 TeV Results}{74}
-\contentsline {subsubsection}{\numberline {6.8.1.1}Limits on Lepton Flavor Violating Couplings}{76}
-\contentsline {subsection}{\numberline {6.8.2}13 TeV Results}{78}
-\contentsline {chapter}{\chapternumberline {7}W+Jets Differential Cross Section Measurement}{82}
-\contentsline {section}{\numberline {7.1}Analysis Overview}{82}
-\contentsline {section}{\numberline {7.2}Backgrounds and Datasets}{82}
-\contentsline {subsection}{\numberline {7.2.1}Data}{82}
-\contentsline {subsection}{\numberline {7.2.2}Monte Carlo}{83}
-\contentsline {subsection}{\numberline {7.2.3}QCD Background}{84}
-\contentsline {section}{\numberline {7.3}Event Selection}{84}
-\contentsline {section}{\numberline {7.4}Data-Simulation Comparisons}{87}
-\contentsline {section}{\numberline {7.5}Detector Unfolding}{93}
-\contentsline {section}{\numberline {7.6}Systematic Uncertainties}{94}
-\contentsline {subsection}{\numberline {7.6.1}Theoretical Uncertainties}{95}
-\contentsline {subsection}{\numberline {7.6.2}Methodology}{95}
-\contentsline {section}{\numberline {7.7}Results}{97}
-\contentsline {chapter}{\chapternumberline {8}Conclusions}{101}
-\contentsline {section}{\numberline {8.1}Summary}{101}
-\contentsline {section}{\numberline {8.2}Future Outlook}{102}
-\contentsline {chapter}{Bibliography}{103}
+\contentsline {section}{\numberline {1.3}Summary}{9}
+\contentsline {chapter}{\chapternumberline {2}Collider Phenomenology}{11}
+\contentsline {section}{\numberline {2.1}Kinematics Definitions}{11}
+\contentsline {section}{\numberline {2.2}Proton-Proton Collisions}{12}
+\contentsline {section}{\numberline {2.3}W Boson Production}{13}
+\contentsline {section}{\numberline {2.4}Higgs Boson Phenomenology}{16}
+\contentsline {subsection}{\numberline {2.4.1}LFV Higgs Phenomenology}{19}
+\contentsline {chapter}{\chapternumberline {3}Experimental Design}{24}
+\contentsline {section}{\numberline {3.1}LHC}{24}
+\contentsline {section}{\numberline {3.2}CMS}{26}
+\contentsline {subsection}{\numberline {3.2.1}Overview}{26}
+\contentsline {subsection}{\numberline {3.2.2}Tracker}{27}
+\contentsline {subsection}{\numberline {3.2.3}ECAL}{29}
+\contentsline {subsection}{\numberline {3.2.4}HCAL}{33}
+\contentsline {subsection}{\numberline {3.2.5}Muon System}{34}
+\contentsline {subsection}{\numberline {3.2.6}Trigger}{36}
+\contentsline {subsubsection}{\numberline {3.2.6.1}Level 1 Trigger}{37}
+\contentsline {subsubsection}{\numberline {3.2.6.2}High Level Trigger}{40}
+\contentsline {chapter}{\chapternumberline {4}Event Simulation}{42}
+\contentsline {section}{\numberline {4.1}Monte Carlo Event Generation}{42}
+\contentsline {subsection}{\numberline {4.1.1}Matrix Elements}{43}
+\contentsline {subsection}{\numberline {4.1.2}Parton Showering}{43}
+\contentsline {subsection}{\numberline {4.1.3}Hadronization}{44}
+\contentsline {subsection}{\numberline {4.1.4}Monte Carlo Generator Software}{44}
+\contentsline {section}{\numberline {4.2}Detector Simulation}{45}
+\contentsline {chapter}{\chapternumberline {5}Event Reconstruction}{46}
+\contentsline {section}{\numberline {5.1}Particle Flow Overview}{46}
+\contentsline {section}{\numberline {5.2}Electrons}{47}
+\contentsline {section}{\numberline {5.3}Muons}{49}
+\contentsline {section}{\numberline {5.4}Hadrons}{50}
+\contentsline {subsection}{\numberline {5.4.1}Jets}{50}
+\contentsline {subsubsection}{\numberline {5.4.1.1}B-Jets}{52}
+\contentsline {subsection}{\numberline {5.4.2}Taus}{52}
+\contentsline {section}{\numberline {5.5}Missing Energy}{53}
+\contentsline {chapter}{\chapternumberline {6}Lepton Flavor Violating Decays of the Higgs Boson}{54}
+\contentsline {section}{\numberline {6.1}Analysis Overview}{54}
+\contentsline {section}{\numberline {6.2}Misidentified Leptons}{55}
+\contentsline {subsection}{\numberline {6.2.1}Misidentified Taus}{57}
+\contentsline {subsection}{\numberline {6.2.2}Misidentified Muons and Electrons}{58}
+\contentsline {section}{\numberline {6.3}8 TeV Backgrounds and Datasets}{59}
+\contentsline {subsection}{\numberline {6.3.1}Data}{59}
+\contentsline {subsection}{\numberline {6.3.2}LFV Higgs and SM Higgs}{60}
+\contentsline {subsection}{\numberline {6.3.3}Z to tau tau}{60}
+\contentsline {subsection}{\numberline {6.3.4}Additional Backgrounds}{61}
+\contentsline {section}{\numberline {6.4}13 TeV Backgrounds and Datasets}{61}
+\contentsline {section}{\numberline {6.5}Event Selection}{62}
+\contentsline {section}{\numberline {6.6}Systematic Uncertainties}{67}
+\contentsline {subsection}{\numberline {6.6.1}8 TeV}{67}
+\contentsline {subsubsection}{\numberline {6.6.1.1}Normalization Uncertainties}{67}
+\contentsline {subsubsection}{\numberline {6.6.1.2}Shape Uncertainties}{69}
+\contentsline {subsection}{\numberline {6.6.2}13 TeV}{71}
+\contentsline {section}{\numberline {6.7}Statistical Methods}{72}
+\contentsline {subsection}{\numberline {6.7.1}Maximum Likelihood Fit}{72}
+\contentsline {subsection}{\numberline {6.7.2}Maximum Likelihood Limits}{74}
+\contentsline {section}{\numberline {6.8}Results}{75}
+\contentsline {subsection}{\numberline {6.8.1}8 TeV Results}{75}
+\contentsline {subsubsection}{\numberline {6.8.1.1}Limits on Lepton Flavor Violating Couplings}{77}
+\contentsline {subsection}{\numberline {6.8.2}13 TeV Results}{79}
+\contentsline {chapter}{\chapternumberline {7}W+Jets Differential Cross Section Measurement}{83}
+\contentsline {section}{\numberline {7.1}Analysis Overview}{83}
+\contentsline {section}{\numberline {7.2}Backgrounds and Datasets}{83}
+\contentsline {subsection}{\numberline {7.2.1}Data}{83}
+\contentsline {subsection}{\numberline {7.2.2}Monte Carlo}{84}
+\contentsline {subsection}{\numberline {7.2.3}QCD Background}{85}
+\contentsline {section}{\numberline {7.3}Event Selection}{85}
+\contentsline {section}{\numberline {7.4}Data-Simulation Comparisons}{88}
+\contentsline {section}{\numberline {7.5}Detector Unfolding}{94}
+\contentsline {section}{\numberline {7.6}Systematic Uncertainties}{95}
+\contentsline {subsection}{\numberline {7.6.1}Theoretical Uncertainties}{96}
+\contentsline {subsection}{\numberline {7.6.2}Methodology}{96}
+\contentsline {section}{\numberline {7.7}Results}{98}
+\contentsline {chapter}{\chapternumberline {8}Conclusions}{102}
+\contentsline {section}{\numberline {8.1}Summary}{102}
+\contentsline {section}{\numberline {8.2}Future Outlook}{103}
+\contentsline {chapter}{Bibliography}{104}

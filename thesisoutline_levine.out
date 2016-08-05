@@ -1,0 +1,81 @@
+\BOOKMARK [1][-]{section*.1}{Abstract}{}% 1
+\BOOKMARK [1][-]{section*.2}{Acknowledgements}{}% 2
+\BOOKMARK [0][-]{section*.3}{List of Tables}{}% 3
+\BOOKMARK [0][-]{chapter.1}{Theoretical Motivation}{}% 4
+\BOOKMARK [1][-]{section.1.1}{The Standard Model}{chapter.1}% 5
+\BOOKMARK [2][-]{subsection.1.1.1}{Elementary Particles}{section.1.1}% 6
+\BOOKMARK [2][-]{subsection.1.1.2}{Elementary Forces}{section.1.1}% 7
+\BOOKMARK [2][-]{subsection.1.1.3}{The Higgs Boson}{section.1.1}% 8
+\BOOKMARK [1][-]{section.1.2}{Beyond the Standard Model}{chapter.1}% 9
+\BOOKMARK [1][-]{section.1.3}{Summary}{chapter.1}% 10
+\BOOKMARK [0][-]{chapter.2}{Collider Phenomenology}{}% 11
+\BOOKMARK [1][-]{section.2.1}{Kinematics Definitions}{chapter.2}% 12
+\BOOKMARK [1][-]{section.2.2}{Proton-Proton Collisions}{chapter.2}% 13
+\BOOKMARK [1][-]{section.2.3}{W Boson Production}{chapter.2}% 14
+\BOOKMARK [1][-]{section.2.4}{Higgs Boson Phenomenology}{chapter.2}% 15
+\BOOKMARK [2][-]{subsection.2.4.1}{LFV Higgs Phenomenology}{section.2.4}% 16
+\BOOKMARK [0][-]{chapter.3}{Experimental Design}{}% 17
+\BOOKMARK [1][-]{section.3.1}{LHC}{chapter.3}% 18
+\BOOKMARK [1][-]{section.3.2}{CMS}{chapter.3}% 19
+\BOOKMARK [2][-]{subsection.3.2.1}{Overview}{section.3.2}% 20
+\BOOKMARK [2][-]{subsection.3.2.2}{Tracker}{section.3.2}% 21
+\BOOKMARK [2][-]{subsection.3.2.3}{ECAL}{section.3.2}% 22
+\BOOKMARK [2][-]{subsection.3.2.4}{HCAL}{section.3.2}% 23
+\BOOKMARK [2][-]{subsection.3.2.5}{Muon System}{section.3.2}% 24
+\BOOKMARK [2][-]{subsection.3.2.6}{Trigger}{section.3.2}% 25
+\BOOKMARK [3][-]{subsubsection.3.2.6.1}{Level 1 Trigger}{subsection.3.2.6}% 26
+\BOOKMARK [3][-]{subsubsection.3.2.6.2}{High Level Trigger}{subsection.3.2.6}% 27
+\BOOKMARK [0][-]{chapter.4}{Event Simulation}{}% 28
+\BOOKMARK [1][-]{section.4.1}{Monte Carlo Event Generation}{chapter.4}% 29
+\BOOKMARK [2][-]{subsection.4.1.1}{Matrix Elements}{section.4.1}% 30
+\BOOKMARK [2][-]{subsection.4.1.2}{Hadronization}{section.4.1}% 31
+\BOOKMARK [2][-]{subsection.4.1.3}{Monte Carlo Generator Software}{section.4.1}% 32
+\BOOKMARK [1][-]{section.4.2}{Detector Simulation}{chapter.4}% 33
+\BOOKMARK [0][-]{chapter.5}{Event Reconstruction}{}% 34
+\BOOKMARK [1][-]{section.5.1}{Electrons}{chapter.5}% 35
+\BOOKMARK [1][-]{section.5.2}{Muons}{chapter.5}% 36
+\BOOKMARK [1][-]{section.5.3}{Hadrons}{chapter.5}% 37
+\BOOKMARK [2][-]{subsection.5.3.1}{Jets}{section.5.3}% 38
+\BOOKMARK [3][-]{subsubsection.5.3.1.1}{B-Jets}{subsection.5.3.1}% 39
+\BOOKMARK [2][-]{subsection.5.3.2}{Taus}{section.5.3}% 40
+\BOOKMARK [1][-]{section.5.4}{Missing Energy}{chapter.5}% 41
+\BOOKMARK [0][-]{chapter.6}{Lepton Flavor Violating Decays of the Higgs Boson}{}% 42
+\BOOKMARK [1][-]{section.6.1}{Analysis Overview}{chapter.6}% 43
+\BOOKMARK [1][-]{section.6.2}{Misidentified Leptons}{chapter.6}% 44
+\BOOKMARK [2][-]{subsection.6.2.1}{Misidentified Taus}{section.6.2}% 45
+\BOOKMARK [2][-]{subsection.6.2.2}{Misidentified Muons and Electrons}{section.6.2}% 46
+\BOOKMARK [1][-]{section.6.3}{8 TeV Backgrounds and Datasets}{chapter.6}% 47
+\BOOKMARK [2][-]{subsection.6.3.1}{Data}{section.6.3}% 48
+\BOOKMARK [2][-]{subsection.6.3.2}{LFV Higgs and SM Higgs}{section.6.3}% 49
+\BOOKMARK [2][-]{subsection.6.3.3}{Z to tau tau}{section.6.3}% 50
+\BOOKMARK [2][-]{subsection.6.3.4}{Additional Backgrounds}{section.6.3}% 51
+\BOOKMARK [1][-]{section.6.4}{13 TeV Backgrounds and Datasets}{chapter.6}% 52
+\BOOKMARK [1][-]{section.6.5}{Event Selection}{chapter.6}% 53
+\BOOKMARK [1][-]{section.6.6}{Systematic Uncertainties}{chapter.6}% 54
+\BOOKMARK [2][-]{subsection.6.6.1}{8 TeV}{section.6.6}% 55
+\BOOKMARK [3][-]{subsubsection.6.6.1.1}{Normalization Uncertainties}{subsection.6.6.1}% 56
+\BOOKMARK [3][-]{subsubsection.6.6.1.2}{Shape Uncertainties}{subsection.6.6.1}% 57
+\BOOKMARK [2][-]{subsection.6.6.2}{13 TeV}{section.6.6}% 58
+\BOOKMARK [1][-]{section.6.7}{Statistical Methods}{chapter.6}% 59
+\BOOKMARK [2][-]{subsection.6.7.1}{Maximum Likelihood Fit}{section.6.7}% 60
+\BOOKMARK [2][-]{subsection.6.7.2}{Maximum Likelihood Limits}{section.6.7}% 61
+\BOOKMARK [1][-]{section.6.8}{Results}{chapter.6}% 62
+\BOOKMARK [2][-]{subsection.6.8.1}{8 TeV Results}{section.6.8}% 63
+\BOOKMARK [3][-]{subsubsection.6.8.1.1}{Limits on Lepton Flavor Violating Couplings}{subsection.6.8.1}% 64
+\BOOKMARK [0][-]{chapter.7}{W+Jets Differential Cross Section Measurement}{}% 65
+\BOOKMARK [1][-]{section.7.1}{Analysis Overview}{chapter.7}% 66
+\BOOKMARK [1][-]{section.7.2}{Backgrounds and Datasets}{chapter.7}% 67
+\BOOKMARK [2][-]{subsection.7.2.1}{Data}{section.7.2}% 68
+\BOOKMARK [2][-]{subsection.7.2.2}{Monte Carlo}{section.7.2}% 69
+\BOOKMARK [2][-]{subsection.7.2.3}{QCD Background}{section.7.2}% 70
+\BOOKMARK [1][-]{section.7.3}{Event Selection}{chapter.7}% 71
+\BOOKMARK [1][-]{section.7.4}{Data-Simulation Comparisons}{chapter.7}% 72
+\BOOKMARK [1][-]{section.7.5}{Detector Unfolding}{chapter.7}% 73
+\BOOKMARK [1][-]{section.7.6}{Systematic Uncertainties}{chapter.7}% 74
+\BOOKMARK [2][-]{subsection.7.6.1}{Theoretical Uncertainties}{section.7.6}% 75
+\BOOKMARK [2][-]{subsection.7.6.2}{Methodology}{section.7.6}% 76
+\BOOKMARK [1][-]{section.7.7}{Results}{chapter.7}% 77
+\BOOKMARK [0][-]{chapter.8}{Conclusions}{}% 78
+\BOOKMARK [1][-]{section.8.1}{Summary}{chapter.8}% 79
+\BOOKMARK [1][-]{section.8.2}{Future Outlook}{chapter.8}% 80
+\BOOKMARK [0][-]{section*.96}{Bibliography}{}% 81

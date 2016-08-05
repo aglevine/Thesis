@@ -247,6 +247,7 @@
 \usepackage{multirow}
 \usepackage{mathtools}
 \usepackage{rotating}
+
 \DeclarePairedDelimiter{\abs}{\lvert}{\rvert}
 
 %\usepackage[sorting=none]{biblatex}
@@ -331,10 +332,11 @@ Placeholder for better acknowledgements section later. Thank parents, advisors, 
 
 \makeatletter
      \renewcommand*\l@figure{\@dottedtocline{1}{1em}{3.2em}}
+     \renewcommand*\l@table{\@dottedtocline{1}{1em}{3.2em}}
 \makeatother
  \listoffigures*  % if you have any figures
  \clearpage
- \listoftables*   % if you have any tables
+ \listoftables   % if you have any tables
 
 % Tell the memoir class to set up normal pagination, etc. for the main doc
 \mainmatter
@@ -347,17 +349,14 @@ Placeholder for better acknowledgements section later. Thank parents, advisors, 
 \qquad Our knowledge of particle interactions is summarized in a theory called the Standard Model. The theoretical framework of the Standard Model was developed over the course of the 20th century as more and more fundamental particles and forces were discovered and studied. The Standard Model is not without its flaws. Firstly, it contains many free parameters, such as the masses of the particles, that can only be determined from experiment. It also fails to include gravitational interactions, thus describing only three of the four fundamental forces. The ad hoc design of the Standard Model and the lack of grand unification provides a strong motivation for particle physicists to search for a more profound, comprehensive theory. The current state of particles physics takes a two pronged approach, with physicists making precision measurements of the Standard Model and searching for physics beyond the Standard Model. The goal is to measure the parameters of the Standard Model while searching for the theory's extension. This thesis contains both aspects. The W+jets production cross section measurement directly tests the Standard Model while the search for lepton flavor violating Higgs couplings tests hypotheses that extend the theory.
 
 \subsection{Elementary Particles}\label{elemparticles}
-\qquad The fundamental particles in the Standard Model are summarized in Figure \ref{fig:SMParticles} 
-
-%**professional figure***lll
-. The fundamental particles consist of fermions and bosons. The fermions are particles that have half integer spin, and the bosons have integer spin. Spin is the intrinsic quantized angular momentum of a particle. The bosons mediate the fundamental forces and provide mass. They will be discussed further in section \ref{elemforces} and section \ref{higgstheory}. The fermions consist of the quarks, leptons, and neutrinos. 
+\qquad The fundamental particles in the Standard Model consist of fermions and bosons and are summarized in Figure \ref{fig:SMParticles}. The fermions are particles that have half integer spin, and the bosons have integer spin. Spin is the intrinsic quantized angular momentum of a particle. The bosons mediate the fundamental forces and provide mass. They will be discussed further in section \ref{elemforces} and section \ref{higgstheory}. The fermions consist of the quarks, leptons, and neutrinos. 
 
 \qquad There are three generations of quarks, with two flavors in each generation. Each quark generation consists of a quark with +2/3 of an electron charge (+2/3e) and a quark with -1/3 of an electron charge (-1/3e). Quarks also have a property known as ``color." There are three possible colors for each quark: red, green, or blue. The concept of color is important for understanding the strong nuclear force, as discussed in section \ref{elemforces}. As shown in figure ~\ref{fig:SMParticles} the masses of the quarks vary significantly from one generation to the next.
 
 \qquad Free quarks have never been observed in nature. Only color neutral combinations of quarks have been observed. For example, a red, green, or blue quark can form a stable state with a corresponding antiquark, with an anticolor of antired, antigreen, or antiblue. This state is known as a meson. The baryons consists of three quarks, one of each color. The proton (uud), and the neutron (udd), are both baryons. Matter than is composed of quarks is called hadronic matter. At CMS, hadrons are often found in collimated streams of particles known as jets. 
 
 \begin{figure}[here]
-\includegraphics[width=0.9\textwidth]{StandardModel.pdf}
+\includegraphics[width=0.9\textwidth]{StandardModel.png}
 \caption{The fundamental particles of the Standard Model. Charges are expressed in units of electron charge.\cite{Agashe:2014kda} }
 \label{fig:SMParticles}
 \end{figure}
@@ -368,10 +367,10 @@ Placeholder for better acknowledgements section later. Thank parents, advisors, 
 \qquad There are three generations of leptons, each with a neutrino pair. The electron is extremely light and does not decay, but the muon and the tau are heavier and have lifetimes on the order of $10^{-6}s$ and $10^{-15}s$ respectively\cite{Agashe:2014kda}. The mechanisms for lepton decay will be discussed in section \ref{elemforces} . In the Standard Model, there is a conserved quantity known as the lepton number. The lepton number is defined for each lepton generation. Each lepton/neutrino pair in the generation has a generation lepton number of one and the corresponding antiparticle pair has a generation lepton number of -1. For example, and $e$ and an $\nu_{e}$ each will have an electron lepton number of 1, and the corresponding antiparticle pair will have an electron lepton number of -1. Figure~\ref{fig:TauDecay} gives an example of a typical Standard Model decay that conserves lepton number. In the initial state only the tau exists and the tau lepton number of the system is one while the muon and electron lepton numbers of the system are 0. The decay produces a tau neutrino which also has a tau lepton number of one along with an electron and an antielectron neutrino, which have electron lepton numbers of one and negative one, respectively. So the final state also has a tau lepton number of one. Also note that lepton number and flavor are conserved at each vertex. In the lepton flavor violating couplings studied in this thesis, a muon and a tau share a vertex, which is not allowed in the Standard Model. 
 %*** professional feynman diagrams ***
 
-Figure \ref{fig:TauDecay} displays an example of a Feynman diagram, which are pictorial representations of particle interactions. These diagrams are actually very powerful tools in high energy physics because they used to calculate the matrix elements of the interaction. Matrix elements are used to compute the cross sections, which, as described in section \ref{elemforces}, are a measurement of the likelihood of the process occurring. Matrix elements can be thought of as an entry in the matrix $V_{if}$, which relates a particle in the initial state $i$ to the final state $f$ via a potential $V$. The square of the matrix element will define the probability of the transfer occurring.
+Figure \ref{fig:TauDecay} displays an example of a Feynman diagram, which are pictorial representations of particle interactions. These diagrams are very powerful tools in high energy physics because they used to calculate the matrix elements of the interaction. Matrix elements are used to compute the cross sections, which, as described in section \ref{elemforces}, are a measurement of the likelihood of the process occurring. Matrix elements can be thought of as an entry in the matrix $V_{if}$, which relates a particle in the initial state $i$ to the final state $f$ via a potential $V$. The square of the matrix element will define the probability of the transfer occurring.
 
 \begin{figure}[here]
-\includegraphics[width=0.4\textwidth]{TauDecay.pdf}
+\includegraphics[width=0.4\textwidth]{TauDecay.png}
 \caption{Decay of the tau lepton, as mediated by the W boson. The W boson is discussed further in section \ref{elemforces}.}
 \label{fig:TauDecay}
 \end{figure}
@@ -397,20 +396,21 @@ Figure \ref{fig:TauDecay} displays an example of a Feynman diagram, which are pi
 \qquad The theory of the electromagnetic force is known as quantum electrodynamics (QED). The electromagnetic force is mediated by the photon, which is a spin 0 massless particle and only interacts with particles that carry charge. Two examples of electromagnetic interactions are show in figure~\ref{fig:eeScattering}.
 
 \begin{figure}[here]
-\includegraphics[width=0.4\textwidth]{eeScattering.jpg}
+\includegraphics[width=0.4\textwidth]{sChannelEE.png}
+\includegraphics[height=0.4\textwidth]{tChannelEE.png}
 \caption{A photon mediating scattering between two electrons}
 \label{fig:eeScattering}
 \end{figure}
 
 
-\qquad The weak nuclear force is mediated by the W and Z bosons. The Z boson is a massive neutral spin 1 particle. It decays into pairs of quarks, leptons, or neutrinos. The W boson is a massive charged spin 1 particle. It has the special property of changing flavors of quarks and leptons. For example, the W boson can mediate the decay of a tau to an electron. This is illustrated in figure ~\ref{fig:TauDecay}. Note that lepton number is still conserved in these types of interactions. The W boson can change flavors of leptons in accordance with the Cabbibo-Kobayashi-Maskawa (CKM) matrix\cite{Agashe:2014kda} shown in equation\ref{eq:ckm}. The CKM matrix is a unitary matrix whose elements $|V_{ij}|^{2}$ give a measure of the likelihood of a W boson mediating the transition from quark $i$ to quark $j$. As shown in equation \ref{eq:ckm}, these transitions are favored for quarks in the same generation, but are not entirely forbidden for quarks in different generations. The weak nuclear force only involves ``left handed" doublets of quarks and neutrinos. The concept of ``handedness" is defined by helicity. Right handed particles are those with parallel spin and momentum vectors, and left handed particles have anti parallel spin and momentum vectors. Only left handed particles participate in the weak interaction.
+\qquad The weak nuclear force is mediated by the W and Z bosons. The Z boson is a massive neutral spin 1 particle. It decays into pairs of quarks, leptons, or neutrinos. The W boson is a massive charged spin 1 particle. It has the special property of changing flavors of quarks and leptons. For example, the W boson can mediate the decay of a tau to an electron. This is illustrated in figure ~\ref{fig:TauDecay}. Note that lepton number is still conserved in these types of interactions. The W boson can change flavors of quarks in accordance with the Cabbibo-Kobayashi-Maskawa (CKM) matrix\cite{Agashe:2014kda} shown in equation \ref{eq:ckm}. The CKM matrix is a unitary matrix whose elements $|V_{ij}|^{2}$ give a measure of the likelihood of a W boson mediating the transition from quark $i$ to quark $j$. As shown in equation \ref{eq:ckm}, these transitions are favored for quarks in the same generation, but are not entirely forbidden for quarks in different generations. The W boson only interacts with ``left handed" doublets of quarks and neutrinos. The concept of ``handedness" is defined by helicity. Right handed particles are those with parallel spin and momentum vectors, and left handed particles have anti parallel spin and momentum vectors. Only left handed particles participate in the weak interaction.
 
 \begin{equation}
 \label{eq:ckm}
 \left| \begin{array}{ccc} V_{ud} & V_{us} & V_{ub} \\ V_{cd} & V_{cs} & V_{cb} \\ V_{td} & V_{ts} & V_{tb} \end{array} \right| = \left| \begin{array}{ccc} 0.97 & 0.23 & 0.004 \\ 0.23 & 0.99 & 0.04 \\ 0.009 & 0.04 & 0.999 \end{array} \right|
 \end{equation}
 
-\qquad The theory of the strong nuclear force is known as quantum chromodynamics (QCD). The strong nuclear force is mediated by the gluon. Each gluon is a color doublet, with a corresponding color and anticolor. For example, a gluon could be red and antigreen, or blue and antired, et cetera. Gluons only interact with particles that share one of their color charges. Therefore, the quarks are the only particles involved in strong interactions. Virtual gluons can self interact which increases the strength of the color charge surrounding a quark. At small distance scales the virtual gluon cloud is penetrated and the effective color charge decreases. This effect is known as asymptotic freedom. \cite{Halzen:1984mc} At larger distances, as a quark antiquark pair move apart from each other, the increase in potential energy allows new quark antiquark pairs to be created from the vacuum. The new quarks will be bound to the initial quarks by the strong nuclear force, which is why free quarks have never been observed. 
+\qquad The theory of the strong nuclear force is known as quantum chromodynamics (QCD). The strong nuclear force is mediated by the gluon. Each gluon is a color doublet, with a corresponding color and anticolor. For example, a gluon could be red and antigreen, or blue and antired, et cetera. Gluons only interact with particles that share one of their color charges. Therefore, the quarks and gluons are the only particles involved in strong interactions. The self interactions of virtual gluons can increase the strength of the color charge surrounding a quark. At small distance scales the virtual gluon cloud is penetrated and the effective color charge decreases. This effect is known as asymptotic freedom. \cite{Halzen:1984mc} At larger distances, as a quark antiquark pair move apart from each other, the increase in potential energy allows new quark antiquark pairs to be created from the vacuum. The new quarks will be bound to the initial quarks by the strong nuclear force, which is why free quarks have never been observed. 
 
 \qquad The coupling constant for QCD, $\alpha_{s}$, is energy dependent and scales as $\alpha_{s}(Q^{2}) \propto 1/ln(\frac{Q^{2}}{\Lambda_{QCD}^{2}})$. Here $Q^{2}$ represents the momentum transfer of the process and $\Lambda_{QCD}$ is a constant, referred to as the QCD scale, with a measured value of 214 MeV\cite{Agashe:2014kda}. At the TeV scale collision energies of the Large Hadron Collider, $\alpha_{s}$ is small and interactions are modelled using perturbative QCD (pQCD). Leading order terms that depend on $\alpha_{s}$ and next to leading order terms that depend on $\alpha_{s}^{2}$ dominant the computation and higher order terms can be neglected.
 
@@ -463,19 +463,19 @@ predict a Higgs boson with couplings that violate lepton flavor conservation.
 \section{Kinematics Definitions}\label{kindef}
 \qquad The subsequent sections in the chapter require knowledge of relevant kinematic variables, which will be defined here. The protons are accelerated up to almost the speed of light, so a relativistic treatment must be used to study the collisions.   In special relativity, the energy of the system, $E$, is defined as $E^{2} = m^{2}+p^{2}$. Here the speed of light, $c$, is set to 1, in accordance with natural units. The energy momentum 4-vector is defined as $ \hat{P} = (E, \vec{p})$, and the dot product is defined such that $\vec{P} \cdot \vec{P} = E^{2}-p^{2}$, which is the Lorentz invariant mass of the particle. The square of the sum of four momentum vectors gives the invariant mass of a system of particles. Lorentz invariant quantities are useful because they are independent of the frame of reference. 
 
-\qquad For two colliding particles, $p_{1}$ and $p_{2}$ we can define a quantity: $s = (p_{1}^2+p_{2}^2)$, which is the Lorentz invariant square of the total center of mass energy of the event. This variables is used to express the energy of particle collisions.
+\qquad For two colliding particles, $p_{1}$ and $p_{2}$ we can define a quantity: $s = (p_{1}^2+p_{2}^2)$, which is the Lorentz invariant square of the total center of mass energy of the event. This variable is used to express the energy of particle collisions.
 
 \qquad The rapidity $y$ of a particle is defined as: $y = \frac{1}{2}ln(\frac{E+p_{z}}{E-p_{z}})$, where $p_{z}$ is the component of the momentum parallel to the beam axis. The rapidity gap between two particles, $\Delta y_{12}$, is Lorentz invariant. The pseudorapidity $\eta$ is defined as : $\eta = \frac{1}{2}ln(\frac{p+p_{z}}{p-p_{z}})$. This can be expressed in terms of polar angle (section \ref{cms}) as $\eta = ln(cot(\theta /2))$. The pseudorapidity is equal to the rapidity if the rest mass is 0. At high energy collisions at the LHC, $E \gg m$ and $y \approx \eta$.
 
 \section{Proton-Proton Collisions}\label{ppcoll}
-\qquad The Large Hadron Collider (LHC), which will be discussed further in section \ref{lhc}, is a proton-proton collider. The proton, as mentioned in section \ref{elemparticles}, is considered to be the bound state of three quarks: two up quarks and a down quark. However, proton-proton collisions cannot simply be thought of as six up and down quarks interacting. Inside the proton, massive amounts of quark and antiquark pairs, known as ``sea quarks", pop in and out of existence, along with the gluons that bind them together. At the high energies and short distance scales probed by the LHC, the valence quarks play essentially no role in the outcome of these collisions. In fact, the gluons carry about 50$\%$ of the proton's momentum\cite{Halzen:1984mc}, and at high momentum transfer they play the dominant role in LHC collisions, as shown in Figure \ref{fig:cteq6PDF} .So when two protons collide at the LHC, it is effectively a collision between two clouds of gluons and quarks.These collisions can be studied via the parton model. This model defines the protons as collections of point particles (partons) carrying a fraction $x$ of the hadron's momentum. The distribution of $x$ depends on the momentum scale $Q^{2}$ that is probed. 
+\qquad The Large Hadron Collider (LHC), which will be discussed further in section \ref{lhc}, is a proton-proton collider. The proton, as mentioned in section \ref{elemparticles}, is considered to be the bound state of three quarks: two up quarks and a down quark. However, proton-proton collisions cannot simply be thought of as six up and down quarks interacting. Inside the proton, massive amounts of quark and antiquark pairs, known as ``sea quarks", pop in and out of existence, along with the gluons that bind them together. At the high energies and short distance scales probed by the LHC, the valence quarks play essentially no role in the outcome of these collisions. In fact, the gluons carry about 50$\%$ of the proton's momentum\cite{Halzen:1984mc}, and at high momentum transfer they play the dominant role in LHC collisions, as shown in Figure \ref{fig:cteq6PDF}. So when two protons collide at the LHC, it is effectively a collision between two clouds of gluons and quarks. These collisions can be studied via the parton model. This model defines the protons as collections of point particles (partons) carrying a fraction $x$ of the hadron's momentum. The distribution of $x$ depends on the momentum scale $Q^{2}$ that is probed. 
 
 \qquad When the two proton beams in the LHC intersect, the partons from one beam will interact with the partons from the other beam. In each collision there will be multiple high momentum transfer, ``hard" scattering interactions between different pairs of protons. As discussed in section \ref{trigger}, the probability of producing an interesting physics event with high energy leptons or hadrons is low. Therefore, each time a physics event is stored for detailed analysis, in addition to the high energy, hard scattering process of interest, there will be additional hard scattering processes in the event. These additional hard scattering interactions are referred to as ``pileup". The additional particles produced threaten to cloud our knowledge of the hard scattering process at the primary vertex. Methods of vetoing and subtracting pileup contributions to the event are discussed in sections \ref{electrons}, \ref{muons}, and \ref{hadrons}. The ``underlying event" includes any particles in the event not due to the hard scattering process of interest. In addition to pileup, this includes intial and final state radiation from the beam, as well as lower energy ``soft" scattering interactions between protons. 
 
 \qquad As quarks and gluons move apart after the collision, the increase in potential energy from the strong interaction produces a stream of collimated hadrons, known as a jet. Jet formation is shown in Figure \ref{fig:JetFormation}. First, energetic quarks radiate gluons, which split into quarks. These quarks may still be energetic enough to radiate gluons, and the process continues. This is known as parton showering. Detailed simulations of this process are described in section \ref{partonshower}. QCD confinement requires that the quarks and gluons are naturally grouped into colorless clusters. These clusters then separate into groups of hadrons after the conclusion of parton showering, which is known as hadronization. The identification of jets is discussed in section \ref{jets}. 
 
 \begin{figure}[here]
-\includegraphics[width=0.9\textwidth]{jetformation.jpg}
+\includegraphics[width=0.9\textwidth]{jetformation.png}
 \caption{Diagram of jet formation occurring after a hard scatter event. First quarks and gluons are radiated in parton showering. Then they combine into colorless cluster before condensing into the hadrons that make up jets.}
 \label{fig:JetFormation}
 \end{figure}
@@ -486,8 +486,8 @@ predict a Higgs boson with couplings that violate lepton flavor conservation.
 \qquad W bosons are produced by deep inelastic scattering between partons, as show in Figure \ref{fig:WFormation}. The cross section of this process depends on the parton distribution functions. Examples of CTEQ6 parton distribution functions are show in Figure \ref{fig:cteq6PDF}\cite{Pumplin:2002vw}. These parton distribution functions are used in {\sc Pythia}, as discussed in section \ref{partonshower}.
 
 \begin{figure}[here]
-\includegraphics[width=0.9\textwidth]{WFormation.jpg}
-\caption{Diagram of W Boson production. The function $F_{1}$ and $F_{2}$ are the parton distribution functions of the incoming protons.}
+\includegraphics[width=0.9\textwidth]{WFormation.png}
+\caption{Diagram of W boson production. The function $F_{2}$ is the structure function of the incoming protons. Constituents of the proton carry momentum fractions $x_{1}$ and $x_{2}$, and the structure of the proton is probed at momentum scale $Q^{2}$.}
 \label{fig:WFormation}
 \end{figure}
 
@@ -511,12 +511,12 @@ predict a Higgs boson with couplings that violate lepton flavor conservation.
 \label{fig:WOneJet}
 \end{figure}
 
-Previous results from CMS measured at 7 TeV center of mass collisions\cite{Khachatryan:2014uva} are shown in Figure \ref{fig:wjets7TeV}. 
+Previous results from CMS measured at 8 TeV center of mass collisions\cite{Khachatryan:2014uva} are shown in Figure \ref{fig:wjets8TeV}. 
 
 \begin{figure}[here]
-\includegraphics[width=0.9\textwidth]{wjets7TeV.jpg}
-\caption{W+jets production at CMS in 2011. Cross sections are show in units of picobarns. The left plot shows exclusive jet binned (= NJets) results and the right plot shows inclusive jet binned ($\geq$ NJets) results. Comparisons between theoretical predictions and data are shown in the ratio plots. Agreement is within statistical uncertainty. }
-\label{fig:wjets7TeV}
+\includegraphics[width=0.9\textwidth]{wjets8TeV.png}
+\caption{W+jets production at CMS in 2012. Cross sections are show in units of picobarns. The left plot shows exclusive jet binned (= NJets) results and the right plot shows inclusive jet binned ($\geq$ NJets) results. Comparisons between theoretical predictions and data are shown in the ratio plots. Agreement is within statistical uncertainty. }
+\label{fig:wjets8TeV}
 \end{figure}
 
 
@@ -605,7 +605,7 @@ It is shown in Figure \ref{fig:vbfHiggs}. The two quarks that seed the jets are 
 
 \begin{figure}[here]
 \includegraphics[width=0.9\textwidth]{higgsmass.jpg}
-\caption{Results of Higgs mass measurements. The combined result is approximately 125 GeV \cite{Aad:2015zhl}}
+\caption{Results of Higgs mass measurements. The combined result is approximately 125 GeV. \cite{Aad:2015zhl}}
 \label{fig:higgsmass}
 \end{figure}
 
@@ -747,7 +747,7 @@ In equation \ref{eq:ecal}, there are three experimentally determined terms. $A$ 
 
 
 \subsection{Muon System}\label{muonsys}
-\qquad The muon system is located outside of CMS's magnet and located inside an iron yoke that returns the flux of the magnet, resulting in a magnetic field of 2T. The yoke also absorbs hadrons, thus increasing the efficiency of the muon system. In order to reach the outer muon stations, hadrons that have ``punched through" the HCAL must then travel through an additional 10 interaction lengths of iron. This means that there is only a .004\% chance that these hadrons will reach the outer muon station without scattering inelastically and distinguishing themselves from muons. The muon detectors are gas based in order to cover a large surface area. Muons are detected when they ionize the gas, resulting in showers of charge particles that induce an electrical current on high voltage electrodes. The muon system is located beyond 10 nuclear interaction lengths to greatly reduce hadronic punchthrough. Muon hits and track segments are reconstructed at an efficiency of 95-98\% \cite{Chatrchyan:2013sba}.
+\qquad The muon system is located outside of CMS's magnet and located inside an iron yoke that returns the flux of the magnet, resulting in a magnetic field of 2T. The yoke also absorbs hadrons, thus increasing the efficiency of the muon system. In order to reach the outer muon stations, hadrons that have ``punched through" the HCAL must then travel through an additional 10 interaction lengths of iron. This means that there is only a .004\% chance that these hadrons will reach the outer muon station without scattering inelastically and distinguishing themselves from muons. The muon detectors are gas based in order to cover a large surface area. Muons are detected when they ionize the gas, resulting in showers of charged particles that induce an electrical current on high voltage electrodes. The muon system is located beyond 10 nuclear interaction lengths to greatly reduce hadronic punchthrough. Muon hits and track segments are reconstructed at an efficiency of 95-98\% \cite{Chatrchyan:2013sba}.
 
 \qquad In the barrel ($|\eta| < 1.2$), drift tubes (DT) are used to track muons. The drift tubes are located in four stations, which are cylinders surrounding the beam line. The three inner chambers have 60 drift tubes and the outer chamber has 70 drift tubes. Muons passing through the drift tubes will ionize the gas mixture of 85\% Ar, 15\% CO$^{2}$. The maximum path of drift in the chamber is 2.1 cm, corresponding to a maximum drift time of 380 ns. The spatial resolution in the DTs is approximately 1 mm\cite{Chatrchyan:2013sba}. The anode wires are kept at a positive potential of 3600V while the electrode strips are kept at a negative potential of -1200V. Electrons will naturally flow to the higher potential, due to their negative charge. Any ionized electrons will flow away from the electrode to the anode wire, inducing a measurable current. A schematic of a drift tube is show in figure \ref{fig:drift_tube}
 
@@ -881,13 +881,13 @@ $<p^{2}_{T}> = \kappa / \pi$ and the Lund fragmentation function\cite{Agashe:201
 
 
 \section{Detector Simulation}\label{detectorsim}
-\qquad After the simulation of the physical process, complete with parton showering and hadronization, it is necessary to model the interactions of the finale state particles with the CMS detector. This is done using GEANT4\cite{Allison:2006ve}. First, an accurate model of the CMS detector must be built in GEANT4, defining both the geometry and material components of the detector. The simulation is then carried out in two steps: tracking and detector response. The tracking step simulates the passage of particles through matter, modelling the energy lost based on the particles and the detector material. The next step is to model the detector response. This will simulate the signal that each event will create. After the the GEANT4 simulation has completed, the output is converted to the same software format as the actual data and then reconstructed with the same algorithms discussed in section \ref{pflow}. The fully simulated events will retain all of the original Monte Carlo scattering information, so we can now understand what a particular physical process will look like from the point of view of the CMS detector. This allows us to study and improve the reconstruction of proton-proton collisions at CMS.
+\qquad After the simulation of the physical process, complete with parton showering and hadronization, the interactions of the final state particles with the CMS detector must be modelled. This is done using GEANT4\cite{Allison:2006ve}. First, an accurate model of the CMS detector must be built in GEANT4, defining both the geometry and material components of the detector. The simulation is then carried out in two steps: tracking and detector response. The tracking step simulates the passage of particles through matter, modelling the energy lost based on the particles and the detector material. The next step is to model the detector response. This will simulate the signal that each event will create. After the the GEANT4 simulation has completed, the output is converted to the same software format as the actual data and then reconstructed with the same algorithms discussed in section \ref{pflow}. The fully simulated events will retain all of the original Monte Carlo scattering information, so we can now understand what a particular physical process will look like from the point of view of the CMS detector. This allows us to study and improve the reconstruction of proton-proton collisions at CMS.
 
 \chapter{Event Reconstruction}\label{eventreco}
 
 \qquad Studying physical processes requires reconstructing the particles in each event from the detector response. This is accomplished via the particle flow algorithm, which is discussed in section \ref{pflow}. Specific applications to physics objects are discussed in subsequent sections of this chapter. In particular, the important objects for $H \rightarrow \mu\tau$ are muons, electrons, hadronic tau deposits, jets, and missing energy. The important objects for W+Jets are muons, jets, and missing energy.
 \section{Particle Flow Overview}\label{pflow}
-\qquad As discussed in section \ref{cms}, the CMS detector is divided into many layers, each of which is responsible for measuring a unique part of an event. The detector response from each layer can be thought of as a building block for an event. Particle flow uses a series of algorithms to link these blocks to reconstruct the particles in the event. More specifically, particle flow algorithms link tracks in the tracker to energy deposits in the calorimeters or tracks in the muon system. Energy deposits that have no tracks associated with them are assumed to be due to neutral particles. Ultimately, effective tracking algorithms are necessary before most particles can be identified.
+\qquad As discussed in section \ref{cms}, the CMS detector is divided into many layers, each of which is responsible for measuring a unique part of an event. The detector response from each layer can be thought of as a building block for an event. Particle flow uses a series of algorithms to link these blocks to reconstruct the particles in the event. More specifically, particle flow algorithms link tracks in the tracker to energy deposits in the calorimeters or tracks in the muon system. Energy deposits that have no tracks associated with them are assumed to be due to neutral particles. Effective tracking algorithms are necessary before most particles can be identified.
 
 \qquad Tracking algorithms build up the full tracks iteratively. Track construction begins by identifying hits in the pixel layer. There must be hits in at least three pixel layers with an energy of at least 200 MeV ~\cite{Chatrchyan:2014fea} These collections of hits are used to seed a track. The track is then propagated to subsequent layers of the tracker by a Kalman Filter technique ~\cite{Fruhwirth:1987fm}. A $\chi^2$ fit is then used to identify the silicon strip hits that best correspond to the pixel triplets. All hits in the track are then removed from the list of hits to consider, and the algorithm is repeated for subsequent collections of pixel triplets and silicon strip deposits. This is shown in figure ~\ref{fig:iteratetrack}.
 
@@ -907,11 +907,11 @@ $<p^{2}_{T}> = \kappa / \pi$ and the Lund fragmentation function\cite{Agashe:201
 
 \qquad Electrons are identified by associating tracks found in the ECAL to objects known as ``superclusters." As electrons interact with the tracker, they will lose kinetic energy in the form of radiated photons. This is known as bremsstrahlung radiation ~\cite{griffiths1999introduction}. These radiated photons are not affected by the magnetic field of CMS. As a result, the electron energy will be spread out in $(\eta,\phi)$ in the ECAL because the radiated photons are unaffected by the magnetic field. 
 
-\qquad Tracks from the standard iterative tracking procedure (section \ref{pflow} are used as electron candidates. Their $p_{T}$ is required to be greater than 2 GeV. The electrons may not interact substantially with the tracker, so if the track is propagated to the ECAL (section \ref{ecal}) and if its $p_{T}$ matches the ECAL cluster deposit, then the track is pre-identified as an electron. Otherwise the track is fit with a Gaussian-sum filter (GSF) to account for the non-Gaussian energy loss~\cite{Adam:815410} in the tracker. A boosted decision tree ~\cite{Hocker:2007ht} is then used to select the final GSF electron track candidates.  
+\qquad Tracks from the standard iterative tracking procedure (section \ref{pflow} are used as electron candidates. Their $p_{T}$ is required to be greater than 2 GeV. The electrons may not interact substantially with the tracker, so if the track is propagated to the ECAL (section \ref{ecal}) and if its $p_{T}$ matches the ECAL cluster deposit, then the track is pre-identified as an electron. Otherwise the track is fit with a Gaussian-sum filter (GSF) to account for the non-Gaussian energy loss~\cite{Adam:815410} in the tracker. A boosted decision tree\cite{Hocker:2007ht} is then used to select the final GSF electron track candidates.  
 
 \qquad Photons are neutral particles and will therefore not leave any tracks in the tracker. Bremsstrahlung photons are reconstructed by examining tangents to the tracks at each tracker layer, where the bremsstrahlung radiation may have occurred as the electrons passed through the layer. These tangent tracks are extrapolated to the ECAL. If any of the extrapolated bremsstrahlung photon tracks are associated with clusters in the ECAL then those ECAL clusters are considered part of the electron supercluster. A similar procedure is used to add clusters associated with bremsstrahlung photon $e^{+}e^{-}$ pair production. Tracks associated with the supercluster have a high probability of being associated with jets or other particles. A more sophisticated method is needed to properly associate electron tracks with the supercluster.
 
-\qquad The GSF electron tracks are matched to an ECAL supercluster of at least 10 GeV. No more than 10$\%$ of the ECAL energy should be found in a topologically linked section of the HCAL. A boosted decision tree ~\cite{Hocker:2007ht} takes as inputs the ECAL energy, HCAL energy, GSF track quality, among other parameters, and is trained to identify electrons. If there is no associated GSF track the particle flow candidate is defined as a photon. The reconstruction efficiency for electrons is about 90$\%$ for $p_{T} > 20$ GeV. ~\cite{Khachatryan:2015hwa}
+\qquad The GSF electron tracks are matched to an ECAL supercluster of at least 10 GeV. No more than 10$\%$ of the ECAL energy should be found in a topologically linked section of the HCAL. A boosted decision tree\cite{Hocker:2007ht} takes as inputs the ECAL energy, HCAL energy, GSF track quality, among other parameters, and is trained to identify electrons. If there is no associated GSF track the particle flow candidate is defined as a photon. The reconstruction efficiency for electrons is about 90$\%$ for $p_{T} > 20$ GeV\cite{Khachatryan:2015hwa}.
 
 \qquad In the 2012 analyses at $\sqrt{s}$ = 8 TeV, a cut based ID is used \cite{Khachatryan:2015hwa}. The cuts used differ between the calorimeter barrel ($|\eta| < 1.479$) and the endcap ($1.479 < |\eta| < 2.5$). In the barrel, the extension of the shower in the $\eta$ direction ($\sigma_{\eta\eta}$) is required to be less than 0.01. The ratio of the energy deposits ($H/E$) between the HCAL (section \ref{hcal}) and the ECAL (section \ref{ecal}) must be less than 0.12.    The distances from the vertex, $d_{0}$ and $d_{Z}$ (section \ref{cms}) must be less than 0.02 cm and 0.2 cm respectively. The supercluster energy $E_{SC}$ and the track momentum at the closest point to the vertex ($p$) are also used as discriminators, with the requirement that $1/E_{SC} - 1/p < 0.05$. In the endcap the $\sigma_{\eta\eta}$ cut is loosened to 0.03 and the $H/E$ cut is tightened to 0.10.
 
@@ -1038,13 +1038,13 @@ $\ell^{\mp}_{2}$(non-isolated )  &  $\ell^{\pm}_{2}$(non-isolated)             \
 \begin{figure*}[hbtp]\centering
 \includegraphics[width=0.48\textwidth]{tightOldIso_looseOldIso_tPt_fakeRate_8TeV.png}
 \includegraphics[width=0.48\textwidth]{tightOldIso_looseOldIso_tEta_fakeRate_8TeV.png}
-\caption{Distributions of $f_{tau_{h}}$ as a function of $ p_{T}^{\tau}$ (left) and $\eta^{\tau}$ (right) in $\sqrt{s}$ = 8 TeV.}
+\caption{Distributions of $f_{\tau_{h}}$ as a function of $ p_{T}^{\tau}$ (left) and $\eta^{\tau}$ (right) in $\sqrt{s}$ = 8 TeV.}
 \label{fig:taufakerate8TeV}\end{figure*}
 
 \begin{figure*}[hbtp]\centering
 \includegraphics[width=0.48\textwidth]{tightOldIso_looseOldIso_tPt_fakeRate_13TeV.png}
 \includegraphics[width=0.48\textwidth]{tightOldIso_looseOldIso_tEta_fakeRate_13TeV.png}
-\caption{Distributions of $f_{tau_{h}}$ as a function of $ p_{T}^{\tau}$ (left) and $\eta^{\tau}$ (right) in $\sqrt{s}$ = 13 TeV.}
+\caption{Distributions of $f_{\tau_{h}}$ as a function of $ p_{T}^{\tau}$ (left) and $\eta^{\tau}$ (right) in $\sqrt{s}$ = 13 TeV.}
 \label{fig:taufakerate13TeV}\end{figure*}
 
 
@@ -1419,7 +1419,7 @@ Luminosity                                             &              2.7\%     
 \qquad We then define the likelihood $L$ as $L =  \prod P(n_{i}|\mu_{i})$. The goal of the fit is to determine the $\mu_{i}$ that maximizes the likelihood. This procedure is complicated by the addition of the systematic uncertainties, which are treated as nuisance parameters. For example, the luminosity uncertainty\cite{CMS:2011aa} introduces a  2.3\% uncertainty. To account for this, each term in the likelihood expression is multiplied by a log-normal distribution. The log-normal distribution is used instead of the Gaussian distribution to prevent the parameter from becoming negative. 
 The lognormal distribution is defined: $N(\mu,\sigma) = \frac{1}{x\sigma \sqrt{2\pi}}e^{-\frac{(\log x - \mu)^{2}}{2\sigma^{2}}}$. 
 Shape uncertainties, like the jet energy scale and tau energy scale systematics, are represented by Gaussian distributions. For the $j^{th}$ sample in the $i^{th}$ bin we can write: $\epsilon_{ji} = \epsilon_{ji}^{0} + f \frac{\epsilon_{ji}^{+} - \epsilon_{ji}^{-}}{2}$. Here, $\epsilon_{ji}^{0}$ is the efficiency before the shift, $\epsilon_{ji}^{+}$ is the efficiency after the scale shift up, and $\epsilon_{ji}^{-}$ is the efficiency after the scale shift down. 
-The morphing parameter $f$ has a Gaussian distribution. We can interpolate quadratically for $|f|<1$ and write $\epsilon_{ji} = \frac{f (f-1)}{2} \epsilon_{ji}^{-} - (f - 1)(f + 1)\epsilon_{ji}^{0}+\frac{f(f+1}{2}\epsilon_{ji}^{+}$ This term is then added as an additional factor in the maximum likelihood formula. 
+The morphing parameter $f$ has a Gaussian distribution. We can interpolate quadratically for $|f|<1$ and write $\epsilon_{ji} = \frac{f (f-1)}{2} \epsilon_{ji}^{-} - (f - 1)(f + 1)\epsilon_{ji}^{0}+\frac{f(f+1}{2}\epsilon_{ji}^{+}$. This term is then added as an additional factor in the maximum likelihood formula. 
 
 \qquad After the maximum likelihood fit is applied to the backgrounds and the signal, the histograms considered to be ``postfit." Postfit histograms are shown in Figure \ref{fig:Mcol_Postfit}. 
 
@@ -1428,8 +1428,8 @@ The morphing parameter $f$ has a Gaussian distribution. We can interpolate quadr
 
 \qquad After computing the expected LFV signal branching ratios, the next step is to determine the statistical significance of the result. The profile likelihood $\lambda(\mu)$ is defined as  $\lambda(\mu) = \frac{L(\mu,\hat{\hat{\theta)}}}{L(\hat{\mu},\hat{\theta})}$ where $\mu$ is the hypothesized signal strength defined by $\mu=0$ as the background hypothesis and $\mu=1$ the signal hypothesis.~\cite{Cowan:2010js} 
 The nuisance parameters are represented by $\theta$. The denominator is the maximum value of the likelihood function, where $\hat{\mu}$ and $\hat{\theta}$ take their values that maximize the likelihood. The numerator is a likelihood as a function of $\mu$, where $\hat{\hat{\theta}}$ maximizes the likelihood for a given $\mu$. The profile likelihood can range between 0 and 1. 
-We define our test statistic as $t_{\mu} = -2\ln\lambda\mu$. The probability distribution of this test statistic is given by $t_{\mu} = \frac{\mu-\hat{\mu}}{\sigma^2} + \mathcal{O}(\frac{1}{\sqrt{N}})$.~\cite{wald1943tests} 
-Here $\sigma$ is related to the variance of all the nuisance parameters. We can make the asymptotic approximation that the second term goes to zero as $N \rightarrow \infty$. This is known as the asymptotic approximation~\cite{Cowan:2010js}.
+We define our test statistic as $t_{\mu} = -2\ln\lambda(\mu)$. The probability distribution of this test statistic is given by $t_{\mu} = \frac{\mu-\hat{\mu}}{\sigma^2} + \mathcal{O}(\frac{1}{\sqrt{N}})$.~\cite{wald1943tests} 
+Here $\sigma$ is related to the variance of all the nuisance parameters. We can make the approximation that the second term goes to zero as $N \rightarrow \infty$. This is known as the asymptotic approximation~\cite{Cowan:2010js}.
 
 \qquad Note that the test statistic is zero for total agreement between the hypothesis and the data and decreases as the data differs more and more from the hypothesis. The probability to observe a given hypothesis $\mu$ is defined by $p_{\mu} = \int_{\mu_{obs}}^{\infty} - 2 ln \lambda(\mu)$. The p-value is defined as $p_{\mu=0}$ and is a measure of the probability to exclude the background hypothesis. If $p<\alpha$ then we can consider the background hypothesis to be excluded. In high energy physics we define $\alpha$ as $2.87 \times 10^{-7}$, corresponding to a 0.0000287 \% chance that the measurement was due to the background only hypothesis. It is customary to express the in terms of standard deviations from the mean, assuming a Gaussian probability distribution function (PDF). For a p-value of $2.87 \times 10^{-7}$ the significance is 5$\sigma$. 
 
@@ -1543,7 +1543,7 @@ Fig.~\ref{fig:limits_summary}. The combined categories give a best fit of $B(H \
 \end{table}
 \begin{figure*}[hbtp]\centering
 \includegraphics[width=0.48\textwidth]{/home/aaron/root/hlfv/NewMETLimits.pdf}
- \caption{95\% CL Upper limits by category for the LFV $H \rightarrow \mu \tau$  decays.}
+ \caption{95\% CL Upper limits by category for the LFV $H \rightarrow \mu \tau$ decays at $\sqrt{s}$ = 8 TeV.}
  \label{fig:limits_summary}\end{figure*}
  \subsubsection{Limits on Lepton Flavor Violating Couplings}
 \begin{figure}[hbt]\centering
@@ -1665,7 +1665,7 @@ The observed limit for the branching ratio is slightly tighter than the $B(H \ri
 
 \begin{figure*}[hbtp]\centering
 \includegraphics[width=0.48\textwidth]{13TeVLimits.pdf}
- \caption{95\% CL Upper limits by category for the LFV $H \rightarrow \mu \tau$  decays.}
+ \caption{95\% CL Upper limits by category for the LFV $H \rightarrow \mu \tau$  decays at $\sqrt{s}$ = 13 TeV. The solid red and dashed black lines correspond to the combined $\sqrt{s}$ = 8 TeV observed and expected limits, respectively.}
  \label{fig:limits_summary13TeV}\end{figure*}
 
 
